@@ -5,11 +5,10 @@
   <TypeSignature Language="VB.NET" Value="Public MustInherit Class SourceTextContainer" />
   <TypeSignature Language="F#" Value="type SourceTextContainer = class" />
   <TypeSignature Language="C++ CLI" Value="public ref class SourceTextContainer abstract" />
-  <TypeSignature Language="C++ CX" Value="[Windows::Foundation::Metadata::WebHostHidden]&#xA;public ref class SourceTextContainer abstract" />
-  <TypeSignature Language="C++ WINRT" Value="[Windows::Foundation::Metadata::WebHostHidden]&#xA;class SourceTextContainer abstract" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-    <AssemblyVersion>2.6.0.0</AssemblyVersion>
+    <AssemblyVersion>2.9.0.0</AssemblyVersion>
+    <AssemblyVersion>3.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -29,12 +28,11 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.CodeAnalysis.Text.SourceTextContainer.#ctor" />
       <MemberSignature Language="VB.NET" Value="Protected Sub New ()" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; SourceTextContainer();" />
-      <MemberSignature Language="C++ CX" Value="protected:&#xA; SourceTextContainer();" />
-      <MemberSignature Language="C++ WINRT" Value=" SourceTextContainer();" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -49,11 +47,11 @@
       <MemberSignature Language="VB.NET" Value="Public MustOverride ReadOnly Property CurrentText As SourceText" />
       <MemberSignature Language="F#" Value="member this.CurrentText : Microsoft.CodeAnalysis.Text.SourceText" Usage="Microsoft.CodeAnalysis.Text.SourceTextContainer.CurrentText" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; abstract property Microsoft::CodeAnalysis::Text::SourceText ^ CurrentText { Microsoft::CodeAnalysis::Text::SourceText ^ get(); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; abstract property Microsoft::CodeAnalysis::Text::SourceText ^ CurrentText { Microsoft::CodeAnalysis::Text::SourceText ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.Text.SourceText</ReturnType>
@@ -76,7 +74,8 @@
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.EventHandler&lt;Microsoft.CodeAnalysis.Text.TextChangeEventArgs&gt;</ReturnType>

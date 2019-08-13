@@ -5,11 +5,10 @@
   <TypeSignature Language="VB.NET" Value="Public Enum OperationKind" />
   <TypeSignature Language="F#" Value="type OperationKind = " />
   <TypeSignature Language="C++ CLI" Value="public enum class OperationKind" />
-  <TypeSignature Language="C++ CX" Value="public enum class OperationKind" />
-  <TypeSignature Language="C++ WINRT" Value="enum OperationKind" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-    <AssemblyVersion>2.6.0.0</AssemblyVersion>
+    <AssemblyVersion>2.9.0.0</AssemblyVersion>
+    <AssemblyVersion>3.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Enum</BaseTypeName>
@@ -28,12 +27,11 @@
       <MemberSignature Language="VB.NET" Value="AddressOf" />
       <MemberSignature Language="F#" Value="AddressOf = 64" Usage="Microsoft.CodeAnalysis.OperationKind.AddressOf" />
       <MemberSignature Language="C++ CLI" Value="AddressOf" />
-      <MemberSignature Language="C++ CX" Value="AddressOf" />
-      <MemberSignature Language="C++ WINRT" Value="AddressOf" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.OperationKind</ReturnType>
@@ -50,12 +48,11 @@
       <MemberSignature Language="VB.NET" Value="AnonymousFunction" />
       <MemberSignature Language="F#" Value="AnonymousFunction = 35" Usage="Microsoft.CodeAnalysis.OperationKind.AnonymousFunction" />
       <MemberSignature Language="C++ CLI" Value="AnonymousFunction" />
-      <MemberSignature Language="C++ CX" Value="AnonymousFunction" />
-      <MemberSignature Language="C++ WINRT" Value="AnonymousFunction" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.OperationKind</ReturnType>
@@ -72,12 +69,11 @@
       <MemberSignature Language="VB.NET" Value="AnonymousObjectCreation" />
       <MemberSignature Language="F#" Value="AnonymousObjectCreation = 49" Usage="Microsoft.CodeAnalysis.OperationKind.AnonymousObjectCreation" />
       <MemberSignature Language="C++ CLI" Value="AnonymousObjectCreation" />
-      <MemberSignature Language="C++ CX" Value="AnonymousObjectCreation" />
-      <MemberSignature Language="C++ WINRT" Value="AnonymousObjectCreation" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.OperationKind</ReturnType>
@@ -94,12 +90,11 @@
       <MemberSignature Language="VB.NET" Value="Argument" />
       <MemberSignature Language="F#" Value="Argument = 79" Usage="Microsoft.CodeAnalysis.OperationKind.Argument" />
       <MemberSignature Language="C++ CLI" Value="Argument" />
-      <MemberSignature Language="C++ CX" Value="Argument" />
-      <MemberSignature Language="C++ WINRT" Value="Argument" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.OperationKind</ReturnType>
@@ -116,12 +111,11 @@
       <MemberSignature Language="VB.NET" Value="ArrayCreation" />
       <MemberSignature Language="F#" Value="ArrayCreation = 38" Usage="Microsoft.CodeAnalysis.OperationKind.ArrayCreation" />
       <MemberSignature Language="C++ CLI" Value="ArrayCreation" />
-      <MemberSignature Language="C++ CX" Value="ArrayCreation" />
-      <MemberSignature Language="C++ WINRT" Value="ArrayCreation" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.OperationKind</ReturnType>
@@ -138,12 +132,11 @@
       <MemberSignature Language="VB.NET" Value="ArrayElementReference" />
       <MemberSignature Language="F#" Value="ArrayElementReference = 23" Usage="Microsoft.CodeAnalysis.OperationKind.ArrayElementReference" />
       <MemberSignature Language="C++ CLI" Value="ArrayElementReference" />
-      <MemberSignature Language="C++ CX" Value="ArrayElementReference" />
-      <MemberSignature Language="C++ WINRT" Value="ArrayElementReference" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.OperationKind</ReturnType>
@@ -160,12 +153,11 @@
       <MemberSignature Language="VB.NET" Value="ArrayInitializer" />
       <MemberSignature Language="F#" Value="ArrayInitializer = 76" Usage="Microsoft.CodeAnalysis.OperationKind.ArrayInitializer" />
       <MemberSignature Language="C++ CLI" Value="ArrayInitializer" />
-      <MemberSignature Language="C++ CX" Value="ArrayInitializer" />
-      <MemberSignature Language="C++ WINRT" Value="ArrayInitializer" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.OperationKind</ReturnType>
@@ -182,12 +174,11 @@
       <MemberSignature Language="VB.NET" Value="Await" />
       <MemberSignature Language="F#" Value="Await = 41" Usage="Microsoft.CodeAnalysis.OperationKind.Await" />
       <MemberSignature Language="C++ CLI" Value="Await" />
-      <MemberSignature Language="C++ CX" Value="Await" />
-      <MemberSignature Language="C++ WINRT" Value="Await" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.OperationKind</ReturnType>
@@ -197,19 +188,16 @@
         <summary>Indicates an <see cref="T:Microsoft.CodeAnalysis.Operations.IAwaitOperation" />.</summary>
       </Docs>
     </Member>
-    <Member MemberName="BinaryOperator">
-      <MemberSignature Language="C#" Value="BinaryOperator" />
-      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.CodeAnalysis.OperationKind BinaryOperator = int32(32)" />
-      <MemberSignature Language="DocId" Value="F:Microsoft.CodeAnalysis.OperationKind.BinaryOperator" />
-      <MemberSignature Language="VB.NET" Value="BinaryOperator" />
-      <MemberSignature Language="F#" Value="BinaryOperator = 32" Usage="Microsoft.CodeAnalysis.OperationKind.BinaryOperator" />
-      <MemberSignature Language="C++ CLI" Value="BinaryOperator" />
-      <MemberSignature Language="C++ CX" Value="BinaryOperator" />
-      <MemberSignature Language="C++ WINRT" Value="BinaryOperator" />
+    <Member MemberName="Binary">
+      <MemberSignature Language="C#" Value="Binary" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.CodeAnalysis.OperationKind Binary = int32(32)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.CodeAnalysis.OperationKind.Binary" />
+      <MemberSignature Language="VB.NET" Value="Binary" />
+      <MemberSignature Language="F#" Value="Binary = 32" Usage="Microsoft.CodeAnalysis.OperationKind.Binary" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.OperationKind</ReturnType>
@@ -219,6 +207,32 @@
         <summary>Indicates an <see cref="T:Microsoft.CodeAnalysis.Operations.IBinaryOperation" />.</summary>
       </Docs>
     </Member>
+    <Member MemberName="BinaryOperator">
+      <MemberSignature Language="C#" Value="BinaryOperator" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.CodeAnalysis.OperationKind BinaryOperator = int32(32)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.CodeAnalysis.OperationKind.BinaryOperator" />
+      <MemberSignature Language="VB.NET" Value="BinaryOperator" />
+      <MemberSignature Language="F#" Value="BinaryOperator = 32" Usage="Microsoft.CodeAnalysis.OperationKind.BinaryOperator" />
+      <MemberSignature Language="C++ CLI" Value="BinaryOperator" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.ComponentModel.EditorBrowsable</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.CodeAnalysis.OperationKind</ReturnType>
+      </ReturnValue>
+      <MemberValue>32</MemberValue>
+      <Docs>
+        <summary>Indicates an <see cref="T:Microsoft.CodeAnalysis.Operations.IBinaryOperation" />. Use <see cref="F:Microsoft.CodeAnalysis.OperationKind.Binary" /> instead.</summary>
+      </Docs>
+    </Member>
     <Member MemberName="Block">
       <MemberSignature Language="C#" Value="Block" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.CodeAnalysis.OperationKind Block = int32(2)" />
@@ -226,12 +240,11 @@
       <MemberSignature Language="VB.NET" Value="Block" />
       <MemberSignature Language="F#" Value="Block = 2" Usage="Microsoft.CodeAnalysis.OperationKind.Block" />
       <MemberSignature Language="C++ CLI" Value="Block" />
-      <MemberSignature Language="C++ CX" Value="Block" />
-      <MemberSignature Language="C++ WINRT" Value="Block" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.OperationKind</ReturnType>
@@ -248,12 +261,11 @@
       <MemberSignature Language="VB.NET" Value="Branch" />
       <MemberSignature Language="F#" Value="Branch = 7" Usage="Microsoft.CodeAnalysis.OperationKind.Branch" />
       <MemberSignature Language="C++ CLI" Value="Branch" />
-      <MemberSignature Language="C++ CX" Value="Branch" />
-      <MemberSignature Language="C++ WINRT" Value="Branch" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.OperationKind</ReturnType>
@@ -270,19 +282,18 @@
       <MemberSignature Language="VB.NET" Value="CaseClause" />
       <MemberSignature Language="F#" Value="CaseClause = 82" Usage="Microsoft.CodeAnalysis.OperationKind.CaseClause" />
       <MemberSignature Language="C++ CLI" Value="CaseClause" />
-      <MemberSignature Language="C++ CX" Value="CaseClause" />
-      <MemberSignature Language="C++ WINRT" Value="CaseClause" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.OperationKind</ReturnType>
       </ReturnValue>
       <MemberValue>82</MemberValue>
       <Docs>
-        <summary>Indicates different kinds of switch case clauses as defined by <see cref="T:Microsoft.CodeAnalysis.Operations.CaseKind" />.</summary>
+        <summary>Indicates an <see cref="T:Microsoft.CodeAnalysis.Operations.ICaseClauseOperation" />, which is further differentiated by <see cref="P:Microsoft.CodeAnalysis.Operations.ICaseClauseOperation.CaseKind" />.</summary>
       </Docs>
     </Member>
     <Member MemberName="CatchClause">
@@ -292,12 +303,11 @@
       <MemberSignature Language="VB.NET" Value="CatchClause" />
       <MemberSignature Language="F#" Value="CatchClause = 80" Usage="Microsoft.CodeAnalysis.OperationKind.CatchClause" />
       <MemberSignature Language="C++ CLI" Value="CatchClause" />
-      <MemberSignature Language="C++ CX" Value="CatchClause" />
-      <MemberSignature Language="C++ WINRT" Value="CatchClause" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.OperationKind</ReturnType>
@@ -307,6 +317,27 @@
         <summary>Indicates an <see cref="T:Microsoft.CodeAnalysis.Operations.ICatchClauseOperation" />.</summary>
       </Docs>
     </Member>
+    <Member MemberName="CaughtException">
+      <MemberSignature Language="C#" Value="CaughtException" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.CodeAnalysis.OperationKind CaughtException = int32(94)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.CodeAnalysis.OperationKind.CaughtException" />
+      <MemberSignature Language="VB.NET" Value="CaughtException" />
+      <MemberSignature Language="F#" Value="CaughtException = 94" Usage="Microsoft.CodeAnalysis.OperationKind.CaughtException" />
+      <MemberSignature Language="C++ CLI" Value="CaughtException" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.CodeAnalysis.OperationKind</ReturnType>
+      </ReturnValue>
+      <MemberValue>94</MemberValue>
+      <Docs>
+        <summary>Indicates an <see cref="T:Microsoft.CodeAnalysis.FlowAnalysis.ICaughtExceptionOperation" />.</summary>
+      </Docs>
+    </Member>
     <Member MemberName="Coalesce">
       <MemberSignature Language="C#" Value="Coalesce" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.CodeAnalysis.OperationKind Coalesce = int32(34)" />
@@ -314,12 +345,11 @@
       <MemberSignature Language="VB.NET" Value="Coalesce" />
       <MemberSignature Language="F#" Value="Coalesce = 34" Usage="Microsoft.CodeAnalysis.OperationKind.Coalesce" />
       <MemberSignature Language="C++ CLI" Value="Coalesce" />
-      <MemberSignature Language="C++ CX" Value="Coalesce" />
-      <MemberSignature Language="C++ WINRT" Value="Coalesce" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.OperationKind</ReturnType>
@@ -329,6 +359,25 @@
         <summary>Indicates an <see cref="T:Microsoft.CodeAnalysis.Operations.ICoalesceOperation" />.</summary>
       </Docs>
     </Member>
+    <Member MemberName="CoalesceAssignment">
+      <MemberSignature Language="C#" Value="CoalesceAssignment" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.CodeAnalysis.OperationKind CoalesceAssignment = int32(97)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.CodeAnalysis.OperationKind.CoalesceAssignment" />
+      <MemberSignature Language="VB.NET" Value="CoalesceAssignment" />
+      <MemberSignature Language="F#" Value="CoalesceAssignment = 97" Usage="Microsoft.CodeAnalysis.OperationKind.CoalesceAssignment" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.CodeAnalysis.OperationKind</ReturnType>
+      </ReturnValue>
+      <MemberValue>97</MemberValue>
+      <Docs>
+        <summary>Indicates an <see cref="T:Microsoft.CodeAnalysis.Operations.ICoalesceAssignmentOperation" />.</summary>
+      </Docs>
+    </Member>
     <Member MemberName="CollectionElementInitializer">
       <MemberSignature Language="C#" Value="CollectionElementInitializer" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.CodeAnalysis.OperationKind CollectionElementInitializer = int32(52)" />
@@ -336,13 +385,17 @@
       <MemberSignature Language="VB.NET" Value="CollectionElementInitializer" />
       <MemberSignature Language="F#" Value="CollectionElementInitializer = 52" Usage="Microsoft.CodeAnalysis.OperationKind.CollectionElementInitializer" />
       <MemberSignature Language="C++ CLI" Value="CollectionElementInitializer" />
-      <MemberSignature Language="C++ CX" Value="CollectionElementInitializer" />
-      <MemberSignature Language="C++ WINRT" Value="CollectionElementInitializer" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Obsolete("ICollectionElementInitializerOperation has been replaced with IInvocationOperation and IDynamicInvocationOperation", true)</AttributeName>
+        </Attribute>
+      </Attributes>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.OperationKind</ReturnType>
       </ReturnValue>
@@ -358,12 +411,11 @@
       <MemberSignature Language="VB.NET" Value="CompoundAssignment" />
       <MemberSignature Language="F#" Value="CompoundAssignment = 43" Usage="Microsoft.CodeAnalysis.OperationKind.CompoundAssignment" />
       <MemberSignature Language="C++ CLI" Value="CompoundAssignment" />
-      <MemberSignature Language="C++ CX" Value="CompoundAssignment" />
-      <MemberSignature Language="C++ WINRT" Value="CompoundAssignment" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.OperationKind</ReturnType>
@@ -380,12 +432,11 @@
       <MemberSignature Language="VB.NET" Value="Conditional" />
       <MemberSignature Language="F#" Value="Conditional = 33" Usage="Microsoft.CodeAnalysis.OperationKind.Conditional" />
       <MemberSignature Language="C++ CLI" Value="Conditional" />
-      <MemberSignature Language="C++ CX" Value="Conditional" />
-      <MemberSignature Language="C++ WINRT" Value="Conditional" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.OperationKind</ReturnType>
@@ -402,12 +453,11 @@
       <MemberSignature Language="VB.NET" Value="ConditionalAccess" />
       <MemberSignature Language="F#" Value="ConditionalAccess = 46" Usage="Microsoft.CodeAnalysis.OperationKind.ConditionalAccess" />
       <MemberSignature Language="C++ CLI" Value="ConditionalAccess" />
-      <MemberSignature Language="C++ CX" Value="ConditionalAccess" />
-      <MemberSignature Language="C++ WINRT" Value="ConditionalAccess" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.OperationKind</ReturnType>
@@ -424,12 +474,11 @@
       <MemberSignature Language="VB.NET" Value="ConditionalAccessInstance" />
       <MemberSignature Language="F#" Value="ConditionalAccessInstance = 47" Usage="Microsoft.CodeAnalysis.OperationKind.ConditionalAccessInstance" />
       <MemberSignature Language="C++ CLI" Value="ConditionalAccessInstance" />
-      <MemberSignature Language="C++ CX" Value="ConditionalAccessInstance" />
-      <MemberSignature Language="C++ WINRT" Value="ConditionalAccessInstance" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.OperationKind</ReturnType>
@@ -446,12 +495,11 @@
       <MemberSignature Language="VB.NET" Value="ConstantPattern" />
       <MemberSignature Language="F#" Value="ConstantPattern = 85" Usage="Microsoft.CodeAnalysis.OperationKind.ConstantPattern" />
       <MemberSignature Language="C++ CLI" Value="ConstantPattern" />
-      <MemberSignature Language="C++ CX" Value="ConstantPattern" />
-      <MemberSignature Language="C++ WINRT" Value="ConstantPattern" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.OperationKind</ReturnType>
@@ -461,6 +509,51 @@
         <summary>Indicates an <see cref="T:Microsoft.CodeAnalysis.Operations.IConstantPatternOperation" />.</summary>
       </Docs>
     </Member>
+    <Member MemberName="ConstructorBody">
+      <MemberSignature Language="C#" Value="ConstructorBody" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.CodeAnalysis.OperationKind ConstructorBody = int32(89)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.CodeAnalysis.OperationKind.ConstructorBody" />
+      <MemberSignature Language="VB.NET" Value="ConstructorBody" />
+      <MemberSignature Language="F#" Value="ConstructorBody = 89" Usage="Microsoft.CodeAnalysis.OperationKind.ConstructorBody" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.CodeAnalysis.OperationKind</ReturnType>
+      </ReturnValue>
+      <MemberValue>89</MemberValue>
+      <Docs>
+        <summary>Indicates an <see cref="T:Microsoft.CodeAnalysis.Operations.IConstructorBodyOperation" />.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ConstructorBodyOperation">
+      <MemberSignature Language="C#" Value="ConstructorBodyOperation" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.CodeAnalysis.OperationKind ConstructorBodyOperation = int32(89)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.CodeAnalysis.OperationKind.ConstructorBodyOperation" />
+      <MemberSignature Language="VB.NET" Value="ConstructorBodyOperation" />
+      <MemberSignature Language="F#" Value="ConstructorBodyOperation = 89" Usage="Microsoft.CodeAnalysis.OperationKind.ConstructorBodyOperation" />
+      <MemberSignature Language="C++ CLI" Value="ConstructorBodyOperation" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.ComponentModel.EditorBrowsable</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.CodeAnalysis.OperationKind</ReturnType>
+      </ReturnValue>
+      <MemberValue>89</MemberValue>
+      <Docs>
+        <summary>Indicates an <see cref="T:Microsoft.CodeAnalysis.Operations.IConstructorBodyOperation" />. Use <see cref="F:Microsoft.CodeAnalysis.OperationKind.ConstructorBody" /> instead.</summary>
+      </Docs>
+    </Member>
     <Member MemberName="Conversion">
       <MemberSignature Language="C#" Value="Conversion" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.CodeAnalysis.OperationKind Conversion = int32(21)" />
@@ -468,12 +561,11 @@
       <MemberSignature Language="VB.NET" Value="Conversion" />
       <MemberSignature Language="F#" Value="Conversion = 21" Usage="Microsoft.CodeAnalysis.OperationKind.Conversion" />
       <MemberSignature Language="C++ CLI" Value="Conversion" />
-      <MemberSignature Language="C++ CX" Value="Conversion" />
-      <MemberSignature Language="C++ WINRT" Value="Conversion" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.OperationKind</ReturnType>
@@ -490,12 +582,11 @@
       <MemberSignature Language="VB.NET" Value="DeclarationExpression" />
       <MemberSignature Language="F#" Value="DeclarationExpression = 70" Usage="Microsoft.CodeAnalysis.OperationKind.DeclarationExpression" />
       <MemberSignature Language="C++ CLI" Value="DeclarationExpression" />
-      <MemberSignature Language="C++ CX" Value="DeclarationExpression" />
-      <MemberSignature Language="C++ WINRT" Value="DeclarationExpression" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.OperationKind</ReturnType>
@@ -512,12 +603,11 @@
       <MemberSignature Language="VB.NET" Value="DeclarationPattern" />
       <MemberSignature Language="F#" Value="DeclarationPattern = 86" Usage="Microsoft.CodeAnalysis.OperationKind.DeclarationPattern" />
       <MemberSignature Language="C++ CLI" Value="DeclarationPattern" />
-      <MemberSignature Language="C++ CX" Value="DeclarationPattern" />
-      <MemberSignature Language="C++ WINRT" Value="DeclarationPattern" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.OperationKind</ReturnType>
@@ -534,12 +624,11 @@
       <MemberSignature Language="VB.NET" Value="DeconstructionAssignment" />
       <MemberSignature Language="F#" Value="DeconstructionAssignment = 69" Usage="Microsoft.CodeAnalysis.OperationKind.DeconstructionAssignment" />
       <MemberSignature Language="C++ CLI" Value="DeconstructionAssignment" />
-      <MemberSignature Language="C++ CX" Value="DeconstructionAssignment" />
-      <MemberSignature Language="C++ WINRT" Value="DeconstructionAssignment" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.OperationKind</ReturnType>
@@ -556,12 +645,11 @@
       <MemberSignature Language="VB.NET" Value="Decrement" />
       <MemberSignature Language="F#" Value="Decrement = 68" Usage="Microsoft.CodeAnalysis.OperationKind.Decrement" />
       <MemberSignature Language="C++ CLI" Value="Decrement" />
-      <MemberSignature Language="C++ CX" Value="Decrement" />
-      <MemberSignature Language="C++ WINRT" Value="Decrement" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.OperationKind</ReturnType>
@@ -578,12 +666,11 @@
       <MemberSignature Language="VB.NET" Value="DefaultValue" />
       <MemberSignature Language="F#" Value="DefaultValue = 61" Usage="Microsoft.CodeAnalysis.OperationKind.DefaultValue" />
       <MemberSignature Language="C++ CLI" Value="DefaultValue" />
-      <MemberSignature Language="C++ CX" Value="DefaultValue" />
-      <MemberSignature Language="C++ WINRT" Value="DefaultValue" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.OperationKind</ReturnType>
@@ -600,12 +687,11 @@
       <MemberSignature Language="VB.NET" Value="DelegateCreation" />
       <MemberSignature Language="F#" Value="DelegateCreation = 60" Usage="Microsoft.CodeAnalysis.OperationKind.DelegateCreation" />
       <MemberSignature Language="C++ CLI" Value="DelegateCreation" />
-      <MemberSignature Language="C++ CX" Value="DelegateCreation" />
-      <MemberSignature Language="C++ WINRT" Value="DelegateCreation" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.OperationKind</ReturnType>
@@ -615,6 +701,46 @@
         <summary>Indicates a <see cref="T:Microsoft.CodeAnalysis.Operations.IDelegateCreationOperation" />.</summary>
       </Docs>
     </Member>
+    <Member MemberName="Discard">
+      <MemberSignature Language="C#" Value="Discard" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.CodeAnalysis.OperationKind Discard = int32(90)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.CodeAnalysis.OperationKind.Discard" />
+      <MemberSignature Language="VB.NET" Value="Discard" />
+      <MemberSignature Language="F#" Value="Discard = 90" Usage="Microsoft.CodeAnalysis.OperationKind.Discard" />
+      <MemberSignature Language="C++ CLI" Value="Discard" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.CodeAnalysis.OperationKind</ReturnType>
+      </ReturnValue>
+      <MemberValue>90</MemberValue>
+      <Docs>
+        <summary>Indicates an <see cref="T:Microsoft.CodeAnalysis.Operations.IDiscardOperation" />.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="DiscardPattern">
+      <MemberSignature Language="C#" Value="DiscardPattern" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.CodeAnalysis.OperationKind DiscardPattern = int32(104)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.CodeAnalysis.OperationKind.DiscardPattern" />
+      <MemberSignature Language="VB.NET" Value="DiscardPattern" />
+      <MemberSignature Language="F#" Value="DiscardPattern = 104" Usage="Microsoft.CodeAnalysis.OperationKind.DiscardPattern" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.CodeAnalysis.OperationKind</ReturnType>
+      </ReturnValue>
+      <MemberValue>104</MemberValue>
+      <Docs>
+        <summary>Indicates an <see cref="T:Microsoft.CodeAnalysis.Operations.IDiscardPatternOperation" />.</summary>
+      </Docs>
+    </Member>
     <Member MemberName="DynamicIndexerAccess">
       <MemberSignature Language="C#" Value="DynamicIndexerAccess" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.CodeAnalysis.OperationKind DynamicIndexerAccess = int32(58)" />
@@ -622,12 +748,11 @@
       <MemberSignature Language="VB.NET" Value="DynamicIndexerAccess" />
       <MemberSignature Language="F#" Value="DynamicIndexerAccess = 58" Usage="Microsoft.CodeAnalysis.OperationKind.DynamicIndexerAccess" />
       <MemberSignature Language="C++ CLI" Value="DynamicIndexerAccess" />
-      <MemberSignature Language="C++ CX" Value="DynamicIndexerAccess" />
-      <MemberSignature Language="C++ WINRT" Value="DynamicIndexerAccess" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.OperationKind</ReturnType>
@@ -644,12 +769,11 @@
       <MemberSignature Language="VB.NET" Value="DynamicInvocation" />
       <MemberSignature Language="F#" Value="DynamicInvocation = 57" Usage="Microsoft.CodeAnalysis.OperationKind.DynamicInvocation" />
       <MemberSignature Language="C++ CLI" Value="DynamicInvocation" />
-      <MemberSignature Language="C++ CX" Value="DynamicInvocation" />
-      <MemberSignature Language="C++ WINRT" Value="DynamicInvocation" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.OperationKind</ReturnType>
@@ -666,12 +790,11 @@
       <MemberSignature Language="VB.NET" Value="DynamicMemberReference" />
       <MemberSignature Language="F#" Value="DynamicMemberReference = 56" Usage="Microsoft.CodeAnalysis.OperationKind.DynamicMemberReference" />
       <MemberSignature Language="C++ CLI" Value="DynamicMemberReference" />
-      <MemberSignature Language="C++ CX" Value="DynamicMemberReference" />
-      <MemberSignature Language="C++ WINRT" Value="DynamicMemberReference" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.OperationKind</ReturnType>
@@ -688,12 +811,11 @@
       <MemberSignature Language="VB.NET" Value="DynamicObjectCreation" />
       <MemberSignature Language="F#" Value="DynamicObjectCreation = 55" Usage="Microsoft.CodeAnalysis.OperationKind.DynamicObjectCreation" />
       <MemberSignature Language="C++ CLI" Value="DynamicObjectCreation" />
-      <MemberSignature Language="C++ CX" Value="DynamicObjectCreation" />
-      <MemberSignature Language="C++ WINRT" Value="DynamicObjectCreation" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.OperationKind</ReturnType>
@@ -710,12 +832,11 @@
       <MemberSignature Language="VB.NET" Value="Empty" />
       <MemberSignature Language="F#" Value="Empty = 8" Usage="Microsoft.CodeAnalysis.OperationKind.Empty" />
       <MemberSignature Language="C++ CLI" Value="Empty" />
-      <MemberSignature Language="C++ CX" Value="Empty" />
-      <MemberSignature Language="C++ WINRT" Value="Empty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.OperationKind</ReturnType>
@@ -732,12 +853,11 @@
       <MemberSignature Language="VB.NET" Value="End" />
       <MemberSignature Language="F#" Value="End = 18" Usage="Microsoft.CodeAnalysis.OperationKind.End" />
       <MemberSignature Language="C++ CLI" Value="End" />
-      <MemberSignature Language="C++ CX" Value="End" />
-      <MemberSignature Language="C++ WINRT" Value="End" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.OperationKind</ReturnType>
@@ -754,12 +874,11 @@
       <MemberSignature Language="VB.NET" Value="EventAssignment" />
       <MemberSignature Language="F#" Value="EventAssignment = 45" Usage="Microsoft.CodeAnalysis.OperationKind.EventAssignment" />
       <MemberSignature Language="C++ CLI" Value="EventAssignment" />
-      <MemberSignature Language="C++ CX" Value="EventAssignment" />
-      <MemberSignature Language="C++ WINRT" Value="EventAssignment" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.OperationKind</ReturnType>
@@ -776,12 +895,11 @@
       <MemberSignature Language="VB.NET" Value="EventReference" />
       <MemberSignature Language="F#" Value="EventReference = 30" Usage="Microsoft.CodeAnalysis.OperationKind.EventReference" />
       <MemberSignature Language="C++ CLI" Value="EventReference" />
-      <MemberSignature Language="C++ CX" Value="EventReference" />
-      <MemberSignature Language="C++ WINRT" Value="EventReference" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.OperationKind</ReturnType>
@@ -798,12 +916,11 @@
       <MemberSignature Language="VB.NET" Value="ExpressionStatement" />
       <MemberSignature Language="F#" Value="ExpressionStatement = 15" Usage="Microsoft.CodeAnalysis.OperationKind.ExpressionStatement" />
       <MemberSignature Language="C++ CLI" Value="ExpressionStatement" />
-      <MemberSignature Language="C++ CX" Value="ExpressionStatement" />
-      <MemberSignature Language="C++ WINRT" Value="ExpressionStatement" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.OperationKind</ReturnType>
@@ -820,12 +937,11 @@
       <MemberSignature Language="VB.NET" Value="FieldInitializer" />
       <MemberSignature Language="F#" Value="FieldInitializer = 72" Usage="Microsoft.CodeAnalysis.OperationKind.FieldInitializer" />
       <MemberSignature Language="C++ CLI" Value="FieldInitializer" />
-      <MemberSignature Language="C++ CX" Value="FieldInitializer" />
-      <MemberSignature Language="C++ WINRT" Value="FieldInitializer" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.OperationKind</ReturnType>
@@ -842,12 +958,11 @@
       <MemberSignature Language="VB.NET" Value="FieldReference" />
       <MemberSignature Language="F#" Value="FieldReference = 26" Usage="Microsoft.CodeAnalysis.OperationKind.FieldReference" />
       <MemberSignature Language="C++ CLI" Value="FieldReference" />
-      <MemberSignature Language="C++ CX" Value="FieldReference" />
-      <MemberSignature Language="C++ WINRT" Value="FieldReference" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.OperationKind</ReturnType>
@@ -857,6 +972,69 @@
         <summary>Indicates an <see cref="T:Microsoft.CodeAnalysis.Operations.IFieldReferenceOperation" />.</summary>
       </Docs>
     </Member>
+    <Member MemberName="FlowAnonymousFunction">
+      <MemberSignature Language="C#" Value="FlowAnonymousFunction" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.CodeAnalysis.OperationKind FlowAnonymousFunction = int32(96)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.CodeAnalysis.OperationKind.FlowAnonymousFunction" />
+      <MemberSignature Language="VB.NET" Value="FlowAnonymousFunction" />
+      <MemberSignature Language="F#" Value="FlowAnonymousFunction = 96" Usage="Microsoft.CodeAnalysis.OperationKind.FlowAnonymousFunction" />
+      <MemberSignature Language="C++ CLI" Value="FlowAnonymousFunction" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.CodeAnalysis.OperationKind</ReturnType>
+      </ReturnValue>
+      <MemberValue>96</MemberValue>
+      <Docs>
+        <summary>Indicates an <see cref="T:Microsoft.CodeAnalysis.FlowAnalysis.IFlowAnonymousFunctionOperation" />.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="FlowCapture">
+      <MemberSignature Language="C#" Value="FlowCapture" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.CodeAnalysis.OperationKind FlowCapture = int32(91)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.CodeAnalysis.OperationKind.FlowCapture" />
+      <MemberSignature Language="VB.NET" Value="FlowCapture" />
+      <MemberSignature Language="F#" Value="FlowCapture = 91" Usage="Microsoft.CodeAnalysis.OperationKind.FlowCapture" />
+      <MemberSignature Language="C++ CLI" Value="FlowCapture" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.CodeAnalysis.OperationKind</ReturnType>
+      </ReturnValue>
+      <MemberValue>91</MemberValue>
+      <Docs>
+        <summary>Indicates an <see cref="T:Microsoft.CodeAnalysis.FlowAnalysis.IFlowCaptureOperation" />.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="FlowCaptureReference">
+      <MemberSignature Language="C#" Value="FlowCaptureReference" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.CodeAnalysis.OperationKind FlowCaptureReference = int32(92)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.CodeAnalysis.OperationKind.FlowCaptureReference" />
+      <MemberSignature Language="VB.NET" Value="FlowCaptureReference" />
+      <MemberSignature Language="F#" Value="FlowCaptureReference = 92" Usage="Microsoft.CodeAnalysis.OperationKind.FlowCaptureReference" />
+      <MemberSignature Language="C++ CLI" Value="FlowCaptureReference" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.CodeAnalysis.OperationKind</ReturnType>
+      </ReturnValue>
+      <MemberValue>92</MemberValue>
+      <Docs>
+        <summary>Indicates an <see cref="T:Microsoft.CodeAnalysis.FlowAnalysis.IFlowCaptureReferenceOperation" />.</summary>
+      </Docs>
+    </Member>
     <Member MemberName="Increment">
       <MemberSignature Language="C#" Value="Increment" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.CodeAnalysis.OperationKind Increment = int32(66)" />
@@ -864,12 +1042,11 @@
       <MemberSignature Language="VB.NET" Value="Increment" />
       <MemberSignature Language="F#" Value="Increment = 66" Usage="Microsoft.CodeAnalysis.OperationKind.Increment" />
       <MemberSignature Language="C++ CLI" Value="Increment" />
-      <MemberSignature Language="C++ CX" Value="Increment" />
-      <MemberSignature Language="C++ WINRT" Value="Increment" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.OperationKind</ReturnType>
@@ -886,12 +1063,11 @@
       <MemberSignature Language="VB.NET" Value="InstanceReference" />
       <MemberSignature Language="F#" Value="InstanceReference = 39" Usage="Microsoft.CodeAnalysis.OperationKind.InstanceReference" />
       <MemberSignature Language="C++ CLI" Value="InstanceReference" />
-      <MemberSignature Language="C++ CX" Value="InstanceReference" />
-      <MemberSignature Language="C++ WINRT" Value="InstanceReference" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.OperationKind</ReturnType>
@@ -908,12 +1084,11 @@
       <MemberSignature Language="VB.NET" Value="InterpolatedString" />
       <MemberSignature Language="F#" Value="InterpolatedString = 48" Usage="Microsoft.CodeAnalysis.OperationKind.InterpolatedString" />
       <MemberSignature Language="C++ CLI" Value="InterpolatedString" />
-      <MemberSignature Language="C++ CX" Value="InterpolatedString" />
-      <MemberSignature Language="C++ WINRT" Value="InterpolatedString" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.OperationKind</ReturnType>
@@ -930,12 +1105,11 @@
       <MemberSignature Language="VB.NET" Value="InterpolatedStringText" />
       <MemberSignature Language="F#" Value="InterpolatedStringText = 83" Usage="Microsoft.CodeAnalysis.OperationKind.InterpolatedStringText" />
       <MemberSignature Language="C++ CLI" Value="InterpolatedStringText" />
-      <MemberSignature Language="C++ CX" Value="InterpolatedStringText" />
-      <MemberSignature Language="C++ WINRT" Value="InterpolatedStringText" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.OperationKind</ReturnType>
@@ -952,12 +1126,11 @@
       <MemberSignature Language="VB.NET" Value="Interpolation" />
       <MemberSignature Language="F#" Value="Interpolation = 84" Usage="Microsoft.CodeAnalysis.OperationKind.Interpolation" />
       <MemberSignature Language="C++ CLI" Value="Interpolation" />
-      <MemberSignature Language="C++ CX" Value="Interpolation" />
-      <MemberSignature Language="C++ WINRT" Value="Interpolation" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.OperationKind</ReturnType>
@@ -974,12 +1147,11 @@
       <MemberSignature Language="VB.NET" Value="Invalid" />
       <MemberSignature Language="F#" Value="Invalid = 1" Usage="Microsoft.CodeAnalysis.OperationKind.Invalid" />
       <MemberSignature Language="C++ CLI" Value="Invalid" />
-      <MemberSignature Language="C++ CX" Value="Invalid" />
-      <MemberSignature Language="C++ WINRT" Value="Invalid" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.OperationKind</ReturnType>
@@ -996,12 +1168,11 @@
       <MemberSignature Language="VB.NET" Value="Invocation" />
       <MemberSignature Language="F#" Value="Invocation = 22" Usage="Microsoft.CodeAnalysis.OperationKind.Invocation" />
       <MemberSignature Language="C++ CLI" Value="Invocation" />
-      <MemberSignature Language="C++ CX" Value="Invocation" />
-      <MemberSignature Language="C++ WINRT" Value="Invocation" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.OperationKind</ReturnType>
@@ -1011,6 +1182,27 @@
         <summary>Indicates an <see cref="T:Microsoft.CodeAnalysis.Operations.IInvocationOperation" />.</summary>
       </Docs>
     </Member>
+    <Member MemberName="IsNull">
+      <MemberSignature Language="C#" Value="IsNull" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.CodeAnalysis.OperationKind IsNull = int32(93)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.CodeAnalysis.OperationKind.IsNull" />
+      <MemberSignature Language="VB.NET" Value="IsNull" />
+      <MemberSignature Language="F#" Value="IsNull = 93" Usage="Microsoft.CodeAnalysis.OperationKind.IsNull" />
+      <MemberSignature Language="C++ CLI" Value="IsNull" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.CodeAnalysis.OperationKind</ReturnType>
+      </ReturnValue>
+      <MemberValue>93</MemberValue>
+      <Docs>
+        <summary>Indicates an <see cref="T:Microsoft.CodeAnalysis.FlowAnalysis.IIsNullOperation" />.</summary>
+      </Docs>
+    </Member>
     <Member MemberName="IsPattern">
       <MemberSignature Language="C#" Value="IsPattern" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.CodeAnalysis.OperationKind IsPattern = int32(65)" />
@@ -1018,12 +1210,11 @@
       <MemberSignature Language="VB.NET" Value="IsPattern" />
       <MemberSignature Language="F#" Value="IsPattern = 65" Usage="Microsoft.CodeAnalysis.OperationKind.IsPattern" />
       <MemberSignature Language="C++ CLI" Value="IsPattern" />
-      <MemberSignature Language="C++ CX" Value="IsPattern" />
-      <MemberSignature Language="C++ WINRT" Value="IsPattern" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.OperationKind</ReturnType>
@@ -1040,12 +1231,11 @@
       <MemberSignature Language="VB.NET" Value="IsType" />
       <MemberSignature Language="F#" Value="IsType = 40" Usage="Microsoft.CodeAnalysis.OperationKind.IsType" />
       <MemberSignature Language="C++ CLI" Value="IsType" />
-      <MemberSignature Language="C++ CX" Value="IsType" />
-      <MemberSignature Language="C++ WINRT" Value="IsType" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.OperationKind</ReturnType>
@@ -1062,12 +1252,11 @@
       <MemberSignature Language="VB.NET" Value="Labeled" />
       <MemberSignature Language="F#" Value="Labeled = 6" Usage="Microsoft.CodeAnalysis.OperationKind.Labeled" />
       <MemberSignature Language="C++ CLI" Value="Labeled" />
-      <MemberSignature Language="C++ CX" Value="Labeled" />
-      <MemberSignature Language="C++ WINRT" Value="Labeled" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.OperationKind</ReturnType>
@@ -1084,12 +1273,11 @@
       <MemberSignature Language="VB.NET" Value="Literal" />
       <MemberSignature Language="F#" Value="Literal = 20" Usage="Microsoft.CodeAnalysis.OperationKind.Literal" />
       <MemberSignature Language="C++ CLI" Value="Literal" />
-      <MemberSignature Language="C++ CX" Value="Literal" />
-      <MemberSignature Language="C++ WINRT" Value="Literal" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.OperationKind</ReturnType>
@@ -1106,12 +1294,11 @@
       <MemberSignature Language="VB.NET" Value="LocalFunction" />
       <MemberSignature Language="F#" Value="LocalFunction = 16" Usage="Microsoft.CodeAnalysis.OperationKind.LocalFunction" />
       <MemberSignature Language="C++ CLI" Value="LocalFunction" />
-      <MemberSignature Language="C++ CX" Value="LocalFunction" />
-      <MemberSignature Language="C++ WINRT" Value="LocalFunction" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.OperationKind</ReturnType>
@@ -1128,12 +1315,11 @@
       <MemberSignature Language="VB.NET" Value="LocalReference" />
       <MemberSignature Language="F#" Value="LocalReference = 24" Usage="Microsoft.CodeAnalysis.OperationKind.LocalReference" />
       <MemberSignature Language="C++ CLI" Value="LocalReference" />
-      <MemberSignature Language="C++ CX" Value="LocalReference" />
-      <MemberSignature Language="C++ WINRT" Value="LocalReference" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.OperationKind</ReturnType>
@@ -1150,12 +1336,11 @@
       <MemberSignature Language="VB.NET" Value="Lock" />
       <MemberSignature Language="F#" Value="Lock = 11" Usage="Microsoft.CodeAnalysis.OperationKind.Lock" />
       <MemberSignature Language="C++ CLI" Value="Lock" />
-      <MemberSignature Language="C++ CX" Value="Lock" />
-      <MemberSignature Language="C++ WINRT" Value="Lock" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.OperationKind</ReturnType>
@@ -1172,19 +1357,18 @@
       <MemberSignature Language="VB.NET" Value="Loop" />
       <MemberSignature Language="F#" Value="Loop = 5" Usage="Microsoft.CodeAnalysis.OperationKind.Loop" />
       <MemberSignature Language="C++ CLI" Value="Loop" />
-      <MemberSignature Language="C++ CX" Value="Loop" />
-      <MemberSignature Language="C++ WINRT" Value="Loop" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.OperationKind</ReturnType>
       </ReturnValue>
       <MemberValue>5</MemberValue>
       <Docs>
-        <summary>Indicates an <see cref="T:Microsoft.CodeAnalysis.Operations.ILoopOperation" />.</summary>
+        <summary>Indicates an <see cref="T:Microsoft.CodeAnalysis.Operations.ILoopOperation" />, which is further differentiated by <see cref="P:Microsoft.CodeAnalysis.Operations.ILoopOperation.LoopKind" />.</summary>
       </Docs>
     </Member>
     <Member MemberName="MemberInitializer">
@@ -1194,12 +1378,11 @@
       <MemberSignature Language="VB.NET" Value="MemberInitializer" />
       <MemberSignature Language="F#" Value="MemberInitializer = 51" Usage="Microsoft.CodeAnalysis.OperationKind.MemberInitializer" />
       <MemberSignature Language="C++ CLI" Value="MemberInitializer" />
-      <MemberSignature Language="C++ CX" Value="MemberInitializer" />
-      <MemberSignature Language="C++ WINRT" Value="MemberInitializer" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.OperationKind</ReturnType>
@@ -1209,6 +1392,51 @@
         <summary>Indicates an <see cref="T:Microsoft.CodeAnalysis.Operations.IMemberInitializerOperation" />.</summary>
       </Docs>
     </Member>
+    <Member MemberName="MethodBody">
+      <MemberSignature Language="C#" Value="MethodBody" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.CodeAnalysis.OperationKind MethodBody = int32(88)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.CodeAnalysis.OperationKind.MethodBody" />
+      <MemberSignature Language="VB.NET" Value="MethodBody" />
+      <MemberSignature Language="F#" Value="MethodBody = 88" Usage="Microsoft.CodeAnalysis.OperationKind.MethodBody" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.CodeAnalysis.OperationKind</ReturnType>
+      </ReturnValue>
+      <MemberValue>88</MemberValue>
+      <Docs>
+        <summary>Indicates an <see cref="T:Microsoft.CodeAnalysis.Operations.IMethodBodyOperation" />.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="MethodBodyOperation">
+      <MemberSignature Language="C#" Value="MethodBodyOperation" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.CodeAnalysis.OperationKind MethodBodyOperation = int32(88)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.CodeAnalysis.OperationKind.MethodBodyOperation" />
+      <MemberSignature Language="VB.NET" Value="MethodBodyOperation" />
+      <MemberSignature Language="F#" Value="MethodBodyOperation = 88" Usage="Microsoft.CodeAnalysis.OperationKind.MethodBodyOperation" />
+      <MemberSignature Language="C++ CLI" Value="MethodBodyOperation" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.ComponentModel.EditorBrowsable</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.CodeAnalysis.OperationKind</ReturnType>
+      </ReturnValue>
+      <MemberValue>88</MemberValue>
+      <Docs>
+        <summary>Indicates an <see cref="T:Microsoft.CodeAnalysis.Operations.IMethodBodyOperation" />. Use <see cref="F:Microsoft.CodeAnalysis.OperationKind.MethodBody" /> instead.</summary>
+      </Docs>
+    </Member>
     <Member MemberName="MethodReference">
       <MemberSignature Language="C#" Value="MethodReference" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.CodeAnalysis.OperationKind MethodReference = int32(27)" />
@@ -1216,12 +1444,11 @@
       <MemberSignature Language="VB.NET" Value="MethodReference" />
       <MemberSignature Language="F#" Value="MethodReference = 27" Usage="Microsoft.CodeAnalysis.OperationKind.MethodReference" />
       <MemberSignature Language="C++ CLI" Value="MethodReference" />
-      <MemberSignature Language="C++ CX" Value="MethodReference" />
-      <MemberSignature Language="C++ WINRT" Value="MethodReference" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.OperationKind</ReturnType>
@@ -1238,12 +1465,11 @@
       <MemberSignature Language="VB.NET" Value="NameOf" />
       <MemberSignature Language="F#" Value="NameOf = 53" Usage="Microsoft.CodeAnalysis.OperationKind.NameOf" />
       <MemberSignature Language="C++ CLI" Value="NameOf" />
-      <MemberSignature Language="C++ CX" Value="NameOf" />
-      <MemberSignature Language="C++ WINRT" Value="NameOf" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.OperationKind</ReturnType>
@@ -1260,12 +1486,11 @@
       <MemberSignature Language="VB.NET" Value="None" />
       <MemberSignature Language="F#" Value="None = 0" Usage="Microsoft.CodeAnalysis.OperationKind.None" />
       <MemberSignature Language="C++ CLI" Value="None" />
-      <MemberSignature Language="C++ CX" Value="None" />
-      <MemberSignature Language="C++ WINRT" Value="None" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.OperationKind</ReturnType>
@@ -1282,12 +1507,11 @@
       <MemberSignature Language="VB.NET" Value="ObjectCreation" />
       <MemberSignature Language="F#" Value="ObjectCreation = 36" Usage="Microsoft.CodeAnalysis.OperationKind.ObjectCreation" />
       <MemberSignature Language="C++ CLI" Value="ObjectCreation" />
-      <MemberSignature Language="C++ CX" Value="ObjectCreation" />
-      <MemberSignature Language="C++ WINRT" Value="ObjectCreation" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.OperationKind</ReturnType>
@@ -1304,12 +1528,11 @@
       <MemberSignature Language="VB.NET" Value="ObjectOrCollectionInitializer" />
       <MemberSignature Language="F#" Value="ObjectOrCollectionInitializer = 50" Usage="Microsoft.CodeAnalysis.OperationKind.ObjectOrCollectionInitializer" />
       <MemberSignature Language="C++ CLI" Value="ObjectOrCollectionInitializer" />
-      <MemberSignature Language="C++ CX" Value="ObjectOrCollectionInitializer" />
-      <MemberSignature Language="C++ WINRT" Value="ObjectOrCollectionInitializer" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.OperationKind</ReturnType>
@@ -1326,12 +1549,11 @@
       <MemberSignature Language="VB.NET" Value="OmittedArgument" />
       <MemberSignature Language="F#" Value="OmittedArgument = 71" Usage="Microsoft.CodeAnalysis.OperationKind.OmittedArgument" />
       <MemberSignature Language="C++ CLI" Value="OmittedArgument" />
-      <MemberSignature Language="C++ CX" Value="OmittedArgument" />
-      <MemberSignature Language="C++ WINRT" Value="OmittedArgument" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.OperationKind</ReturnType>
@@ -1348,12 +1570,11 @@
       <MemberSignature Language="VB.NET" Value="ParameterInitializer" />
       <MemberSignature Language="F#" Value="ParameterInitializer = 75" Usage="Microsoft.CodeAnalysis.OperationKind.ParameterInitializer" />
       <MemberSignature Language="C++ CLI" Value="ParameterInitializer" />
-      <MemberSignature Language="C++ CX" Value="ParameterInitializer" />
-      <MemberSignature Language="C++ WINRT" Value="ParameterInitializer" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.OperationKind</ReturnType>
@@ -1370,12 +1591,11 @@
       <MemberSignature Language="VB.NET" Value="ParameterReference" />
       <MemberSignature Language="F#" Value="ParameterReference = 25" Usage="Microsoft.CodeAnalysis.OperationKind.ParameterReference" />
       <MemberSignature Language="C++ CLI" Value="ParameterReference" />
-      <MemberSignature Language="C++ CX" Value="ParameterReference" />
-      <MemberSignature Language="C++ WINRT" Value="ParameterReference" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.OperationKind</ReturnType>
@@ -1392,12 +1612,11 @@
       <MemberSignature Language="VB.NET" Value="Parenthesized" />
       <MemberSignature Language="F#" Value="Parenthesized = 44" Usage="Microsoft.CodeAnalysis.OperationKind.Parenthesized" />
       <MemberSignature Language="C++ CLI" Value="Parenthesized" />
-      <MemberSignature Language="C++ CX" Value="Parenthesized" />
-      <MemberSignature Language="C++ WINRT" Value="Parenthesized" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.OperationKind</ReturnType>
@@ -1414,12 +1633,11 @@
       <MemberSignature Language="VB.NET" Value="PropertyInitializer" />
       <MemberSignature Language="F#" Value="PropertyInitializer = 74" Usage="Microsoft.CodeAnalysis.OperationKind.PropertyInitializer" />
       <MemberSignature Language="C++ CLI" Value="PropertyInitializer" />
-      <MemberSignature Language="C++ CX" Value="PropertyInitializer" />
-      <MemberSignature Language="C++ WINRT" Value="PropertyInitializer" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.OperationKind</ReturnType>
@@ -1436,12 +1654,11 @@
       <MemberSignature Language="VB.NET" Value="PropertyReference" />
       <MemberSignature Language="F#" Value="PropertyReference = 28" Usage="Microsoft.CodeAnalysis.OperationKind.PropertyReference" />
       <MemberSignature Language="C++ CLI" Value="PropertyReference" />
-      <MemberSignature Language="C++ CX" Value="PropertyReference" />
-      <MemberSignature Language="C++ WINRT" Value="PropertyReference" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.OperationKind</ReturnType>
@@ -1458,12 +1675,11 @@
       <MemberSignature Language="VB.NET" Value="RaiseEvent" />
       <MemberSignature Language="F#" Value="RaiseEvent = 19" Usage="Microsoft.CodeAnalysis.OperationKind.RaiseEvent" />
       <MemberSignature Language="C++ CLI" Value="RaiseEvent" />
-      <MemberSignature Language="C++ CX" Value="RaiseEvent" />
-      <MemberSignature Language="C++ WINRT" Value="RaiseEvent" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.OperationKind</ReturnType>
@@ -1473,6 +1689,82 @@
         <summary>Indicates an <see cref="T:Microsoft.CodeAnalysis.Operations.IRaiseEventOperation" />.</summary>
       </Docs>
     </Member>
+    <Member MemberName="Range">
+      <MemberSignature Language="C#" Value="Range" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.CodeAnalysis.OperationKind Range = int32(99)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.CodeAnalysis.OperationKind.Range" />
+      <MemberSignature Language="VB.NET" Value="Range" />
+      <MemberSignature Language="F#" Value="Range = 99" Usage="Microsoft.CodeAnalysis.OperationKind.Range" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.CodeAnalysis.OperationKind</ReturnType>
+      </ReturnValue>
+      <MemberValue>99</MemberValue>
+      <Docs>
+        <summary>Indicates an <see cref="T:Microsoft.CodeAnalysis.Operations.IRangeOperation" />.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="RecursivePattern">
+      <MemberSignature Language="C#" Value="RecursivePattern" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.CodeAnalysis.OperationKind RecursivePattern = int32(103)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.CodeAnalysis.OperationKind.RecursivePattern" />
+      <MemberSignature Language="VB.NET" Value="RecursivePattern" />
+      <MemberSignature Language="F#" Value="RecursivePattern = 103" Usage="Microsoft.CodeAnalysis.OperationKind.RecursivePattern" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.CodeAnalysis.OperationKind</ReturnType>
+      </ReturnValue>
+      <MemberValue>103</MemberValue>
+      <Docs>
+        <summary>Indicates an <see cref="T:Microsoft.CodeAnalysis.Operations.IRecursivePatternOperation" />.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ReDim">
+      <MemberSignature Language="C#" Value="ReDim" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.CodeAnalysis.OperationKind ReDim = int32(101)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.CodeAnalysis.OperationKind.ReDim" />
+      <MemberSignature Language="VB.NET" Value="ReDim" />
+      <MemberSignature Language="F#" Value="ReDim = 101" Usage="Microsoft.CodeAnalysis.OperationKind.ReDim" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.CodeAnalysis.OperationKind</ReturnType>
+      </ReturnValue>
+      <MemberValue>101</MemberValue>
+      <Docs>
+        <summary>Indicates an <see cref="T:Microsoft.CodeAnalysis.Operations.IReDimOperation" />.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ReDimClause">
+      <MemberSignature Language="C#" Value="ReDimClause" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.CodeAnalysis.OperationKind ReDimClause = int32(102)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.CodeAnalysis.OperationKind.ReDimClause" />
+      <MemberSignature Language="VB.NET" Value="ReDimClause" />
+      <MemberSignature Language="F#" Value="ReDimClause = 102" Usage="Microsoft.CodeAnalysis.OperationKind.ReDimClause" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.CodeAnalysis.OperationKind</ReturnType>
+      </ReturnValue>
+      <MemberValue>102</MemberValue>
+      <Docs>
+        <summary>Indicates an <see cref="T:Microsoft.CodeAnalysis.Operations.IReDimClauseOperation" />.</summary>
+      </Docs>
+    </Member>
     <Member MemberName="Return">
       <MemberSignature Language="C#" Value="Return" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.CodeAnalysis.OperationKind Return = int32(9)" />
@@ -1480,12 +1772,11 @@
       <MemberSignature Language="VB.NET" Value="Return" />
       <MemberSignature Language="F#" Value="Return = 9" Usage="Microsoft.CodeAnalysis.OperationKind.Return" />
       <MemberSignature Language="C++ CLI" Value="Return" />
-      <MemberSignature Language="C++ CX" Value="Return" />
-      <MemberSignature Language="C++ WINRT" Value="Return" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.OperationKind</ReturnType>
@@ -1502,12 +1793,11 @@
       <MemberSignature Language="VB.NET" Value="SimpleAssignment" />
       <MemberSignature Language="F#" Value="SimpleAssignment = 42" Usage="Microsoft.CodeAnalysis.OperationKind.SimpleAssignment" />
       <MemberSignature Language="C++ CLI" Value="SimpleAssignment" />
-      <MemberSignature Language="C++ CX" Value="SimpleAssignment" />
-      <MemberSignature Language="C++ WINRT" Value="SimpleAssignment" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.OperationKind</ReturnType>
@@ -1524,12 +1814,11 @@
       <MemberSignature Language="VB.NET" Value="SizeOf" />
       <MemberSignature Language="F#" Value="SizeOf = 63" Usage="Microsoft.CodeAnalysis.OperationKind.SizeOf" />
       <MemberSignature Language="C++ CLI" Value="SizeOf" />
-      <MemberSignature Language="C++ CX" Value="SizeOf" />
-      <MemberSignature Language="C++ WINRT" Value="SizeOf" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.OperationKind</ReturnType>
@@ -1539,6 +1828,27 @@
         <summary>Indicates an <see cref="T:Microsoft.CodeAnalysis.Operations.ISizeOfOperation" />.</summary>
       </Docs>
     </Member>
+    <Member MemberName="StaticLocalInitializationSemaphore">
+      <MemberSignature Language="C#" Value="StaticLocalInitializationSemaphore" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.CodeAnalysis.OperationKind StaticLocalInitializationSemaphore = int32(95)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.CodeAnalysis.OperationKind.StaticLocalInitializationSemaphore" />
+      <MemberSignature Language="VB.NET" Value="StaticLocalInitializationSemaphore" />
+      <MemberSignature Language="F#" Value="StaticLocalInitializationSemaphore = 95" Usage="Microsoft.CodeAnalysis.OperationKind.StaticLocalInitializationSemaphore" />
+      <MemberSignature Language="C++ CLI" Value="StaticLocalInitializationSemaphore" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.CodeAnalysis.OperationKind</ReturnType>
+      </ReturnValue>
+      <MemberValue>95</MemberValue>
+      <Docs>
+        <summary>Indicates an <see cref="T:Microsoft.CodeAnalysis.FlowAnalysis.IStaticLocalInitializationSemaphoreOperation" />.</summary>
+      </Docs>
+    </Member>
     <Member MemberName="Stop">
       <MemberSignature Language="C#" Value="Stop" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.CodeAnalysis.OperationKind Stop = int32(17)" />
@@ -1546,12 +1856,11 @@
       <MemberSignature Language="VB.NET" Value="Stop" />
       <MemberSignature Language="F#" Value="Stop = 17" Usage="Microsoft.CodeAnalysis.OperationKind.Stop" />
       <MemberSignature Language="C++ CLI" Value="Stop" />
-      <MemberSignature Language="C++ CX" Value="Stop" />
-      <MemberSignature Language="C++ WINRT" Value="Stop" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.OperationKind</ReturnType>
@@ -1568,12 +1877,11 @@
       <MemberSignature Language="VB.NET" Value="Switch" />
       <MemberSignature Language="F#" Value="Switch = 4" Usage="Microsoft.CodeAnalysis.OperationKind.Switch" />
       <MemberSignature Language="C++ CLI" Value="Switch" />
-      <MemberSignature Language="C++ CX" Value="Switch" />
-      <MemberSignature Language="C++ WINRT" Value="Switch" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.OperationKind</ReturnType>
@@ -1590,12 +1898,11 @@
       <MemberSignature Language="VB.NET" Value="SwitchCase" />
       <MemberSignature Language="F#" Value="SwitchCase = 81" Usage="Microsoft.CodeAnalysis.OperationKind.SwitchCase" />
       <MemberSignature Language="C++ CLI" Value="SwitchCase" />
-      <MemberSignature Language="C++ CX" Value="SwitchCase" />
-      <MemberSignature Language="C++ WINRT" Value="SwitchCase" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.OperationKind</ReturnType>
@@ -1605,6 +1912,44 @@
         <summary>Indicates an <see cref="T:Microsoft.CodeAnalysis.Operations.ISwitchCaseOperation" />.</summary>
       </Docs>
     </Member>
+    <Member MemberName="SwitchExpression">
+      <MemberSignature Language="C#" Value="SwitchExpression" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.CodeAnalysis.OperationKind SwitchExpression = int32(105)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.CodeAnalysis.OperationKind.SwitchExpression" />
+      <MemberSignature Language="VB.NET" Value="SwitchExpression" />
+      <MemberSignature Language="F#" Value="SwitchExpression = 105" Usage="Microsoft.CodeAnalysis.OperationKind.SwitchExpression" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.CodeAnalysis.OperationKind</ReturnType>
+      </ReturnValue>
+      <MemberValue>105</MemberValue>
+      <Docs>
+        <summary>Indicates an <see cref="T:Microsoft.CodeAnalysis.Operations.ISwitchExpressionOperation" />.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SwitchExpressionArm">
+      <MemberSignature Language="C#" Value="SwitchExpressionArm" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.CodeAnalysis.OperationKind SwitchExpressionArm = int32(106)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.CodeAnalysis.OperationKind.SwitchExpressionArm" />
+      <MemberSignature Language="VB.NET" Value="SwitchExpressionArm" />
+      <MemberSignature Language="F#" Value="SwitchExpressionArm = 106" Usage="Microsoft.CodeAnalysis.OperationKind.SwitchExpressionArm" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.CodeAnalysis.OperationKind</ReturnType>
+      </ReturnValue>
+      <MemberValue>106</MemberValue>
+      <Docs>
+        <summary>Indicates an <see cref="T:Microsoft.CodeAnalysis.Operations.ISwitchExpressionArmOperation" />.</summary>
+      </Docs>
+    </Member>
     <Member MemberName="Throw">
       <MemberSignature Language="C#" Value="Throw" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.CodeAnalysis.OperationKind Throw = int32(67)" />
@@ -1612,12 +1957,11 @@
       <MemberSignature Language="VB.NET" Value="Throw" />
       <MemberSignature Language="F#" Value="Throw = 67" Usage="Microsoft.CodeAnalysis.OperationKind.Throw" />
       <MemberSignature Language="C++ CLI" Value="Throw" />
-      <MemberSignature Language="C++ CX" Value="Throw" />
-      <MemberSignature Language="C++ WINRT" Value="Throw" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.OperationKind</ReturnType>
@@ -1634,12 +1978,11 @@
       <MemberSignature Language="VB.NET" Value="TranslatedQuery" />
       <MemberSignature Language="F#" Value="TranslatedQuery = 59" Usage="Microsoft.CodeAnalysis.OperationKind.TranslatedQuery" />
       <MemberSignature Language="C++ CLI" Value="TranslatedQuery" />
-      <MemberSignature Language="C++ CX" Value="TranslatedQuery" />
-      <MemberSignature Language="C++ WINRT" Value="TranslatedQuery" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.OperationKind</ReturnType>
@@ -1656,12 +1999,11 @@
       <MemberSignature Language="VB.NET" Value="Try" />
       <MemberSignature Language="F#" Value="Try = 12" Usage="Microsoft.CodeAnalysis.OperationKind.Try" />
       <MemberSignature Language="C++ CLI" Value="Try" />
-      <MemberSignature Language="C++ CX" Value="Try" />
-      <MemberSignature Language="C++ WINRT" Value="Try" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.OperationKind</ReturnType>
@@ -1678,12 +2020,11 @@
       <MemberSignature Language="VB.NET" Value="Tuple" />
       <MemberSignature Language="F#" Value="Tuple = 54" Usage="Microsoft.CodeAnalysis.OperationKind.Tuple" />
       <MemberSignature Language="C++ CLI" Value="Tuple" />
-      <MemberSignature Language="C++ CX" Value="Tuple" />
-      <MemberSignature Language="C++ WINRT" Value="Tuple" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.OperationKind</ReturnType>
@@ -1693,6 +2034,51 @@
         <summary>Indicates an <see cref="T:Microsoft.CodeAnalysis.Operations.ITupleOperation" />.</summary>
       </Docs>
     </Member>
+    <Member MemberName="TupleBinary">
+      <MemberSignature Language="C#" Value="TupleBinary" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.CodeAnalysis.OperationKind TupleBinary = int32(87)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.CodeAnalysis.OperationKind.TupleBinary" />
+      <MemberSignature Language="VB.NET" Value="TupleBinary" />
+      <MemberSignature Language="F#" Value="TupleBinary = 87" Usage="Microsoft.CodeAnalysis.OperationKind.TupleBinary" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.CodeAnalysis.OperationKind</ReturnType>
+      </ReturnValue>
+      <MemberValue>87</MemberValue>
+      <Docs>
+        <summary>Indicates an <see cref="T:Microsoft.CodeAnalysis.Operations.ITupleBinaryOperation" />.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="TupleBinaryOperator">
+      <MemberSignature Language="C#" Value="TupleBinaryOperator" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.CodeAnalysis.OperationKind TupleBinaryOperator = int32(87)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.CodeAnalysis.OperationKind.TupleBinaryOperator" />
+      <MemberSignature Language="VB.NET" Value="TupleBinaryOperator" />
+      <MemberSignature Language="F#" Value="TupleBinaryOperator = 87" Usage="Microsoft.CodeAnalysis.OperationKind.TupleBinaryOperator" />
+      <MemberSignature Language="C++ CLI" Value="TupleBinaryOperator" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.ComponentModel.EditorBrowsable</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.CodeAnalysis.OperationKind</ReturnType>
+      </ReturnValue>
+      <MemberValue>87</MemberValue>
+      <Docs>
+        <summary>Indicates an <see cref="T:Microsoft.CodeAnalysis.Operations.ITupleBinaryOperation" />. Use <see cref="F:Microsoft.CodeAnalysis.OperationKind.TupleBinary" /> instead.</summary>
+      </Docs>
+    </Member>
     <Member MemberName="TypeOf">
       <MemberSignature Language="C#" Value="TypeOf" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.CodeAnalysis.OperationKind TypeOf = int32(62)" />
@@ -1700,12 +2086,11 @@
       <MemberSignature Language="VB.NET" Value="TypeOf" />
       <MemberSignature Language="F#" Value="TypeOf = 62" Usage="Microsoft.CodeAnalysis.OperationKind.TypeOf" />
       <MemberSignature Language="C++ CLI" Value="TypeOf" />
-      <MemberSignature Language="C++ CX" Value="TypeOf" />
-      <MemberSignature Language="C++ WINRT" Value="TypeOf" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.OperationKind</ReturnType>
@@ -1722,12 +2107,11 @@
       <MemberSignature Language="VB.NET" Value="TypeParameterObjectCreation" />
       <MemberSignature Language="F#" Value="TypeParameterObjectCreation = 37" Usage="Microsoft.CodeAnalysis.OperationKind.TypeParameterObjectCreation" />
       <MemberSignature Language="C++ CLI" Value="TypeParameterObjectCreation" />
-      <MemberSignature Language="C++ CX" Value="TypeParameterObjectCreation" />
-      <MemberSignature Language="C++ WINRT" Value="TypeParameterObjectCreation" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.OperationKind</ReturnType>
@@ -1737,19 +2121,16 @@
         <summary>Indicates an <see cref="T:Microsoft.CodeAnalysis.Operations.ITypeParameterObjectCreationOperation" />.</summary>
       </Docs>
     </Member>
-    <Member MemberName="UnaryOperator">
-      <MemberSignature Language="C#" Value="UnaryOperator" />
-      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.CodeAnalysis.OperationKind UnaryOperator = int32(31)" />
-      <MemberSignature Language="DocId" Value="F:Microsoft.CodeAnalysis.OperationKind.UnaryOperator" />
-      <MemberSignature Language="VB.NET" Value="UnaryOperator" />
-      <MemberSignature Language="F#" Value="UnaryOperator = 31" Usage="Microsoft.CodeAnalysis.OperationKind.UnaryOperator" />
-      <MemberSignature Language="C++ CLI" Value="UnaryOperator" />
-      <MemberSignature Language="C++ CX" Value="UnaryOperator" />
-      <MemberSignature Language="C++ WINRT" Value="UnaryOperator" />
+    <Member MemberName="Unary">
+      <MemberSignature Language="C#" Value="Unary" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.CodeAnalysis.OperationKind Unary = int32(31)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.CodeAnalysis.OperationKind.Unary" />
+      <MemberSignature Language="VB.NET" Value="Unary" />
+      <MemberSignature Language="F#" Value="Unary = 31" Usage="Microsoft.CodeAnalysis.OperationKind.Unary" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.OperationKind</ReturnType>
@@ -1759,6 +2140,32 @@
         <summary>Indicates an <see cref="T:Microsoft.CodeAnalysis.Operations.IUnaryOperation" />.</summary>
       </Docs>
     </Member>
+    <Member MemberName="UnaryOperator">
+      <MemberSignature Language="C#" Value="UnaryOperator" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.CodeAnalysis.OperationKind UnaryOperator = int32(31)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.CodeAnalysis.OperationKind.UnaryOperator" />
+      <MemberSignature Language="VB.NET" Value="UnaryOperator" />
+      <MemberSignature Language="F#" Value="UnaryOperator = 31" Usage="Microsoft.CodeAnalysis.OperationKind.UnaryOperator" />
+      <MemberSignature Language="C++ CLI" Value="UnaryOperator" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.ComponentModel.EditorBrowsable</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.CodeAnalysis.OperationKind</ReturnType>
+      </ReturnValue>
+      <MemberValue>31</MemberValue>
+      <Docs>
+        <summary>Indicates an <see cref="T:Microsoft.CodeAnalysis.Operations.IUnaryOperation" />. Use <see cref="F:Microsoft.CodeAnalysis.OperationKind.Unary" /> instead.</summary>
+      </Docs>
+    </Member>
     <Member MemberName="Using">
       <MemberSignature Language="C#" Value="Using" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.CodeAnalysis.OperationKind Using = int32(13)" />
@@ -1766,12 +2173,11 @@
       <MemberSignature Language="VB.NET" Value="Using" />
       <MemberSignature Language="F#" Value="Using = 13" Usage="Microsoft.CodeAnalysis.OperationKind.Using" />
       <MemberSignature Language="C++ CLI" Value="Using" />
-      <MemberSignature Language="C++ CX" Value="Using" />
-      <MemberSignature Language="C++ WINRT" Value="Using" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.OperationKind</ReturnType>
@@ -1788,12 +2194,11 @@
       <MemberSignature Language="VB.NET" Value="VariableDeclaration" />
       <MemberSignature Language="F#" Value="VariableDeclaration = 78" Usage="Microsoft.CodeAnalysis.OperationKind.VariableDeclaration" />
       <MemberSignature Language="C++ CLI" Value="VariableDeclaration" />
-      <MemberSignature Language="C++ CX" Value="VariableDeclaration" />
-      <MemberSignature Language="C++ WINRT" Value="VariableDeclaration" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.OperationKind</ReturnType>
@@ -1810,12 +2215,11 @@
       <MemberSignature Language="VB.NET" Value="VariableDeclarationGroup" />
       <MemberSignature Language="F#" Value="VariableDeclarationGroup = 3" Usage="Microsoft.CodeAnalysis.OperationKind.VariableDeclarationGroup" />
       <MemberSignature Language="C++ CLI" Value="VariableDeclarationGroup" />
-      <MemberSignature Language="C++ CX" Value="VariableDeclarationGroup" />
-      <MemberSignature Language="C++ WINRT" Value="VariableDeclarationGroup" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.OperationKind</ReturnType>
@@ -1832,12 +2236,11 @@
       <MemberSignature Language="VB.NET" Value="VariableDeclarator" />
       <MemberSignature Language="F#" Value="VariableDeclarator = 77" Usage="Microsoft.CodeAnalysis.OperationKind.VariableDeclarator" />
       <MemberSignature Language="C++ CLI" Value="VariableDeclarator" />
-      <MemberSignature Language="C++ CX" Value="VariableDeclarator" />
-      <MemberSignature Language="C++ WINRT" Value="VariableDeclarator" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.OperationKind</ReturnType>
@@ -1854,12 +2257,11 @@
       <MemberSignature Language="VB.NET" Value="VariableInitializer" />
       <MemberSignature Language="F#" Value="VariableInitializer = 73" Usage="Microsoft.CodeAnalysis.OperationKind.VariableInitializer" />
       <MemberSignature Language="C++ CLI" Value="VariableInitializer" />
-      <MemberSignature Language="C++ CX" Value="VariableInitializer" />
-      <MemberSignature Language="C++ WINRT" Value="VariableInitializer" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.OperationKind</ReturnType>
@@ -1876,12 +2278,11 @@
       <MemberSignature Language="VB.NET" Value="YieldBreak" />
       <MemberSignature Language="F#" Value="YieldBreak = 10" Usage="Microsoft.CodeAnalysis.OperationKind.YieldBreak" />
       <MemberSignature Language="C++ CLI" Value="YieldBreak" />
-      <MemberSignature Language="C++ CX" Value="YieldBreak" />
-      <MemberSignature Language="C++ WINRT" Value="YieldBreak" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.OperationKind</ReturnType>
@@ -1898,12 +2299,11 @@
       <MemberSignature Language="VB.NET" Value="YieldReturn" />
       <MemberSignature Language="F#" Value="YieldReturn = 14" Usage="Microsoft.CodeAnalysis.OperationKind.YieldReturn" />
       <MemberSignature Language="C++ CLI" Value="YieldReturn" />
-      <MemberSignature Language="C++ CX" Value="YieldReturn" />
-      <MemberSignature Language="C++ WINRT" Value="YieldReturn" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.OperationKind</ReturnType>

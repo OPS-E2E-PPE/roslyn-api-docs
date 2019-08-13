@@ -7,7 +7,8 @@
   <TypeSignature Language="C++ CLI" Value="public ref class EmitOptions sealed : IEquatable&lt;Microsoft::CodeAnalysis::Emit::EmitOptions ^&gt;" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-    <AssemblyVersion>2.6.0.0</AssemblyVersion>
+    <AssemblyVersion>2.9.0.0</AssemblyVersion>
+    <AssemblyVersion>3.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -33,7 +34,8 @@
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="metadataOnly" Type="System.Boolean" />
@@ -65,14 +67,16 @@
       </Docs>
     </Member>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public EmitOptions (bool metadataOnly = false, Microsoft.CodeAnalysis.Emit.DebugInformationFormat debugInformationFormat = (Microsoft.CodeAnalysis.Emit.DebugInformationFormat) 0, string pdbFilePath = null, string outputNameOverride = null, int fileAlignment = 0, ulong baseAddress = 0, bool highEntropyVirtualAddressSpace = false, Microsoft.CodeAnalysis.SubsystemVersion subsystemVersion = null, string runtimeMetadataVersion = null, bool tolerateErrors = false, bool includePrivateMembers = true, System.Collections.Immutable.ImmutableArray&lt;Microsoft.CodeAnalysis.Emit.InstrumentationKind&gt; instrumentationKinds = null);" />
+      <MemberSignature Language="C#" Value="public EmitOptions (bool metadataOnly, Microsoft.CodeAnalysis.Emit.DebugInformationFormat debugInformationFormat, string pdbFilePath, string outputNameOverride, int fileAlignment, ulong baseAddress, bool highEntropyVirtualAddressSpace, Microsoft.CodeAnalysis.SubsystemVersion subsystemVersion, string runtimeMetadataVersion, bool tolerateErrors, bool includePrivateMembers, System.Collections.Immutable.ImmutableArray&lt;Microsoft.CodeAnalysis.Emit.InstrumentationKind&gt; instrumentationKinds);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(bool metadataOnly, valuetype Microsoft.CodeAnalysis.Emit.DebugInformationFormat debugInformationFormat, string pdbFilePath, string outputNameOverride, int32 fileAlignment, unsigned int64 baseAddress, bool highEntropyVirtualAddressSpace, valuetype Microsoft.CodeAnalysis.SubsystemVersion subsystemVersion, string runtimeMetadataVersion, bool tolerateErrors, bool includePrivateMembers, valuetype System.Collections.Immutable.ImmutableArray`1&lt;valuetype Microsoft.CodeAnalysis.Emit.InstrumentationKind&gt; instrumentationKinds) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.CodeAnalysis.Emit.EmitOptions.#ctor(System.Boolean,Microsoft.CodeAnalysis.Emit.DebugInformationFormat,System.String,System.String,System.Int32,System.UInt64,System.Boolean,Microsoft.CodeAnalysis.SubsystemVersion,System.String,System.Boolean,System.Boolean,System.Collections.Immutable.ImmutableArray{Microsoft.CodeAnalysis.Emit.InstrumentationKind})" />
       <MemberSignature Language="F#" Value="new Microsoft.CodeAnalysis.Emit.EmitOptions : bool * Microsoft.CodeAnalysis.Emit.DebugInformationFormat * string * string * int * uint64 * bool * Microsoft.CodeAnalysis.SubsystemVersion * string * bool * bool * System.Collections.Immutable.ImmutableArray&lt;Microsoft.CodeAnalysis.Emit.InstrumentationKind&gt; -&gt; Microsoft.CodeAnalysis.Emit.EmitOptions" Usage="new Microsoft.CodeAnalysis.Emit.EmitOptions (metadataOnly, debugInformationFormat, pdbFilePath, outputNameOverride, fileAlignment, baseAddress, highEntropyVirtualAddressSpace, subsystemVersion, runtimeMetadataVersion, tolerateErrors, includePrivateMembers, instrumentationKinds)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; EmitOptions(bool metadataOnly, Microsoft::CodeAnalysis::Emit::DebugInformationFormat debugInformationFormat, System::String ^ pdbFilePath, System::String ^ outputNameOverride, int fileAlignment, System::UInt64 baseAddress, bool highEntropyVirtualAddressSpace, Microsoft::CodeAnalysis::SubsystemVersion subsystemVersion, System::String ^ runtimeMetadataVersion, bool tolerateErrors, bool includePrivateMembers, System::Collections::Immutable::ImmutableArray&lt;Microsoft::CodeAnalysis::Emit::InstrumentationKind&gt; instrumentationKinds);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="metadataOnly" Type="System.Boolean" />
@@ -105,6 +109,50 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public EmitOptions (bool metadataOnly = false, Microsoft.CodeAnalysis.Emit.DebugInformationFormat debugInformationFormat = (Microsoft.CodeAnalysis.Emit.DebugInformationFormat) 0, string pdbFilePath = null, string outputNameOverride = null, int fileAlignment = 0, ulong baseAddress = 0, bool highEntropyVirtualAddressSpace = false, Microsoft.CodeAnalysis.SubsystemVersion subsystemVersion = null, string runtimeMetadataVersion = null, bool tolerateErrors = false, bool includePrivateMembers = true, System.Collections.Immutable.ImmutableArray&lt;Microsoft.CodeAnalysis.Emit.InstrumentationKind&gt; instrumentationKinds = null, Nullable&lt;System.Security.Cryptography.HashAlgorithmName&gt; pdbChecksumAlgorithm = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(bool metadataOnly, valuetype Microsoft.CodeAnalysis.Emit.DebugInformationFormat debugInformationFormat, string pdbFilePath, string outputNameOverride, int32 fileAlignment, unsigned int64 baseAddress, bool highEntropyVirtualAddressSpace, valuetype Microsoft.CodeAnalysis.SubsystemVersion subsystemVersion, string runtimeMetadataVersion, bool tolerateErrors, bool includePrivateMembers, valuetype System.Collections.Immutable.ImmutableArray`1&lt;valuetype Microsoft.CodeAnalysis.Emit.InstrumentationKind&gt; instrumentationKinds, valuetype System.Nullable`1&lt;valuetype System.Security.Cryptography.HashAlgorithmName&gt; pdbChecksumAlgorithm) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.CodeAnalysis.Emit.EmitOptions.#ctor(System.Boolean,Microsoft.CodeAnalysis.Emit.DebugInformationFormat,System.String,System.String,System.Int32,System.UInt64,System.Boolean,Microsoft.CodeAnalysis.SubsystemVersion,System.String,System.Boolean,System.Boolean,System.Collections.Immutable.ImmutableArray{Microsoft.CodeAnalysis.Emit.InstrumentationKind},System.Nullable{System.Security.Cryptography.HashAlgorithmName})" />
+      <MemberSignature Language="F#" Value="new Microsoft.CodeAnalysis.Emit.EmitOptions : bool * Microsoft.CodeAnalysis.Emit.DebugInformationFormat * string * string * int * uint64 * bool * Microsoft.CodeAnalysis.SubsystemVersion * string * bool * bool * System.Collections.Immutable.ImmutableArray&lt;Microsoft.CodeAnalysis.Emit.InstrumentationKind&gt; * Nullable&lt;System.Security.Cryptography.HashAlgorithmName&gt; -&gt; Microsoft.CodeAnalysis.Emit.EmitOptions" Usage="new Microsoft.CodeAnalysis.Emit.EmitOptions (metadataOnly, debugInformationFormat, pdbFilePath, outputNameOverride, fileAlignment, baseAddress, highEntropyVirtualAddressSpace, subsystemVersion, runtimeMetadataVersion, tolerateErrors, includePrivateMembers, instrumentationKinds, pdbChecksumAlgorithm)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="metadataOnly" Type="System.Boolean" />
+        <Parameter Name="debugInformationFormat" Type="Microsoft.CodeAnalysis.Emit.DebugInformationFormat" />
+        <Parameter Name="pdbFilePath" Type="System.String" />
+        <Parameter Name="outputNameOverride" Type="System.String" />
+        <Parameter Name="fileAlignment" Type="System.Int32" />
+        <Parameter Name="baseAddress" Type="System.UInt64" />
+        <Parameter Name="highEntropyVirtualAddressSpace" Type="System.Boolean" />
+        <Parameter Name="subsystemVersion" Type="Microsoft.CodeAnalysis.SubsystemVersion" />
+        <Parameter Name="runtimeMetadataVersion" Type="System.String" />
+        <Parameter Name="tolerateErrors" Type="System.Boolean" />
+        <Parameter Name="includePrivateMembers" Type="System.Boolean" />
+        <Parameter Name="instrumentationKinds" Type="System.Collections.Immutable.ImmutableArray&lt;Microsoft.CodeAnalysis.Emit.InstrumentationKind&gt;" />
+        <Parameter Name="pdbChecksumAlgorithm" Type="System.Nullable&lt;System.Security.Cryptography.HashAlgorithmName&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="metadataOnly">To be added.</param>
+        <param name="debugInformationFormat">To be added.</param>
+        <param name="pdbFilePath">To be added.</param>
+        <param name="outputNameOverride">To be added.</param>
+        <param name="fileAlignment">To be added.</param>
+        <param name="baseAddress">To be added.</param>
+        <param name="highEntropyVirtualAddressSpace">To be added.</param>
+        <param name="subsystemVersion">To be added.</param>
+        <param name="runtimeMetadataVersion">To be added.</param>
+        <param name="tolerateErrors">To be added.</param>
+        <param name="includePrivateMembers">To be added.</param>
+        <param name="instrumentationKinds">To be added.</param>
+        <param name="pdbChecksumAlgorithm">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="BaseAddress">
       <MemberSignature Language="C#" Value="public ulong BaseAddress { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance unsigned int64 BaseAddress" />
@@ -112,11 +160,11 @@
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property BaseAddress As ULong" />
       <MemberSignature Language="F#" Value="member this.BaseAddress : uint64" Usage="Microsoft.CodeAnalysis.Emit.EmitOptions.BaseAddress" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::UInt64 BaseAddress { System::UInt64 get(); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; property unsigned long long BaseAddress { unsigned long long get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.UInt64</ReturnType>
@@ -136,11 +184,11 @@
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DebugInformationFormat As DebugInformationFormat" />
       <MemberSignature Language="F#" Value="member this.DebugInformationFormat : Microsoft.CodeAnalysis.Emit.DebugInformationFormat" Usage="Microsoft.CodeAnalysis.Emit.EmitOptions.DebugInformationFormat" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::CodeAnalysis::Emit::DebugInformationFormat DebugInformationFormat { Microsoft::CodeAnalysis::Emit::DebugInformationFormat get(); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; property Microsoft::CodeAnalysis::Emit::DebugInformationFormat DebugInformationFormat { Microsoft::CodeAnalysis::Emit::DebugInformationFormat get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.Emit.DebugInformationFormat</ReturnType>
@@ -160,11 +208,11 @@
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property EmitMetadataOnly As Boolean" />
       <MemberSignature Language="F#" Value="member this.EmitMetadataOnly : bool" Usage="Microsoft.CodeAnalysis.Emit.EmitOptions.EmitMetadataOnly" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool EmitMetadataOnly { bool get(); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; property bool EmitMetadataOnly { bool get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -190,7 +238,8 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -212,12 +261,11 @@
       <MemberSignature Language="VB.NET" Value="Public Overrides Function Equals (obj As Object) As Boolean" />
       <MemberSignature Language="F#" Value="override this.Equals : obj -&gt; bool" Usage="emitOptions.Equals obj" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; override bool Equals(System::Object ^ obj);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; override bool Equals(Platform::Object ^ obj);" />
-      <MemberSignature Language="C++ WINRT" Value=" override bool Equals(winrt::Windows::Foundation::IInspectable const &amp; obj);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -239,11 +287,11 @@
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FileAlignment As Integer" />
       <MemberSignature Language="F#" Value="member this.FileAlignment : int" Usage="Microsoft.CodeAnalysis.Emit.EmitOptions.FileAlignment" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int FileAlignment { int get(); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; property int FileAlignment { int get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -266,12 +314,11 @@
       <MemberSignature Language="VB.NET" Value="Public Overrides Function GetHashCode () As Integer" />
       <MemberSignature Language="F#" Value="override this.GetHashCode : unit -&gt; int" Usage="emitOptions.GetHashCode " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; override int GetHashCode();" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; override int GetHashCode();" />
-      <MemberSignature Language="C++ WINRT" Value=" override int GetHashCode();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -290,11 +337,11 @@
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property HighEntropyVirtualAddressSpace As Boolean" />
       <MemberSignature Language="F#" Value="member this.HighEntropyVirtualAddressSpace : bool" Usage="Microsoft.CodeAnalysis.Emit.EmitOptions.HighEntropyVirtualAddressSpace" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool HighEntropyVirtualAddressSpace { bool get(); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; property bool HighEntropyVirtualAddressSpace { bool get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -314,11 +361,11 @@
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IncludePrivateMembers As Boolean" />
       <MemberSignature Language="F#" Value="member this.IncludePrivateMembers : bool" Usage="Microsoft.CodeAnalysis.Emit.EmitOptions.IncludePrivateMembers" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IncludePrivateMembers { bool get(); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; property bool IncludePrivateMembers { bool get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -343,7 +390,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Immutable.ImmutableArray&lt;Microsoft.CodeAnalysis.Emit.InstrumentationKind&gt;</ReturnType>
@@ -366,7 +414,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -393,7 +442,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -417,11 +467,11 @@
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property OutputNameOverride As String" />
       <MemberSignature Language="F#" Value="member this.OutputNameOverride : string" Usage="Microsoft.CodeAnalysis.Emit.EmitOptions.OutputNameOverride" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ OutputNameOverride { System::String ^ get(); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; property Platform::String ^ OutputNameOverride { Platform::String ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -441,6 +491,31 @@
             </remarks>
       </Docs>
     </Member>
+    <Member MemberName="PdbChecksumAlgorithm">
+      <MemberSignature Language="C#" Value="public System.Security.Cryptography.HashAlgorithmName PdbChecksumAlgorithm { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Security.Cryptography.HashAlgorithmName PdbChecksumAlgorithm" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.CodeAnalysis.Emit.EmitOptions.PdbChecksumAlgorithm" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PdbChecksumAlgorithm As HashAlgorithmName" />
+      <MemberSignature Language="F#" Value="member this.PdbChecksumAlgorithm : System.Security.Cryptography.HashAlgorithmName" Usage="Microsoft.CodeAnalysis.Emit.EmitOptions.PdbChecksumAlgorithm" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Security::Cryptography::HashAlgorithmName PdbChecksumAlgorithm { System::Security::Cryptography::HashAlgorithmName get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Security.Cryptography.HashAlgorithmName</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            A crypto hash algorithm used to calculate PDB Checksum stored in the PE/COFF File.
+            If not specified (the value is <c>default(HashAlgorithmName)</c>) the checksum is not calculated.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="PdbFilePath">
       <MemberSignature Language="C#" Value="public string PdbFilePath { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string PdbFilePath" />
@@ -448,11 +523,11 @@
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PdbFilePath As String" />
       <MemberSignature Language="F#" Value="member this.PdbFilePath : string" Usage="Microsoft.CodeAnalysis.Emit.EmitOptions.PdbFilePath" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ PdbFilePath { System::String ^ get(); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; property Platform::String ^ PdbFilePath { Platform::String ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -474,11 +549,11 @@
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property RuntimeMetadataVersion As String" />
       <MemberSignature Language="F#" Value="member this.RuntimeMetadataVersion : string" Usage="Microsoft.CodeAnalysis.Emit.EmitOptions.RuntimeMetadataVersion" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ RuntimeMetadataVersion { System::String ^ get(); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; property Platform::String ^ RuntimeMetadataVersion { Platform::String ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -501,7 +576,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.SubsystemVersion</ReturnType>
@@ -521,11 +597,11 @@
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TolerateErrors As Boolean" />
       <MemberSignature Language="F#" Value="member this.TolerateErrors : bool" Usage="Microsoft.CodeAnalysis.Emit.EmitOptions.TolerateErrors" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool TolerateErrors { bool get(); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; property bool TolerateErrors { bool get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -548,7 +624,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.Emit.EmitOptions</ReturnType>
@@ -573,7 +650,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.Emit.EmitOptions</ReturnType>
@@ -598,7 +676,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.Emit.EmitOptions</ReturnType>
@@ -623,7 +702,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.Emit.EmitOptions</ReturnType>
@@ -650,7 +730,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.Emit.EmitOptions</ReturnType>
@@ -675,7 +756,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.Emit.EmitOptions</ReturnType>
@@ -700,7 +782,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.Emit.EmitOptions</ReturnType>
@@ -725,7 +808,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.Emit.EmitOptions</ReturnType>
@@ -735,6 +819,32 @@
       </Parameters>
       <Docs>
         <param name="outputName">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WithPdbChecksumAlgorithm">
+      <MemberSignature Language="C#" Value="public Microsoft.CodeAnalysis.Emit.EmitOptions WithPdbChecksumAlgorithm (System.Security.Cryptography.HashAlgorithmName name);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.CodeAnalysis.Emit.EmitOptions WithPdbChecksumAlgorithm(valuetype System.Security.Cryptography.HashAlgorithmName name) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.CodeAnalysis.Emit.EmitOptions.WithPdbChecksumAlgorithm(System.Security.Cryptography.HashAlgorithmName)" />
+      <MemberSignature Language="VB.NET" Value="Public Function WithPdbChecksumAlgorithm (name As HashAlgorithmName) As EmitOptions" />
+      <MemberSignature Language="F#" Value="member this.WithPdbChecksumAlgorithm : System.Security.Cryptography.HashAlgorithmName -&gt; Microsoft.CodeAnalysis.Emit.EmitOptions" Usage="emitOptions.WithPdbChecksumAlgorithm name" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::CodeAnalysis::Emit::EmitOptions ^ WithPdbChecksumAlgorithm(System::Security::Cryptography::HashAlgorithmName name);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.CodeAnalysis.Emit.EmitOptions</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="name" Type="System.Security.Cryptography.HashAlgorithmName" />
+      </Parameters>
+      <Docs>
+        <param name="name">To be added.</param>
         <summary>To be added.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
@@ -750,7 +860,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.Emit.EmitOptions</ReturnType>
@@ -775,7 +886,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.Emit.EmitOptions</ReturnType>
@@ -799,7 +911,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.Emit.EmitOptions</ReturnType>
@@ -824,7 +937,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.Emit.EmitOptions</ReturnType>

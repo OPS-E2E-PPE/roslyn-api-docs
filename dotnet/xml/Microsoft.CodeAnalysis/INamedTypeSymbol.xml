@@ -7,9 +7,16 @@
   <TypeSignature Language="C++ CLI" Value="public interface class INamedTypeSymbol : IEquatable&lt;Microsoft::CodeAnalysis::ISymbol ^&gt;, Microsoft::CodeAnalysis::ITypeSymbol" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-    <AssemblyVersion>2.6.0.0</AssemblyVersion>
+    <AssemblyVersion>2.9.0.0</AssemblyVersion>
+    <AssemblyVersion>3.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.CodeAnalysis.INamespaceOrTypeSymbol</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.CodeAnalysis.ISymbol</InterfaceName>
+    </Interface>
     <Interface>
       <InterfaceName>Microsoft.CodeAnalysis.ITypeSymbol</InterfaceName>
     </Interface>
@@ -34,11 +41,11 @@
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Arity As Integer" />
       <MemberSignature Language="F#" Value="member this.Arity : int" Usage="Microsoft.CodeAnalysis.INamedTypeSymbol.Arity" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Arity { int get(); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; property int Arity { int get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -62,7 +69,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.ISymbol</ReturnType>
@@ -89,7 +97,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.INamedTypeSymbol</ReturnType>
@@ -123,7 +132,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.INamedTypeSymbol</ReturnType>
@@ -148,7 +158,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Immutable.ImmutableArray&lt;Microsoft.CodeAnalysis.IMethodSymbol&gt;</ReturnType>
@@ -171,7 +182,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.INamedTypeSymbol</ReturnType>
@@ -195,7 +207,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.IMethodSymbol</ReturnType>
@@ -222,7 +235,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.INamedTypeSymbol</ReturnType>
@@ -246,7 +260,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Immutable.ImmutableArray&lt;Microsoft.CodeAnalysis.CustomModifier&gt;</ReturnType>
@@ -275,7 +290,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Immutable.ImmutableArray&lt;Microsoft.CodeAnalysis.IMethodSymbol&gt;</ReturnType>
@@ -295,11 +311,11 @@
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsComImport As Boolean" />
       <MemberSignature Language="F#" Value="member this.IsComImport : bool" Usage="Microsoft.CodeAnalysis.INamedTypeSymbol.IsComImport" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsComImport { bool get(); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; property bool IsComImport { bool get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -319,11 +335,11 @@
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsGenericType As Boolean" />
       <MemberSignature Language="F#" Value="member this.IsGenericType : bool" Usage="Microsoft.CodeAnalysis.INamedTypeSymbol.IsGenericType" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsGenericType { bool get(); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; property bool IsGenericType { bool get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -343,11 +359,11 @@
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsImplicitClass As Boolean" />
       <MemberSignature Language="F#" Value="member this.IsImplicitClass : bool" Usage="Microsoft.CodeAnalysis.INamedTypeSymbol.IsImplicitClass" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsImplicitClass { bool get(); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; property bool IsImplicitClass { bool get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -368,11 +384,11 @@
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsScriptClass As Boolean" />
       <MemberSignature Language="F#" Value="member this.IsScriptClass : bool" Usage="Microsoft.CodeAnalysis.INamedTypeSymbol.IsScriptClass" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsScriptClass { bool get(); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; property bool IsScriptClass { bool get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -386,6 +402,30 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="IsSerializable">
+      <MemberSignature Language="C#" Value="public bool IsSerializable { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsSerializable" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.CodeAnalysis.INamedTypeSymbol.IsSerializable" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsSerializable As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsSerializable : bool" Usage="Microsoft.CodeAnalysis.INamedTypeSymbol.IsSerializable" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsSerializable { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            True if the type is serializable (has Serializable metadata flag).
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="IsUnboundGenericType">
       <MemberSignature Language="C#" Value="public bool IsUnboundGenericType { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance bool IsUnboundGenericType" />
@@ -393,11 +433,11 @@
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsUnboundGenericType As Boolean" />
       <MemberSignature Language="F#" Value="member this.IsUnboundGenericType : bool" Usage="Microsoft.CodeAnalysis.INamedTypeSymbol.IsUnboundGenericType" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsUnboundGenericType { bool get(); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; property bool IsUnboundGenericType { bool get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -424,7 +464,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IEnumerable&lt;System.String&gt;</ReturnType>
@@ -444,11 +485,11 @@
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MightContainExtensionMethods As Boolean" />
       <MemberSignature Language="F#" Value="member this.MightContainExtensionMethods : bool" Usage="Microsoft.CodeAnalysis.INamedTypeSymbol.MightContainExtensionMethods" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool MightContainExtensionMethods { bool get(); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; property bool MightContainExtensionMethods { bool get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -472,7 +513,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.INamedTypeSymbol</ReturnType>
@@ -497,7 +539,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Immutable.ImmutableArray&lt;Microsoft.CodeAnalysis.IMethodSymbol&gt;</ReturnType>
@@ -520,7 +563,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Immutable.ImmutableArray&lt;Microsoft.CodeAnalysis.IFieldSymbol&gt;</ReturnType>
@@ -545,7 +589,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.INamedTypeSymbol</ReturnType>
@@ -572,7 +617,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Immutable.ImmutableArray&lt;Microsoft.CodeAnalysis.ITypeSymbol&gt;</ReturnType>
@@ -580,8 +626,32 @@
       <Docs>
         <summary>
             Returns the type arguments that have been substituted for the type parameters. 
-            If nothing has been substituted for a give type parameters,
-            then the type parameter itself is consider the type argument.
+            If nothing has been substituted for a given type parameter,
+            then the type parameter itself is considered the type argument.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TypeArgumentsNullableAnnotations">
+      <MemberSignature Language="C#" Value="public System.Collections.Immutable.ImmutableArray&lt;Microsoft.CodeAnalysis.NullableAnnotation&gt; TypeArgumentsNullableAnnotations { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Collections.Immutable.ImmutableArray`1&lt;valuetype Microsoft.CodeAnalysis.NullableAnnotation&gt; TypeArgumentsNullableAnnotations" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.CodeAnalysis.INamedTypeSymbol.TypeArgumentsNullableAnnotations" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TypeArgumentsNullableAnnotations As ImmutableArray(Of NullableAnnotation)" />
+      <MemberSignature Language="F#" Value="member this.TypeArgumentsNullableAnnotations : System.Collections.Immutable.ImmutableArray&lt;Microsoft.CodeAnalysis.NullableAnnotation&gt;" Usage="Microsoft.CodeAnalysis.INamedTypeSymbol.TypeArgumentsNullableAnnotations" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Immutable.ImmutableArray&lt;Microsoft.CodeAnalysis.NullableAnnotation&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Returns the top-level nullability of the type arguments that have been substituted
+            for the type parameters. If nothing has been substituted for a given type parameter,
+            then <see cref="F:Microsoft.CodeAnalysis.NullableAnnotation.NotApplicable" /> is returned for that type argument.
             </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -597,7 +667,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Immutable.ImmutableArray&lt;Microsoft.CodeAnalysis.ITypeParameterSymbol&gt;</ReturnType>

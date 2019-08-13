@@ -5,10 +5,10 @@
   <TypeSignature Language="VB.NET" Value="Public Class SyntaxFacts" />
   <TypeSignature Language="F#" Value="type SyntaxFacts = class" />
   <TypeSignature Language="C++ CLI" Value="public ref class SyntaxFacts" />
-  <TypeSignature Language="C++ WINRT" Value="[Windows::Foundation::Metadata::WebHostHidden]&#xA;class SyntaxFacts" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-    <AssemblyVersion>2.6.0.0</AssemblyVersion>
+    <AssemblyVersion>2.9.0.0</AssemblyVersion>
+    <AssemblyVersion>3.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -27,12 +27,11 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.CodeAnalysis.VisualBasic.SyntaxFacts.#ctor" />
       <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; SyntaxFacts();" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; SyntaxFacts();" />
-      <MemberSignature Language="C++ WINRT" Value=" SyntaxFacts();" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -50,7 +49,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -115,7 +115,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -180,7 +181,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IEqualityComparer&lt;Microsoft.CodeAnalysis.VisualBasic.SyntaxKind&gt;</ReturnType>
@@ -202,12 +204,11 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function GetAccessorStatementKind (keyword As SyntaxKind) As SyntaxKind" />
       <MemberSignature Language="F#" Value="static member GetAccessorStatementKind : Microsoft.CodeAnalysis.VisualBasic.SyntaxKind -&gt; Microsoft.CodeAnalysis.VisualBasic.SyntaxKind" Usage="Microsoft.CodeAnalysis.VisualBasic.SyntaxFacts.GetAccessorStatementKind keyword" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::CodeAnalysis::VisualBasic::SyntaxKind GetAccessorStatementKind(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind keyword);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static Microsoft::CodeAnalysis::VisualBasic::SyntaxKind GetAccessorStatementKind(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind keyword);" />
-      <MemberSignature Language="C++ WINRT" Value=" static Microsoft::CodeAnalysis::VisualBasic::SyntaxKind GetAccessorStatementKind(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind keyword);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.VisualBasic.SyntaxKind</ReturnType>
@@ -229,12 +230,11 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function GetBaseTypeStatementKind (keyword As SyntaxKind) As SyntaxKind" />
       <MemberSignature Language="F#" Value="static member GetBaseTypeStatementKind : Microsoft.CodeAnalysis.VisualBasic.SyntaxKind -&gt; Microsoft.CodeAnalysis.VisualBasic.SyntaxKind" Usage="Microsoft.CodeAnalysis.VisualBasic.SyntaxFacts.GetBaseTypeStatementKind keyword" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::CodeAnalysis::VisualBasic::SyntaxKind GetBaseTypeStatementKind(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind keyword);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static Microsoft::CodeAnalysis::VisualBasic::SyntaxKind GetBaseTypeStatementKind(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind keyword);" />
-      <MemberSignature Language="C++ WINRT" Value=" static Microsoft::CodeAnalysis::VisualBasic::SyntaxKind GetBaseTypeStatementKind(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind keyword);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.VisualBasic.SyntaxKind</ReturnType>
@@ -256,12 +256,11 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function GetBinaryExpression (keyword As SyntaxKind) As SyntaxKind" />
       <MemberSignature Language="F#" Value="static member GetBinaryExpression : Microsoft.CodeAnalysis.VisualBasic.SyntaxKind -&gt; Microsoft.CodeAnalysis.VisualBasic.SyntaxKind" Usage="Microsoft.CodeAnalysis.VisualBasic.SyntaxFacts.GetBinaryExpression keyword" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::CodeAnalysis::VisualBasic::SyntaxKind GetBinaryExpression(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind keyword);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static Microsoft::CodeAnalysis::VisualBasic::SyntaxKind GetBinaryExpression(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind keyword);" />
-      <MemberSignature Language="C++ WINRT" Value=" static Microsoft::CodeAnalysis::VisualBasic::SyntaxKind GetBinaryExpression(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind keyword);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.VisualBasic.SyntaxKind</ReturnType>
@@ -283,12 +282,11 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function GetBlockName (kind As SyntaxKind) As String" />
       <MemberSignature Language="F#" Value="static member GetBlockName : Microsoft.CodeAnalysis.VisualBasic.SyntaxKind -&gt; string" Usage="Microsoft.CodeAnalysis.VisualBasic.SyntaxFacts.GetBlockName kind" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::String ^ GetBlockName(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static Platform::String ^ GetBlockName(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ WINRT" Value=" static std::wstring GetBlockName(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -312,12 +310,11 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function GetContextualKeywordKind (text As String) As SyntaxKind" />
       <MemberSignature Language="F#" Value="static member GetContextualKeywordKind : string -&gt; Microsoft.CodeAnalysis.VisualBasic.SyntaxKind" Usage="Microsoft.CodeAnalysis.VisualBasic.SyntaxFacts.GetContextualKeywordKind text" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::CodeAnalysis::VisualBasic::SyntaxKind GetContextualKeywordKind(System::String ^ text);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static Microsoft::CodeAnalysis::VisualBasic::SyntaxKind GetContextualKeywordKind(Platform::String ^ text);" />
-      <MemberSignature Language="C++ WINRT" Value=" static Microsoft::CodeAnalysis::VisualBasic::SyntaxKind GetContextualKeywordKind(std::wstring const &amp; text);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.VisualBasic.SyntaxKind</ReturnType>
@@ -342,7 +339,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IEnumerable&lt;Microsoft.CodeAnalysis.VisualBasic.SyntaxKind&gt;</ReturnType>
@@ -363,12 +361,11 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function GetInstanceExpression (kind As SyntaxKind) As SyntaxKind" />
       <MemberSignature Language="F#" Value="static member GetInstanceExpression : Microsoft.CodeAnalysis.VisualBasic.SyntaxKind -&gt; Microsoft.CodeAnalysis.VisualBasic.SyntaxKind" Usage="Microsoft.CodeAnalysis.VisualBasic.SyntaxFacts.GetInstanceExpression kind" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::CodeAnalysis::VisualBasic::SyntaxKind GetInstanceExpression(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static Microsoft::CodeAnalysis::VisualBasic::SyntaxKind GetInstanceExpression(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ WINRT" Value=" static Microsoft::CodeAnalysis::VisualBasic::SyntaxKind GetInstanceExpression(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.VisualBasic.SyntaxKind</ReturnType>
@@ -393,12 +390,11 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function GetKeywordKind (text As String) As SyntaxKind" />
       <MemberSignature Language="F#" Value="static member GetKeywordKind : string -&gt; Microsoft.CodeAnalysis.VisualBasic.SyntaxKind" Usage="Microsoft.CodeAnalysis.VisualBasic.SyntaxFacts.GetKeywordKind text" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::CodeAnalysis::VisualBasic::SyntaxKind GetKeywordKind(System::String ^ text);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static Microsoft::CodeAnalysis::VisualBasic::SyntaxKind GetKeywordKind(Platform::String ^ text);" />
-      <MemberSignature Language="C++ WINRT" Value=" static Microsoft::CodeAnalysis::VisualBasic::SyntaxKind GetKeywordKind(std::wstring const &amp; text);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.VisualBasic.SyntaxKind</ReturnType>
@@ -423,7 +419,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IEnumerable&lt;Microsoft.CodeAnalysis.VisualBasic.SyntaxKind&gt;</ReturnType>
@@ -444,12 +441,11 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function GetLiteralExpression (token As SyntaxKind) As SyntaxKind" />
       <MemberSignature Language="F#" Value="static member GetLiteralExpression : Microsoft.CodeAnalysis.VisualBasic.SyntaxKind -&gt; Microsoft.CodeAnalysis.VisualBasic.SyntaxKind" Usage="Microsoft.CodeAnalysis.VisualBasic.SyntaxFacts.GetLiteralExpression token" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::CodeAnalysis::VisualBasic::SyntaxKind GetLiteralExpression(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind token);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static Microsoft::CodeAnalysis::VisualBasic::SyntaxKind GetLiteralExpression(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind token);" />
-      <MemberSignature Language="C++ WINRT" Value=" static Microsoft::CodeAnalysis::VisualBasic::SyntaxKind GetLiteralExpression(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind token);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.VisualBasic.SyntaxKind</ReturnType>
@@ -471,12 +467,11 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function GetOperatorKind (operatorMetadataName As String) As SyntaxKind" />
       <MemberSignature Language="F#" Value="static member GetOperatorKind : string -&gt; Microsoft.CodeAnalysis.VisualBasic.SyntaxKind" Usage="Microsoft.CodeAnalysis.VisualBasic.SyntaxFacts.GetOperatorKind operatorMetadataName" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::CodeAnalysis::VisualBasic::SyntaxKind GetOperatorKind(System::String ^ operatorMetadataName);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static Microsoft::CodeAnalysis::VisualBasic::SyntaxKind GetOperatorKind(Platform::String ^ operatorMetadataName);" />
-      <MemberSignature Language="C++ WINRT" Value=" static Microsoft::CodeAnalysis::VisualBasic::SyntaxKind GetOperatorKind(std::wstring const &amp; operatorMetadataName);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.VisualBasic.SyntaxKind</ReturnType>
@@ -498,12 +493,11 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function GetPreprocessorKeywordKind (text As String) As SyntaxKind" />
       <MemberSignature Language="F#" Value="static member GetPreprocessorKeywordKind : string -&gt; Microsoft.CodeAnalysis.VisualBasic.SyntaxKind" Usage="Microsoft.CodeAnalysis.VisualBasic.SyntaxFacts.GetPreprocessorKeywordKind text" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::CodeAnalysis::VisualBasic::SyntaxKind GetPreprocessorKeywordKind(System::String ^ text);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static Microsoft::CodeAnalysis::VisualBasic::SyntaxKind GetPreprocessorKeywordKind(Platform::String ^ text);" />
-      <MemberSignature Language="C++ WINRT" Value=" static Microsoft::CodeAnalysis::VisualBasic::SyntaxKind GetPreprocessorKeywordKind(std::wstring const &amp; text);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.VisualBasic.SyntaxKind</ReturnType>
@@ -528,7 +522,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IEnumerable&lt;Microsoft.CodeAnalysis.VisualBasic.SyntaxKind&gt;</ReturnType>
@@ -552,7 +547,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IEnumerable&lt;Microsoft.CodeAnalysis.VisualBasic.SyntaxKind&gt;</ReturnType>
@@ -576,7 +572,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IEnumerable&lt;Microsoft.CodeAnalysis.VisualBasic.SyntaxKind&gt;</ReturnType>
@@ -596,12 +593,11 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.CodeAnalysis.VisualBasic.SyntaxFacts.GetText(Microsoft.CodeAnalysis.Accessibility)" />
       <MemberSignature Language="F#" Value="static member GetText : Microsoft.CodeAnalysis.Accessibility -&gt; string" Usage="Microsoft.CodeAnalysis.VisualBasic.SyntaxFacts.GetText accessibility" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::String ^ GetText(Microsoft::CodeAnalysis::Accessibility accessibility);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static Platform::String ^ GetText(Microsoft::CodeAnalysis::Accessibility accessibility);" />
-      <MemberSignature Language="C++ WINRT" Value=" static std::wstring GetText(Microsoft::CodeAnalysis::Accessibility accessibility);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -623,12 +619,11 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function GetText (kind As SyntaxKind) As String" />
       <MemberSignature Language="F#" Value="static member GetText : Microsoft.CodeAnalysis.VisualBasic.SyntaxKind -&gt; string" Usage="Microsoft.CodeAnalysis.VisualBasic.SyntaxFacts.GetText kind" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::String ^ GetText(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static Platform::String ^ GetText(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ WINRT" Value=" static std::wstring GetText(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -652,12 +647,11 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function GetTypeStatementKind (keyword As SyntaxKind) As SyntaxKind" />
       <MemberSignature Language="F#" Value="static member GetTypeStatementKind : Microsoft.CodeAnalysis.VisualBasic.SyntaxKind -&gt; Microsoft.CodeAnalysis.VisualBasic.SyntaxKind" Usage="Microsoft.CodeAnalysis.VisualBasic.SyntaxFacts.GetTypeStatementKind keyword" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::CodeAnalysis::VisualBasic::SyntaxKind GetTypeStatementKind(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind keyword);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static Microsoft::CodeAnalysis::VisualBasic::SyntaxKind GetTypeStatementKind(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind keyword);" />
-      <MemberSignature Language="C++ WINRT" Value=" static Microsoft::CodeAnalysis::VisualBasic::SyntaxKind GetTypeStatementKind(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind keyword);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.VisualBasic.SyntaxKind</ReturnType>
@@ -679,12 +673,11 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function GetUnaryExpression (token As SyntaxKind) As SyntaxKind" />
       <MemberSignature Language="F#" Value="static member GetUnaryExpression : Microsoft.CodeAnalysis.VisualBasic.SyntaxKind -&gt; Microsoft.CodeAnalysis.VisualBasic.SyntaxKind" Usage="Microsoft.CodeAnalysis.VisualBasic.SyntaxFacts.GetUnaryExpression token" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::CodeAnalysis::VisualBasic::SyntaxKind GetUnaryExpression(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind token);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static Microsoft::CodeAnalysis::VisualBasic::SyntaxKind GetUnaryExpression(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind token);" />
-      <MemberSignature Language="C++ WINRT" Value=" static Microsoft::CodeAnalysis::VisualBasic::SyntaxKind GetUnaryExpression(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind token);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.VisualBasic.SyntaxKind</ReturnType>
@@ -706,12 +699,11 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function IsAccessibilityModifier (kind As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsAccessibilityModifier : Microsoft.CodeAnalysis.VisualBasic.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.VisualBasic.SyntaxFacts.IsAccessibilityModifier kind" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsAccessibilityModifier(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsAccessibilityModifier(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsAccessibilityModifier(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -733,12 +725,11 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function IsAccessorBlock (kind As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsAccessorBlock : Microsoft.CodeAnalysis.VisualBasic.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.VisualBasic.SyntaxFacts.IsAccessorBlock kind" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsAccessorBlock(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsAccessorBlock(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsAccessorBlock(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -760,12 +751,11 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function IsAccessorStatement (kind As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsAccessorStatement : Microsoft.CodeAnalysis.VisualBasic.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.VisualBasic.SyntaxFacts.IsAccessorStatement kind" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsAccessorStatement(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsAccessorStatement(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsAccessorStatement(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -787,12 +777,11 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function IsAccessorStatementAccessorKeyword (kind As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsAccessorStatementAccessorKeyword : Microsoft.CodeAnalysis.VisualBasic.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.VisualBasic.SyntaxFacts.IsAccessorStatementAccessorKeyword kind" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsAccessorStatementAccessorKeyword(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsAccessorStatementAccessorKeyword(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsAccessorStatementAccessorKeyword(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -814,16 +803,15 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function IsAccessorStatementKeyword (kind As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsAccessorStatementKeyword : Microsoft.CodeAnalysis.VisualBasic.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.VisualBasic.SyntaxFacts.IsAccessorStatementKeyword kind" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsAccessorStatementKeyword(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsAccessorStatementKeyword(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsAccessorStatementKeyword(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
+          <AttributeName>System.ComponentModel.EditorBrowsable</AttributeName>
         </Attribute>
         <Attribute>
           <AttributeName>System.Obsolete("This member is obsolete. Use IsAccessorStatementAccessorKeyword instead.", true)</AttributeName>
@@ -849,12 +837,11 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function IsAddRemoveHandlerStatement (kind As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsAddRemoveHandlerStatement : Microsoft.CodeAnalysis.VisualBasic.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.VisualBasic.SyntaxFacts.IsAddRemoveHandlerStatement kind" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsAddRemoveHandlerStatement(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsAddRemoveHandlerStatement(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsAddRemoveHandlerStatement(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -876,12 +863,11 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function IsAddRemoveHandlerStatementAddHandlerOrRemoveHandlerKeyword (kind As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsAddRemoveHandlerStatementAddHandlerOrRemoveHandlerKeyword : Microsoft.CodeAnalysis.VisualBasic.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.VisualBasic.SyntaxFacts.IsAddRemoveHandlerStatementAddHandlerOrRemoveHandlerKeyword kind" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsAddRemoveHandlerStatementAddHandlerOrRemoveHandlerKeyword(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsAddRemoveHandlerStatementAddHandlerOrRemoveHandlerKeyword(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsAddRemoveHandlerStatementAddHandlerOrRemoveHandlerKeyword(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -903,12 +889,11 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function IsAddressOfOperand (node As ExpressionSyntax) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsAddressOfOperand : Microsoft.CodeAnalysis.VisualBasic.Syntax.ExpressionSyntax -&gt; bool" Usage="Microsoft.CodeAnalysis.VisualBasic.SyntaxFacts.IsAddressOfOperand node" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsAddressOfOperand(Microsoft::CodeAnalysis::VisualBasic::Syntax::ExpressionSyntax ^ node);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsAddressOfOperand(Microsoft::CodeAnalysis::VisualBasic::Syntax::ExpressionSyntax ^ node);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsAddressOfOperand(Microsoft::CodeAnalysis::VisualBasic::Syntax::ExpressionSyntax const &amp; node);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -932,12 +917,11 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function IsAnyToken (kind As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsAnyToken : Microsoft.CodeAnalysis.VisualBasic.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.VisualBasic.SyntaxFacts.IsAnyToken kind" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsAnyToken(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsAnyToken(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsAnyToken(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -959,12 +943,11 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function IsAssignmentStatement (kind As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsAssignmentStatement : Microsoft.CodeAnalysis.VisualBasic.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.VisualBasic.SyntaxFacts.IsAssignmentStatement kind" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsAssignmentStatement(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsAssignmentStatement(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsAssignmentStatement(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -986,12 +969,11 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function IsAssignmentStatementOperatorToken (kind As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsAssignmentStatementOperatorToken : Microsoft.CodeAnalysis.VisualBasic.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.VisualBasic.SyntaxFacts.IsAssignmentStatementOperatorToken kind" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsAssignmentStatementOperatorToken(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsAssignmentStatementOperatorToken(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsAssignmentStatementOperatorToken(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -1013,12 +995,11 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function IsAttributeName (node As SyntaxNode) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsAttributeName : Microsoft.CodeAnalysis.SyntaxNode -&gt; bool" Usage="Microsoft.CodeAnalysis.VisualBasic.SyntaxFacts.IsAttributeName node" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsAttributeName(Microsoft::CodeAnalysis::SyntaxNode ^ node);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsAttributeName(Microsoft::CodeAnalysis::SyntaxNode ^ node);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsAttributeName(Microsoft::CodeAnalysis::SyntaxNode const &amp; node);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -1044,12 +1025,11 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function IsAttributeTargetAttributeModifier (kind As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsAttributeTargetAttributeModifier : Microsoft.CodeAnalysis.VisualBasic.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.VisualBasic.SyntaxFacts.IsAttributeTargetAttributeModifier kind" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsAttributeTargetAttributeModifier(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsAttributeTargetAttributeModifier(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsAttributeTargetAttributeModifier(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -1071,12 +1051,11 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function IsBinaryExpression (kind As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsBinaryExpression : Microsoft.CodeAnalysis.VisualBasic.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.VisualBasic.SyntaxFacts.IsBinaryExpression kind" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsBinaryExpression(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsBinaryExpression(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsBinaryExpression(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -1098,12 +1077,11 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function IsBinaryExpressionOperatorToken (kind As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsBinaryExpressionOperatorToken : Microsoft.CodeAnalysis.VisualBasic.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.VisualBasic.SyntaxFacts.IsBinaryExpressionOperatorToken kind" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsBinaryExpressionOperatorToken(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsBinaryExpressionOperatorToken(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsBinaryExpressionOperatorToken(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -1125,12 +1103,11 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function IsCaseBlock (kind As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsCaseBlock : Microsoft.CodeAnalysis.VisualBasic.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.VisualBasic.SyntaxFacts.IsCaseBlock kind" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsCaseBlock(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsCaseBlock(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsCaseBlock(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -1152,12 +1129,11 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function IsCaseStatement (kind As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsCaseStatement : Microsoft.CodeAnalysis.VisualBasic.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.VisualBasic.SyntaxFacts.IsCaseStatement kind" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsCaseStatement(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsCaseStatement(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsCaseStatement(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -1179,12 +1155,11 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function IsColon (c As Char) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsColon : char -&gt; bool" Usage="Microsoft.CodeAnalysis.VisualBasic.SyntaxFacts.IsColon c" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsColon(char c);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsColon(char16 c);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsColon(char c);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -1208,12 +1183,11 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function IsContextualKeyword (kind As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsContextualKeyword : Microsoft.CodeAnalysis.VisualBasic.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.VisualBasic.SyntaxFacts.IsContextualKeyword kind" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsContextualKeyword(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsContextualKeyword(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsContextualKeyword(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -1237,12 +1211,11 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function IsContinueStatement (kind As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsContinueStatement : Microsoft.CodeAnalysis.VisualBasic.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.VisualBasic.SyntaxFacts.IsContinueStatement kind" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsContinueStatement(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsContinueStatement(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsContinueStatement(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -1264,12 +1237,11 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function IsContinueStatementBlockKeyword (kind As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsContinueStatementBlockKeyword : Microsoft.CodeAnalysis.VisualBasic.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.VisualBasic.SyntaxFacts.IsContinueStatementBlockKeyword kind" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsContinueStatementBlockKeyword(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsContinueStatementBlockKeyword(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsContinueStatementBlockKeyword(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -1291,12 +1263,11 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function IsCrefOperatorReferenceOperatorToken (kind As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsCrefOperatorReferenceOperatorToken : Microsoft.CodeAnalysis.VisualBasic.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.VisualBasic.SyntaxFacts.IsCrefOperatorReferenceOperatorToken kind" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsCrefOperatorReferenceOperatorToken(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsCrefOperatorReferenceOperatorToken(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsCrefOperatorReferenceOperatorToken(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -1318,12 +1289,11 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function IsCrefSignaturePartModifier (kind As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsCrefSignaturePartModifier : Microsoft.CodeAnalysis.VisualBasic.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.VisualBasic.SyntaxFacts.IsCrefSignaturePartModifier kind" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsCrefSignaturePartModifier(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsCrefSignaturePartModifier(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsCrefSignaturePartModifier(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -1345,12 +1315,11 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function IsDeclareStatement (kind As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsDeclareStatement : Microsoft.CodeAnalysis.VisualBasic.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.VisualBasic.SyntaxFacts.IsDeclareStatement kind" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsDeclareStatement(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsDeclareStatement(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsDeclareStatement(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -1372,12 +1341,11 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function IsDeclareStatementCharsetKeyword (kind As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsDeclareStatementCharsetKeyword : Microsoft.CodeAnalysis.VisualBasic.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.VisualBasic.SyntaxFacts.IsDeclareStatementCharsetKeyword kind" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsDeclareStatementCharsetKeyword(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsDeclareStatementCharsetKeyword(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsDeclareStatementCharsetKeyword(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -1399,16 +1367,15 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function IsDeclareStatementKeyword (kind As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsDeclareStatementKeyword : Microsoft.CodeAnalysis.VisualBasic.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.VisualBasic.SyntaxFacts.IsDeclareStatementKeyword kind" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsDeclareStatementKeyword(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsDeclareStatementKeyword(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsDeclareStatementKeyword(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
+          <AttributeName>System.ComponentModel.EditorBrowsable</AttributeName>
         </Attribute>
         <Attribute>
           <AttributeName>System.Obsolete("This member is obsolete. Use IsDeclareStatementSubOrFunctionKeyword instead.", true)</AttributeName>
@@ -1434,12 +1401,11 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function IsDeclareStatementSubOrFunctionKeyword (kind As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsDeclareStatementSubOrFunctionKeyword : Microsoft.CodeAnalysis.VisualBasic.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.VisualBasic.SyntaxFacts.IsDeclareStatementSubOrFunctionKeyword kind" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsDeclareStatementSubOrFunctionKeyword(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsDeclareStatementSubOrFunctionKeyword(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsDeclareStatementSubOrFunctionKeyword(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -1461,12 +1427,11 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function IsDelegateStatement (kind As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsDelegateStatement : Microsoft.CodeAnalysis.VisualBasic.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.VisualBasic.SyntaxFacts.IsDelegateStatement kind" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsDelegateStatement(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsDelegateStatement(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsDelegateStatement(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -1488,16 +1453,15 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function IsDelegateStatementKeyword (kind As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsDelegateStatementKeyword : Microsoft.CodeAnalysis.VisualBasic.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.VisualBasic.SyntaxFacts.IsDelegateStatementKeyword kind" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsDelegateStatementKeyword(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsDelegateStatementKeyword(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsDelegateStatementKeyword(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
+          <AttributeName>System.ComponentModel.EditorBrowsable</AttributeName>
         </Attribute>
         <Attribute>
           <AttributeName>System.Obsolete("This member is obsolete. Use IsDelegateStatementSubOrFunctionKeyword instead.", true)</AttributeName>
@@ -1523,12 +1487,11 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function IsDelegateStatementSubOrFunctionKeyword (kind As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsDelegateStatementSubOrFunctionKeyword : Microsoft.CodeAnalysis.VisualBasic.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.VisualBasic.SyntaxFacts.IsDelegateStatementSubOrFunctionKeyword kind" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsDelegateStatementSubOrFunctionKeyword(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsDelegateStatementSubOrFunctionKeyword(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsDelegateStatementSubOrFunctionKeyword(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -1550,12 +1513,11 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function IsDoLoopBlock (kind As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsDoLoopBlock : Microsoft.CodeAnalysis.VisualBasic.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.VisualBasic.SyntaxFacts.IsDoLoopBlock kind" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsDoLoopBlock(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsDoLoopBlock(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsDoLoopBlock(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -1577,12 +1539,11 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function IsDoStatement (kind As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsDoStatement : Microsoft.CodeAnalysis.VisualBasic.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.VisualBasic.SyntaxFacts.IsDoStatement kind" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsDoStatement(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsDoStatement(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsDoStatement(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -1604,12 +1565,11 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function IsEndBlockStatement (kind As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsEndBlockStatement : Microsoft.CodeAnalysis.VisualBasic.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.VisualBasic.SyntaxFacts.IsEndBlockStatement kind" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsEndBlockStatement(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsEndBlockStatement(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsEndBlockStatement(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -1631,12 +1591,11 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function IsEndBlockStatementBlockKeyword (kind As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsEndBlockStatementBlockKeyword : Microsoft.CodeAnalysis.VisualBasic.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.VisualBasic.SyntaxFacts.IsEndBlockStatementBlockKeyword kind" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsEndBlockStatementBlockKeyword(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsEndBlockStatementBlockKeyword(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsEndBlockStatementBlockKeyword(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -1658,12 +1617,11 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function IsExitStatement (kind As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsExitStatement : Microsoft.CodeAnalysis.VisualBasic.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.VisualBasic.SyntaxFacts.IsExitStatement kind" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsExitStatement(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsExitStatement(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsExitStatement(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -1685,12 +1643,11 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function IsExitStatementBlockKeyword (kind As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsExitStatementBlockKeyword : Microsoft.CodeAnalysis.VisualBasic.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.VisualBasic.SyntaxFacts.IsExitStatementBlockKeyword kind" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsExitStatementBlockKeyword(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsExitStatementBlockKeyword(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsExitStatementBlockKeyword(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -1712,12 +1669,11 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function IsHash (c As Char) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsHash : char -&gt; bool" Usage="Microsoft.CodeAnalysis.VisualBasic.SyntaxFacts.IsHash c" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsHash(char c);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsHash(char16 c);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsHash(char c);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -1741,12 +1697,11 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function IsIdentifierPartCharacter (c As Char) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsIdentifierPartCharacter : char -&gt; bool" Usage="Microsoft.CodeAnalysis.VisualBasic.SyntaxFacts.IsIdentifierPartCharacter c" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsIdentifierPartCharacter(char c);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsIdentifierPartCharacter(char16 c);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsIdentifierPartCharacter(char c);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -1770,12 +1725,11 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function IsIdentifierStartCharacter (c As Char) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsIdentifierStartCharacter : char -&gt; bool" Usage="Microsoft.CodeAnalysis.VisualBasic.SyntaxFacts.IsIdentifierStartCharacter c" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsIdentifierStartCharacter(char c);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsIdentifierStartCharacter(char16 c);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsIdentifierStartCharacter(char c);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -1799,12 +1753,11 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function IsIfDirectiveTrivia (kind As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsIfDirectiveTrivia : Microsoft.CodeAnalysis.VisualBasic.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.VisualBasic.SyntaxFacts.IsIfDirectiveTrivia kind" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsIfDirectiveTrivia(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsIfDirectiveTrivia(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsIfDirectiveTrivia(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -1826,12 +1779,11 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function IsIfDirectiveTriviaIfOrElseIfKeyword (kind As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsIfDirectiveTriviaIfOrElseIfKeyword : Microsoft.CodeAnalysis.VisualBasic.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.VisualBasic.SyntaxFacts.IsIfDirectiveTriviaIfOrElseIfKeyword kind" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsIfDirectiveTriviaIfOrElseIfKeyword(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsIfDirectiveTriviaIfOrElseIfKeyword(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsIfDirectiveTriviaIfOrElseIfKeyword(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -1853,12 +1805,11 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function IsInNamespaceOrTypeContext (node As SyntaxNode) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsInNamespaceOrTypeContext : Microsoft.CodeAnalysis.SyntaxNode -&gt; bool" Usage="Microsoft.CodeAnalysis.VisualBasic.SyntaxFacts.IsInNamespaceOrTypeContext node" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsInNamespaceOrTypeContext(Microsoft::CodeAnalysis::SyntaxNode ^ node);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsInNamespaceOrTypeContext(Microsoft::CodeAnalysis::SyntaxNode ^ node);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsInNamespaceOrTypeContext(Microsoft::CodeAnalysis::SyntaxNode const &amp; node);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -1880,12 +1831,11 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function IsInstanceExpression (kind As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsInstanceExpression : Microsoft.CodeAnalysis.VisualBasic.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.VisualBasic.SyntaxFacts.IsInstanceExpression kind" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsInstanceExpression(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsInstanceExpression(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsInstanceExpression(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -1909,12 +1859,11 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function IsInTypeOnlyContext (node As ExpressionSyntax) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsInTypeOnlyContext : Microsoft.CodeAnalysis.VisualBasic.Syntax.ExpressionSyntax -&gt; bool" Usage="Microsoft.CodeAnalysis.VisualBasic.SyntaxFacts.IsInTypeOnlyContext node" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsInTypeOnlyContext(Microsoft::CodeAnalysis::VisualBasic::Syntax::ExpressionSyntax ^ node);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsInTypeOnlyContext(Microsoft::CodeAnalysis::VisualBasic::Syntax::ExpressionSyntax ^ node);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsInTypeOnlyContext(Microsoft::CodeAnalysis::VisualBasic::Syntax::ExpressionSyntax const &amp; node);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -1936,12 +1885,11 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function IsInvocationOrAddressOfOperand (node As ExpressionSyntax) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsInvocationOrAddressOfOperand : Microsoft.CodeAnalysis.VisualBasic.Syntax.ExpressionSyntax -&gt; bool" Usage="Microsoft.CodeAnalysis.VisualBasic.SyntaxFacts.IsInvocationOrAddressOfOperand node" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsInvocationOrAddressOfOperand(Microsoft::CodeAnalysis::VisualBasic::Syntax::ExpressionSyntax ^ node);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsInvocationOrAddressOfOperand(Microsoft::CodeAnalysis::VisualBasic::Syntax::ExpressionSyntax ^ node);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsInvocationOrAddressOfOperand(Microsoft::CodeAnalysis::VisualBasic::Syntax::ExpressionSyntax const &amp; node);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -1967,12 +1915,11 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function IsInvoked (node As ExpressionSyntax) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsInvoked : Microsoft.CodeAnalysis.VisualBasic.Syntax.ExpressionSyntax -&gt; bool" Usage="Microsoft.CodeAnalysis.VisualBasic.SyntaxFacts.IsInvoked node" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsInvoked(Microsoft::CodeAnalysis::VisualBasic::Syntax::ExpressionSyntax ^ node);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsInvoked(Microsoft::CodeAnalysis::VisualBasic::Syntax::ExpressionSyntax ^ node);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsInvoked(Microsoft::CodeAnalysis::VisualBasic::Syntax::ExpressionSyntax const &amp; node);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -1996,12 +1943,11 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function IsKeywordEventContainerKeyword (kind As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsKeywordEventContainerKeyword : Microsoft.CodeAnalysis.VisualBasic.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.VisualBasic.SyntaxFacts.IsKeywordEventContainerKeyword kind" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsKeywordEventContainerKeyword(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsKeywordEventContainerKeyword(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsKeywordEventContainerKeyword(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -2023,12 +1969,11 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function IsKeywordKind (kind As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsKeywordKind : Microsoft.CodeAnalysis.VisualBasic.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.VisualBasic.SyntaxFacts.IsKeywordKind kind" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsKeywordKind(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsKeywordKind(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsKeywordKind(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -2050,12 +1995,11 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function IsLabel (kind As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsLabel : Microsoft.CodeAnalysis.VisualBasic.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.VisualBasic.SyntaxFacts.IsLabel kind" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsLabel(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsLabel(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsLabel(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -2077,12 +2021,11 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function IsLabelLabelToken (kind As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsLabelLabelToken : Microsoft.CodeAnalysis.VisualBasic.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.VisualBasic.SyntaxFacts.IsLabelLabelToken kind" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsLabelLabelToken(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsLabelLabelToken(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsLabelLabelToken(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -2104,12 +2047,11 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function IsLabelStatementLabelToken (kind As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsLabelStatementLabelToken : Microsoft.CodeAnalysis.VisualBasic.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.VisualBasic.SyntaxFacts.IsLabelStatementLabelToken kind" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsLabelStatementLabelToken(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsLabelStatementLabelToken(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsLabelStatementLabelToken(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -2131,12 +2073,11 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function IsLambdaHeader (kind As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsLambdaHeader : Microsoft.CodeAnalysis.VisualBasic.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.VisualBasic.SyntaxFacts.IsLambdaHeader kind" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsLambdaHeader(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsLambdaHeader(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsLambdaHeader(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -2158,16 +2099,15 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function IsLambdaHeaderKeyword (kind As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsLambdaHeaderKeyword : Microsoft.CodeAnalysis.VisualBasic.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.VisualBasic.SyntaxFacts.IsLambdaHeaderKeyword kind" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsLambdaHeaderKeyword(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsLambdaHeaderKeyword(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsLambdaHeaderKeyword(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
+          <AttributeName>System.ComponentModel.EditorBrowsable</AttributeName>
         </Attribute>
         <Attribute>
           <AttributeName>System.Obsolete("This member is obsolete. Use IsLambdaHeaderSubOrFunctionKeyword instead.", true)</AttributeName>
@@ -2193,12 +2133,11 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function IsLambdaHeaderSubOrFunctionKeyword (kind As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsLambdaHeaderSubOrFunctionKeyword : Microsoft.CodeAnalysis.VisualBasic.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.VisualBasic.SyntaxFacts.IsLambdaHeaderSubOrFunctionKeyword kind" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsLambdaHeaderSubOrFunctionKeyword(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsLambdaHeaderSubOrFunctionKeyword(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsLambdaHeaderSubOrFunctionKeyword(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -2220,12 +2159,11 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function IsLanguagePunctuation (kind As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsLanguagePunctuation : Microsoft.CodeAnalysis.VisualBasic.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.VisualBasic.SyntaxFacts.IsLanguagePunctuation kind" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsLanguagePunctuation(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsLanguagePunctuation(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsLanguagePunctuation(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -2247,12 +2185,11 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function IsLiteralExpression (kind As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsLiteralExpression : Microsoft.CodeAnalysis.VisualBasic.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.VisualBasic.SyntaxFacts.IsLiteralExpression kind" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsLiteralExpression(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsLiteralExpression(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsLiteralExpression(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -2274,12 +2211,11 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function IsLiteralExpressionToken (kind As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsLiteralExpressionToken : Microsoft.CodeAnalysis.VisualBasic.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.VisualBasic.SyntaxFacts.IsLiteralExpressionToken kind" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsLiteralExpressionToken(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsLiteralExpressionToken(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsLiteralExpressionToken(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -2301,12 +2237,11 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function IsLoopStatement (kind As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsLoopStatement : Microsoft.CodeAnalysis.VisualBasic.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.VisualBasic.SyntaxFacts.IsLoopStatement kind" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsLoopStatement(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsLoopStatement(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsLoopStatement(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -2328,12 +2263,11 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function IsMemberAccessExpression (kind As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsMemberAccessExpression : Microsoft.CodeAnalysis.VisualBasic.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.VisualBasic.SyntaxFacts.IsMemberAccessExpression kind" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsMemberAccessExpression(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsMemberAccessExpression(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsMemberAccessExpression(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -2355,12 +2289,11 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function IsMemberAccessExpressionOperatorToken (kind As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsMemberAccessExpressionOperatorToken : Microsoft.CodeAnalysis.VisualBasic.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.VisualBasic.SyntaxFacts.IsMemberAccessExpressionOperatorToken kind" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsMemberAccessExpressionOperatorToken(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsMemberAccessExpressionOperatorToken(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsMemberAccessExpressionOperatorToken(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -2382,12 +2315,11 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function IsMethodBlock (kind As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsMethodBlock : Microsoft.CodeAnalysis.VisualBasic.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.VisualBasic.SyntaxFacts.IsMethodBlock kind" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsMethodBlock(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsMethodBlock(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsMethodBlock(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -2409,12 +2341,11 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function IsMethodStatement (kind As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsMethodStatement : Microsoft.CodeAnalysis.VisualBasic.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.VisualBasic.SyntaxFacts.IsMethodStatement kind" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsMethodStatement(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsMethodStatement(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsMethodStatement(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -2436,16 +2367,15 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function IsMethodStatementKeyword (kind As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsMethodStatementKeyword : Microsoft.CodeAnalysis.VisualBasic.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.VisualBasic.SyntaxFacts.IsMethodStatementKeyword kind" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsMethodStatementKeyword(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsMethodStatementKeyword(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsMethodStatementKeyword(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
+          <AttributeName>System.ComponentModel.EditorBrowsable</AttributeName>
         </Attribute>
         <Attribute>
           <AttributeName>System.Obsolete("This member is obsolete. Use IsMethodStatementSubOrFunctionKeyword instead.", true)</AttributeName>
@@ -2471,12 +2401,11 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function IsMethodStatementSubOrFunctionKeyword (kind As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsMethodStatementSubOrFunctionKeyword : Microsoft.CodeAnalysis.VisualBasic.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.VisualBasic.SyntaxFacts.IsMethodStatementSubOrFunctionKeyword kind" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsMethodStatementSubOrFunctionKeyword(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsMethodStatementSubOrFunctionKeyword(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsMethodStatementSubOrFunctionKeyword(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -2498,12 +2427,11 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function IsMultiLineLambdaExpression (kind As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsMultiLineLambdaExpression : Microsoft.CodeAnalysis.VisualBasic.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.VisualBasic.SyntaxFacts.IsMultiLineLambdaExpression kind" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsMultiLineLambdaExpression(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsMultiLineLambdaExpression(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsMultiLineLambdaExpression(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -2525,12 +2453,11 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function IsName (kind As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsName : Microsoft.CodeAnalysis.VisualBasic.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.VisualBasic.SyntaxFacts.IsName kind" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsName(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsName(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsName(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -2552,12 +2479,11 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function IsNamedArgumentName (node As SyntaxNode) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsNamedArgumentName : Microsoft.CodeAnalysis.SyntaxNode -&gt; bool" Usage="Microsoft.CodeAnalysis.VisualBasic.SyntaxFacts.IsNamedArgumentName node" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsNamedArgumentName(Microsoft::CodeAnalysis::SyntaxNode ^ node);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsNamedArgumentName(Microsoft::CodeAnalysis::SyntaxNode ^ node);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsNamedArgumentName(Microsoft::CodeAnalysis::SyntaxNode const &amp; node);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -2582,12 +2508,11 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function IsNamespaceMemberDeclaration (kind As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsNamespaceMemberDeclaration : Microsoft.CodeAnalysis.VisualBasic.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.VisualBasic.SyntaxFacts.IsNamespaceMemberDeclaration kind" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsNamespaceMemberDeclaration(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsNamespaceMemberDeclaration(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsNamespaceMemberDeclaration(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -2609,12 +2534,11 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function IsNewLine (c As Char) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsNewLine : char -&gt; bool" Usage="Microsoft.CodeAnalysis.VisualBasic.SyntaxFacts.IsNewLine c" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsNewLine(char c);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsNewLine(char16 c);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsNewLine(char c);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -2638,12 +2562,11 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function IsOnErrorGoToStatement (kind As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsOnErrorGoToStatement : Microsoft.CodeAnalysis.VisualBasic.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.VisualBasic.SyntaxFacts.IsOnErrorGoToStatement kind" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsOnErrorGoToStatement(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsOnErrorGoToStatement(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsOnErrorGoToStatement(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -2665,12 +2588,11 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function IsOperator (kind As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsOperator : Microsoft.CodeAnalysis.VisualBasic.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.VisualBasic.SyntaxFacts.IsOperator kind" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsOperator(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsOperator(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsOperator(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -2692,12 +2614,11 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function IsOperatorStatementOperatorToken (kind As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsOperatorStatementOperatorToken : Microsoft.CodeAnalysis.VisualBasic.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.VisualBasic.SyntaxFacts.IsOperatorStatementOperatorToken kind" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsOperatorStatementOperatorToken(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsOperatorStatementOperatorToken(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsOperatorStatementOperatorToken(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -2719,12 +2640,11 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function IsOptionStatementNameKeyword (kind As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsOptionStatementNameKeyword : Microsoft.CodeAnalysis.VisualBasic.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.VisualBasic.SyntaxFacts.IsOptionStatementNameKeyword kind" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsOptionStatementNameKeyword(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsOptionStatementNameKeyword(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsOptionStatementNameKeyword(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -2746,12 +2666,11 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function IsOptionStatementValueKeyword (kind As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsOptionStatementValueKeyword : Microsoft.CodeAnalysis.VisualBasic.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.VisualBasic.SyntaxFacts.IsOptionStatementValueKeyword kind" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsOptionStatementValueKeyword(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsOptionStatementValueKeyword(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsOptionStatementValueKeyword(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -2773,12 +2692,11 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function IsOrdering (kind As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsOrdering : Microsoft.CodeAnalysis.VisualBasic.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.VisualBasic.SyntaxFacts.IsOrdering kind" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsOrdering(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsOrdering(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsOrdering(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -2800,12 +2718,11 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function IsOrderingAscendingOrDescendingKeyword (kind As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsOrderingAscendingOrDescendingKeyword : Microsoft.CodeAnalysis.VisualBasic.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.VisualBasic.SyntaxFacts.IsOrderingAscendingOrDescendingKeyword kind" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsOrderingAscendingOrDescendingKeyword(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsOrderingAscendingOrDescendingKeyword(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsOrderingAscendingOrDescendingKeyword(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -2827,12 +2744,11 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function IsPartitionClause (kind As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsPartitionClause : Microsoft.CodeAnalysis.VisualBasic.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.VisualBasic.SyntaxFacts.IsPartitionClause kind" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsPartitionClause(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsPartitionClause(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsPartitionClause(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -2854,12 +2770,11 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function IsPartitionClauseSkipOrTakeKeyword (kind As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsPartitionClauseSkipOrTakeKeyword : Microsoft.CodeAnalysis.VisualBasic.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.VisualBasic.SyntaxFacts.IsPartitionClauseSkipOrTakeKeyword kind" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsPartitionClauseSkipOrTakeKeyword(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsPartitionClauseSkipOrTakeKeyword(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsPartitionClauseSkipOrTakeKeyword(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -2881,12 +2796,11 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function IsPartitionWhileClause (kind As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsPartitionWhileClause : Microsoft.CodeAnalysis.VisualBasic.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.VisualBasic.SyntaxFacts.IsPartitionWhileClause kind" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsPartitionWhileClause(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsPartitionWhileClause(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsPartitionWhileClause(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -2908,12 +2822,11 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function IsPartitionWhileClauseSkipOrTakeKeyword (kind As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsPartitionWhileClauseSkipOrTakeKeyword : Microsoft.CodeAnalysis.VisualBasic.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.VisualBasic.SyntaxFacts.IsPartitionWhileClauseSkipOrTakeKeyword kind" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsPartitionWhileClauseSkipOrTakeKeyword(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsPartitionWhileClauseSkipOrTakeKeyword(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsPartitionWhileClauseSkipOrTakeKeyword(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -2935,12 +2848,11 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function IsPredefinedCastExpressionKeyword (kind As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsPredefinedCastExpressionKeyword : Microsoft.CodeAnalysis.VisualBasic.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.VisualBasic.SyntaxFacts.IsPredefinedCastExpressionKeyword kind" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsPredefinedCastExpressionKeyword(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsPredefinedCastExpressionKeyword(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsPredefinedCastExpressionKeyword(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -2962,12 +2874,11 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function IsPredefinedType (kind As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsPredefinedType : Microsoft.CodeAnalysis.VisualBasic.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.VisualBasic.SyntaxFacts.IsPredefinedType kind" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsPredefinedType(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsPredefinedType(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsPredefinedType(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -2991,12 +2902,11 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function IsPreprocessorDirective (kind As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsPreprocessorDirective : Microsoft.CodeAnalysis.VisualBasic.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.VisualBasic.SyntaxFacts.IsPreprocessorDirective kind" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsPreprocessorDirective(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsPreprocessorDirective(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsPreprocessorDirective(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -3018,12 +2928,11 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function IsPreprocessorKeyword (kind As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsPreprocessorKeyword : Microsoft.CodeAnalysis.VisualBasic.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.VisualBasic.SyntaxFacts.IsPreprocessorKeyword kind" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsPreprocessorKeyword(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsPreprocessorKeyword(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsPreprocessorKeyword(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -3047,12 +2956,11 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function IsPreprocessorPunctuation (kind As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsPreprocessorPunctuation : Microsoft.CodeAnalysis.VisualBasic.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.VisualBasic.SyntaxFacts.IsPreprocessorPunctuation kind" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsPreprocessorPunctuation(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsPreprocessorPunctuation(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsPreprocessorPunctuation(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -3074,12 +2982,11 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function IsPunctuation (kind As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsPunctuation : Microsoft.CodeAnalysis.VisualBasic.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.VisualBasic.SyntaxFacts.IsPunctuation kind" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsPunctuation(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsPunctuation(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsPunctuation(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -3101,12 +3008,11 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function IsPunctuationOrKeyword (kind As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsPunctuationOrKeyword : Microsoft.CodeAnalysis.VisualBasic.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.VisualBasic.SyntaxFacts.IsPunctuationOrKeyword kind" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsPunctuationOrKeyword(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsPunctuationOrKeyword(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsPunctuationOrKeyword(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -3128,12 +3034,11 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function IsReDimStatement (kind As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsReDimStatement : Microsoft.CodeAnalysis.VisualBasic.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.VisualBasic.SyntaxFacts.IsReDimStatement kind" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsReDimStatement(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsReDimStatement(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsReDimStatement(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -3155,12 +3060,11 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function IsRelationalCaseClause (kind As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsRelationalCaseClause : Microsoft.CodeAnalysis.VisualBasic.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.VisualBasic.SyntaxFacts.IsRelationalCaseClause kind" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsRelationalCaseClause(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsRelationalCaseClause(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsRelationalCaseClause(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -3182,12 +3086,11 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function IsRelationalCaseClauseOperatorToken (kind As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsRelationalCaseClauseOperatorToken : Microsoft.CodeAnalysis.VisualBasic.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.VisualBasic.SyntaxFacts.IsRelationalCaseClauseOperatorToken kind" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsRelationalCaseClauseOperatorToken(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsRelationalCaseClauseOperatorToken(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsRelationalCaseClauseOperatorToken(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -3209,12 +3112,11 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function IsRelationalOperator (kind As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsRelationalOperator : Microsoft.CodeAnalysis.VisualBasic.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.VisualBasic.SyntaxFacts.IsRelationalOperator kind" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsRelationalOperator(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsRelationalOperator(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsRelationalOperator(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -3236,12 +3138,11 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function IsReservedKeyword (kind As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsReservedKeyword : Microsoft.CodeAnalysis.VisualBasic.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.VisualBasic.SyntaxFacts.IsReservedKeyword kind" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsReservedKeyword(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsReservedKeyword(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsReservedKeyword(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -3265,12 +3166,11 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function IsReservedTupleElementName (elementName As String) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsReservedTupleElementName : string -&gt; bool" Usage="Microsoft.CodeAnalysis.VisualBasic.SyntaxFacts.IsReservedTupleElementName elementName" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsReservedTupleElementName(System::String ^ elementName);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsReservedTupleElementName(Platform::String ^ elementName);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsReservedTupleElementName(std::wstring const &amp; elementName);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -3299,12 +3199,11 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function IsResumeStatement (kind As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsResumeStatement : Microsoft.CodeAnalysis.VisualBasic.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.VisualBasic.SyntaxFacts.IsResumeStatement kind" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsResumeStatement(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsResumeStatement(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsResumeStatement(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -3326,12 +3225,11 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function IsSingleLineLambdaExpression (kind As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsSingleLineLambdaExpression : Microsoft.CodeAnalysis.VisualBasic.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.VisualBasic.SyntaxFacts.IsSingleLineLambdaExpression kind" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsSingleLineLambdaExpression(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsSingleLineLambdaExpression(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsSingleLineLambdaExpression(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -3353,12 +3251,11 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function IsSpecialConstraint (kind As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsSpecialConstraint : Microsoft.CodeAnalysis.VisualBasic.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.VisualBasic.SyntaxFacts.IsSpecialConstraint kind" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsSpecialConstraint(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsSpecialConstraint(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsSpecialConstraint(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -3380,12 +3277,11 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function IsSpecialConstraintConstraintKeyword (kind As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsSpecialConstraintConstraintKeyword : Microsoft.CodeAnalysis.VisualBasic.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.VisualBasic.SyntaxFacts.IsSpecialConstraintConstraintKeyword kind" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsSpecialConstraintConstraintKeyword(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsSpecialConstraintConstraintKeyword(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsSpecialConstraintConstraintKeyword(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -3407,12 +3303,11 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function IsStopOrEndStatement (kind As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsStopOrEndStatement : Microsoft.CodeAnalysis.VisualBasic.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.VisualBasic.SyntaxFacts.IsStopOrEndStatement kind" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsStopOrEndStatement(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsStopOrEndStatement(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsStopOrEndStatement(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -3434,12 +3329,11 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function IsStopOrEndStatementStopOrEndKeyword (kind As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsStopOrEndStatementStopOrEndKeyword : Microsoft.CodeAnalysis.VisualBasic.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.VisualBasic.SyntaxFacts.IsStopOrEndStatementStopOrEndKeyword kind" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsStopOrEndStatementStopOrEndKeyword(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsStopOrEndStatementStopOrEndKeyword(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsStopOrEndStatementStopOrEndKeyword(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -3461,12 +3355,11 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function IsTrivia (this As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsTrivia :  -&gt; bool" Usage="Microsoft.CodeAnalysis.VisualBasic.SyntaxFacts.IsTrivia " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsTrivia(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind this);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsTrivia(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind this);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsTrivia(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind this);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -3490,12 +3383,11 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function IsTypeOfExpression (kind As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsTypeOfExpression : Microsoft.CodeAnalysis.VisualBasic.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.VisualBasic.SyntaxFacts.IsTypeOfExpression kind" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsTypeOfExpression(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsTypeOfExpression(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsTypeOfExpression(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -3517,12 +3409,11 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function IsTypeOfExpressionOperatorToken (kind As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsTypeOfExpressionOperatorToken : Microsoft.CodeAnalysis.VisualBasic.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.VisualBasic.SyntaxFacts.IsTypeOfExpressionOperatorToken kind" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsTypeOfExpressionOperatorToken(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsTypeOfExpressionOperatorToken(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsTypeOfExpressionOperatorToken(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -3544,12 +3435,11 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function IsTypeParameterVarianceKeyword (kind As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsTypeParameterVarianceKeyword : Microsoft.CodeAnalysis.VisualBasic.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.VisualBasic.SyntaxFacts.IsTypeParameterVarianceKeyword kind" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsTypeParameterVarianceKeyword(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsTypeParameterVarianceKeyword(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsTypeParameterVarianceKeyword(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -3571,12 +3461,11 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function IsUnaryExpression (kind As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsUnaryExpression : Microsoft.CodeAnalysis.VisualBasic.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.VisualBasic.SyntaxFacts.IsUnaryExpression kind" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsUnaryExpression(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsUnaryExpression(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsUnaryExpression(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -3598,12 +3487,11 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function IsUnaryExpressionOperatorToken (kind As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsUnaryExpressionOperatorToken : Microsoft.CodeAnalysis.VisualBasic.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.VisualBasic.SyntaxFacts.IsUnaryExpressionOperatorToken kind" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsUnaryExpressionOperatorToken(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsUnaryExpressionOperatorToken(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsUnaryExpressionOperatorToken(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -3625,12 +3513,11 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function IsUnderscore (c As Char) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsUnderscore : char -&gt; bool" Usage="Microsoft.CodeAnalysis.VisualBasic.SyntaxFacts.IsUnderscore c" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsUnderscore(char c);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsUnderscore(char16 c);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsUnderscore(char c);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -3654,12 +3541,11 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function IsValidIdentifier (name As String) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsValidIdentifier : string -&gt; bool" Usage="Microsoft.CodeAnalysis.VisualBasic.SyntaxFacts.IsValidIdentifier name" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsValidIdentifier(System::String ^ name);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsValidIdentifier(Platform::String ^ name);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsValidIdentifier(std::wstring const &amp; name);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -3683,12 +3569,11 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function IsWhileOrUntilClause (kind As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsWhileOrUntilClause : Microsoft.CodeAnalysis.VisualBasic.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.VisualBasic.SyntaxFacts.IsWhileOrUntilClause kind" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsWhileOrUntilClause(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsWhileOrUntilClause(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsWhileOrUntilClause(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -3710,12 +3595,11 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function IsWhileOrUntilClauseWhileOrUntilKeyword (kind As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsWhileOrUntilClauseWhileOrUntilKeyword : Microsoft.CodeAnalysis.VisualBasic.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.VisualBasic.SyntaxFacts.IsWhileOrUntilClauseWhileOrUntilKeyword kind" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsWhileOrUntilClauseWhileOrUntilKeyword(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsWhileOrUntilClauseWhileOrUntilKeyword(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsWhileOrUntilClauseWhileOrUntilKeyword(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -3737,12 +3621,11 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function IsWhitespace (c As Char) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsWhitespace : char -&gt; bool" Usage="Microsoft.CodeAnalysis.VisualBasic.SyntaxFacts.IsWhitespace c" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsWhitespace(char c);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsWhitespace(char16 c);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsWhitespace(char c);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -3766,12 +3649,11 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function IsXmlCrefAttributeEndQuoteToken (kind As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsXmlCrefAttributeEndQuoteToken : Microsoft.CodeAnalysis.VisualBasic.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.VisualBasic.SyntaxFacts.IsXmlCrefAttributeEndQuoteToken kind" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsXmlCrefAttributeEndQuoteToken(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsXmlCrefAttributeEndQuoteToken(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsXmlCrefAttributeEndQuoteToken(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -3793,12 +3675,11 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function IsXmlCrefAttributeStartQuoteToken (kind As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsXmlCrefAttributeStartQuoteToken : Microsoft.CodeAnalysis.VisualBasic.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.VisualBasic.SyntaxFacts.IsXmlCrefAttributeStartQuoteToken kind" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsXmlCrefAttributeStartQuoteToken(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsXmlCrefAttributeStartQuoteToken(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsXmlCrefAttributeStartQuoteToken(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -3820,12 +3701,11 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function IsXmlMemberAccessExpression (kind As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsXmlMemberAccessExpression : Microsoft.CodeAnalysis.VisualBasic.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.VisualBasic.SyntaxFacts.IsXmlMemberAccessExpression kind" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsXmlMemberAccessExpression(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsXmlMemberAccessExpression(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsXmlMemberAccessExpression(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -3847,12 +3727,11 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function IsXmlMemberAccessExpressionToken2 (kind As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsXmlMemberAccessExpressionToken2 : Microsoft.CodeAnalysis.VisualBasic.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.VisualBasic.SyntaxFacts.IsXmlMemberAccessExpressionToken2 kind" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsXmlMemberAccessExpressionToken2(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsXmlMemberAccessExpressionToken2(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsXmlMemberAccessExpressionToken2(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -3874,12 +3753,11 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function IsXmlNameAttributeEndQuoteToken (kind As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsXmlNameAttributeEndQuoteToken : Microsoft.CodeAnalysis.VisualBasic.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.VisualBasic.SyntaxFacts.IsXmlNameAttributeEndQuoteToken kind" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsXmlNameAttributeEndQuoteToken(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsXmlNameAttributeEndQuoteToken(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsXmlNameAttributeEndQuoteToken(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -3901,12 +3779,11 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function IsXmlNameAttributeStartQuoteToken (kind As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsXmlNameAttributeStartQuoteToken : Microsoft.CodeAnalysis.VisualBasic.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.VisualBasic.SyntaxFacts.IsXmlNameAttributeStartQuoteToken kind" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsXmlNameAttributeStartQuoteToken(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsXmlNameAttributeStartQuoteToken(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsXmlNameAttributeStartQuoteToken(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -3928,12 +3805,11 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function IsXmlStringEndQuoteToken (kind As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsXmlStringEndQuoteToken : Microsoft.CodeAnalysis.VisualBasic.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.VisualBasic.SyntaxFacts.IsXmlStringEndQuoteToken kind" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsXmlStringEndQuoteToken(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsXmlStringEndQuoteToken(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsXmlStringEndQuoteToken(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -3955,12 +3831,11 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function IsXmlStringStartQuoteToken (kind As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsXmlStringStartQuoteToken : Microsoft.CodeAnalysis.VisualBasic.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.VisualBasic.SyntaxFacts.IsXmlStringStartQuoteToken kind" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsXmlStringStartQuoteToken(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsXmlStringStartQuoteToken(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsXmlStringStartQuoteToken(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -3982,12 +3857,11 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function IsXmlTextToken (kind As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsXmlTextToken : Microsoft.CodeAnalysis.VisualBasic.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.VisualBasic.SyntaxFacts.IsXmlTextToken kind" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsXmlTextToken(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsXmlTextToken(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsXmlTextToken(Microsoft::CodeAnalysis::VisualBasic::SyntaxKind kind);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -4009,12 +3883,11 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function IsXmlWhitespace (c As Char) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsXmlWhitespace : char -&gt; bool" Usage="Microsoft.CodeAnalysis.VisualBasic.SyntaxFacts.IsXmlWhitespace c" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsXmlWhitespace(char c);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsXmlWhitespace(char16 c);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsXmlWhitespace(char c);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -4038,12 +3911,11 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function MakeHalfWidthIdentifier (text As String) As String" />
       <MemberSignature Language="F#" Value="static member MakeHalfWidthIdentifier : string -&gt; string" Usage="Microsoft.CodeAnalysis.VisualBasic.SyntaxFacts.MakeHalfWidthIdentifier text" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::String ^ MakeHalfWidthIdentifier(System::String ^ text);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static Platform::String ^ MakeHalfWidthIdentifier(Platform::String ^ text);" />
-      <MemberSignature Language="C++ WINRT" Value=" static std::wstring MakeHalfWidthIdentifier(std::wstring const &amp; text);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -4070,7 +3942,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.VarianceKind</ReturnType>

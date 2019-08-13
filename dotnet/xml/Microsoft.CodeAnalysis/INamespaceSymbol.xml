@@ -7,11 +7,15 @@
   <TypeSignature Language="C++ CLI" Value="public interface class INamespaceSymbol : IEquatable&lt;Microsoft::CodeAnalysis::ISymbol ^&gt;, Microsoft::CodeAnalysis::INamespaceOrTypeSymbol" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-    <AssemblyVersion>2.6.0.0</AssemblyVersion>
+    <AssemblyVersion>2.9.0.0</AssemblyVersion>
+    <AssemblyVersion>3.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Interfaces>
     <Interface>
       <InterfaceName>Microsoft.CodeAnalysis.INamespaceOrTypeSymbol</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.CodeAnalysis.ISymbol</InterfaceName>
     </Interface>
     <Interface>
       <InterfaceName>System.IEquatable&lt;Microsoft.CodeAnalysis.ISymbol&gt;</InterfaceName>
@@ -37,7 +41,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Immutable.ImmutableArray&lt;Microsoft.CodeAnalysis.INamespaceSymbol&gt;</ReturnType>
@@ -60,11 +65,11 @@
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ContainingCompilation As Compilation" />
       <MemberSignature Language="F#" Value="member this.ContainingCompilation : Microsoft.CodeAnalysis.Compilation" Usage="Microsoft.CodeAnalysis.INamespaceSymbol.ContainingCompilation" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::CodeAnalysis::Compilation ^ ContainingCompilation { Microsoft::CodeAnalysis::Compilation ^ get(); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; property Microsoft::CodeAnalysis::Compilation ^ ContainingCompilation { Microsoft::CodeAnalysis::Compilation ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.Compilation</ReturnType>
@@ -87,7 +92,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IEnumerable&lt;Microsoft.CodeAnalysis.INamespaceOrTypeSymbol&gt;</ReturnType>
@@ -111,7 +117,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IEnumerable&lt;Microsoft.CodeAnalysis.INamespaceOrTypeSymbol&gt;</ReturnType>
@@ -138,7 +145,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IEnumerable&lt;Microsoft.CodeAnalysis.INamespaceSymbol&gt;</ReturnType>
@@ -159,11 +167,11 @@
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsGlobalNamespace As Boolean" />
       <MemberSignature Language="F#" Value="member this.IsGlobalNamespace : bool" Usage="Microsoft.CodeAnalysis.INamespaceSymbol.IsGlobalNamespace" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsGlobalNamespace { bool get(); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; property bool IsGlobalNamespace { bool get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -184,11 +192,11 @@
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property NamespaceKind As NamespaceKind" />
       <MemberSignature Language="F#" Value="member this.NamespaceKind : Microsoft.CodeAnalysis.NamespaceKind" Usage="Microsoft.CodeAnalysis.INamespaceSymbol.NamespaceKind" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::CodeAnalysis::NamespaceKind NamespaceKind { Microsoft::CodeAnalysis::NamespaceKind get(); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; property Microsoft::CodeAnalysis::NamespaceKind NamespaceKind { Microsoft::CodeAnalysis::NamespaceKind get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.NamespaceKind</ReturnType>

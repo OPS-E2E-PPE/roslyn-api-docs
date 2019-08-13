@@ -5,11 +5,10 @@
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class LambdaHeaderSyntax&#xA;Inherits MethodBaseSyntax" />
   <TypeSignature Language="F#" Value="type LambdaHeaderSyntax = class&#xA;    inherit MethodBaseSyntax" />
   <TypeSignature Language="C++ CLI" Value="public ref class LambdaHeaderSyntax sealed : Microsoft::CodeAnalysis::VisualBasic::Syntax::MethodBaseSyntax" />
-  <TypeSignature Language="C++ CX" Value="public ref class LambdaHeaderSyntax sealed : Microsoft::CodeAnalysis::VisualBasic::Syntax::MethodBaseSyntax" />
-  <TypeSignature Language="C++ WINRT" Value="class LambdaHeaderSyntax sealed : Microsoft::CodeAnalysis::VisualBasic::Syntax::MethodBaseSyntax" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-    <AssemblyVersion>2.6.0.0</AssemblyVersion>
+    <AssemblyVersion>2.9.0.0</AssemblyVersion>
+    <AssemblyVersion>3.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Microsoft.CodeAnalysis.VisualBasic.Syntax.MethodBaseSyntax</BaseTypeName>
@@ -29,12 +28,11 @@
       <MemberSignature Language="VB.NET" Value="Public Overrides Sub Accept (visitor As VisualBasicSyntaxVisitor)" />
       <MemberSignature Language="F#" Value="override this.Accept : Microsoft.CodeAnalysis.VisualBasic.VisualBasicSyntaxVisitor -&gt; unit" Usage="lambdaHeaderSyntax.Accept visitor" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; override void Accept(Microsoft::CodeAnalysis::VisualBasic::VisualBasicSyntaxVisitor ^ visitor);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; override void Accept(Microsoft::CodeAnalysis::VisualBasic::VisualBasicSyntaxVisitor ^ visitor);" />
-      <MemberSignature Language="C++ WINRT" Value=" override void Accept(Microsoft::CodeAnalysis::VisualBasic::VisualBasicSyntaxVisitor const &amp; visitor);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -55,11 +53,11 @@
       <MemberSignature Language="VB.NET" Value="Public Overrides Function Accept(Of TResult) (visitor As VisualBasicSyntaxVisitor(Of TResult)) As TResult" />
       <MemberSignature Language="F#" Value="override this.Accept : Microsoft.CodeAnalysis.VisualBasic.VisualBasicSyntaxVisitor&lt;'Result&gt; -&gt; 'Result" Usage="lambdaHeaderSyntax.Accept visitor" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename TResult&gt;&#xA; override TResult Accept(Microsoft::CodeAnalysis::VisualBasic::VisualBasicSyntaxVisitor&lt;TResult&gt; ^ visitor);" />
-      <MemberSignature Language="C++ WINRT" Value="template &lt;typename TResult&gt;&#xA; override TResult Accept(Microsoft::CodeAnalysis::VisualBasic::VisualBasicSyntaxVisitor&lt;TResult&gt; const &amp; visitor);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>TResult</ReturnType>
@@ -83,12 +81,13 @@
       <MemberSignature Language="ILAsm" Value=".method public instance class Microsoft.CodeAnalysis.VisualBasic.Syntax.LambdaHeaderSyntax AddAttributeLists(class Microsoft.CodeAnalysis.VisualBasic.Syntax.AttributeListSyntax[] items) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.CodeAnalysis.VisualBasic.Syntax.LambdaHeaderSyntax.AddAttributeLists(Microsoft.CodeAnalysis.VisualBasic.Syntax.AttributeListSyntax[])" />
       <MemberSignature Language="VB.NET" Value="Public Function AddAttributeLists (ParamArray items As AttributeListSyntax()) As LambdaHeaderSyntax" />
-      <MemberSignature Language="F#" Value="member this.AddAttributeLists : Microsoft.CodeAnalysis.VisualBasic.Syntax.AttributeListSyntax[] -&gt; Microsoft.CodeAnalysis.VisualBasic.Syntax.LambdaHeaderSyntax" Usage="lambdaHeaderSyntax.AddAttributeLists items" />
+      <MemberSignature Language="F#" Value="override this.AddAttributeLists : Microsoft.CodeAnalysis.VisualBasic.Syntax.AttributeListSyntax[] -&gt; Microsoft.CodeAnalysis.VisualBasic.Syntax.LambdaHeaderSyntax" Usage="lambdaHeaderSyntax.AddAttributeLists items" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::CodeAnalysis::VisualBasic::Syntax::LambdaHeaderSyntax ^ AddAttributeLists(... cli::array &lt;Microsoft::CodeAnalysis::VisualBasic::Syntax::AttributeListSyntax ^&gt; ^ items);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.VisualBasic.Syntax.LambdaHeaderSyntax</ReturnType>
@@ -114,12 +113,13 @@
       <MemberSignature Language="ILAsm" Value=".method public instance class Microsoft.CodeAnalysis.VisualBasic.Syntax.LambdaHeaderSyntax AddModifiers(valuetype Microsoft.CodeAnalysis.SyntaxToken[] items) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.CodeAnalysis.VisualBasic.Syntax.LambdaHeaderSyntax.AddModifiers(Microsoft.CodeAnalysis.SyntaxToken[])" />
       <MemberSignature Language="VB.NET" Value="Public Function AddModifiers (ParamArray items As SyntaxToken()) As LambdaHeaderSyntax" />
-      <MemberSignature Language="F#" Value="member this.AddModifiers : Microsoft.CodeAnalysis.SyntaxToken[] -&gt; Microsoft.CodeAnalysis.VisualBasic.Syntax.LambdaHeaderSyntax" Usage="lambdaHeaderSyntax.AddModifiers items" />
+      <MemberSignature Language="F#" Value="override this.AddModifiers : Microsoft.CodeAnalysis.SyntaxToken[] -&gt; Microsoft.CodeAnalysis.VisualBasic.Syntax.LambdaHeaderSyntax" Usage="lambdaHeaderSyntax.AddModifiers items" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::CodeAnalysis::VisualBasic::Syntax::LambdaHeaderSyntax ^ AddModifiers(... cli::array &lt;Microsoft::CodeAnalysis::SyntaxToken&gt; ^ items);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.VisualBasic.Syntax.LambdaHeaderSyntax</ReturnType>
@@ -145,12 +145,13 @@
       <MemberSignature Language="ILAsm" Value=".method public instance class Microsoft.CodeAnalysis.VisualBasic.Syntax.LambdaHeaderSyntax AddParameterListParameters(class Microsoft.CodeAnalysis.VisualBasic.Syntax.ParameterSyntax[] items) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.CodeAnalysis.VisualBasic.Syntax.LambdaHeaderSyntax.AddParameterListParameters(Microsoft.CodeAnalysis.VisualBasic.Syntax.ParameterSyntax[])" />
       <MemberSignature Language="VB.NET" Value="Public Function AddParameterListParameters (ParamArray items As ParameterSyntax()) As LambdaHeaderSyntax" />
-      <MemberSignature Language="F#" Value="member this.AddParameterListParameters : Microsoft.CodeAnalysis.VisualBasic.Syntax.ParameterSyntax[] -&gt; Microsoft.CodeAnalysis.VisualBasic.Syntax.LambdaHeaderSyntax" Usage="lambdaHeaderSyntax.AddParameterListParameters items" />
+      <MemberSignature Language="F#" Value="override this.AddParameterListParameters : Microsoft.CodeAnalysis.VisualBasic.Syntax.ParameterSyntax[] -&gt; Microsoft.CodeAnalysis.VisualBasic.Syntax.LambdaHeaderSyntax" Usage="lambdaHeaderSyntax.AddParameterListParameters items" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::CodeAnalysis::VisualBasic::Syntax::LambdaHeaderSyntax ^ AddParameterListParameters(... cli::array &lt;Microsoft::CodeAnalysis::VisualBasic::Syntax::ParameterSyntax ^&gt; ^ items);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.VisualBasic.Syntax.LambdaHeaderSyntax</ReturnType>
@@ -178,11 +179,11 @@
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AsClause As SimpleAsClauseSyntax" />
       <MemberSignature Language="F#" Value="member this.AsClause : Microsoft.CodeAnalysis.VisualBasic.Syntax.SimpleAsClauseSyntax" Usage="Microsoft.CodeAnalysis.VisualBasic.Syntax.LambdaHeaderSyntax.AsClause" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::CodeAnalysis::VisualBasic::Syntax::SimpleAsClauseSyntax ^ AsClause { Microsoft::CodeAnalysis::VisualBasic::Syntax::SimpleAsClauseSyntax ^ get(); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; property Microsoft::CodeAnalysis::VisualBasic::Syntax::SimpleAsClauseSyntax ^ AsClause { Microsoft::CodeAnalysis::VisualBasic::Syntax::SimpleAsClauseSyntax ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.VisualBasic.Syntax.SimpleAsClauseSyntax</ReturnType>
@@ -208,7 +209,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.SyntaxList&lt;Microsoft.CodeAnalysis.VisualBasic.Syntax.AttributeListSyntax&gt;</ReturnType>
@@ -234,7 +236,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.SyntaxToken</ReturnType>
@@ -255,11 +258,12 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
+          <AttributeName>System.ComponentModel.EditorBrowsable</AttributeName>
         </Attribute>
         <Attribute>
           <AttributeName>System.Obsolete("This member is obsolete.", true)</AttributeName>
@@ -284,7 +288,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.SyntaxTokenList</ReturnType>
@@ -309,11 +314,11 @@
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ParameterList As ParameterListSyntax" />
       <MemberSignature Language="F#" Value="member this.ParameterList : Microsoft.CodeAnalysis.VisualBasic.Syntax.ParameterListSyntax" Usage="Microsoft.CodeAnalysis.VisualBasic.Syntax.LambdaHeaderSyntax.ParameterList" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::CodeAnalysis::VisualBasic::Syntax::ParameterListSyntax ^ ParameterList { Microsoft::CodeAnalysis::VisualBasic::Syntax::ParameterListSyntax ^ get(); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; property Microsoft::CodeAnalysis::VisualBasic::Syntax::ParameterListSyntax ^ ParameterList { Microsoft::CodeAnalysis::VisualBasic::Syntax::ParameterListSyntax ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.VisualBasic.Syntax.ParameterListSyntax</ReturnType>
@@ -339,7 +344,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.SyntaxToken</ReturnType>
@@ -362,7 +368,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.VisualBasic.Syntax.LambdaHeaderSyntax</ReturnType>
@@ -409,12 +416,11 @@
       <MemberSignature Language="VB.NET" Value="Public Function WithAsClause (asClause As SimpleAsClauseSyntax) As LambdaHeaderSyntax" />
       <MemberSignature Language="F#" Value="member this.WithAsClause : Microsoft.CodeAnalysis.VisualBasic.Syntax.SimpleAsClauseSyntax -&gt; Microsoft.CodeAnalysis.VisualBasic.Syntax.LambdaHeaderSyntax" Usage="lambdaHeaderSyntax.WithAsClause asClause" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::CodeAnalysis::VisualBasic::Syntax::LambdaHeaderSyntax ^ WithAsClause(Microsoft::CodeAnalysis::VisualBasic::Syntax::SimpleAsClauseSyntax ^ asClause);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; Microsoft::CodeAnalysis::VisualBasic::Syntax::LambdaHeaderSyntax ^ WithAsClause(Microsoft::CodeAnalysis::VisualBasic::Syntax::SimpleAsClauseSyntax ^ asClause);" />
-      <MemberSignature Language="C++ WINRT" Value="Microsoft::CodeAnalysis::VisualBasic::Syntax::LambdaHeaderSyntax WithAsClause(Microsoft::CodeAnalysis::VisualBasic::Syntax::SimpleAsClauseSyntax const &amp; asClause);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.VisualBasic.Syntax.LambdaHeaderSyntax</ReturnType>
@@ -438,12 +444,13 @@
       <MemberSignature Language="ILAsm" Value=".method public instance class Microsoft.CodeAnalysis.VisualBasic.Syntax.LambdaHeaderSyntax WithAttributeLists(valuetype Microsoft.CodeAnalysis.SyntaxList`1&lt;class Microsoft.CodeAnalysis.VisualBasic.Syntax.AttributeListSyntax&gt; attributeLists) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.CodeAnalysis.VisualBasic.Syntax.LambdaHeaderSyntax.WithAttributeLists(Microsoft.CodeAnalysis.SyntaxList{Microsoft.CodeAnalysis.VisualBasic.Syntax.AttributeListSyntax})" />
       <MemberSignature Language="VB.NET" Value="Public Function WithAttributeLists (attributeLists As SyntaxList(Of AttributeListSyntax)) As LambdaHeaderSyntax" />
-      <MemberSignature Language="F#" Value="member this.WithAttributeLists : Microsoft.CodeAnalysis.SyntaxList&lt;Microsoft.CodeAnalysis.VisualBasic.Syntax.AttributeListSyntax&gt; -&gt; Microsoft.CodeAnalysis.VisualBasic.Syntax.LambdaHeaderSyntax" Usage="lambdaHeaderSyntax.WithAttributeLists attributeLists" />
+      <MemberSignature Language="F#" Value="override this.WithAttributeLists : Microsoft.CodeAnalysis.SyntaxList&lt;Microsoft.CodeAnalysis.VisualBasic.Syntax.AttributeListSyntax&gt; -&gt; Microsoft.CodeAnalysis.VisualBasic.Syntax.LambdaHeaderSyntax" Usage="lambdaHeaderSyntax.WithAttributeLists attributeLists" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::CodeAnalysis::VisualBasic::Syntax::LambdaHeaderSyntax ^ WithAttributeLists(Microsoft::CodeAnalysis::SyntaxList&lt;Microsoft::CodeAnalysis::VisualBasic::Syntax::AttributeListSyntax ^&gt; attributeLists);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.VisualBasic.Syntax.LambdaHeaderSyntax</ReturnType>
@@ -472,7 +479,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.VisualBasic.Syntax.MethodBaseSyntax</ReturnType>
@@ -497,11 +505,12 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
+          <AttributeName>System.ComponentModel.EditorBrowsable</AttributeName>
         </Attribute>
         <Attribute>
           <AttributeName>System.Obsolete("This member is obsolete.", true)</AttributeName>
@@ -525,12 +534,13 @@
       <MemberSignature Language="ILAsm" Value=".method public instance class Microsoft.CodeAnalysis.VisualBasic.Syntax.LambdaHeaderSyntax WithModifiers(valuetype Microsoft.CodeAnalysis.SyntaxTokenList modifiers) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.CodeAnalysis.VisualBasic.Syntax.LambdaHeaderSyntax.WithModifiers(Microsoft.CodeAnalysis.SyntaxTokenList)" />
       <MemberSignature Language="VB.NET" Value="Public Function WithModifiers (modifiers As SyntaxTokenList) As LambdaHeaderSyntax" />
-      <MemberSignature Language="F#" Value="member this.WithModifiers : Microsoft.CodeAnalysis.SyntaxTokenList -&gt; Microsoft.CodeAnalysis.VisualBasic.Syntax.LambdaHeaderSyntax" Usage="lambdaHeaderSyntax.WithModifiers modifiers" />
+      <MemberSignature Language="F#" Value="override this.WithModifiers : Microsoft.CodeAnalysis.SyntaxTokenList -&gt; Microsoft.CodeAnalysis.VisualBasic.Syntax.LambdaHeaderSyntax" Usage="lambdaHeaderSyntax.WithModifiers modifiers" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::CodeAnalysis::VisualBasic::Syntax::LambdaHeaderSyntax ^ WithModifiers(Microsoft::CodeAnalysis::SyntaxTokenList modifiers);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.VisualBasic.Syntax.LambdaHeaderSyntax</ReturnType>
@@ -554,14 +564,13 @@
       <MemberSignature Language="ILAsm" Value=".method public instance class Microsoft.CodeAnalysis.VisualBasic.Syntax.LambdaHeaderSyntax WithParameterList(class Microsoft.CodeAnalysis.VisualBasic.Syntax.ParameterListSyntax parameterList) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.CodeAnalysis.VisualBasic.Syntax.LambdaHeaderSyntax.WithParameterList(Microsoft.CodeAnalysis.VisualBasic.Syntax.ParameterListSyntax)" />
       <MemberSignature Language="VB.NET" Value="Public Function WithParameterList (parameterList As ParameterListSyntax) As LambdaHeaderSyntax" />
-      <MemberSignature Language="F#" Value="member this.WithParameterList : Microsoft.CodeAnalysis.VisualBasic.Syntax.ParameterListSyntax -&gt; Microsoft.CodeAnalysis.VisualBasic.Syntax.LambdaHeaderSyntax" Usage="lambdaHeaderSyntax.WithParameterList parameterList" />
+      <MemberSignature Language="F#" Value="override this.WithParameterList : Microsoft.CodeAnalysis.VisualBasic.Syntax.ParameterListSyntax -&gt; Microsoft.CodeAnalysis.VisualBasic.Syntax.LambdaHeaderSyntax" Usage="lambdaHeaderSyntax.WithParameterList parameterList" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::CodeAnalysis::VisualBasic::Syntax::LambdaHeaderSyntax ^ WithParameterList(Microsoft::CodeAnalysis::VisualBasic::Syntax::ParameterListSyntax ^ parameterList);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; Microsoft::CodeAnalysis::VisualBasic::Syntax::LambdaHeaderSyntax ^ WithParameterList(Microsoft::CodeAnalysis::VisualBasic::Syntax::ParameterListSyntax ^ parameterList);" />
-      <MemberSignature Language="C++ WINRT" Value="Microsoft::CodeAnalysis::VisualBasic::Syntax::LambdaHeaderSyntax WithParameterList(Microsoft::CodeAnalysis::VisualBasic::Syntax::ParameterListSyntax const &amp; parameterList);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.VisualBasic.Syntax.LambdaHeaderSyntax</ReturnType>
@@ -590,7 +599,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.VisualBasic.Syntax.LambdaHeaderSyntax</ReturnType>

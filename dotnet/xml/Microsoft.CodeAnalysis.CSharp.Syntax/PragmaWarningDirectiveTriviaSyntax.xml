@@ -5,11 +5,10 @@
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class PragmaWarningDirectiveTriviaSyntax&#xA;Inherits DirectiveTriviaSyntax" />
   <TypeSignature Language="F#" Value="type PragmaWarningDirectiveTriviaSyntax = class&#xA;    inherit DirectiveTriviaSyntax" />
   <TypeSignature Language="C++ CLI" Value="public ref class PragmaWarningDirectiveTriviaSyntax sealed : Microsoft::CodeAnalysis::CSharp::Syntax::DirectiveTriviaSyntax" />
-  <TypeSignature Language="C++ CX" Value="public ref class PragmaWarningDirectiveTriviaSyntax sealed : Microsoft::CodeAnalysis::CSharp::Syntax::DirectiveTriviaSyntax" />
-  <TypeSignature Language="C++ WINRT" Value="class PragmaWarningDirectiveTriviaSyntax sealed : Microsoft::CodeAnalysis::CSharp::Syntax::DirectiveTriviaSyntax" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-    <AssemblyVersion>2.6.0.0</AssemblyVersion>
+    <AssemblyVersion>2.9.0.0</AssemblyVersion>
+    <AssemblyVersion>3.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Microsoft.CodeAnalysis.CSharp.Syntax.DirectiveTriviaSyntax</BaseTypeName>
@@ -27,12 +26,11 @@
       <MemberSignature Language="VB.NET" Value="Public Overrides Sub Accept (visitor As CSharpSyntaxVisitor)" />
       <MemberSignature Language="F#" Value="override this.Accept : Microsoft.CodeAnalysis.CSharp.CSharpSyntaxVisitor -&gt; unit" Usage="pragmaWarningDirectiveTriviaSyntax.Accept visitor" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; override void Accept(Microsoft::CodeAnalysis::CSharp::CSharpSyntaxVisitor ^ visitor);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; override void Accept(Microsoft::CodeAnalysis::CSharp::CSharpSyntaxVisitor ^ visitor);" />
-      <MemberSignature Language="C++ WINRT" Value=" override void Accept(Microsoft::CodeAnalysis::CSharp::CSharpSyntaxVisitor const &amp; visitor);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -53,11 +51,11 @@
       <MemberSignature Language="VB.NET" Value="Public Overrides Function Accept(Of TResult) (visitor As CSharpSyntaxVisitor(Of TResult)) As TResult" />
       <MemberSignature Language="F#" Value="override this.Accept : Microsoft.CodeAnalysis.CSharp.CSharpSyntaxVisitor&lt;'Result&gt; -&gt; 'Result" Usage="pragmaWarningDirectiveTriviaSyntax.Accept visitor" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename TResult&gt;&#xA; override TResult Accept(Microsoft::CodeAnalysis::CSharp::CSharpSyntaxVisitor&lt;TResult&gt; ^ visitor);" />
-      <MemberSignature Language="C++ WINRT" Value="template &lt;typename TResult&gt;&#xA; override TResult Accept(Microsoft::CodeAnalysis::CSharp::CSharpSyntaxVisitor&lt;TResult&gt; const &amp; visitor);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>TResult</ReturnType>
@@ -86,7 +84,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.CSharp.Syntax.PragmaWarningDirectiveTriviaSyntax</ReturnType>
@@ -117,7 +116,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.SyntaxToken</ReturnType>
@@ -138,7 +138,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.SyntaxToken</ReturnType>
@@ -159,7 +160,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.SeparatedSyntaxList&lt;Microsoft.CodeAnalysis.CSharp.Syntax.ExpressionSyntax&gt;</ReturnType>
@@ -180,7 +182,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.SyntaxToken</ReturnType>
@@ -198,14 +201,34 @@
       <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property IsActive As Boolean" />
       <MemberSignature Language="F#" Value="member this.IsActive : bool" Usage="Microsoft.CodeAnalysis.CSharp.Syntax.PragmaWarningDirectiveTriviaSyntax.IsActive" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property bool IsActive { bool get(); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; virtual property bool IsActive { bool get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NullableKeyword">
+      <MemberSignature Language="C#" Value="public Microsoft.CodeAnalysis.SyntaxToken NullableKeyword { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.CodeAnalysis.SyntaxToken NullableKeyword" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.CodeAnalysis.CSharp.Syntax.PragmaWarningDirectiveTriviaSyntax.NullableKeyword" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property NullableKeyword As SyntaxToken" />
+      <MemberSignature Language="F#" Value="member this.NullableKeyword : Microsoft.CodeAnalysis.SyntaxToken" Usage="Microsoft.CodeAnalysis.CSharp.Syntax.PragmaWarningDirectiveTriviaSyntax.NullableKeyword" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.CodeAnalysis.SyntaxToken</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>To be added.</summary>
@@ -223,7 +246,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.SyntaxToken</ReturnType>
@@ -244,7 +268,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.CSharp.Syntax.PragmaWarningDirectiveTriviaSyntax</ReturnType>
@@ -271,6 +296,80 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="Update">
+      <MemberSignature Language="C#" Value="public Microsoft.CodeAnalysis.CSharp.Syntax.PragmaWarningDirectiveTriviaSyntax Update (Microsoft.CodeAnalysis.SyntaxToken hashToken, Microsoft.CodeAnalysis.SyntaxToken pragmaKeyword, Microsoft.CodeAnalysis.SyntaxToken warningKeyword, Microsoft.CodeAnalysis.SyntaxToken disableOrRestoreKeyword, Microsoft.CodeAnalysis.SyntaxToken nullableKeyword, Microsoft.CodeAnalysis.SyntaxToken endOfDirectiveToken, bool isActive);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.CodeAnalysis.CSharp.Syntax.PragmaWarningDirectiveTriviaSyntax Update(valuetype Microsoft.CodeAnalysis.SyntaxToken hashToken, valuetype Microsoft.CodeAnalysis.SyntaxToken pragmaKeyword, valuetype Microsoft.CodeAnalysis.SyntaxToken warningKeyword, valuetype Microsoft.CodeAnalysis.SyntaxToken disableOrRestoreKeyword, valuetype Microsoft.CodeAnalysis.SyntaxToken nullableKeyword, valuetype Microsoft.CodeAnalysis.SyntaxToken endOfDirectiveToken, bool isActive) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.CodeAnalysis.CSharp.Syntax.PragmaWarningDirectiveTriviaSyntax.Update(Microsoft.CodeAnalysis.SyntaxToken,Microsoft.CodeAnalysis.SyntaxToken,Microsoft.CodeAnalysis.SyntaxToken,Microsoft.CodeAnalysis.SyntaxToken,Microsoft.CodeAnalysis.SyntaxToken,Microsoft.CodeAnalysis.SyntaxToken,System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Update (hashToken As SyntaxToken, pragmaKeyword As SyntaxToken, warningKeyword As SyntaxToken, disableOrRestoreKeyword As SyntaxToken, nullableKeyword As SyntaxToken, endOfDirectiveToken As SyntaxToken, isActive As Boolean) As PragmaWarningDirectiveTriviaSyntax" />
+      <MemberSignature Language="F#" Value="member this.Update : Microsoft.CodeAnalysis.SyntaxToken * Microsoft.CodeAnalysis.SyntaxToken * Microsoft.CodeAnalysis.SyntaxToken * Microsoft.CodeAnalysis.SyntaxToken * Microsoft.CodeAnalysis.SyntaxToken * Microsoft.CodeAnalysis.SyntaxToken * bool -&gt; Microsoft.CodeAnalysis.CSharp.Syntax.PragmaWarningDirectiveTriviaSyntax" Usage="pragmaWarningDirectiveTriviaSyntax.Update (hashToken, pragmaKeyword, warningKeyword, disableOrRestoreKeyword, nullableKeyword, endOfDirectiveToken, isActive)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.CodeAnalysis.CSharp.Syntax.PragmaWarningDirectiveTriviaSyntax</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="hashToken" Type="Microsoft.CodeAnalysis.SyntaxToken" />
+        <Parameter Name="pragmaKeyword" Type="Microsoft.CodeAnalysis.SyntaxToken" />
+        <Parameter Name="warningKeyword" Type="Microsoft.CodeAnalysis.SyntaxToken" />
+        <Parameter Name="disableOrRestoreKeyword" Type="Microsoft.CodeAnalysis.SyntaxToken" />
+        <Parameter Name="nullableKeyword" Type="Microsoft.CodeAnalysis.SyntaxToken" />
+        <Parameter Name="endOfDirectiveToken" Type="Microsoft.CodeAnalysis.SyntaxToken" />
+        <Parameter Name="isActive" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="hashToken">To be added.</param>
+        <param name="pragmaKeyword">To be added.</param>
+        <param name="warningKeyword">To be added.</param>
+        <param name="disableOrRestoreKeyword">To be added.</param>
+        <param name="nullableKeyword">To be added.</param>
+        <param name="endOfDirectiveToken">To be added.</param>
+        <param name="isActive">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Update">
+      <MemberSignature Language="C#" Value="public Microsoft.CodeAnalysis.CSharp.Syntax.PragmaWarningDirectiveTriviaSyntax Update (Microsoft.CodeAnalysis.SyntaxToken hashToken, Microsoft.CodeAnalysis.SyntaxToken pragmaKeyword, Microsoft.CodeAnalysis.SyntaxToken warningKeyword, Microsoft.CodeAnalysis.SyntaxToken disableOrRestoreKeyword, Microsoft.CodeAnalysis.SyntaxToken nullableKeyword, Microsoft.CodeAnalysis.SeparatedSyntaxList&lt;Microsoft.CodeAnalysis.CSharp.Syntax.ExpressionSyntax&gt; errorCodes, Microsoft.CodeAnalysis.SyntaxToken endOfDirectiveToken, bool isActive);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.CodeAnalysis.CSharp.Syntax.PragmaWarningDirectiveTriviaSyntax Update(valuetype Microsoft.CodeAnalysis.SyntaxToken hashToken, valuetype Microsoft.CodeAnalysis.SyntaxToken pragmaKeyword, valuetype Microsoft.CodeAnalysis.SyntaxToken warningKeyword, valuetype Microsoft.CodeAnalysis.SyntaxToken disableOrRestoreKeyword, valuetype Microsoft.CodeAnalysis.SyntaxToken nullableKeyword, valuetype Microsoft.CodeAnalysis.SeparatedSyntaxList`1&lt;class Microsoft.CodeAnalysis.CSharp.Syntax.ExpressionSyntax&gt; errorCodes, valuetype Microsoft.CodeAnalysis.SyntaxToken endOfDirectiveToken, bool isActive) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.CodeAnalysis.CSharp.Syntax.PragmaWarningDirectiveTriviaSyntax.Update(Microsoft.CodeAnalysis.SyntaxToken,Microsoft.CodeAnalysis.SyntaxToken,Microsoft.CodeAnalysis.SyntaxToken,Microsoft.CodeAnalysis.SyntaxToken,Microsoft.CodeAnalysis.SyntaxToken,Microsoft.CodeAnalysis.SeparatedSyntaxList{Microsoft.CodeAnalysis.CSharp.Syntax.ExpressionSyntax},Microsoft.CodeAnalysis.SyntaxToken,System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Update (hashToken As SyntaxToken, pragmaKeyword As SyntaxToken, warningKeyword As SyntaxToken, disableOrRestoreKeyword As SyntaxToken, nullableKeyword As SyntaxToken, errorCodes As SeparatedSyntaxList(Of ExpressionSyntax), endOfDirectiveToken As SyntaxToken, isActive As Boolean) As PragmaWarningDirectiveTriviaSyntax" />
+      <MemberSignature Language="F#" Value="member this.Update : Microsoft.CodeAnalysis.SyntaxToken * Microsoft.CodeAnalysis.SyntaxToken * Microsoft.CodeAnalysis.SyntaxToken * Microsoft.CodeAnalysis.SyntaxToken * Microsoft.CodeAnalysis.SyntaxToken * Microsoft.CodeAnalysis.SeparatedSyntaxList&lt;Microsoft.CodeAnalysis.CSharp.Syntax.ExpressionSyntax&gt; * Microsoft.CodeAnalysis.SyntaxToken * bool -&gt; Microsoft.CodeAnalysis.CSharp.Syntax.PragmaWarningDirectiveTriviaSyntax" Usage="pragmaWarningDirectiveTriviaSyntax.Update (hashToken, pragmaKeyword, warningKeyword, disableOrRestoreKeyword, nullableKeyword, errorCodes, endOfDirectiveToken, isActive)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.CodeAnalysis.CSharp.Syntax.PragmaWarningDirectiveTriviaSyntax</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="hashToken" Type="Microsoft.CodeAnalysis.SyntaxToken" />
+        <Parameter Name="pragmaKeyword" Type="Microsoft.CodeAnalysis.SyntaxToken" />
+        <Parameter Name="warningKeyword" Type="Microsoft.CodeAnalysis.SyntaxToken" />
+        <Parameter Name="disableOrRestoreKeyword" Type="Microsoft.CodeAnalysis.SyntaxToken" />
+        <Parameter Name="nullableKeyword" Type="Microsoft.CodeAnalysis.SyntaxToken" />
+        <Parameter Name="errorCodes" Type="Microsoft.CodeAnalysis.SeparatedSyntaxList&lt;Microsoft.CodeAnalysis.CSharp.Syntax.ExpressionSyntax&gt;" />
+        <Parameter Name="endOfDirectiveToken" Type="Microsoft.CodeAnalysis.SyntaxToken" />
+        <Parameter Name="isActive" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="hashToken">To be added.</param>
+        <param name="pragmaKeyword">To be added.</param>
+        <param name="warningKeyword">To be added.</param>
+        <param name="disableOrRestoreKeyword">To be added.</param>
+        <param name="nullableKeyword">To be added.</param>
+        <param name="errorCodes">To be added.</param>
+        <param name="endOfDirectiveToken">To be added.</param>
+        <param name="isActive">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="WarningKeyword">
       <MemberSignature Language="C#" Value="public Microsoft.CodeAnalysis.SyntaxToken WarningKeyword { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.CodeAnalysis.SyntaxToken WarningKeyword" />
@@ -281,7 +380,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.SyntaxToken</ReturnType>
@@ -302,7 +402,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.CSharp.Syntax.PragmaWarningDirectiveTriviaSyntax</ReturnType>
@@ -322,12 +423,13 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.CodeAnalysis.CSharp.Syntax.PragmaWarningDirectiveTriviaSyntax WithEndOfDirectiveToken(valuetype Microsoft.CodeAnalysis.SyntaxToken endOfDirectiveToken) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.CodeAnalysis.CSharp.Syntax.PragmaWarningDirectiveTriviaSyntax.WithEndOfDirectiveToken(Microsoft.CodeAnalysis.SyntaxToken)" />
       <MemberSignature Language="VB.NET" Value="Public Function WithEndOfDirectiveToken (endOfDirectiveToken As SyntaxToken) As PragmaWarningDirectiveTriviaSyntax" />
-      <MemberSignature Language="F#" Value="member this.WithEndOfDirectiveToken : Microsoft.CodeAnalysis.SyntaxToken -&gt; Microsoft.CodeAnalysis.CSharp.Syntax.PragmaWarningDirectiveTriviaSyntax" Usage="pragmaWarningDirectiveTriviaSyntax.WithEndOfDirectiveToken endOfDirectiveToken" />
+      <MemberSignature Language="F#" Value="override this.WithEndOfDirectiveToken : Microsoft.CodeAnalysis.SyntaxToken -&gt; Microsoft.CodeAnalysis.CSharp.Syntax.PragmaWarningDirectiveTriviaSyntax" Usage="pragmaWarningDirectiveTriviaSyntax.WithEndOfDirectiveToken endOfDirectiveToken" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::CodeAnalysis::CSharp::Syntax::PragmaWarningDirectiveTriviaSyntax ^ WithEndOfDirectiveToken(Microsoft::CodeAnalysis::SyntaxToken endOfDirectiveToken);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.CSharp.Syntax.PragmaWarningDirectiveTriviaSyntax</ReturnType>
@@ -352,7 +454,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.CSharp.Syntax.PragmaWarningDirectiveTriviaSyntax</ReturnType>
@@ -372,12 +475,13 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.CodeAnalysis.CSharp.Syntax.PragmaWarningDirectiveTriviaSyntax WithHashToken(valuetype Microsoft.CodeAnalysis.SyntaxToken hashToken) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.CodeAnalysis.CSharp.Syntax.PragmaWarningDirectiveTriviaSyntax.WithHashToken(Microsoft.CodeAnalysis.SyntaxToken)" />
       <MemberSignature Language="VB.NET" Value="Public Function WithHashToken (hashToken As SyntaxToken) As PragmaWarningDirectiveTriviaSyntax" />
-      <MemberSignature Language="F#" Value="member this.WithHashToken : Microsoft.CodeAnalysis.SyntaxToken -&gt; Microsoft.CodeAnalysis.CSharp.Syntax.PragmaWarningDirectiveTriviaSyntax" Usage="pragmaWarningDirectiveTriviaSyntax.WithHashToken hashToken" />
+      <MemberSignature Language="F#" Value="override this.WithHashToken : Microsoft.CodeAnalysis.SyntaxToken -&gt; Microsoft.CodeAnalysis.CSharp.Syntax.PragmaWarningDirectiveTriviaSyntax" Usage="pragmaWarningDirectiveTriviaSyntax.WithHashToken hashToken" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::CodeAnalysis::CSharp::Syntax::PragmaWarningDirectiveTriviaSyntax ^ WithHashToken(Microsoft::CodeAnalysis::SyntaxToken hashToken);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.CSharp.Syntax.PragmaWarningDirectiveTriviaSyntax</ReturnType>
@@ -399,12 +503,11 @@
       <MemberSignature Language="VB.NET" Value="Public Function WithIsActive (isActive As Boolean) As PragmaWarningDirectiveTriviaSyntax" />
       <MemberSignature Language="F#" Value="member this.WithIsActive : bool -&gt; Microsoft.CodeAnalysis.CSharp.Syntax.PragmaWarningDirectiveTriviaSyntax" Usage="pragmaWarningDirectiveTriviaSyntax.WithIsActive isActive" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::CodeAnalysis::CSharp::Syntax::PragmaWarningDirectiveTriviaSyntax ^ WithIsActive(bool isActive);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; Microsoft::CodeAnalysis::CSharp::Syntax::PragmaWarningDirectiveTriviaSyntax ^ WithIsActive(bool isActive);" />
-      <MemberSignature Language="C++ WINRT" Value="Microsoft::CodeAnalysis::CSharp::Syntax::PragmaWarningDirectiveTriviaSyntax WithIsActive(bool isActive);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.CSharp.Syntax.PragmaWarningDirectiveTriviaSyntax</ReturnType>
@@ -414,6 +517,30 @@
       </Parameters>
       <Docs>
         <param name="isActive">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WithNullableKeyword">
+      <MemberSignature Language="C#" Value="public Microsoft.CodeAnalysis.CSharp.Syntax.PragmaWarningDirectiveTriviaSyntax WithNullableKeyword (Microsoft.CodeAnalysis.SyntaxToken nullableKeyword);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.CodeAnalysis.CSharp.Syntax.PragmaWarningDirectiveTriviaSyntax WithNullableKeyword(valuetype Microsoft.CodeAnalysis.SyntaxToken nullableKeyword) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.CodeAnalysis.CSharp.Syntax.PragmaWarningDirectiveTriviaSyntax.WithNullableKeyword(Microsoft.CodeAnalysis.SyntaxToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Function WithNullableKeyword (nullableKeyword As SyntaxToken) As PragmaWarningDirectiveTriviaSyntax" />
+      <MemberSignature Language="F#" Value="member this.WithNullableKeyword : Microsoft.CodeAnalysis.SyntaxToken -&gt; Microsoft.CodeAnalysis.CSharp.Syntax.PragmaWarningDirectiveTriviaSyntax" Usage="pragmaWarningDirectiveTriviaSyntax.WithNullableKeyword nullableKeyword" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.CodeAnalysis.CSharp.Syntax.PragmaWarningDirectiveTriviaSyntax</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="nullableKeyword" Type="Microsoft.CodeAnalysis.SyntaxToken" />
+      </Parameters>
+      <Docs>
+        <param name="nullableKeyword">To be added.</param>
         <summary>To be added.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
@@ -429,7 +556,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.CSharp.Syntax.PragmaWarningDirectiveTriviaSyntax</ReturnType>
@@ -454,7 +582,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.CSharp.Syntax.PragmaWarningDirectiveTriviaSyntax</ReturnType>

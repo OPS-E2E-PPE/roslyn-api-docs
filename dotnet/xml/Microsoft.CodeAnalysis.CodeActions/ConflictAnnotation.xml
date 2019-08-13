@@ -5,11 +5,10 @@
   <TypeSignature Language="VB.NET" Value="Public Class ConflictAnnotation" />
   <TypeSignature Language="F#" Value="type ConflictAnnotation = class" />
   <TypeSignature Language="C++ CLI" Value="public ref class ConflictAnnotation abstract sealed" />
-  <TypeSignature Language="C++ CX" Value="public ref class ConflictAnnotation abstract sealed" />
-  <TypeSignature Language="C++ WINRT" Value="class ConflictAnnotation abstract sealed" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.CodeAnalysis.Workspaces</AssemblyName>
-    <AssemblyVersion>2.6.0.0</AssemblyVersion>
+    <AssemblyVersion>2.9.0.0</AssemblyVersion>
+    <AssemblyVersion>3.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -32,7 +31,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.Workspaces</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.SyntaxAnnotation</ReturnType>
@@ -57,7 +57,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.Workspaces</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -79,11 +80,11 @@
       <MemberSignature Language="VB.NET" Value="Public Const Kind As String " />
       <MemberSignature Language="F#" Value="val mutable Kind : string" Usage="Microsoft.CodeAnalysis.CodeActions.ConflictAnnotation.Kind" />
       <MemberSignature Language="C++ CLI" Value="public: System::String ^ Kind;" />
-      <MemberSignature Language="C++ WINRT" Value="std::wstring Kind;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.Workspaces</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>

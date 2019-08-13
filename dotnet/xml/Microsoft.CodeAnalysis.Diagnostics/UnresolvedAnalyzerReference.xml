@@ -5,11 +5,10 @@
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class UnresolvedAnalyzerReference&#xA;Inherits AnalyzerReference" />
   <TypeSignature Language="F#" Value="type UnresolvedAnalyzerReference = class&#xA;    inherit AnalyzerReference" />
   <TypeSignature Language="C++ CLI" Value="public ref class UnresolvedAnalyzerReference sealed : Microsoft::CodeAnalysis::Diagnostics::AnalyzerReference" />
-  <TypeSignature Language="C++ CX" Value="public ref class UnresolvedAnalyzerReference sealed : Microsoft::CodeAnalysis::Diagnostics::AnalyzerReference" />
-  <TypeSignature Language="C++ WINRT" Value="class UnresolvedAnalyzerReference sealed : Microsoft::CodeAnalysis::Diagnostics::AnalyzerReference" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-    <AssemblyVersion>2.6.0.0</AssemblyVersion>
+    <AssemblyVersion>2.9.0.0</AssemblyVersion>
+    <AssemblyVersion>3.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Microsoft.CodeAnalysis.Diagnostics.AnalyzerReference</BaseTypeName>
@@ -31,12 +30,11 @@
       <MemberSignature Language="VB.NET" Value="Public Sub New (unresolvedPath As String)" />
       <MemberSignature Language="F#" Value="new Microsoft.CodeAnalysis.Diagnostics.UnresolvedAnalyzerReference : string -&gt; Microsoft.CodeAnalysis.Diagnostics.UnresolvedAnalyzerReference" Usage="new Microsoft.CodeAnalysis.Diagnostics.UnresolvedAnalyzerReference unresolvedPath" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; UnresolvedAnalyzerReference(System::String ^ unresolvedPath);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; UnresolvedAnalyzerReference(Platform::String ^ unresolvedPath);" />
-      <MemberSignature Language="C++ WINRT" Value=" UnresolvedAnalyzerReference(std::wstring const &amp; unresolvedPath);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="unresolvedPath" Type="System.String" />
@@ -54,11 +52,11 @@
       <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property Display As String" />
       <MemberSignature Language="F#" Value="member this.Display : string" Usage="Microsoft.CodeAnalysis.Diagnostics.UnresolvedAnalyzerReference.Display" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::String ^ Display { System::String ^ get(); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; virtual property Platform::String ^ Display { Platform::String ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -76,11 +74,11 @@
       <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property FullPath As String" />
       <MemberSignature Language="F#" Value="member this.FullPath : string" Usage="Microsoft.CodeAnalysis.Diagnostics.UnresolvedAnalyzerReference.FullPath" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::String ^ FullPath { System::String ^ get(); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; virtual property Platform::String ^ FullPath { Platform::String ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -101,7 +99,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Immutable.ImmutableArray&lt;Microsoft.CodeAnalysis.Diagnostics.DiagnosticAnalyzer&gt;</ReturnType>
@@ -126,7 +125,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Immutable.ImmutableArray&lt;Microsoft.CodeAnalysis.Diagnostics.DiagnosticAnalyzer&gt;</ReturnType>
@@ -145,11 +145,11 @@
       <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property Id As Object" />
       <MemberSignature Language="F#" Value="member this.Id : obj" Usage="Microsoft.CodeAnalysis.Diagnostics.UnresolvedAnalyzerReference.Id" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::Object ^ Id { System::Object ^ get(); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; virtual property Platform::Object ^ Id { Platform::Object ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Object</ReturnType>

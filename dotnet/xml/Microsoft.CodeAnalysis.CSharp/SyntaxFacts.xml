@@ -5,11 +5,10 @@
   <TypeSignature Language="VB.NET" Value="Public Module SyntaxFacts" />
   <TypeSignature Language="F#" Value="type SyntaxFacts = class" />
   <TypeSignature Language="C++ CLI" Value="public ref class SyntaxFacts abstract sealed" />
-  <TypeSignature Language="C++ CX" Value="public ref class SyntaxFacts abstract sealed" />
-  <TypeSignature Language="C++ WINRT" Value="class SyntaxFacts abstract sealed" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-    <AssemblyVersion>2.6.0.0</AssemblyVersion>
+    <AssemblyVersion>2.9.0.0</AssemblyVersion>
+    <AssemblyVersion>3.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -32,7 +31,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IEqualityComparer&lt;Microsoft.CodeAnalysis.CSharp.SyntaxKind&gt;</ReturnType>
@@ -54,12 +54,11 @@
       <MemberSignature Language="VB.NET" Value="Public Function GetAccessorDeclarationKind (keyword As SyntaxKind) As SyntaxKind" />
       <MemberSignature Language="F#" Value="static member GetAccessorDeclarationKind : Microsoft.CodeAnalysis.CSharp.SyntaxKind -&gt; Microsoft.CodeAnalysis.CSharp.SyntaxKind" Usage="Microsoft.CodeAnalysis.CSharp.SyntaxFacts.GetAccessorDeclarationKind keyword" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::CodeAnalysis::CSharp::SyntaxKind GetAccessorDeclarationKind(Microsoft::CodeAnalysis::CSharp::SyntaxKind keyword);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static Microsoft::CodeAnalysis::CSharp::SyntaxKind GetAccessorDeclarationKind(Microsoft::CodeAnalysis::CSharp::SyntaxKind keyword);" />
-      <MemberSignature Language="C++ WINRT" Value=" static Microsoft::CodeAnalysis::CSharp::SyntaxKind GetAccessorDeclarationKind(Microsoft::CodeAnalysis::CSharp::SyntaxKind keyword);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.CSharp.SyntaxKind</ReturnType>
@@ -81,12 +80,11 @@
       <MemberSignature Language="VB.NET" Value="Public Function GetAssignmentExpression (token As SyntaxKind) As SyntaxKind" />
       <MemberSignature Language="F#" Value="static member GetAssignmentExpression : Microsoft.CodeAnalysis.CSharp.SyntaxKind -&gt; Microsoft.CodeAnalysis.CSharp.SyntaxKind" Usage="Microsoft.CodeAnalysis.CSharp.SyntaxFacts.GetAssignmentExpression token" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::CodeAnalysis::CSharp::SyntaxKind GetAssignmentExpression(Microsoft::CodeAnalysis::CSharp::SyntaxKind token);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static Microsoft::CodeAnalysis::CSharp::SyntaxKind GetAssignmentExpression(Microsoft::CodeAnalysis::CSharp::SyntaxKind token);" />
-      <MemberSignature Language="C++ WINRT" Value=" static Microsoft::CodeAnalysis::CSharp::SyntaxKind GetAssignmentExpression(Microsoft::CodeAnalysis::CSharp::SyntaxKind token);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.CSharp.SyntaxKind</ReturnType>
@@ -108,12 +106,11 @@
       <MemberSignature Language="VB.NET" Value="Public Function GetBaseTypeDeclarationKind (kind As SyntaxKind) As SyntaxKind" />
       <MemberSignature Language="F#" Value="static member GetBaseTypeDeclarationKind : Microsoft.CodeAnalysis.CSharp.SyntaxKind -&gt; Microsoft.CodeAnalysis.CSharp.SyntaxKind" Usage="Microsoft.CodeAnalysis.CSharp.SyntaxFacts.GetBaseTypeDeclarationKind kind" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::CodeAnalysis::CSharp::SyntaxKind GetBaseTypeDeclarationKind(Microsoft::CodeAnalysis::CSharp::SyntaxKind kind);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static Microsoft::CodeAnalysis::CSharp::SyntaxKind GetBaseTypeDeclarationKind(Microsoft::CodeAnalysis::CSharp::SyntaxKind kind);" />
-      <MemberSignature Language="C++ WINRT" Value=" static Microsoft::CodeAnalysis::CSharp::SyntaxKind GetBaseTypeDeclarationKind(Microsoft::CodeAnalysis::CSharp::SyntaxKind kind);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.CSharp.SyntaxKind</ReturnType>
@@ -135,12 +132,11 @@
       <MemberSignature Language="VB.NET" Value="Public Function GetBinaryExpression (token As SyntaxKind) As SyntaxKind" />
       <MemberSignature Language="F#" Value="static member GetBinaryExpression : Microsoft.CodeAnalysis.CSharp.SyntaxKind -&gt; Microsoft.CodeAnalysis.CSharp.SyntaxKind" Usage="Microsoft.CodeAnalysis.CSharp.SyntaxFacts.GetBinaryExpression token" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::CodeAnalysis::CSharp::SyntaxKind GetBinaryExpression(Microsoft::CodeAnalysis::CSharp::SyntaxKind token);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static Microsoft::CodeAnalysis::CSharp::SyntaxKind GetBinaryExpression(Microsoft::CodeAnalysis::CSharp::SyntaxKind token);" />
-      <MemberSignature Language="C++ WINRT" Value=" static Microsoft::CodeAnalysis::CSharp::SyntaxKind GetBinaryExpression(Microsoft::CodeAnalysis::CSharp::SyntaxKind token);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.CSharp.SyntaxKind</ReturnType>
@@ -162,12 +158,11 @@
       <MemberSignature Language="VB.NET" Value="Public Function GetCheckStatement (keyword As SyntaxKind) As SyntaxKind" />
       <MemberSignature Language="F#" Value="static member GetCheckStatement : Microsoft.CodeAnalysis.CSharp.SyntaxKind -&gt; Microsoft.CodeAnalysis.CSharp.SyntaxKind" Usage="Microsoft.CodeAnalysis.CSharp.SyntaxFacts.GetCheckStatement keyword" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::CodeAnalysis::CSharp::SyntaxKind GetCheckStatement(Microsoft::CodeAnalysis::CSharp::SyntaxKind keyword);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static Microsoft::CodeAnalysis::CSharp::SyntaxKind GetCheckStatement(Microsoft::CodeAnalysis::CSharp::SyntaxKind keyword);" />
-      <MemberSignature Language="C++ WINRT" Value=" static Microsoft::CodeAnalysis::CSharp::SyntaxKind GetCheckStatement(Microsoft::CodeAnalysis::CSharp::SyntaxKind keyword);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.CSharp.SyntaxKind</ReturnType>
@@ -189,12 +184,11 @@
       <MemberSignature Language="VB.NET" Value="Public Function GetContextualKeywordKind (text As String) As SyntaxKind" />
       <MemberSignature Language="F#" Value="static member GetContextualKeywordKind : string -&gt; Microsoft.CodeAnalysis.CSharp.SyntaxKind" Usage="Microsoft.CodeAnalysis.CSharp.SyntaxFacts.GetContextualKeywordKind text" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::CodeAnalysis::CSharp::SyntaxKind GetContextualKeywordKind(System::String ^ text);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static Microsoft::CodeAnalysis::CSharp::SyntaxKind GetContextualKeywordKind(Platform::String ^ text);" />
-      <MemberSignature Language="C++ WINRT" Value=" static Microsoft::CodeAnalysis::CSharp::SyntaxKind GetContextualKeywordKind(std::wstring const &amp; text);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.CSharp.SyntaxKind</ReturnType>
@@ -219,11 +213,12 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.CompilerServices.IteratorStateMachine(typeof(Microsoft.CodeAnalysis.CSharp.SyntaxFacts/&lt;GetContextualKeywordKinds&gt;d__93))</AttributeName>
+          <AttributeName>System.Runtime.CompilerServices.IteratorStateMachine(typeof(Microsoft.CodeAnalysis.CSharp.SyntaxFacts/&lt;GetContextualKeywordKinds&gt;d__94))</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -243,12 +238,11 @@
       <MemberSignature Language="VB.NET" Value="Public Function GetInstanceExpression (token As SyntaxKind) As SyntaxKind" />
       <MemberSignature Language="F#" Value="static member GetInstanceExpression : Microsoft.CodeAnalysis.CSharp.SyntaxKind -&gt; Microsoft.CodeAnalysis.CSharp.SyntaxKind" Usage="Microsoft.CodeAnalysis.CSharp.SyntaxFacts.GetInstanceExpression token" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::CodeAnalysis::CSharp::SyntaxKind GetInstanceExpression(Microsoft::CodeAnalysis::CSharp::SyntaxKind token);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static Microsoft::CodeAnalysis::CSharp::SyntaxKind GetInstanceExpression(Microsoft::CodeAnalysis::CSharp::SyntaxKind token);" />
-      <MemberSignature Language="C++ WINRT" Value=" static Microsoft::CodeAnalysis::CSharp::SyntaxKind GetInstanceExpression(Microsoft::CodeAnalysis::CSharp::SyntaxKind token);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.CSharp.SyntaxKind</ReturnType>
@@ -270,12 +264,11 @@
       <MemberSignature Language="VB.NET" Value="Public Function GetKeywordKind (text As String) As SyntaxKind" />
       <MemberSignature Language="F#" Value="static member GetKeywordKind : string -&gt; Microsoft.CodeAnalysis.CSharp.SyntaxKind" Usage="Microsoft.CodeAnalysis.CSharp.SyntaxFacts.GetKeywordKind text" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::CodeAnalysis::CSharp::SyntaxKind GetKeywordKind(System::String ^ text);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static Microsoft::CodeAnalysis::CSharp::SyntaxKind GetKeywordKind(Platform::String ^ text);" />
-      <MemberSignature Language="C++ WINRT" Value=" static Microsoft::CodeAnalysis::CSharp::SyntaxKind GetKeywordKind(std::wstring const &amp; text);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.CSharp.SyntaxKind</ReturnType>
@@ -300,11 +293,12 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.CompilerServices.IteratorStateMachine(typeof(Microsoft.CodeAnalysis.CSharp.SyntaxFacts/&lt;GetKeywordKinds&gt;d__36))</AttributeName>
+          <AttributeName>System.Runtime.CompilerServices.IteratorStateMachine(typeof(Microsoft.CodeAnalysis.CSharp.SyntaxFacts/&lt;GetKeywordKinds&gt;d__37))</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -324,12 +318,11 @@
       <MemberSignature Language="VB.NET" Value="Public Function GetLiteralExpression (token As SyntaxKind) As SyntaxKind" />
       <MemberSignature Language="F#" Value="static member GetLiteralExpression : Microsoft.CodeAnalysis.CSharp.SyntaxKind -&gt; Microsoft.CodeAnalysis.CSharp.SyntaxKind" Usage="Microsoft.CodeAnalysis.CSharp.SyntaxFacts.GetLiteralExpression token" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::CodeAnalysis::CSharp::SyntaxKind GetLiteralExpression(Microsoft::CodeAnalysis::CSharp::SyntaxKind token);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static Microsoft::CodeAnalysis::CSharp::SyntaxKind GetLiteralExpression(Microsoft::CodeAnalysis::CSharp::SyntaxKind token);" />
-      <MemberSignature Language="C++ WINRT" Value=" static Microsoft::CodeAnalysis::CSharp::SyntaxKind GetLiteralExpression(Microsoft::CodeAnalysis::CSharp::SyntaxKind token);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.CSharp.SyntaxKind</ReturnType>
@@ -351,12 +344,11 @@
       <MemberSignature Language="VB.NET" Value="Public Function GetOperatorKind (operatorMetadataName As String) As SyntaxKind" />
       <MemberSignature Language="F#" Value="static member GetOperatorKind : string -&gt; Microsoft.CodeAnalysis.CSharp.SyntaxKind" Usage="Microsoft.CodeAnalysis.CSharp.SyntaxFacts.GetOperatorKind operatorMetadataName" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::CodeAnalysis::CSharp::SyntaxKind GetOperatorKind(System::String ^ operatorMetadataName);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static Microsoft::CodeAnalysis::CSharp::SyntaxKind GetOperatorKind(Platform::String ^ operatorMetadataName);" />
-      <MemberSignature Language="C++ WINRT" Value=" static Microsoft::CodeAnalysis::CSharp::SyntaxKind GetOperatorKind(std::wstring const &amp; operatorMetadataName);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.CSharp.SyntaxKind</ReturnType>
@@ -378,12 +370,11 @@
       <MemberSignature Language="VB.NET" Value="Public Function GetPostfixUnaryExpression (token As SyntaxKind) As SyntaxKind" />
       <MemberSignature Language="F#" Value="static member GetPostfixUnaryExpression : Microsoft.CodeAnalysis.CSharp.SyntaxKind -&gt; Microsoft.CodeAnalysis.CSharp.SyntaxKind" Usage="Microsoft.CodeAnalysis.CSharp.SyntaxFacts.GetPostfixUnaryExpression token" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::CodeAnalysis::CSharp::SyntaxKind GetPostfixUnaryExpression(Microsoft::CodeAnalysis::CSharp::SyntaxKind token);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static Microsoft::CodeAnalysis::CSharp::SyntaxKind GetPostfixUnaryExpression(Microsoft::CodeAnalysis::CSharp::SyntaxKind token);" />
-      <MemberSignature Language="C++ WINRT" Value=" static Microsoft::CodeAnalysis::CSharp::SyntaxKind GetPostfixUnaryExpression(Microsoft::CodeAnalysis::CSharp::SyntaxKind token);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.CSharp.SyntaxKind</ReturnType>
@@ -405,12 +396,11 @@
       <MemberSignature Language="VB.NET" Value="Public Function GetPrefixUnaryExpression (token As SyntaxKind) As SyntaxKind" />
       <MemberSignature Language="F#" Value="static member GetPrefixUnaryExpression : Microsoft.CodeAnalysis.CSharp.SyntaxKind -&gt; Microsoft.CodeAnalysis.CSharp.SyntaxKind" Usage="Microsoft.CodeAnalysis.CSharp.SyntaxFacts.GetPrefixUnaryExpression token" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::CodeAnalysis::CSharp::SyntaxKind GetPrefixUnaryExpression(Microsoft::CodeAnalysis::CSharp::SyntaxKind token);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static Microsoft::CodeAnalysis::CSharp::SyntaxKind GetPrefixUnaryExpression(Microsoft::CodeAnalysis::CSharp::SyntaxKind token);" />
-      <MemberSignature Language="C++ WINRT" Value=" static Microsoft::CodeAnalysis::CSharp::SyntaxKind GetPrefixUnaryExpression(Microsoft::CodeAnalysis::CSharp::SyntaxKind token);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.CSharp.SyntaxKind</ReturnType>
@@ -432,12 +422,11 @@
       <MemberSignature Language="VB.NET" Value="Public Function GetPreprocessorKeywordKind (text As String) As SyntaxKind" />
       <MemberSignature Language="F#" Value="static member GetPreprocessorKeywordKind : string -&gt; Microsoft.CodeAnalysis.CSharp.SyntaxKind" Usage="Microsoft.CodeAnalysis.CSharp.SyntaxFacts.GetPreprocessorKeywordKind text" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::CodeAnalysis::CSharp::SyntaxKind GetPreprocessorKeywordKind(System::String ^ text);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static Microsoft::CodeAnalysis::CSharp::SyntaxKind GetPreprocessorKeywordKind(Platform::String ^ text);" />
-      <MemberSignature Language="C++ WINRT" Value=" static Microsoft::CodeAnalysis::CSharp::SyntaxKind GetPreprocessorKeywordKind(std::wstring const &amp; text);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.CSharp.SyntaxKind</ReturnType>
@@ -462,11 +451,12 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.CompilerServices.IteratorStateMachine(typeof(Microsoft.CodeAnalysis.CSharp.SyntaxFacts/&lt;GetPreprocessorKeywordKinds&gt;d__42))</AttributeName>
+          <AttributeName>System.Runtime.CompilerServices.IteratorStateMachine(typeof(Microsoft.CodeAnalysis.CSharp.SyntaxFacts/&lt;GetPreprocessorKeywordKinds&gt;d__43))</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -486,12 +476,11 @@
       <MemberSignature Language="VB.NET" Value="Public Function GetPrimaryFunction (keyword As SyntaxKind) As SyntaxKind" />
       <MemberSignature Language="F#" Value="static member GetPrimaryFunction : Microsoft.CodeAnalysis.CSharp.SyntaxKind -&gt; Microsoft.CodeAnalysis.CSharp.SyntaxKind" Usage="Microsoft.CodeAnalysis.CSharp.SyntaxFacts.GetPrimaryFunction keyword" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::CodeAnalysis::CSharp::SyntaxKind GetPrimaryFunction(Microsoft::CodeAnalysis::CSharp::SyntaxKind keyword);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static Microsoft::CodeAnalysis::CSharp::SyntaxKind GetPrimaryFunction(Microsoft::CodeAnalysis::CSharp::SyntaxKind keyword);" />
-      <MemberSignature Language="C++ WINRT" Value=" static Microsoft::CodeAnalysis::CSharp::SyntaxKind GetPrimaryFunction(Microsoft::CodeAnalysis::CSharp::SyntaxKind keyword);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.CSharp.SyntaxKind</ReturnType>
@@ -516,11 +505,12 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.CompilerServices.IteratorStateMachine(typeof(Microsoft.CodeAnalysis.CSharp.SyntaxFacts/&lt;GetPunctuationKinds&gt;d__47))</AttributeName>
+          <AttributeName>System.Runtime.CompilerServices.IteratorStateMachine(typeof(Microsoft.CodeAnalysis.CSharp.SyntaxFacts/&lt;GetPunctuationKinds&gt;d__48))</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -543,11 +533,12 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.CompilerServices.IteratorStateMachine(typeof(Microsoft.CodeAnalysis.CSharp.SyntaxFacts/&lt;GetReservedKeywordKinds&gt;d__35))</AttributeName>
+          <AttributeName>System.Runtime.CompilerServices.IteratorStateMachine(typeof(Microsoft.CodeAnalysis.CSharp.SyntaxFacts/&lt;GetReservedKeywordKinds&gt;d__36))</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -567,12 +558,11 @@
       <MemberSignature Language="VB.NET" Value="Public Function GetSwitchLabelKind (keyword As SyntaxKind) As SyntaxKind" />
       <MemberSignature Language="F#" Value="static member GetSwitchLabelKind : Microsoft.CodeAnalysis.CSharp.SyntaxKind -&gt; Microsoft.CodeAnalysis.CSharp.SyntaxKind" Usage="Microsoft.CodeAnalysis.CSharp.SyntaxFacts.GetSwitchLabelKind keyword" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::CodeAnalysis::CSharp::SyntaxKind GetSwitchLabelKind(Microsoft::CodeAnalysis::CSharp::SyntaxKind keyword);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static Microsoft::CodeAnalysis::CSharp::SyntaxKind GetSwitchLabelKind(Microsoft::CodeAnalysis::CSharp::SyntaxKind keyword);" />
-      <MemberSignature Language="C++ WINRT" Value=" static Microsoft::CodeAnalysis::CSharp::SyntaxKind GetSwitchLabelKind(Microsoft::CodeAnalysis::CSharp::SyntaxKind keyword);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.CSharp.SyntaxKind</ReturnType>
@@ -593,12 +583,11 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.CodeAnalysis.CSharp.SyntaxFacts.GetText(Microsoft.CodeAnalysis.Accessibility)" />
       <MemberSignature Language="F#" Value="static member GetText : Microsoft.CodeAnalysis.Accessibility -&gt; string" Usage="Microsoft.CodeAnalysis.CSharp.SyntaxFacts.GetText accessibility" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::String ^ GetText(Microsoft::CodeAnalysis::Accessibility accessibility);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static Platform::String ^ GetText(Microsoft::CodeAnalysis::Accessibility accessibility);" />
-      <MemberSignature Language="C++ WINRT" Value=" static std::wstring GetText(Microsoft::CodeAnalysis::Accessibility accessibility);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -620,12 +609,11 @@
       <MemberSignature Language="VB.NET" Value="Public Function GetText (kind As SyntaxKind) As String" />
       <MemberSignature Language="F#" Value="static member GetText : Microsoft.CodeAnalysis.CSharp.SyntaxKind -&gt; string" Usage="Microsoft.CodeAnalysis.CSharp.SyntaxFacts.GetText kind" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::String ^ GetText(Microsoft::CodeAnalysis::CSharp::SyntaxKind kind);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static Platform::String ^ GetText(Microsoft::CodeAnalysis::CSharp::SyntaxKind kind);" />
-      <MemberSignature Language="C++ WINRT" Value=" static std::wstring GetText(Microsoft::CodeAnalysis::CSharp::SyntaxKind kind);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -647,12 +635,11 @@
       <MemberSignature Language="VB.NET" Value="Public Function GetTypeDeclarationKind (kind As SyntaxKind) As SyntaxKind" />
       <MemberSignature Language="F#" Value="static member GetTypeDeclarationKind : Microsoft.CodeAnalysis.CSharp.SyntaxKind -&gt; Microsoft.CodeAnalysis.CSharp.SyntaxKind" Usage="Microsoft.CodeAnalysis.CSharp.SyntaxFacts.GetTypeDeclarationKind kind" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::CodeAnalysis::CSharp::SyntaxKind GetTypeDeclarationKind(Microsoft::CodeAnalysis::CSharp::SyntaxKind kind);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static Microsoft::CodeAnalysis::CSharp::SyntaxKind GetTypeDeclarationKind(Microsoft::CodeAnalysis::CSharp::SyntaxKind kind);" />
-      <MemberSignature Language="C++ WINRT" Value=" static Microsoft::CodeAnalysis::CSharp::SyntaxKind GetTypeDeclarationKind(Microsoft::CodeAnalysis::CSharp::SyntaxKind kind);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.CSharp.SyntaxKind</ReturnType>
@@ -674,12 +661,11 @@
       <MemberSignature Language="VB.NET" Value="Public Function IsAccessibilityModifier (kind As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsAccessibilityModifier : Microsoft.CodeAnalysis.CSharp.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.CSharp.SyntaxFacts.IsAccessibilityModifier kind" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsAccessibilityModifier(Microsoft::CodeAnalysis::CSharp::SyntaxKind kind);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsAccessibilityModifier(Microsoft::CodeAnalysis::CSharp::SyntaxKind kind);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsAccessibilityModifier(Microsoft::CodeAnalysis::CSharp::SyntaxKind kind);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -701,12 +687,11 @@
       <MemberSignature Language="VB.NET" Value="Public Function IsAccessorDeclaration (kind As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsAccessorDeclaration : Microsoft.CodeAnalysis.CSharp.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.CSharp.SyntaxFacts.IsAccessorDeclaration kind" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsAccessorDeclaration(Microsoft::CodeAnalysis::CSharp::SyntaxKind kind);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsAccessorDeclaration(Microsoft::CodeAnalysis::CSharp::SyntaxKind kind);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsAccessorDeclaration(Microsoft::CodeAnalysis::CSharp::SyntaxKind kind);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -728,12 +713,11 @@
       <MemberSignature Language="VB.NET" Value="Public Function IsAccessorDeclarationKeyword (keyword As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsAccessorDeclarationKeyword : Microsoft.CodeAnalysis.CSharp.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.CSharp.SyntaxFacts.IsAccessorDeclarationKeyword keyword" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsAccessorDeclarationKeyword(Microsoft::CodeAnalysis::CSharp::SyntaxKind keyword);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsAccessorDeclarationKeyword(Microsoft::CodeAnalysis::CSharp::SyntaxKind keyword);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsAccessorDeclarationKeyword(Microsoft::CodeAnalysis::CSharp::SyntaxKind keyword);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -755,12 +739,11 @@
       <MemberSignature Language="VB.NET" Value="Public Function IsAliasQualifier (node As SyntaxNode) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsAliasQualifier : Microsoft.CodeAnalysis.SyntaxNode -&gt; bool" Usage="Microsoft.CodeAnalysis.CSharp.SyntaxFacts.IsAliasQualifier node" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsAliasQualifier(Microsoft::CodeAnalysis::SyntaxNode ^ node);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsAliasQualifier(Microsoft::CodeAnalysis::SyntaxNode ^ node);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsAliasQualifier(Microsoft::CodeAnalysis::SyntaxNode const &amp; node);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -784,12 +767,11 @@
       <MemberSignature Language="VB.NET" Value="Public Function IsAnyOverloadableOperator (kind As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsAnyOverloadableOperator : Microsoft.CodeAnalysis.CSharp.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.CSharp.SyntaxFacts.IsAnyOverloadableOperator kind" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsAnyOverloadableOperator(Microsoft::CodeAnalysis::CSharp::SyntaxKind kind);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsAnyOverloadableOperator(Microsoft::CodeAnalysis::CSharp::SyntaxKind kind);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsAnyOverloadableOperator(Microsoft::CodeAnalysis::CSharp::SyntaxKind kind);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -811,12 +793,11 @@
       <MemberSignature Language="VB.NET" Value="Public Function IsAnyToken (kind As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsAnyToken : Microsoft.CodeAnalysis.CSharp.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.CSharp.SyntaxFacts.IsAnyToken kind" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsAnyToken(Microsoft::CodeAnalysis::CSharp::SyntaxKind kind);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsAnyToken(Microsoft::CodeAnalysis::CSharp::SyntaxKind kind);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsAnyToken(Microsoft::CodeAnalysis::CSharp::SyntaxKind kind);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -838,12 +819,11 @@
       <MemberSignature Language="VB.NET" Value="Public Function IsAnyUnaryExpression (token As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsAnyUnaryExpression : Microsoft.CodeAnalysis.CSharp.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.CSharp.SyntaxFacts.IsAnyUnaryExpression token" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsAnyUnaryExpression(Microsoft::CodeAnalysis::CSharp::SyntaxKind token);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsAnyUnaryExpression(Microsoft::CodeAnalysis::CSharp::SyntaxKind token);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsAnyUnaryExpression(Microsoft::CodeAnalysis::CSharp::SyntaxKind token);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -865,12 +845,11 @@
       <MemberSignature Language="VB.NET" Value="Public Function IsAssignmentExpression (kind As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsAssignmentExpression : Microsoft.CodeAnalysis.CSharp.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.CSharp.SyntaxFacts.IsAssignmentExpression kind" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsAssignmentExpression(Microsoft::CodeAnalysis::CSharp::SyntaxKind kind);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsAssignmentExpression(Microsoft::CodeAnalysis::CSharp::SyntaxKind kind);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsAssignmentExpression(Microsoft::CodeAnalysis::CSharp::SyntaxKind kind);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -892,12 +871,11 @@
       <MemberSignature Language="VB.NET" Value="Public Function IsAssignmentExpressionOperatorToken (token As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsAssignmentExpressionOperatorToken : Microsoft.CodeAnalysis.CSharp.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.CSharp.SyntaxFacts.IsAssignmentExpressionOperatorToken token" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsAssignmentExpressionOperatorToken(Microsoft::CodeAnalysis::CSharp::SyntaxKind token);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsAssignmentExpressionOperatorToken(Microsoft::CodeAnalysis::CSharp::SyntaxKind token);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsAssignmentExpressionOperatorToken(Microsoft::CodeAnalysis::CSharp::SyntaxKind token);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -919,12 +897,11 @@
       <MemberSignature Language="VB.NET" Value="Public Function IsAttributeName (node As SyntaxNode) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsAttributeName : Microsoft.CodeAnalysis.SyntaxNode -&gt; bool" Usage="Microsoft.CodeAnalysis.CSharp.SyntaxFacts.IsAttributeName node" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsAttributeName(Microsoft::CodeAnalysis::SyntaxNode ^ node);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsAttributeName(Microsoft::CodeAnalysis::SyntaxNode ^ node);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsAttributeName(Microsoft::CodeAnalysis::SyntaxNode const &amp; node);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -946,12 +923,11 @@
       <MemberSignature Language="VB.NET" Value="Public Function IsAttributeTargetSpecifier (kind As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsAttributeTargetSpecifier : Microsoft.CodeAnalysis.CSharp.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.CSharp.SyntaxFacts.IsAttributeTargetSpecifier kind" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsAttributeTargetSpecifier(Microsoft::CodeAnalysis::CSharp::SyntaxKind kind);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsAttributeTargetSpecifier(Microsoft::CodeAnalysis::CSharp::SyntaxKind kind);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsAttributeTargetSpecifier(Microsoft::CodeAnalysis::CSharp::SyntaxKind kind);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -973,12 +949,11 @@
       <MemberSignature Language="VB.NET" Value="Public Function IsBinaryExpression (token As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsBinaryExpression : Microsoft.CodeAnalysis.CSharp.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.CSharp.SyntaxFacts.IsBinaryExpression token" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsBinaryExpression(Microsoft::CodeAnalysis::CSharp::SyntaxKind token);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsBinaryExpression(Microsoft::CodeAnalysis::CSharp::SyntaxKind token);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsBinaryExpression(Microsoft::CodeAnalysis::CSharp::SyntaxKind token);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -1000,12 +975,11 @@
       <MemberSignature Language="VB.NET" Value="Public Function IsBinaryExpressionOperatorToken (token As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsBinaryExpressionOperatorToken : Microsoft.CodeAnalysis.CSharp.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.CSharp.SyntaxFacts.IsBinaryExpressionOperatorToken token" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsBinaryExpressionOperatorToken(Microsoft::CodeAnalysis::CSharp::SyntaxKind token);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsBinaryExpressionOperatorToken(Microsoft::CodeAnalysis::CSharp::SyntaxKind token);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsBinaryExpressionOperatorToken(Microsoft::CodeAnalysis::CSharp::SyntaxKind token);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -1027,12 +1001,11 @@
       <MemberSignature Language="VB.NET" Value="Public Function IsContextualKeyword (kind As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsContextualKeyword : Microsoft.CodeAnalysis.CSharp.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.CSharp.SyntaxFacts.IsContextualKeyword kind" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsContextualKeyword(Microsoft::CodeAnalysis::CSharp::SyntaxKind kind);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsContextualKeyword(Microsoft::CodeAnalysis::CSharp::SyntaxKind kind);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsContextualKeyword(Microsoft::CodeAnalysis::CSharp::SyntaxKind kind);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -1054,12 +1027,11 @@
       <MemberSignature Language="VB.NET" Value="Public Function IsDocumentationCommentTrivia (kind As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsDocumentationCommentTrivia : Microsoft.CodeAnalysis.CSharp.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.CSharp.SyntaxFacts.IsDocumentationCommentTrivia kind" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsDocumentationCommentTrivia(Microsoft::CodeAnalysis::CSharp::SyntaxKind kind);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsDocumentationCommentTrivia(Microsoft::CodeAnalysis::CSharp::SyntaxKind kind);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsDocumentationCommentTrivia(Microsoft::CodeAnalysis::CSharp::SyntaxKind kind);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -1081,12 +1053,11 @@
       <MemberSignature Language="VB.NET" Value="Public Function IsFixedStatementExpression (node As SyntaxNode) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsFixedStatementExpression : Microsoft.CodeAnalysis.SyntaxNode -&gt; bool" Usage="Microsoft.CodeAnalysis.CSharp.SyntaxFacts.IsFixedStatementExpression node" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsFixedStatementExpression(Microsoft::CodeAnalysis::SyntaxNode ^ node);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsFixedStatementExpression(Microsoft::CodeAnalysis::SyntaxNode ^ node);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsFixedStatementExpression(Microsoft::CodeAnalysis::SyntaxNode const &amp; node);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -1110,12 +1081,11 @@
       <MemberSignature Language="VB.NET" Value="Public Function IsGlobalMemberDeclaration (kind As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsGlobalMemberDeclaration : Microsoft.CodeAnalysis.CSharp.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.CSharp.SyntaxFacts.IsGlobalMemberDeclaration kind" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsGlobalMemberDeclaration(Microsoft::CodeAnalysis::CSharp::SyntaxKind kind);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsGlobalMemberDeclaration(Microsoft::CodeAnalysis::CSharp::SyntaxKind kind);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsGlobalMemberDeclaration(Microsoft::CodeAnalysis::CSharp::SyntaxKind kind);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -1139,12 +1109,11 @@
       <MemberSignature Language="VB.NET" Value="Public Function IsIdentifierPartCharacter (ch As Char) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsIdentifierPartCharacter : char -&gt; bool" Usage="Microsoft.CodeAnalysis.CSharp.SyntaxFacts.IsIdentifierPartCharacter ch" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsIdentifierPartCharacter(char ch);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsIdentifierPartCharacter(char16 ch);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsIdentifierPartCharacter(char ch);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -1168,12 +1137,11 @@
       <MemberSignature Language="VB.NET" Value="Public Function IsIdentifierStartCharacter (ch As Char) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsIdentifierStartCharacter : char -&gt; bool" Usage="Microsoft.CodeAnalysis.CSharp.SyntaxFacts.IsIdentifierStartCharacter ch" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsIdentifierStartCharacter(char ch);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsIdentifierStartCharacter(char16 ch);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsIdentifierStartCharacter(char ch);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -1197,12 +1165,11 @@
       <MemberSignature Language="VB.NET" Value="Public Function IsIndexed (node As ExpressionSyntax) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsIndexed : Microsoft.CodeAnalysis.CSharp.Syntax.ExpressionSyntax -&gt; bool" Usage="Microsoft.CodeAnalysis.CSharp.SyntaxFacts.IsIndexed node" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsIndexed(Microsoft::CodeAnalysis::CSharp::Syntax::ExpressionSyntax ^ node);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsIndexed(Microsoft::CodeAnalysis::CSharp::Syntax::ExpressionSyntax ^ node);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsIndexed(Microsoft::CodeAnalysis::CSharp::Syntax::ExpressionSyntax const &amp; node);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -1226,12 +1193,11 @@
       <MemberSignature Language="VB.NET" Value="Public Function IsInNamespaceOrTypeContext (node As ExpressionSyntax) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsInNamespaceOrTypeContext : Microsoft.CodeAnalysis.CSharp.Syntax.ExpressionSyntax -&gt; bool" Usage="Microsoft.CodeAnalysis.CSharp.SyntaxFacts.IsInNamespaceOrTypeContext node" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsInNamespaceOrTypeContext(Microsoft::CodeAnalysis::CSharp::Syntax::ExpressionSyntax ^ node);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsInNamespaceOrTypeContext(Microsoft::CodeAnalysis::CSharp::Syntax::ExpressionSyntax ^ node);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsInNamespaceOrTypeContext(Microsoft::CodeAnalysis::CSharp::Syntax::ExpressionSyntax const &amp; node);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -1255,12 +1221,11 @@
       <MemberSignature Language="VB.NET" Value="Public Function IsInstanceExpression (token As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsInstanceExpression : Microsoft.CodeAnalysis.CSharp.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.CSharp.SyntaxFacts.IsInstanceExpression token" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsInstanceExpression(Microsoft::CodeAnalysis::CSharp::SyntaxKind token);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsInstanceExpression(Microsoft::CodeAnalysis::CSharp::SyntaxKind token);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsInstanceExpression(Microsoft::CodeAnalysis::CSharp::SyntaxKind token);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -1282,12 +1247,11 @@
       <MemberSignature Language="VB.NET" Value="Public Function IsInTypeOnlyContext (node As ExpressionSyntax) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsInTypeOnlyContext : Microsoft.CodeAnalysis.CSharp.Syntax.ExpressionSyntax -&gt; bool" Usage="Microsoft.CodeAnalysis.CSharp.SyntaxFacts.IsInTypeOnlyContext node" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsInTypeOnlyContext(Microsoft::CodeAnalysis::CSharp::Syntax::ExpressionSyntax ^ node);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsInTypeOnlyContext(Microsoft::CodeAnalysis::CSharp::Syntax::ExpressionSyntax ^ node);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsInTypeOnlyContext(Microsoft::CodeAnalysis::CSharp::Syntax::ExpressionSyntax const &amp; node);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -1311,12 +1275,11 @@
       <MemberSignature Language="VB.NET" Value="Public Function IsInvoked (node As ExpressionSyntax) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsInvoked : Microsoft.CodeAnalysis.CSharp.Syntax.ExpressionSyntax -&gt; bool" Usage="Microsoft.CodeAnalysis.CSharp.SyntaxFacts.IsInvoked node" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsInvoked(Microsoft::CodeAnalysis::CSharp::Syntax::ExpressionSyntax ^ node);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsInvoked(Microsoft::CodeAnalysis::CSharp::Syntax::ExpressionSyntax ^ node);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsInvoked(Microsoft::CodeAnalysis::CSharp::Syntax::ExpressionSyntax const &amp; node);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -1340,12 +1303,11 @@
       <MemberSignature Language="VB.NET" Value="Public Function IsKeywordKind (kind As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsKeywordKind : Microsoft.CodeAnalysis.CSharp.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.CSharp.SyntaxFacts.IsKeywordKind kind" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsKeywordKind(Microsoft::CodeAnalysis::CSharp::SyntaxKind kind);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsKeywordKind(Microsoft::CodeAnalysis::CSharp::SyntaxKind kind);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsKeywordKind(Microsoft::CodeAnalysis::CSharp::SyntaxKind kind);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -1367,12 +1329,11 @@
       <MemberSignature Language="VB.NET" Value="Public Function IsLambdaBody (node As SyntaxNode) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsLambdaBody : Microsoft.CodeAnalysis.SyntaxNode -&gt; bool" Usage="Microsoft.CodeAnalysis.CSharp.SyntaxFacts.IsLambdaBody node" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsLambdaBody(Microsoft::CodeAnalysis::SyntaxNode ^ node);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsLambdaBody(Microsoft::CodeAnalysis::SyntaxNode ^ node);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsLambdaBody(Microsoft::CodeAnalysis::SyntaxNode const &amp; node);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1399,12 +1360,11 @@
       <MemberSignature Language="VB.NET" Value="Public Function IsLanguagePunctuation (kind As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsLanguagePunctuation : Microsoft.CodeAnalysis.CSharp.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.CSharp.SyntaxFacts.IsLanguagePunctuation kind" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsLanguagePunctuation(Microsoft::CodeAnalysis::CSharp::SyntaxKind kind);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsLanguagePunctuation(Microsoft::CodeAnalysis::CSharp::SyntaxKind kind);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsLanguagePunctuation(Microsoft::CodeAnalysis::CSharp::SyntaxKind kind);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -1426,12 +1386,11 @@
       <MemberSignature Language="VB.NET" Value="Public Function IsLiteralExpression (token As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsLiteralExpression : Microsoft.CodeAnalysis.CSharp.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.CSharp.SyntaxFacts.IsLiteralExpression token" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsLiteralExpression(Microsoft::CodeAnalysis::CSharp::SyntaxKind token);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsLiteralExpression(Microsoft::CodeAnalysis::CSharp::SyntaxKind token);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsLiteralExpression(Microsoft::CodeAnalysis::CSharp::SyntaxKind token);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -1453,12 +1412,11 @@
       <MemberSignature Language="VB.NET" Value="Public Function IsName (kind As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsName : Microsoft.CodeAnalysis.CSharp.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.CSharp.SyntaxFacts.IsName kind" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsName(Microsoft::CodeAnalysis::CSharp::SyntaxKind kind);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsName(Microsoft::CodeAnalysis::CSharp::SyntaxKind kind);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsName(Microsoft::CodeAnalysis::CSharp::SyntaxKind kind);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -1480,12 +1438,11 @@
       <MemberSignature Language="VB.NET" Value="Public Function IsNamedArgumentName (node As SyntaxNode) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsNamedArgumentName : Microsoft.CodeAnalysis.SyntaxNode -&gt; bool" Usage="Microsoft.CodeAnalysis.CSharp.SyntaxFacts.IsNamedArgumentName node" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsNamedArgumentName(Microsoft::CodeAnalysis::SyntaxNode ^ node);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsNamedArgumentName(Microsoft::CodeAnalysis::SyntaxNode ^ node);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsNamedArgumentName(Microsoft::CodeAnalysis::SyntaxNode const &amp; node);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -1510,12 +1467,11 @@
       <MemberSignature Language="VB.NET" Value="Public Function IsNamespaceAliasQualifier (node As ExpressionSyntax) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsNamespaceAliasQualifier : Microsoft.CodeAnalysis.CSharp.Syntax.ExpressionSyntax -&gt; bool" Usage="Microsoft.CodeAnalysis.CSharp.SyntaxFacts.IsNamespaceAliasQualifier node" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsNamespaceAliasQualifier(Microsoft::CodeAnalysis::CSharp::Syntax::ExpressionSyntax ^ node);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsNamespaceAliasQualifier(Microsoft::CodeAnalysis::CSharp::Syntax::ExpressionSyntax ^ node);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsNamespaceAliasQualifier(Microsoft::CodeAnalysis::CSharp::Syntax::ExpressionSyntax const &amp; node);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -1537,12 +1493,11 @@
       <MemberSignature Language="VB.NET" Value="Public Function IsNamespaceMemberDeclaration (kind As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsNamespaceMemberDeclaration : Microsoft.CodeAnalysis.CSharp.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.CSharp.SyntaxFacts.IsNamespaceMemberDeclaration kind" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsNamespaceMemberDeclaration(Microsoft::CodeAnalysis::CSharp::SyntaxKind kind);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsNamespaceMemberDeclaration(Microsoft::CodeAnalysis::CSharp::SyntaxKind kind);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsNamespaceMemberDeclaration(Microsoft::CodeAnalysis::CSharp::SyntaxKind kind);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -1564,12 +1519,11 @@
       <MemberSignature Language="VB.NET" Value="Public Function IsNewLine (ch As Char) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsNewLine : char -&gt; bool" Usage="Microsoft.CodeAnalysis.CSharp.SyntaxFacts.IsNewLine ch" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsNewLine(char ch);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsNewLine(char16 ch);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsNewLine(char ch);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -1593,12 +1547,11 @@
       <MemberSignature Language="VB.NET" Value="Public Function IsOverloadableBinaryOperator (kind As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsOverloadableBinaryOperator : Microsoft.CodeAnalysis.CSharp.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.CSharp.SyntaxFacts.IsOverloadableBinaryOperator kind" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsOverloadableBinaryOperator(Microsoft::CodeAnalysis::CSharp::SyntaxKind kind);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsOverloadableBinaryOperator(Microsoft::CodeAnalysis::CSharp::SyntaxKind kind);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsOverloadableBinaryOperator(Microsoft::CodeAnalysis::CSharp::SyntaxKind kind);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -1620,12 +1573,11 @@
       <MemberSignature Language="VB.NET" Value="Public Function IsOverloadableUnaryOperator (kind As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsOverloadableUnaryOperator : Microsoft.CodeAnalysis.CSharp.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.CSharp.SyntaxFacts.IsOverloadableUnaryOperator kind" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsOverloadableUnaryOperator(Microsoft::CodeAnalysis::CSharp::SyntaxKind kind);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsOverloadableUnaryOperator(Microsoft::CodeAnalysis::CSharp::SyntaxKind kind);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsOverloadableUnaryOperator(Microsoft::CodeAnalysis::CSharp::SyntaxKind kind);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -1647,12 +1599,11 @@
       <MemberSignature Language="VB.NET" Value="Public Function IsPostfixUnaryExpression (token As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsPostfixUnaryExpression : Microsoft.CodeAnalysis.CSharp.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.CSharp.SyntaxFacts.IsPostfixUnaryExpression token" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsPostfixUnaryExpression(Microsoft::CodeAnalysis::CSharp::SyntaxKind token);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsPostfixUnaryExpression(Microsoft::CodeAnalysis::CSharp::SyntaxKind token);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsPostfixUnaryExpression(Microsoft::CodeAnalysis::CSharp::SyntaxKind token);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -1674,12 +1625,11 @@
       <MemberSignature Language="VB.NET" Value="Public Function IsPostfixUnaryExpressionToken (token As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsPostfixUnaryExpressionToken : Microsoft.CodeAnalysis.CSharp.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.CSharp.SyntaxFacts.IsPostfixUnaryExpressionToken token" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsPostfixUnaryExpressionToken(Microsoft::CodeAnalysis::CSharp::SyntaxKind token);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsPostfixUnaryExpressionToken(Microsoft::CodeAnalysis::CSharp::SyntaxKind token);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsPostfixUnaryExpressionToken(Microsoft::CodeAnalysis::CSharp::SyntaxKind token);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -1701,12 +1651,11 @@
       <MemberSignature Language="VB.NET" Value="Public Function IsPredefinedType (kind As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsPredefinedType : Microsoft.CodeAnalysis.CSharp.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.CSharp.SyntaxFacts.IsPredefinedType kind" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsPredefinedType(Microsoft::CodeAnalysis::CSharp::SyntaxKind kind);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsPredefinedType(Microsoft::CodeAnalysis::CSharp::SyntaxKind kind);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsPredefinedType(Microsoft::CodeAnalysis::CSharp::SyntaxKind kind);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -1728,12 +1677,11 @@
       <MemberSignature Language="VB.NET" Value="Public Function IsPrefixUnaryExpression (token As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsPrefixUnaryExpression : Microsoft.CodeAnalysis.CSharp.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.CSharp.SyntaxFacts.IsPrefixUnaryExpression token" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsPrefixUnaryExpression(Microsoft::CodeAnalysis::CSharp::SyntaxKind token);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsPrefixUnaryExpression(Microsoft::CodeAnalysis::CSharp::SyntaxKind token);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsPrefixUnaryExpression(Microsoft::CodeAnalysis::CSharp::SyntaxKind token);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -1755,12 +1703,11 @@
       <MemberSignature Language="VB.NET" Value="Public Function IsPrefixUnaryExpressionOperatorToken (token As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsPrefixUnaryExpressionOperatorToken : Microsoft.CodeAnalysis.CSharp.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.CSharp.SyntaxFacts.IsPrefixUnaryExpressionOperatorToken token" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsPrefixUnaryExpressionOperatorToken(Microsoft::CodeAnalysis::CSharp::SyntaxKind token);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsPrefixUnaryExpressionOperatorToken(Microsoft::CodeAnalysis::CSharp::SyntaxKind token);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsPrefixUnaryExpressionOperatorToken(Microsoft::CodeAnalysis::CSharp::SyntaxKind token);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -1782,12 +1729,11 @@
       <MemberSignature Language="VB.NET" Value="Public Function IsPreprocessorDirective (kind As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsPreprocessorDirective : Microsoft.CodeAnalysis.CSharp.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.CSharp.SyntaxFacts.IsPreprocessorDirective kind" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsPreprocessorDirective(Microsoft::CodeAnalysis::CSharp::SyntaxKind kind);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsPreprocessorDirective(Microsoft::CodeAnalysis::CSharp::SyntaxKind kind);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsPreprocessorDirective(Microsoft::CodeAnalysis::CSharp::SyntaxKind kind);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -1809,12 +1755,11 @@
       <MemberSignature Language="VB.NET" Value="Public Function IsPreprocessorKeyword (kind As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsPreprocessorKeyword : Microsoft.CodeAnalysis.CSharp.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.CSharp.SyntaxFacts.IsPreprocessorKeyword kind" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsPreprocessorKeyword(Microsoft::CodeAnalysis::CSharp::SyntaxKind kind);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsPreprocessorKeyword(Microsoft::CodeAnalysis::CSharp::SyntaxKind kind);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsPreprocessorKeyword(Microsoft::CodeAnalysis::CSharp::SyntaxKind kind);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -1836,12 +1781,11 @@
       <MemberSignature Language="VB.NET" Value="Public Function IsPreprocessorPunctuation (kind As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsPreprocessorPunctuation : Microsoft.CodeAnalysis.CSharp.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.CSharp.SyntaxFacts.IsPreprocessorPunctuation kind" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsPreprocessorPunctuation(Microsoft::CodeAnalysis::CSharp::SyntaxKind kind);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsPreprocessorPunctuation(Microsoft::CodeAnalysis::CSharp::SyntaxKind kind);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsPreprocessorPunctuation(Microsoft::CodeAnalysis::CSharp::SyntaxKind kind);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -1863,12 +1807,11 @@
       <MemberSignature Language="VB.NET" Value="Public Function IsPrimaryFunction (keyword As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsPrimaryFunction : Microsoft.CodeAnalysis.CSharp.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.CSharp.SyntaxFacts.IsPrimaryFunction keyword" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsPrimaryFunction(Microsoft::CodeAnalysis::CSharp::SyntaxKind keyword);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsPrimaryFunction(Microsoft::CodeAnalysis::CSharp::SyntaxKind keyword);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsPrimaryFunction(Microsoft::CodeAnalysis::CSharp::SyntaxKind keyword);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -1890,12 +1833,11 @@
       <MemberSignature Language="VB.NET" Value="Public Function IsPunctuation (kind As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsPunctuation : Microsoft.CodeAnalysis.CSharp.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.CSharp.SyntaxFacts.IsPunctuation kind" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsPunctuation(Microsoft::CodeAnalysis::CSharp::SyntaxKind kind);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsPunctuation(Microsoft::CodeAnalysis::CSharp::SyntaxKind kind);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsPunctuation(Microsoft::CodeAnalysis::CSharp::SyntaxKind kind);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -1917,12 +1859,11 @@
       <MemberSignature Language="VB.NET" Value="Public Function IsPunctuationOrKeyword (kind As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsPunctuationOrKeyword : Microsoft.CodeAnalysis.CSharp.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.CSharp.SyntaxFacts.IsPunctuationOrKeyword kind" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsPunctuationOrKeyword(Microsoft::CodeAnalysis::CSharp::SyntaxKind kind);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsPunctuationOrKeyword(Microsoft::CodeAnalysis::CSharp::SyntaxKind kind);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsPunctuationOrKeyword(Microsoft::CodeAnalysis::CSharp::SyntaxKind kind);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -1944,12 +1885,11 @@
       <MemberSignature Language="VB.NET" Value="Public Function IsQueryContextualKeyword (kind As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsQueryContextualKeyword : Microsoft.CodeAnalysis.CSharp.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.CSharp.SyntaxFacts.IsQueryContextualKeyword kind" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsQueryContextualKeyword(Microsoft::CodeAnalysis::CSharp::SyntaxKind kind);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsQueryContextualKeyword(Microsoft::CodeAnalysis::CSharp::SyntaxKind kind);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsQueryContextualKeyword(Microsoft::CodeAnalysis::CSharp::SyntaxKind kind);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -1971,12 +1911,11 @@
       <MemberSignature Language="VB.NET" Value="Public Function IsReservedKeyword (kind As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsReservedKeyword : Microsoft.CodeAnalysis.CSharp.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.CSharp.SyntaxFacts.IsReservedKeyword kind" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsReservedKeyword(Microsoft::CodeAnalysis::CSharp::SyntaxKind kind);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsReservedKeyword(Microsoft::CodeAnalysis::CSharp::SyntaxKind kind);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsReservedKeyword(Microsoft::CodeAnalysis::CSharp::SyntaxKind kind);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -1998,12 +1937,11 @@
       <MemberSignature Language="VB.NET" Value="Public Function IsReservedTupleElementName (elementName As String) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsReservedTupleElementName : string -&gt; bool" Usage="Microsoft.CodeAnalysis.CSharp.SyntaxFacts.IsReservedTupleElementName elementName" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsReservedTupleElementName(System::String ^ elementName);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsReservedTupleElementName(Platform::String ^ elementName);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsReservedTupleElementName(std::wstring const &amp; elementName);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -2032,12 +1970,11 @@
       <MemberSignature Language="VB.NET" Value="Public Function IsTrivia (kind As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsTrivia : Microsoft.CodeAnalysis.CSharp.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.CSharp.SyntaxFacts.IsTrivia kind" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsTrivia(Microsoft::CodeAnalysis::CSharp::SyntaxKind kind);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsTrivia(Microsoft::CodeAnalysis::CSharp::SyntaxKind kind);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsTrivia(Microsoft::CodeAnalysis::CSharp::SyntaxKind kind);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -2059,12 +1996,11 @@
       <MemberSignature Language="VB.NET" Value="Public Function IsTypeDeclaration (kind As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsTypeDeclaration : Microsoft.CodeAnalysis.CSharp.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.CSharp.SyntaxFacts.IsTypeDeclaration kind" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsTypeDeclaration(Microsoft::CodeAnalysis::CSharp::SyntaxKind kind);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsTypeDeclaration(Microsoft::CodeAnalysis::CSharp::SyntaxKind kind);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsTypeDeclaration(Microsoft::CodeAnalysis::CSharp::SyntaxKind kind);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -2086,12 +2022,11 @@
       <MemberSignature Language="VB.NET" Value="Public Function IsTypeParameterVarianceKeyword (kind As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsTypeParameterVarianceKeyword : Microsoft.CodeAnalysis.CSharp.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.CSharp.SyntaxFacts.IsTypeParameterVarianceKeyword kind" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsTypeParameterVarianceKeyword(Microsoft::CodeAnalysis::CSharp::SyntaxKind kind);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsTypeParameterVarianceKeyword(Microsoft::CodeAnalysis::CSharp::SyntaxKind kind);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsTypeParameterVarianceKeyword(Microsoft::CodeAnalysis::CSharp::SyntaxKind kind);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -2113,12 +2048,11 @@
       <MemberSignature Language="VB.NET" Value="Public Function IsTypeSyntax (kind As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsTypeSyntax : Microsoft.CodeAnalysis.CSharp.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.CSharp.SyntaxFacts.IsTypeSyntax kind" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsTypeSyntax(Microsoft::CodeAnalysis::CSharp::SyntaxKind kind);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsTypeSyntax(Microsoft::CodeAnalysis::CSharp::SyntaxKind kind);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsTypeSyntax(Microsoft::CodeAnalysis::CSharp::SyntaxKind kind);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -2140,12 +2074,11 @@
       <MemberSignature Language="VB.NET" Value="Public Function IsUnaryOperatorDeclarationToken (token As SyntaxKind) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsUnaryOperatorDeclarationToken : Microsoft.CodeAnalysis.CSharp.SyntaxKind -&gt; bool" Usage="Microsoft.CodeAnalysis.CSharp.SyntaxFacts.IsUnaryOperatorDeclarationToken token" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsUnaryOperatorDeclarationToken(Microsoft::CodeAnalysis::CSharp::SyntaxKind token);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsUnaryOperatorDeclarationToken(Microsoft::CodeAnalysis::CSharp::SyntaxKind token);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsUnaryOperatorDeclarationToken(Microsoft::CodeAnalysis::CSharp::SyntaxKind token);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -2167,12 +2100,11 @@
       <MemberSignature Language="VB.NET" Value="Public Function IsValidIdentifier (name As String) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsValidIdentifier : string -&gt; bool" Usage="Microsoft.CodeAnalysis.CSharp.SyntaxFacts.IsValidIdentifier name" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsValidIdentifier(System::String ^ name);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsValidIdentifier(Platform::String ^ name);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsValidIdentifier(std::wstring const &amp; name);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -2196,12 +2128,11 @@
       <MemberSignature Language="VB.NET" Value="Public Function IsWhitespace (ch As Char) As Boolean" />
       <MemberSignature Language="F#" Value="static member IsWhitespace : char -&gt; bool" Usage="Microsoft.CodeAnalysis.CSharp.SyntaxFacts.IsWhitespace ch" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsWhitespace(char ch);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static bool IsWhitespace(char16 ch);" />
-      <MemberSignature Language="C++ WINRT" Value=" static bool IsWhitespace(char ch);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -2225,11 +2156,11 @@
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function TryGetInferredMemberName (syntax As SyntaxNode) As String" />
       <MemberSignature Language="F#" Value="static member TryGetInferredMemberName : Microsoft.CodeAnalysis.SyntaxNode -&gt; string" Usage="Microsoft.CodeAnalysis.CSharp.SyntaxFacts.TryGetInferredMemberName syntax" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static System::String ^ TryGetInferredMemberName(Microsoft::CodeAnalysis::SyntaxNode ^ syntax);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Platform::String ^ TryGetInferredMemberName(Microsoft::CodeAnalysis::SyntaxNode ^ syntax);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>

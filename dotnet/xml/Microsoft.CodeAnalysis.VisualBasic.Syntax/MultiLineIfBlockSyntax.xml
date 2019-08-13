@@ -5,11 +5,10 @@
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class MultiLineIfBlockSyntax&#xA;Inherits ExecutableStatementSyntax" />
   <TypeSignature Language="F#" Value="type MultiLineIfBlockSyntax = class&#xA;    inherit ExecutableStatementSyntax" />
   <TypeSignature Language="C++ CLI" Value="public ref class MultiLineIfBlockSyntax sealed : Microsoft::CodeAnalysis::VisualBasic::Syntax::ExecutableStatementSyntax" />
-  <TypeSignature Language="C++ CX" Value="public ref class MultiLineIfBlockSyntax sealed : Microsoft::CodeAnalysis::VisualBasic::Syntax::ExecutableStatementSyntax" />
-  <TypeSignature Language="C++ WINRT" Value="class MultiLineIfBlockSyntax sealed : Microsoft::CodeAnalysis::VisualBasic::Syntax::ExecutableStatementSyntax" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-    <AssemblyVersion>2.6.0.0</AssemblyVersion>
+    <AssemblyVersion>2.9.0.0</AssemblyVersion>
+    <AssemblyVersion>3.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Microsoft.CodeAnalysis.VisualBasic.Syntax.ExecutableStatementSyntax</BaseTypeName>
@@ -30,12 +29,11 @@
       <MemberSignature Language="VB.NET" Value="Public Overrides Sub Accept (visitor As VisualBasicSyntaxVisitor)" />
       <MemberSignature Language="F#" Value="override this.Accept : Microsoft.CodeAnalysis.VisualBasic.VisualBasicSyntaxVisitor -&gt; unit" Usage="multiLineIfBlockSyntax.Accept visitor" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; override void Accept(Microsoft::CodeAnalysis::VisualBasic::VisualBasicSyntaxVisitor ^ visitor);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; override void Accept(Microsoft::CodeAnalysis::VisualBasic::VisualBasicSyntaxVisitor ^ visitor);" />
-      <MemberSignature Language="C++ WINRT" Value=" override void Accept(Microsoft::CodeAnalysis::VisualBasic::VisualBasicSyntaxVisitor const &amp; visitor);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -56,11 +54,11 @@
       <MemberSignature Language="VB.NET" Value="Public Overrides Function Accept(Of TResult) (visitor As VisualBasicSyntaxVisitor(Of TResult)) As TResult" />
       <MemberSignature Language="F#" Value="override this.Accept : Microsoft.CodeAnalysis.VisualBasic.VisualBasicSyntaxVisitor&lt;'Result&gt; -&gt; 'Result" Usage="multiLineIfBlockSyntax.Accept visitor" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename TResult&gt;&#xA; override TResult Accept(Microsoft::CodeAnalysis::VisualBasic::VisualBasicSyntaxVisitor&lt;TResult&gt; ^ visitor);" />
-      <MemberSignature Language="C++ WINRT" Value="template &lt;typename TResult&gt;&#xA; override TResult Accept(Microsoft::CodeAnalysis::VisualBasic::VisualBasicSyntaxVisitor&lt;TResult&gt; const &amp; visitor);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>TResult</ReturnType>
@@ -89,7 +87,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.VisualBasic.Syntax.MultiLineIfBlockSyntax</ReturnType>
@@ -120,7 +119,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.VisualBasic.Syntax.MultiLineIfBlockSyntax</ReturnType>
@@ -151,7 +151,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.VisualBasic.Syntax.MultiLineIfBlockSyntax</ReturnType>
@@ -179,11 +180,11 @@
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ElseBlock As ElseBlockSyntax" />
       <MemberSignature Language="F#" Value="member this.ElseBlock : Microsoft.CodeAnalysis.VisualBasic.Syntax.ElseBlockSyntax" Usage="Microsoft.CodeAnalysis.VisualBasic.Syntax.MultiLineIfBlockSyntax.ElseBlock" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::CodeAnalysis::VisualBasic::Syntax::ElseBlockSyntax ^ ElseBlock { Microsoft::CodeAnalysis::VisualBasic::Syntax::ElseBlockSyntax ^ get(); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; property Microsoft::CodeAnalysis::VisualBasic::Syntax::ElseBlockSyntax ^ ElseBlock { Microsoft::CodeAnalysis::VisualBasic::Syntax::ElseBlockSyntax ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.VisualBasic.Syntax.ElseBlockSyntax</ReturnType>
@@ -209,7 +210,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.SyntaxList&lt;Microsoft.CodeAnalysis.VisualBasic.Syntax.ElseIfBlockSyntax&gt;</ReturnType>
@@ -232,11 +234,11 @@
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property EndIfStatement As EndBlockStatementSyntax" />
       <MemberSignature Language="F#" Value="member this.EndIfStatement : Microsoft.CodeAnalysis.VisualBasic.Syntax.EndBlockStatementSyntax" Usage="Microsoft.CodeAnalysis.VisualBasic.Syntax.MultiLineIfBlockSyntax.EndIfStatement" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::CodeAnalysis::VisualBasic::Syntax::EndBlockStatementSyntax ^ EndIfStatement { Microsoft::CodeAnalysis::VisualBasic::Syntax::EndBlockStatementSyntax ^ get(); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; property Microsoft::CodeAnalysis::VisualBasic::Syntax::EndBlockStatementSyntax ^ EndIfStatement { Microsoft::CodeAnalysis::VisualBasic::Syntax::EndBlockStatementSyntax ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.VisualBasic.Syntax.EndBlockStatementSyntax</ReturnType>
@@ -256,11 +258,11 @@
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IfStatement As IfStatementSyntax" />
       <MemberSignature Language="F#" Value="member this.IfStatement : Microsoft.CodeAnalysis.VisualBasic.Syntax.IfStatementSyntax" Usage="Microsoft.CodeAnalysis.VisualBasic.Syntax.MultiLineIfBlockSyntax.IfStatement" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::CodeAnalysis::VisualBasic::Syntax::IfStatementSyntax ^ IfStatement { Microsoft::CodeAnalysis::VisualBasic::Syntax::IfStatementSyntax ^ get(); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; property Microsoft::CodeAnalysis::VisualBasic::Syntax::IfStatementSyntax ^ IfStatement { Microsoft::CodeAnalysis::VisualBasic::Syntax::IfStatementSyntax ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.VisualBasic.Syntax.IfStatementSyntax</ReturnType>
@@ -283,7 +285,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.SyntaxList&lt;Microsoft.CodeAnalysis.VisualBasic.Syntax.StatementSyntax&gt;</ReturnType>
@@ -309,7 +312,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.VisualBasic.Syntax.MultiLineIfBlockSyntax</ReturnType>
@@ -352,12 +356,11 @@
       <MemberSignature Language="VB.NET" Value="Public Function WithElseBlock (elseBlock As ElseBlockSyntax) As MultiLineIfBlockSyntax" />
       <MemberSignature Language="F#" Value="member this.WithElseBlock : Microsoft.CodeAnalysis.VisualBasic.Syntax.ElseBlockSyntax -&gt; Microsoft.CodeAnalysis.VisualBasic.Syntax.MultiLineIfBlockSyntax" Usage="multiLineIfBlockSyntax.WithElseBlock elseBlock" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::CodeAnalysis::VisualBasic::Syntax::MultiLineIfBlockSyntax ^ WithElseBlock(Microsoft::CodeAnalysis::VisualBasic::Syntax::ElseBlockSyntax ^ elseBlock);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; Microsoft::CodeAnalysis::VisualBasic::Syntax::MultiLineIfBlockSyntax ^ WithElseBlock(Microsoft::CodeAnalysis::VisualBasic::Syntax::ElseBlockSyntax ^ elseBlock);" />
-      <MemberSignature Language="C++ WINRT" Value="Microsoft::CodeAnalysis::VisualBasic::Syntax::MultiLineIfBlockSyntax WithElseBlock(Microsoft::CodeAnalysis::VisualBasic::Syntax::ElseBlockSyntax const &amp; elseBlock);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.VisualBasic.Syntax.MultiLineIfBlockSyntax</ReturnType>
@@ -386,7 +389,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.VisualBasic.Syntax.MultiLineIfBlockSyntax</ReturnType>
@@ -412,12 +416,11 @@
       <MemberSignature Language="VB.NET" Value="Public Function WithEndIfStatement (endIfStatement As EndBlockStatementSyntax) As MultiLineIfBlockSyntax" />
       <MemberSignature Language="F#" Value="member this.WithEndIfStatement : Microsoft.CodeAnalysis.VisualBasic.Syntax.EndBlockStatementSyntax -&gt; Microsoft.CodeAnalysis.VisualBasic.Syntax.MultiLineIfBlockSyntax" Usage="multiLineIfBlockSyntax.WithEndIfStatement endIfStatement" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::CodeAnalysis::VisualBasic::Syntax::MultiLineIfBlockSyntax ^ WithEndIfStatement(Microsoft::CodeAnalysis::VisualBasic::Syntax::EndBlockStatementSyntax ^ endIfStatement);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; Microsoft::CodeAnalysis::VisualBasic::Syntax::MultiLineIfBlockSyntax ^ WithEndIfStatement(Microsoft::CodeAnalysis::VisualBasic::Syntax::EndBlockStatementSyntax ^ endIfStatement);" />
-      <MemberSignature Language="C++ WINRT" Value="Microsoft::CodeAnalysis::VisualBasic::Syntax::MultiLineIfBlockSyntax WithEndIfStatement(Microsoft::CodeAnalysis::VisualBasic::Syntax::EndBlockStatementSyntax const &amp; endIfStatement);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.VisualBasic.Syntax.MultiLineIfBlockSyntax</ReturnType>
@@ -443,12 +446,11 @@
       <MemberSignature Language="VB.NET" Value="Public Function WithIfStatement (ifStatement As IfStatementSyntax) As MultiLineIfBlockSyntax" />
       <MemberSignature Language="F#" Value="member this.WithIfStatement : Microsoft.CodeAnalysis.VisualBasic.Syntax.IfStatementSyntax -&gt; Microsoft.CodeAnalysis.VisualBasic.Syntax.MultiLineIfBlockSyntax" Usage="multiLineIfBlockSyntax.WithIfStatement ifStatement" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::CodeAnalysis::VisualBasic::Syntax::MultiLineIfBlockSyntax ^ WithIfStatement(Microsoft::CodeAnalysis::VisualBasic::Syntax::IfStatementSyntax ^ ifStatement);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; Microsoft::CodeAnalysis::VisualBasic::Syntax::MultiLineIfBlockSyntax ^ WithIfStatement(Microsoft::CodeAnalysis::VisualBasic::Syntax::IfStatementSyntax ^ ifStatement);" />
-      <MemberSignature Language="C++ WINRT" Value="Microsoft::CodeAnalysis::VisualBasic::Syntax::MultiLineIfBlockSyntax WithIfStatement(Microsoft::CodeAnalysis::VisualBasic::Syntax::IfStatementSyntax const &amp; ifStatement);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.VisualBasic.Syntax.MultiLineIfBlockSyntax</ReturnType>
@@ -477,7 +479,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.VisualBasic.Syntax.MultiLineIfBlockSyntax</ReturnType>

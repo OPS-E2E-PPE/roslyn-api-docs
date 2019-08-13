@@ -5,11 +5,10 @@
   <TypeSignature Language="VB.NET" Value="Public Enum SymbolDisplayPartKind" />
   <TypeSignature Language="F#" Value="type SymbolDisplayPartKind = " />
   <TypeSignature Language="C++ CLI" Value="public enum class SymbolDisplayPartKind" />
-  <TypeSignature Language="C++ CX" Value="public enum class SymbolDisplayPartKind" />
-  <TypeSignature Language="C++ WINRT" Value="enum SymbolDisplayPartKind" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-    <AssemblyVersion>2.6.0.0</AssemblyVersion>
+    <AssemblyVersion>2.9.0.0</AssemblyVersion>
+    <AssemblyVersion>3.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Enum</BaseTypeName>
@@ -28,12 +27,11 @@
       <MemberSignature Language="VB.NET" Value="AliasName" />
       <MemberSignature Language="F#" Value="AliasName = 0" Usage="Microsoft.CodeAnalysis.SymbolDisplayPartKind.AliasName" />
       <MemberSignature Language="C++ CLI" Value="AliasName" />
-      <MemberSignature Language="C++ CX" Value="AliasName" />
-      <MemberSignature Language="C++ WINRT" Value="AliasName" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.SymbolDisplayPartKind</ReturnType>
@@ -50,12 +48,11 @@
       <MemberSignature Language="VB.NET" Value="AnonymousTypeIndicator" />
       <MemberSignature Language="F#" Value="AnonymousTypeIndicator = 24" Usage="Microsoft.CodeAnalysis.SymbolDisplayPartKind.AnonymousTypeIndicator" />
       <MemberSignature Language="C++ CLI" Value="AnonymousTypeIndicator" />
-      <MemberSignature Language="C++ CX" Value="AnonymousTypeIndicator" />
-      <MemberSignature Language="C++ WINRT" Value="AnonymousTypeIndicator" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.SymbolDisplayPartKind</ReturnType>
@@ -72,12 +69,11 @@
       <MemberSignature Language="VB.NET" Value="AssemblyName" />
       <MemberSignature Language="F#" Value="AssemblyName = 1" Usage="Microsoft.CodeAnalysis.SymbolDisplayPartKind.AssemblyName" />
       <MemberSignature Language="C++ CLI" Value="AssemblyName" />
-      <MemberSignature Language="C++ CX" Value="AssemblyName" />
-      <MemberSignature Language="C++ WINRT" Value="AssemblyName" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.SymbolDisplayPartKind</ReturnType>
@@ -94,12 +90,11 @@
       <MemberSignature Language="VB.NET" Value="ClassName" />
       <MemberSignature Language="F#" Value="ClassName = 2" Usage="Microsoft.CodeAnalysis.SymbolDisplayPartKind.ClassName" />
       <MemberSignature Language="C++ CLI" Value="ClassName" />
-      <MemberSignature Language="C++ CX" Value="ClassName" />
-      <MemberSignature Language="C++ WINRT" Value="ClassName" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.SymbolDisplayPartKind</ReturnType>
@@ -109,6 +104,25 @@
         <summary>The name of a class.</summary>
       </Docs>
     </Member>
+    <Member MemberName="ConstantName">
+      <MemberSignature Language="C#" Value="ConstantName" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.CodeAnalysis.SymbolDisplayPartKind ConstantName = int32(30)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.CodeAnalysis.SymbolDisplayPartKind.ConstantName" />
+      <MemberSignature Language="VB.NET" Value="ConstantName" />
+      <MemberSignature Language="F#" Value="ConstantName = 30" Usage="Microsoft.CodeAnalysis.SymbolDisplayPartKind.ConstantName" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.CodeAnalysis.SymbolDisplayPartKind</ReturnType>
+      </ReturnValue>
+      <MemberValue>30</MemberValue>
+      <Docs>
+        <summary>The name of a field or local constant.</summary>
+      </Docs>
+    </Member>
     <Member MemberName="DelegateName">
       <MemberSignature Language="C#" Value="DelegateName" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.CodeAnalysis.SymbolDisplayPartKind DelegateName = int32(3)" />
@@ -116,12 +130,11 @@
       <MemberSignature Language="VB.NET" Value="DelegateName" />
       <MemberSignature Language="F#" Value="DelegateName = 3" Usage="Microsoft.CodeAnalysis.SymbolDisplayPartKind.DelegateName" />
       <MemberSignature Language="C++ CLI" Value="DelegateName" />
-      <MemberSignature Language="C++ CX" Value="DelegateName" />
-      <MemberSignature Language="C++ WINRT" Value="DelegateName" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.SymbolDisplayPartKind</ReturnType>
@@ -131,6 +144,25 @@
         <summary>The name of a delegate.</summary>
       </Docs>
     </Member>
+    <Member MemberName="EnumMemberName">
+      <MemberSignature Language="C#" Value="EnumMemberName" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.CodeAnalysis.SymbolDisplayPartKind EnumMemberName = int32(28)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.CodeAnalysis.SymbolDisplayPartKind.EnumMemberName" />
+      <MemberSignature Language="VB.NET" Value="EnumMemberName" />
+      <MemberSignature Language="F#" Value="EnumMemberName = 28" Usage="Microsoft.CodeAnalysis.SymbolDisplayPartKind.EnumMemberName" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.CodeAnalysis.SymbolDisplayPartKind</ReturnType>
+      </ReturnValue>
+      <MemberValue>28</MemberValue>
+      <Docs>
+        <summary>The name of an enum member.</summary>
+      </Docs>
+    </Member>
     <Member MemberName="EnumName">
       <MemberSignature Language="C#" Value="EnumName" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.CodeAnalysis.SymbolDisplayPartKind EnumName = int32(4)" />
@@ -138,12 +170,11 @@
       <MemberSignature Language="VB.NET" Value="EnumName" />
       <MemberSignature Language="F#" Value="EnumName = 4" Usage="Microsoft.CodeAnalysis.SymbolDisplayPartKind.EnumName" />
       <MemberSignature Language="C++ CLI" Value="EnumName" />
-      <MemberSignature Language="C++ CX" Value="EnumName" />
-      <MemberSignature Language="C++ WINRT" Value="EnumName" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.SymbolDisplayPartKind</ReturnType>
@@ -160,12 +191,11 @@
       <MemberSignature Language="VB.NET" Value="ErrorTypeName" />
       <MemberSignature Language="F#" Value="ErrorTypeName = 5" Usage="Microsoft.CodeAnalysis.SymbolDisplayPartKind.ErrorTypeName" />
       <MemberSignature Language="C++ CLI" Value="ErrorTypeName" />
-      <MemberSignature Language="C++ CX" Value="ErrorTypeName" />
-      <MemberSignature Language="C++ WINRT" Value="ErrorTypeName" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.SymbolDisplayPartKind</ReturnType>
@@ -183,12 +213,11 @@
       <MemberSignature Language="VB.NET" Value="EventName" />
       <MemberSignature Language="F#" Value="EventName = 6" Usage="Microsoft.CodeAnalysis.SymbolDisplayPartKind.EventName" />
       <MemberSignature Language="C++ CLI" Value="EventName" />
-      <MemberSignature Language="C++ CX" Value="EventName" />
-      <MemberSignature Language="C++ WINRT" Value="EventName" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.SymbolDisplayPartKind</ReturnType>
@@ -198,6 +227,28 @@
         <summary>The name of an event.</summary>
       </Docs>
     </Member>
+    <Member MemberName="ExtensionMethodName">
+      <MemberSignature Language="C#" Value="ExtensionMethodName" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.CodeAnalysis.SymbolDisplayPartKind ExtensionMethodName = int32(29)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.CodeAnalysis.SymbolDisplayPartKind.ExtensionMethodName" />
+      <MemberSignature Language="VB.NET" Value="ExtensionMethodName" />
+      <MemberSignature Language="F#" Value="ExtensionMethodName = 29" Usage="Microsoft.CodeAnalysis.SymbolDisplayPartKind.ExtensionMethodName" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.CodeAnalysis.SymbolDisplayPartKind</ReturnType>
+      </ReturnValue>
+      <MemberValue>29</MemberValue>
+      <Docs>
+        <summary>The name of a reduced extension method.</summary>
+        <remarks>
+            When an extension method is in it's non-reduced form it will be will be marked as MethodName.
+            </remarks>
+      </Docs>
+    </Member>
     <Member MemberName="FieldName">
       <MemberSignature Language="C#" Value="FieldName" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.CodeAnalysis.SymbolDisplayPartKind FieldName = int32(7)" />
@@ -205,12 +256,11 @@
       <MemberSignature Language="VB.NET" Value="FieldName" />
       <MemberSignature Language="F#" Value="FieldName = 7" Usage="Microsoft.CodeAnalysis.SymbolDisplayPartKind.FieldName" />
       <MemberSignature Language="C++ CLI" Value="FieldName" />
-      <MemberSignature Language="C++ CX" Value="FieldName" />
-      <MemberSignature Language="C++ WINRT" Value="FieldName" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.SymbolDisplayPartKind</ReturnType>
@@ -227,12 +277,11 @@
       <MemberSignature Language="VB.NET" Value="InterfaceName" />
       <MemberSignature Language="F#" Value="InterfaceName = 8" Usage="Microsoft.CodeAnalysis.SymbolDisplayPartKind.InterfaceName" />
       <MemberSignature Language="C++ CLI" Value="InterfaceName" />
-      <MemberSignature Language="C++ CX" Value="InterfaceName" />
-      <MemberSignature Language="C++ WINRT" Value="InterfaceName" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.SymbolDisplayPartKind</ReturnType>
@@ -249,12 +298,11 @@
       <MemberSignature Language="VB.NET" Value="Keyword" />
       <MemberSignature Language="F#" Value="Keyword = 9" Usage="Microsoft.CodeAnalysis.SymbolDisplayPartKind.Keyword" />
       <MemberSignature Language="C++ CLI" Value="Keyword" />
-      <MemberSignature Language="C++ CX" Value="Keyword" />
-      <MemberSignature Language="C++ WINRT" Value="Keyword" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.SymbolDisplayPartKind</ReturnType>
@@ -271,12 +319,11 @@
       <MemberSignature Language="VB.NET" Value="LabelName" />
       <MemberSignature Language="F#" Value="LabelName = 10" Usage="Microsoft.CodeAnalysis.SymbolDisplayPartKind.LabelName" />
       <MemberSignature Language="C++ CLI" Value="LabelName" />
-      <MemberSignature Language="C++ CX" Value="LabelName" />
-      <MemberSignature Language="C++ WINRT" Value="LabelName" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.SymbolDisplayPartKind</ReturnType>
@@ -293,12 +340,11 @@
       <MemberSignature Language="VB.NET" Value="LineBreak" />
       <MemberSignature Language="F#" Value="LineBreak = 11" Usage="Microsoft.CodeAnalysis.SymbolDisplayPartKind.LineBreak" />
       <MemberSignature Language="C++ CLI" Value="LineBreak" />
-      <MemberSignature Language="C++ CX" Value="LineBreak" />
-      <MemberSignature Language="C++ WINRT" Value="LineBreak" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.SymbolDisplayPartKind</ReturnType>
@@ -315,12 +361,11 @@
       <MemberSignature Language="VB.NET" Value="LocalName" />
       <MemberSignature Language="F#" Value="LocalName = 14" Usage="Microsoft.CodeAnalysis.SymbolDisplayPartKind.LocalName" />
       <MemberSignature Language="C++ CLI" Value="LocalName" />
-      <MemberSignature Language="C++ CX" Value="LocalName" />
-      <MemberSignature Language="C++ WINRT" Value="LocalName" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.SymbolDisplayPartKind</ReturnType>
@@ -337,12 +382,11 @@
       <MemberSignature Language="VB.NET" Value="MethodName" />
       <MemberSignature Language="F#" Value="MethodName = 15" Usage="Microsoft.CodeAnalysis.SymbolDisplayPartKind.MethodName" />
       <MemberSignature Language="C++ CLI" Value="MethodName" />
-      <MemberSignature Language="C++ CX" Value="MethodName" />
-      <MemberSignature Language="C++ WINRT" Value="MethodName" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.SymbolDisplayPartKind</ReturnType>
@@ -359,12 +403,11 @@
       <MemberSignature Language="VB.NET" Value="ModuleName" />
       <MemberSignature Language="F#" Value="ModuleName = 16" Usage="Microsoft.CodeAnalysis.SymbolDisplayPartKind.ModuleName" />
       <MemberSignature Language="C++ CLI" Value="ModuleName" />
-      <MemberSignature Language="C++ CX" Value="ModuleName" />
-      <MemberSignature Language="C++ WINRT" Value="ModuleName" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.SymbolDisplayPartKind</ReturnType>
@@ -381,12 +424,11 @@
       <MemberSignature Language="VB.NET" Value="NamespaceName" />
       <MemberSignature Language="F#" Value="NamespaceName = 17" Usage="Microsoft.CodeAnalysis.SymbolDisplayPartKind.NamespaceName" />
       <MemberSignature Language="C++ CLI" Value="NamespaceName" />
-      <MemberSignature Language="C++ CX" Value="NamespaceName" />
-      <MemberSignature Language="C++ WINRT" Value="NamespaceName" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.SymbolDisplayPartKind</ReturnType>
@@ -403,12 +445,11 @@
       <MemberSignature Language="VB.NET" Value="NumericLiteral" />
       <MemberSignature Language="F#" Value="NumericLiteral = 12" Usage="Microsoft.CodeAnalysis.SymbolDisplayPartKind.NumericLiteral" />
       <MemberSignature Language="C++ CLI" Value="NumericLiteral" />
-      <MemberSignature Language="C++ CX" Value="NumericLiteral" />
-      <MemberSignature Language="C++ WINRT" Value="NumericLiteral" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.SymbolDisplayPartKind</ReturnType>
@@ -426,12 +467,11 @@
       <MemberSignature Language="VB.NET" Value="Operator" />
       <MemberSignature Language="F#" Value="Operator = 18" Usage="Microsoft.CodeAnalysis.SymbolDisplayPartKind.Operator" />
       <MemberSignature Language="C++ CLI" Value="Operator" />
-      <MemberSignature Language="C++ CX" Value="Operator" />
-      <MemberSignature Language="C++ WINRT" Value="Operator" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.SymbolDisplayPartKind</ReturnType>
@@ -448,12 +488,11 @@
       <MemberSignature Language="VB.NET" Value="ParameterName" />
       <MemberSignature Language="F#" Value="ParameterName = 19" Usage="Microsoft.CodeAnalysis.SymbolDisplayPartKind.ParameterName" />
       <MemberSignature Language="C++ CLI" Value="ParameterName" />
-      <MemberSignature Language="C++ CX" Value="ParameterName" />
-      <MemberSignature Language="C++ WINRT" Value="ParameterName" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.SymbolDisplayPartKind</ReturnType>
@@ -470,12 +509,11 @@
       <MemberSignature Language="VB.NET" Value="PropertyName" />
       <MemberSignature Language="F#" Value="PropertyName = 20" Usage="Microsoft.CodeAnalysis.SymbolDisplayPartKind.PropertyName" />
       <MemberSignature Language="C++ CLI" Value="PropertyName" />
-      <MemberSignature Language="C++ CX" Value="PropertyName" />
-      <MemberSignature Language="C++ WINRT" Value="PropertyName" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.SymbolDisplayPartKind</ReturnType>
@@ -492,12 +530,11 @@
       <MemberSignature Language="VB.NET" Value="Punctuation" />
       <MemberSignature Language="F#" Value="Punctuation = 21" Usage="Microsoft.CodeAnalysis.SymbolDisplayPartKind.Punctuation" />
       <MemberSignature Language="C++ CLI" Value="Punctuation" />
-      <MemberSignature Language="C++ CX" Value="Punctuation" />
-      <MemberSignature Language="C++ WINRT" Value="Punctuation" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.SymbolDisplayPartKind</ReturnType>
@@ -514,19 +551,18 @@
       <MemberSignature Language="VB.NET" Value="RangeVariableName" />
       <MemberSignature Language="F#" Value="RangeVariableName = 27" Usage="Microsoft.CodeAnalysis.SymbolDisplayPartKind.RangeVariableName" />
       <MemberSignature Language="C++ CLI" Value="RangeVariableName" />
-      <MemberSignature Language="C++ CX" Value="RangeVariableName" />
-      <MemberSignature Language="C++ WINRT" Value="RangeVariableName" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.SymbolDisplayPartKind</ReturnType>
       </ReturnValue>
       <MemberValue>27</MemberValue>
       <Docs>
-        <summary>The name of a query range variable..</summary>
+        <summary>The name of a query range variable.</summary>
       </Docs>
     </Member>
     <Member MemberName="Space">
@@ -536,12 +572,11 @@
       <MemberSignature Language="VB.NET" Value="Space" />
       <MemberSignature Language="F#" Value="Space = 22" Usage="Microsoft.CodeAnalysis.SymbolDisplayPartKind.Space" />
       <MemberSignature Language="C++ CLI" Value="Space" />
-      <MemberSignature Language="C++ CX" Value="Space" />
-      <MemberSignature Language="C++ WINRT" Value="Space" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.SymbolDisplayPartKind</ReturnType>
@@ -558,12 +593,11 @@
       <MemberSignature Language="VB.NET" Value="StringLiteral" />
       <MemberSignature Language="F#" Value="StringLiteral = 13" Usage="Microsoft.CodeAnalysis.SymbolDisplayPartKind.StringLiteral" />
       <MemberSignature Language="C++ CLI" Value="StringLiteral" />
-      <MemberSignature Language="C++ CX" Value="StringLiteral" />
-      <MemberSignature Language="C++ WINRT" Value="StringLiteral" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.SymbolDisplayPartKind</ReturnType>
@@ -581,12 +615,11 @@
       <MemberSignature Language="VB.NET" Value="StructName" />
       <MemberSignature Language="F#" Value="StructName = 23" Usage="Microsoft.CodeAnalysis.SymbolDisplayPartKind.StructName" />
       <MemberSignature Language="C++ CLI" Value="StructName" />
-      <MemberSignature Language="C++ CX" Value="StructName" />
-      <MemberSignature Language="C++ WINRT" Value="StructName" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.SymbolDisplayPartKind</ReturnType>
@@ -603,12 +636,11 @@
       <MemberSignature Language="VB.NET" Value="Text" />
       <MemberSignature Language="F#" Value="Text = 25" Usage="Microsoft.CodeAnalysis.SymbolDisplayPartKind.Text" />
       <MemberSignature Language="C++ CLI" Value="Text" />
-      <MemberSignature Language="C++ CX" Value="Text" />
-      <MemberSignature Language="C++ WINRT" Value="Text" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.SymbolDisplayPartKind</ReturnType>
@@ -626,12 +658,11 @@
       <MemberSignature Language="VB.NET" Value="TypeParameterName" />
       <MemberSignature Language="F#" Value="TypeParameterName = 26" Usage="Microsoft.CodeAnalysis.SymbolDisplayPartKind.TypeParameterName" />
       <MemberSignature Language="C++ CLI" Value="TypeParameterName" />
-      <MemberSignature Language="C++ CX" Value="TypeParameterName" />
-      <MemberSignature Language="C++ WINRT" Value="TypeParameterName" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.SymbolDisplayPartKind</ReturnType>

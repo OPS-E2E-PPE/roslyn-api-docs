@@ -5,11 +5,10 @@
   <TypeSignature Language="VB.NET" Value="Public Class TextDocument" />
   <TypeSignature Language="F#" Value="type TextDocument = class" />
   <TypeSignature Language="C++ CLI" Value="public ref class TextDocument" />
-  <TypeSignature Language="C++ CX" Value="[Windows::Foundation::Metadata::WebHostHidden]&#xA;public ref class TextDocument" />
-  <TypeSignature Language="C++ WINRT" Value="[Windows::Foundation::Metadata::WebHostHidden]&#xA;class TextDocument" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.CodeAnalysis.Workspaces</AssemblyName>
-    <AssemblyVersion>2.6.0.0</AssemblyVersion>
+    <AssemblyVersion>2.9.0.0</AssemblyVersion>
+    <AssemblyVersion>3.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -26,12 +25,11 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.CodeAnalysis.TextDocument.#ctor" />
       <MemberSignature Language="VB.NET" Value="Protected Sub New ()" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; TextDocument();" />
-      <MemberSignature Language="C++ CX" Value="protected:&#xA; TextDocument();" />
-      <MemberSignature Language="C++ WINRT" Value=" TextDocument();" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.Workspaces</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -46,11 +44,11 @@
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FilePath As String" />
       <MemberSignature Language="F#" Value="member this.FilePath : string" Usage="Microsoft.CodeAnalysis.TextDocument.FilePath" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ FilePath { System::String ^ get(); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; property Platform::String ^ FilePath { Platform::String ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.Workspaces</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -73,7 +71,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.Workspaces</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IReadOnlyList&lt;System.String&gt;</ReturnType>
@@ -94,7 +93,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.Workspaces</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.CodeAnalysis.Text.SourceText&gt;</ReturnType>
@@ -119,7 +119,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.Workspaces</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.CodeAnalysis.VersionStamp&gt;</ReturnType>
@@ -146,7 +147,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.Workspaces</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.DocumentId</ReturnType>
@@ -167,11 +169,11 @@
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Name As String" />
       <MemberSignature Language="F#" Value="member this.Name : string" Usage="Microsoft.CodeAnalysis.TextDocument.Name" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Name { System::String ^ get(); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; property Platform::String ^ Name { Platform::String ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.Workspaces</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -191,11 +193,11 @@
       <MemberSignature Language="VB.NET" Value="Public Property Project As Project" />
       <MemberSignature Language="F#" Value="member this.Project : Microsoft.CodeAnalysis.Project with get, set" Usage="Microsoft.CodeAnalysis.TextDocument.Project" />
       <MemberSignature Language="C++ CLI" Value="public:  property Microsoft::CodeAnalysis::Project ^ Project {  public:&#xA;Microsoft::CodeAnalysis::Project ^ get(); protected:&#xA; void set(Microsoft::CodeAnalysis::Project ^ value); };" />
-      <MemberSignature Language="C++ CX" Value="public:  property Microsoft::CodeAnalysis::Project ^ Project {  public:&#xA;Microsoft::CodeAnalysis::Project ^ get(); protected:&#xA; void set(Microsoft::CodeAnalysis::Project ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.Workspaces</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.Project</ReturnType>
@@ -215,18 +217,17 @@
       <MemberSignature Language="VB.NET" Value="Public Function TryGetText (ByRef text As SourceText) As Boolean" />
       <MemberSignature Language="F#" Value="member this.TryGetText :  -&gt; bool" Usage="textDocument.TryGetText text" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; bool TryGetText([Runtime::InteropServices::Out] Microsoft::CodeAnalysis::Text::SourceText ^ % text);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; bool TryGetText([Runtime::InteropServices::Out] Microsoft::CodeAnalysis::Text::SourceText ^ &amp;  text);" />
-      <MemberSignature Language="C++ WINRT" Value="bool TryGetText([Runtime::InteropServices::Out] Microsoft::CodeAnalysis::Text::SourceText const &amp; &amp; text);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.Workspaces</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="text" Type="Microsoft.CodeAnalysis.Text.SourceText&amp;" RefType="out" />
+        <Parameter Name="text" Type="Microsoft.CodeAnalysis.Text.SourceText" RefType="out" />
       </Parameters>
       <Docs>
         <param name="text">To be added.</param>
@@ -247,13 +248,14 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.Workspaces</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="version" Type="Microsoft.CodeAnalysis.VersionStamp&amp;" RefType="out" />
+        <Parameter Name="version" Type="Microsoft.CodeAnalysis.VersionStamp" RefType="out" />
       </Parameters>
       <Docs>
         <param name="version">To be added.</param>

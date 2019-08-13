@@ -5,11 +5,10 @@
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class XmlDocumentSyntax&#xA;Inherits XmlNodeSyntax" />
   <TypeSignature Language="F#" Value="type XmlDocumentSyntax = class&#xA;    inherit XmlNodeSyntax" />
   <TypeSignature Language="C++ CLI" Value="public ref class XmlDocumentSyntax sealed : Microsoft::CodeAnalysis::VisualBasic::Syntax::XmlNodeSyntax" />
-  <TypeSignature Language="C++ CX" Value="public ref class XmlDocumentSyntax sealed : Microsoft::CodeAnalysis::VisualBasic::Syntax::XmlNodeSyntax" />
-  <TypeSignature Language="C++ WINRT" Value="class XmlDocumentSyntax sealed : Microsoft::CodeAnalysis::VisualBasic::Syntax::XmlNodeSyntax" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-    <AssemblyVersion>2.6.0.0</AssemblyVersion>
+    <AssemblyVersion>2.9.0.0</AssemblyVersion>
+    <AssemblyVersion>3.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Microsoft.CodeAnalysis.VisualBasic.Syntax.XmlNodeSyntax</BaseTypeName>
@@ -29,12 +28,11 @@
       <MemberSignature Language="VB.NET" Value="Public Overrides Sub Accept (visitor As VisualBasicSyntaxVisitor)" />
       <MemberSignature Language="F#" Value="override this.Accept : Microsoft.CodeAnalysis.VisualBasic.VisualBasicSyntaxVisitor -&gt; unit" Usage="xmlDocumentSyntax.Accept visitor" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; override void Accept(Microsoft::CodeAnalysis::VisualBasic::VisualBasicSyntaxVisitor ^ visitor);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; override void Accept(Microsoft::CodeAnalysis::VisualBasic::VisualBasicSyntaxVisitor ^ visitor);" />
-      <MemberSignature Language="C++ WINRT" Value=" override void Accept(Microsoft::CodeAnalysis::VisualBasic::VisualBasicSyntaxVisitor const &amp; visitor);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -55,11 +53,11 @@
       <MemberSignature Language="VB.NET" Value="Public Overrides Function Accept(Of TResult) (visitor As VisualBasicSyntaxVisitor(Of TResult)) As TResult" />
       <MemberSignature Language="F#" Value="override this.Accept : Microsoft.CodeAnalysis.VisualBasic.VisualBasicSyntaxVisitor&lt;'Result&gt; -&gt; 'Result" Usage="xmlDocumentSyntax.Accept visitor" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename TResult&gt;&#xA; override TResult Accept(Microsoft::CodeAnalysis::VisualBasic::VisualBasicSyntaxVisitor&lt;TResult&gt; ^ visitor);" />
-      <MemberSignature Language="C++ WINRT" Value="template &lt;typename TResult&gt;&#xA; override TResult Accept(Microsoft::CodeAnalysis::VisualBasic::VisualBasicSyntaxVisitor&lt;TResult&gt; const &amp; visitor);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>TResult</ReturnType>
@@ -88,7 +86,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.VisualBasic.Syntax.XmlDocumentSyntax</ReturnType>
@@ -119,7 +118,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.VisualBasic.Syntax.XmlDocumentSyntax</ReturnType>
@@ -147,11 +147,11 @@
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Declaration As XmlDeclarationSyntax" />
       <MemberSignature Language="F#" Value="member this.Declaration : Microsoft.CodeAnalysis.VisualBasic.Syntax.XmlDeclarationSyntax" Usage="Microsoft.CodeAnalysis.VisualBasic.Syntax.XmlDocumentSyntax.Declaration" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::CodeAnalysis::VisualBasic::Syntax::XmlDeclarationSyntax ^ Declaration { Microsoft::CodeAnalysis::VisualBasic::Syntax::XmlDeclarationSyntax ^ get(); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; property Microsoft::CodeAnalysis::VisualBasic::Syntax::XmlDeclarationSyntax ^ Declaration { Microsoft::CodeAnalysis::VisualBasic::Syntax::XmlDeclarationSyntax ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.VisualBasic.Syntax.XmlDeclarationSyntax</ReturnType>
@@ -172,7 +172,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.SyntaxList&lt;Microsoft.CodeAnalysis.VisualBasic.Syntax.XmlNodeSyntax&gt;</ReturnType>
@@ -195,7 +196,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.SyntaxList&lt;Microsoft.CodeAnalysis.VisualBasic.Syntax.XmlNodeSyntax&gt;</ReturnType>
@@ -215,11 +217,11 @@
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Root As XmlNodeSyntax" />
       <MemberSignature Language="F#" Value="member this.Root : Microsoft.CodeAnalysis.VisualBasic.Syntax.XmlNodeSyntax" Usage="Microsoft.CodeAnalysis.VisualBasic.Syntax.XmlDocumentSyntax.Root" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::CodeAnalysis::VisualBasic::Syntax::XmlNodeSyntax ^ Root { Microsoft::CodeAnalysis::VisualBasic::Syntax::XmlNodeSyntax ^ get(); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; property Microsoft::CodeAnalysis::VisualBasic::Syntax::XmlNodeSyntax ^ Root { Microsoft::CodeAnalysis::VisualBasic::Syntax::XmlNodeSyntax ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.VisualBasic.Syntax.XmlNodeSyntax</ReturnType>
@@ -240,7 +242,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.VisualBasic.Syntax.XmlDocumentSyntax</ReturnType>
@@ -279,12 +282,11 @@
       <MemberSignature Language="VB.NET" Value="Public Function WithDeclaration (declaration As XmlDeclarationSyntax) As XmlDocumentSyntax" />
       <MemberSignature Language="F#" Value="member this.WithDeclaration : Microsoft.CodeAnalysis.VisualBasic.Syntax.XmlDeclarationSyntax -&gt; Microsoft.CodeAnalysis.VisualBasic.Syntax.XmlDocumentSyntax" Usage="xmlDocumentSyntax.WithDeclaration declaration" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::CodeAnalysis::VisualBasic::Syntax::XmlDocumentSyntax ^ WithDeclaration(Microsoft::CodeAnalysis::VisualBasic::Syntax::XmlDeclarationSyntax ^ declaration);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; Microsoft::CodeAnalysis::VisualBasic::Syntax::XmlDocumentSyntax ^ WithDeclaration(Microsoft::CodeAnalysis::VisualBasic::Syntax::XmlDeclarationSyntax ^ declaration);" />
-      <MemberSignature Language="C++ WINRT" Value="Microsoft::CodeAnalysis::VisualBasic::Syntax::XmlDocumentSyntax WithDeclaration(Microsoft::CodeAnalysis::VisualBasic::Syntax::XmlDeclarationSyntax const &amp; declaration);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.VisualBasic.Syntax.XmlDocumentSyntax</ReturnType>
@@ -313,7 +315,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.VisualBasic.Syntax.XmlDocumentSyntax</ReturnType>
@@ -342,7 +345,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.VisualBasic.Syntax.XmlDocumentSyntax</ReturnType>
@@ -368,12 +372,11 @@
       <MemberSignature Language="VB.NET" Value="Public Function WithRoot (root As XmlNodeSyntax) As XmlDocumentSyntax" />
       <MemberSignature Language="F#" Value="member this.WithRoot : Microsoft.CodeAnalysis.VisualBasic.Syntax.XmlNodeSyntax -&gt; Microsoft.CodeAnalysis.VisualBasic.Syntax.XmlDocumentSyntax" Usage="xmlDocumentSyntax.WithRoot root" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::CodeAnalysis::VisualBasic::Syntax::XmlDocumentSyntax ^ WithRoot(Microsoft::CodeAnalysis::VisualBasic::Syntax::XmlNodeSyntax ^ root);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; Microsoft::CodeAnalysis::VisualBasic::Syntax::XmlDocumentSyntax ^ WithRoot(Microsoft::CodeAnalysis::VisualBasic::Syntax::XmlNodeSyntax ^ root);" />
-      <MemberSignature Language="C++ WINRT" Value="Microsoft::CodeAnalysis::VisualBasic::Syntax::XmlDocumentSyntax WithRoot(Microsoft::CodeAnalysis::VisualBasic::Syntax::XmlNodeSyntax const &amp; root);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.VisualBasic.Syntax.XmlDocumentSyntax</ReturnType>

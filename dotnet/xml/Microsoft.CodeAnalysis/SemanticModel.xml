@@ -5,11 +5,10 @@
   <TypeSignature Language="VB.NET" Value="Public MustInherit Class SemanticModel" />
   <TypeSignature Language="F#" Value="type SemanticModel = class" />
   <TypeSignature Language="C++ CLI" Value="public ref class SemanticModel abstract" />
-  <TypeSignature Language="C++ CX" Value="[Windows::Foundation::Metadata::WebHostHidden]&#xA;public ref class SemanticModel abstract" />
-  <TypeSignature Language="C++ WINRT" Value="[Windows::Foundation::Metadata::WebHostHidden]&#xA;class SemanticModel abstract" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-    <AssemblyVersion>2.6.0.0</AssemblyVersion>
+    <AssemblyVersion>2.9.0.0</AssemblyVersion>
+    <AssemblyVersion>3.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -45,12 +44,11 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.CodeAnalysis.SemanticModel.#ctor" />
       <MemberSignature Language="VB.NET" Value="Protected Sub New ()" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; SemanticModel();" />
-      <MemberSignature Language="C++ CX" Value="protected:&#xA; SemanticModel();" />
-      <MemberSignature Language="C++ WINRT" Value=" SemanticModel();" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -65,12 +63,11 @@
       <MemberSignature Language="VB.NET" Value="Protected MustOverride Function AnalyzeControlFlowCore (statement As SyntaxNode) As ControlFlowAnalysis" />
       <MemberSignature Language="F#" Value="abstract member AnalyzeControlFlowCore : Microsoft.CodeAnalysis.SyntaxNode -&gt; Microsoft.CodeAnalysis.ControlFlowAnalysis" Usage="semanticModel.AnalyzeControlFlowCore statement" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; abstract Microsoft::CodeAnalysis::ControlFlowAnalysis ^ AnalyzeControlFlowCore(Microsoft::CodeAnalysis::SyntaxNode ^ statement);" />
-      <MemberSignature Language="C++ CX" Value="protected:&#xA; abstract Microsoft::CodeAnalysis::ControlFlowAnalysis ^ AnalyzeControlFlowCore(Microsoft::CodeAnalysis::SyntaxNode ^ statement);" />
-      <MemberSignature Language="C++ WINRT" Value=" abstract Microsoft::CodeAnalysis::ControlFlowAnalysis AnalyzeControlFlowCore(Microsoft::CodeAnalysis::SyntaxNode const &amp; statement);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.ControlFlowAnalysis</ReturnType>
@@ -98,12 +95,11 @@
       <MemberSignature Language="VB.NET" Value="Protected MustOverride Function AnalyzeControlFlowCore (firstStatement As SyntaxNode, lastStatement As SyntaxNode) As ControlFlowAnalysis" />
       <MemberSignature Language="F#" Value="abstract member AnalyzeControlFlowCore : Microsoft.CodeAnalysis.SyntaxNode * Microsoft.CodeAnalysis.SyntaxNode -&gt; Microsoft.CodeAnalysis.ControlFlowAnalysis" Usage="semanticModel.AnalyzeControlFlowCore (firstStatement, lastStatement)" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; abstract Microsoft::CodeAnalysis::ControlFlowAnalysis ^ AnalyzeControlFlowCore(Microsoft::CodeAnalysis::SyntaxNode ^ firstStatement, Microsoft::CodeAnalysis::SyntaxNode ^ lastStatement);" />
-      <MemberSignature Language="C++ CX" Value="protected:&#xA; abstract Microsoft::CodeAnalysis::ControlFlowAnalysis ^ AnalyzeControlFlowCore(Microsoft::CodeAnalysis::SyntaxNode ^ firstStatement, Microsoft::CodeAnalysis::SyntaxNode ^ lastStatement);" />
-      <MemberSignature Language="C++ WINRT" Value=" abstract Microsoft::CodeAnalysis::ControlFlowAnalysis AnalyzeControlFlowCore(Microsoft::CodeAnalysis::SyntaxNode const &amp; firstStatement, Microsoft::CodeAnalysis::SyntaxNode const &amp; lastStatement);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.ControlFlowAnalysis</ReturnType>
@@ -133,12 +129,11 @@
       <MemberSignature Language="VB.NET" Value="Protected MustOverride Function AnalyzeDataFlowCore (statementOrExpression As SyntaxNode) As DataFlowAnalysis" />
       <MemberSignature Language="F#" Value="abstract member AnalyzeDataFlowCore : Microsoft.CodeAnalysis.SyntaxNode -&gt; Microsoft.CodeAnalysis.DataFlowAnalysis" Usage="semanticModel.AnalyzeDataFlowCore statementOrExpression" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; abstract Microsoft::CodeAnalysis::DataFlowAnalysis ^ AnalyzeDataFlowCore(Microsoft::CodeAnalysis::SyntaxNode ^ statementOrExpression);" />
-      <MemberSignature Language="C++ CX" Value="protected:&#xA; abstract Microsoft::CodeAnalysis::DataFlowAnalysis ^ AnalyzeDataFlowCore(Microsoft::CodeAnalysis::SyntaxNode ^ statementOrExpression);" />
-      <MemberSignature Language="C++ WINRT" Value=" abstract Microsoft::CodeAnalysis::DataFlowAnalysis AnalyzeDataFlowCore(Microsoft::CodeAnalysis::SyntaxNode const &amp; statementOrExpression);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.DataFlowAnalysis</ReturnType>
@@ -166,12 +161,11 @@
       <MemberSignature Language="VB.NET" Value="Protected MustOverride Function AnalyzeDataFlowCore (firstStatement As SyntaxNode, lastStatement As SyntaxNode) As DataFlowAnalysis" />
       <MemberSignature Language="F#" Value="abstract member AnalyzeDataFlowCore : Microsoft.CodeAnalysis.SyntaxNode * Microsoft.CodeAnalysis.SyntaxNode -&gt; Microsoft.CodeAnalysis.DataFlowAnalysis" Usage="semanticModel.AnalyzeDataFlowCore (firstStatement, lastStatement)" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; abstract Microsoft::CodeAnalysis::DataFlowAnalysis ^ AnalyzeDataFlowCore(Microsoft::CodeAnalysis::SyntaxNode ^ firstStatement, Microsoft::CodeAnalysis::SyntaxNode ^ lastStatement);" />
-      <MemberSignature Language="C++ CX" Value="protected:&#xA; abstract Microsoft::CodeAnalysis::DataFlowAnalysis ^ AnalyzeDataFlowCore(Microsoft::CodeAnalysis::SyntaxNode ^ firstStatement, Microsoft::CodeAnalysis::SyntaxNode ^ lastStatement);" />
-      <MemberSignature Language="C++ WINRT" Value=" abstract Microsoft::CodeAnalysis::DataFlowAnalysis AnalyzeDataFlowCore(Microsoft::CodeAnalysis::SyntaxNode const &amp; firstStatement, Microsoft::CodeAnalysis::SyntaxNode const &amp; lastStatement);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.DataFlowAnalysis</ReturnType>
@@ -201,11 +195,11 @@
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Compilation As Compilation" />
       <MemberSignature Language="F#" Value="member this.Compilation : Microsoft.CodeAnalysis.Compilation" Usage="Microsoft.CodeAnalysis.SemanticModel.Compilation" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::CodeAnalysis::Compilation ^ Compilation { Microsoft::CodeAnalysis::Compilation ^ get(); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; property Microsoft::CodeAnalysis::Compilation ^ Compilation { Microsoft::CodeAnalysis::Compilation ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.Compilation</ReturnType>
@@ -225,11 +219,11 @@
       <MemberSignature Language="VB.NET" Value="Protected MustOverride ReadOnly Property CompilationCore As Compilation" />
       <MemberSignature Language="F#" Value="member this.CompilationCore : Microsoft.CodeAnalysis.Compilation" Usage="Microsoft.CodeAnalysis.SemanticModel.CompilationCore" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; abstract property Microsoft::CodeAnalysis::Compilation ^ CompilationCore { Microsoft::CodeAnalysis::Compilation ^ get(); };" />
-      <MemberSignature Language="C++ CX" Value="protected:&#xA; abstract property Microsoft::CodeAnalysis::Compilation ^ CompilationCore { Microsoft::CodeAnalysis::Compilation ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.Compilation</ReturnType>
@@ -250,7 +244,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.IAliasSymbol</ReturnType>
@@ -279,7 +274,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.Optional&lt;System.Object&gt;</ReturnType>
@@ -308,7 +304,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.Optional&lt;System.Object&gt;</ReturnType>
@@ -337,7 +334,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Immutable.ImmutableArray&lt;Microsoft.CodeAnalysis.Diagnostic&gt;</ReturnType>
@@ -370,7 +368,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.ISymbol</ReturnType>
@@ -400,7 +399,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Immutable.ImmutableArray&lt;Microsoft.CodeAnalysis.ISymbol&gt;</ReturnType>
@@ -432,7 +432,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Immutable.ImmutableArray&lt;Microsoft.CodeAnalysis.Diagnostic&gt;</ReturnType>
@@ -468,7 +469,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.ISymbol</ReturnType>
@@ -496,7 +498,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.ISymbol</ReturnType>
@@ -524,7 +527,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Immutable.ImmutableArray&lt;Microsoft.CodeAnalysis.ISymbol&gt;</ReturnType>
@@ -553,7 +557,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Immutable.ImmutableArray&lt;Microsoft.CodeAnalysis.Diagnostic&gt;</ReturnType>
@@ -586,7 +591,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.IOperation</ReturnType>
@@ -614,7 +620,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.IOperation</ReturnType>
@@ -641,7 +648,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.PreprocessingSymbolInfo</ReturnType>
@@ -669,7 +677,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.PreprocessingSymbolInfo</ReturnType>
@@ -697,7 +706,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.IAliasSymbol</ReturnType>
@@ -737,7 +747,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.SymbolInfo</ReturnType>
@@ -778,7 +789,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.TypeInfo</ReturnType>
@@ -817,7 +829,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.SymbolInfo</ReturnType>
@@ -845,7 +858,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Immutable.ImmutableArray&lt;Microsoft.CodeAnalysis.Diagnostic&gt;</ReturnType>
@@ -877,7 +891,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.SyntaxNode</ReturnType>
@@ -904,7 +919,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.TypeInfo</ReturnType>
@@ -931,11 +947,11 @@
       <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property IgnoresAccessibility As Boolean" />
       <MemberSignature Language="F#" Value="member this.IgnoresAccessibility : bool" Usage="Microsoft.CodeAnalysis.SemanticModel.IgnoresAccessibility" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property bool IgnoresAccessibility { bool get(); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; virtual property bool IgnoresAccessibility { bool get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -958,7 +974,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -995,7 +1012,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -1032,7 +1050,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -1064,7 +1083,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -1093,11 +1113,11 @@
       <MemberSignature Language="VB.NET" Value="Public MustOverride ReadOnly Property IsSpeculativeSemanticModel As Boolean" />
       <MemberSignature Language="F#" Value="member this.IsSpeculativeSemanticModel : bool" Usage="Microsoft.CodeAnalysis.SemanticModel.IsSpeculativeSemanticModel" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; abstract property bool IsSpeculativeSemanticModel { bool get(); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; abstract property bool IsSpeculativeSemanticModel { bool get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -1117,11 +1137,11 @@
       <MemberSignature Language="VB.NET" Value="Public MustOverride ReadOnly Property Language As String" />
       <MemberSignature Language="F#" Value="member this.Language : string" Usage="Microsoft.CodeAnalysis.SemanticModel.Language" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; abstract property System::String ^ Language { System::String ^ get(); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; abstract property Platform::String ^ Language { Platform::String ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -1143,7 +1163,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Immutable.ImmutableArray&lt;Microsoft.CodeAnalysis.ISymbol&gt;</ReturnType>
@@ -1200,7 +1221,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Immutable.ImmutableArray&lt;Microsoft.CodeAnalysis.ISymbol&gt;</ReturnType>
@@ -1228,7 +1250,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Immutable.ImmutableArray&lt;Microsoft.CodeAnalysis.ISymbol&gt;</ReturnType>
@@ -1264,7 +1287,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Immutable.ImmutableArray&lt;Microsoft.CodeAnalysis.ISymbol&gt;</ReturnType>
@@ -1292,7 +1316,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Immutable.ImmutableArray&lt;Microsoft.CodeAnalysis.ISymbol&gt;</ReturnType>
@@ -1333,7 +1358,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Immutable.ImmutableArray&lt;Microsoft.CodeAnalysis.ISymbol&gt;</ReturnType>
@@ -1363,7 +1389,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Immutable.ImmutableArray&lt;Microsoft.CodeAnalysis.ISymbol&gt;</ReturnType>
@@ -1406,7 +1433,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Immutable.ImmutableArray&lt;Microsoft.CodeAnalysis.ISymbol&gt;</ReturnType>
@@ -1436,7 +1464,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Immutable.ImmutableArray&lt;Microsoft.CodeAnalysis.ISymbol&gt;</ReturnType>
@@ -1481,7 +1510,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Immutable.ImmutableArray&lt;Microsoft.CodeAnalysis.ISymbol&gt;</ReturnType>
@@ -1511,11 +1541,11 @@
       <MemberSignature Language="VB.NET" Value="Public MustOverride ReadOnly Property OriginalPositionForSpeculation As Integer" />
       <MemberSignature Language="F#" Value="member this.OriginalPositionForSpeculation : int" Usage="Microsoft.CodeAnalysis.SemanticModel.OriginalPositionForSpeculation" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; abstract property int OriginalPositionForSpeculation { int get(); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; abstract property int OriginalPositionForSpeculation { int get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -1536,11 +1566,11 @@
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ParentModel As SemanticModel" />
       <MemberSignature Language="F#" Value="member this.ParentModel : Microsoft.CodeAnalysis.SemanticModel" Usage="Microsoft.CodeAnalysis.SemanticModel.ParentModel" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::CodeAnalysis::SemanticModel ^ ParentModel { Microsoft::CodeAnalysis::SemanticModel ^ get(); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; property Microsoft::CodeAnalysis::SemanticModel ^ ParentModel { Microsoft::CodeAnalysis::SemanticModel ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.SemanticModel</ReturnType>
@@ -1561,11 +1591,11 @@
       <MemberSignature Language="VB.NET" Value="Protected MustOverride ReadOnly Property ParentModelCore As SemanticModel" />
       <MemberSignature Language="F#" Value="member this.ParentModelCore : Microsoft.CodeAnalysis.SemanticModel" Usage="Microsoft.CodeAnalysis.SemanticModel.ParentModelCore" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; abstract property Microsoft::CodeAnalysis::SemanticModel ^ ParentModelCore { Microsoft::CodeAnalysis::SemanticModel ^ get(); };" />
-      <MemberSignature Language="C++ CX" Value="protected:&#xA; abstract property Microsoft::CodeAnalysis::SemanticModel ^ ParentModelCore { Microsoft::CodeAnalysis::SemanticModel ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.SemanticModel</ReturnType>
@@ -1586,11 +1616,11 @@
       <MemberSignature Language="VB.NET" Value="Protected MustOverride ReadOnly Property RootCore As SyntaxNode" />
       <MemberSignature Language="F#" Value="member this.RootCore : Microsoft.CodeAnalysis.SyntaxNode" Usage="Microsoft.CodeAnalysis.SemanticModel.RootCore" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; abstract property Microsoft::CodeAnalysis::SyntaxNode ^ RootCore { Microsoft::CodeAnalysis::SyntaxNode ^ get(); };" />
-      <MemberSignature Language="C++ CX" Value="protected:&#xA; abstract property Microsoft::CodeAnalysis::SyntaxNode ^ RootCore { Microsoft::CodeAnalysis::SyntaxNode ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.SyntaxNode</ReturnType>
@@ -1610,11 +1640,11 @@
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SyntaxTree As SyntaxTree" />
       <MemberSignature Language="F#" Value="member this.SyntaxTree : Microsoft.CodeAnalysis.SyntaxTree" Usage="Microsoft.CodeAnalysis.SemanticModel.SyntaxTree" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::CodeAnalysis::SyntaxTree ^ SyntaxTree { Microsoft::CodeAnalysis::SyntaxTree ^ get(); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; property Microsoft::CodeAnalysis::SyntaxTree ^ SyntaxTree { Microsoft::CodeAnalysis::SyntaxTree ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.SyntaxTree</ReturnType>
@@ -1634,11 +1664,11 @@
       <MemberSignature Language="VB.NET" Value="Protected MustOverride ReadOnly Property SyntaxTreeCore As SyntaxTree" />
       <MemberSignature Language="F#" Value="member this.SyntaxTreeCore : Microsoft.CodeAnalysis.SyntaxTree" Usage="Microsoft.CodeAnalysis.SemanticModel.SyntaxTreeCore" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; abstract property Microsoft::CodeAnalysis::SyntaxTree ^ SyntaxTreeCore { Microsoft::CodeAnalysis::SyntaxTree ^ get(); };" />
-      <MemberSignature Language="C++ CX" Value="protected:&#xA; abstract property Microsoft::CodeAnalysis::SyntaxTree ^ SyntaxTreeCore { Microsoft::CodeAnalysis::SyntaxTree ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.SyntaxTree</ReturnType>

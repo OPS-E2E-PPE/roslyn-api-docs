@@ -7,9 +7,16 @@
   <TypeSignature Language="C++ CLI" Value="public interface class IArrayTypeSymbol : IEquatable&lt;Microsoft::CodeAnalysis::ISymbol ^&gt;, Microsoft::CodeAnalysis::ITypeSymbol" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-    <AssemblyVersion>2.6.0.0</AssemblyVersion>
+    <AssemblyVersion>2.9.0.0</AssemblyVersion>
+    <AssemblyVersion>3.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.CodeAnalysis.INamespaceOrTypeSymbol</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.CodeAnalysis.ISymbol</InterfaceName>
+    </Interface>
     <Interface>
       <InterfaceName>Microsoft.CodeAnalysis.ITypeSymbol</InterfaceName>
     </Interface>
@@ -37,7 +44,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Immutable.ImmutableArray&lt;Microsoft.CodeAnalysis.CustomModifier&gt;</ReturnType>
@@ -45,6 +53,28 @@
       <Docs>
         <summary>
             Custom modifiers associated with the array type, or an empty array if there are none.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ElementNullableAnnotation">
+      <MemberSignature Language="C#" Value="public Microsoft.CodeAnalysis.NullableAnnotation ElementNullableAnnotation { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.CodeAnalysis.NullableAnnotation ElementNullableAnnotation" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.CodeAnalysis.IArrayTypeSymbol.ElementNullableAnnotation" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ElementNullableAnnotation As NullableAnnotation" />
+      <MemberSignature Language="F#" Value="member this.ElementNullableAnnotation : Microsoft.CodeAnalysis.NullableAnnotation" Usage="Microsoft.CodeAnalysis.IArrayTypeSymbol.ElementNullableAnnotation" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.CodeAnalysis.NullableAnnotation</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the top-level nullability of the elements stored in the array. 
             </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -60,7 +90,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.ITypeSymbol</ReturnType>
@@ -83,7 +114,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -105,11 +137,11 @@
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsSZArray As Boolean" />
       <MemberSignature Language="F#" Value="member this.IsSZArray : bool" Usage="Microsoft.CodeAnalysis.IArrayTypeSymbol.IsSZArray" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsSZArray { bool get(); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; property bool IsSZArray { bool get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -118,7 +150,7 @@
         <summary>
             Is this a zero-based one-dimensional array, i.e. SZArray in CLR terms.
             SZArray is an array type encoded in metadata with ELEMENT_TYPE_SZARRAY (always single-dim array with 0 lower bound).
-            Non-SZArray type is ecoded in metadata with ELEMENT_TYPE_ARRAY and with optional sizes and lower bounds. Even though 
+            Non-SZArray type is encoded in metadata with ELEMENT_TYPE_ARRAY and with optional sizes and lower bounds. Even though 
             non-SZArray can also be a single-dim array with 0 lower bound, the encoding of these types in metadata is distinct.
             </summary>
         <value>To be added.</value>
@@ -135,7 +167,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Immutable.ImmutableArray&lt;System.Int32&gt;</ReturnType>
@@ -157,11 +190,11 @@
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Rank As Integer" />
       <MemberSignature Language="F#" Value="member this.Rank : int" Usage="Microsoft.CodeAnalysis.IArrayTypeSymbol.Rank" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Rank { int get(); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; property int Rank { int get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -185,7 +218,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Immutable.ImmutableArray&lt;System.Int32&gt;</ReturnType>

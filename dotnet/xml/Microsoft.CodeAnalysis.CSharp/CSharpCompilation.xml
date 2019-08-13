@@ -5,11 +5,10 @@
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class CSharpCompilation&#xA;Inherits Compilation" />
   <TypeSignature Language="F#" Value="type CSharpCompilation = class&#xA;    inherit Compilation" />
   <TypeSignature Language="C++ CLI" Value="public ref class CSharpCompilation sealed : Microsoft::CodeAnalysis::Compilation" />
-  <TypeSignature Language="C++ CX" Value="public ref class CSharpCompilation sealed : Microsoft::CodeAnalysis::Compilation" />
-  <TypeSignature Language="C++ WINRT" Value="class CSharpCompilation sealed : Microsoft::CodeAnalysis::Compilation" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-    <AssemblyVersion>2.6.0.0</AssemblyVersion>
+    <AssemblyVersion>2.9.0.0</AssemblyVersion>
+    <AssemblyVersion>3.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Microsoft.CodeAnalysis.Compilation</BaseTypeName>
@@ -37,7 +36,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.CSharp.CSharpCompilation</ReturnType>
@@ -70,7 +70,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.CSharp.CSharpCompilation</ReturnType>
@@ -97,7 +98,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.CSharp.CSharpCompilation</ReturnType>
@@ -130,7 +132,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.CSharp.CSharpCompilation</ReturnType>
@@ -157,7 +160,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -171,6 +175,38 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="ClassifyCommonConversion">
+      <MemberSignature Language="C#" Value="public override Microsoft.CodeAnalysis.Operations.CommonConversion ClassifyCommonConversion (Microsoft.CodeAnalysis.ITypeSymbol source, Microsoft.CodeAnalysis.ITypeSymbol destination);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance valuetype Microsoft.CodeAnalysis.Operations.CommonConversion ClassifyCommonConversion(class Microsoft.CodeAnalysis.ITypeSymbol source, class Microsoft.CodeAnalysis.ITypeSymbol destination) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.CodeAnalysis.CSharp.CSharpCompilation.ClassifyCommonConversion(Microsoft.CodeAnalysis.ITypeSymbol,Microsoft.CodeAnalysis.ITypeSymbol)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function ClassifyCommonConversion (source As ITypeSymbol, destination As ITypeSymbol) As CommonConversion" />
+      <MemberSignature Language="F#" Value="override this.ClassifyCommonConversion : Microsoft.CodeAnalysis.ITypeSymbol * Microsoft.CodeAnalysis.ITypeSymbol -&gt; Microsoft.CodeAnalysis.Operations.CommonConversion" Usage="cSharpCompilation.ClassifyCommonConversion (source, destination)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override Microsoft::CodeAnalysis::Operations::CommonConversion ClassifyCommonConversion(Microsoft::CodeAnalysis::ITypeSymbol ^ source, Microsoft::CodeAnalysis::ITypeSymbol ^ destination);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.CodeAnalysis.Operations.CommonConversion</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="source" Type="Microsoft.CodeAnalysis.ITypeSymbol" />
+        <Parameter Name="destination" Type="Microsoft.CodeAnalysis.ITypeSymbol" />
+      </Parameters>
+      <Docs>
+        <param name="source">Source type of value to be converted</param>
+        <param name="destination">Destination type of value to be converted</param>
+        <summary>
+            Classifies a conversion from <paramref name="source" /> to <paramref name="destination" /> according
+            to this compilation's programming language.
+            </summary>
+        <returns>A <see cref="T:Microsoft.CodeAnalysis.Operations.CommonConversion" /> that classifies the conversion from the
+            <paramref name="source" /> type to the <paramref name="destination" /> type.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="ClassifyConversion">
       <MemberSignature Language="C#" Value="public Microsoft.CodeAnalysis.CSharp.Conversion ClassifyConversion (Microsoft.CodeAnalysis.ITypeSymbol source, Microsoft.CodeAnalysis.ITypeSymbol destination);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance valuetype Microsoft.CodeAnalysis.CSharp.Conversion ClassifyConversion(class Microsoft.CodeAnalysis.ITypeSymbol source, class Microsoft.CodeAnalysis.ITypeSymbol destination) cil managed" />
@@ -181,7 +217,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.CSharp.Conversion</ReturnType>
@@ -205,12 +242,11 @@
       <MemberSignature Language="VB.NET" Value="Public Function Clone () As CSharpCompilation" />
       <MemberSignature Language="F#" Value="override this.Clone : unit -&gt; Microsoft.CodeAnalysis.CSharp.CSharpCompilation" Usage="cSharpCompilation.Clone " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::CodeAnalysis::CSharp::CSharpCompilation ^ Clone();" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; Microsoft::CodeAnalysis::CSharp::CSharpCompilation ^ Clone();" />
-      <MemberSignature Language="C++ WINRT" Value="Microsoft::CodeAnalysis::CSharp::CSharpCompilation Clone();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.CSharp.CSharpCompilation</ReturnType>
@@ -234,7 +270,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.Compilation</ReturnType>
@@ -259,7 +296,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.IAssemblySymbol</ReturnType>
@@ -277,12 +315,11 @@
       <MemberSignature Language="VB.NET" Value="Protected Overrides Function CommonClone () As Compilation" />
       <MemberSignature Language="F#" Value="override this.CommonClone : unit -&gt; Microsoft.CodeAnalysis.Compilation" Usage="cSharpCompilation.CommonClone " />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override Microsoft::CodeAnalysis::Compilation ^ CommonClone();" />
-      <MemberSignature Language="C++ CX" Value="protected:&#xA; override Microsoft::CodeAnalysis::Compilation ^ CommonClone();" />
-      <MemberSignature Language="C++ WINRT" Value=" override Microsoft::CodeAnalysis::Compilation CommonClone();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.Compilation</ReturnType>
@@ -300,12 +337,11 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.CodeAnalysis.CSharp.CSharpCompilation.CommonContainsSyntaxTree(Microsoft.CodeAnalysis.SyntaxTree)" />
       <MemberSignature Language="F#" Value="override this.CommonContainsSyntaxTree : Microsoft.CodeAnalysis.SyntaxTree -&gt; bool" Usage="cSharpCompilation.CommonContainsSyntaxTree syntaxTree" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override bool CommonContainsSyntaxTree(Microsoft::CodeAnalysis::SyntaxTree ^ syntaxTree);" />
-      <MemberSignature Language="C++ CX" Value="protected:&#xA; override bool CommonContainsSyntaxTree(Microsoft::CodeAnalysis::SyntaxTree ^ syntaxTree);" />
-      <MemberSignature Language="C++ WINRT" Value=" override bool CommonContainsSyntaxTree(Microsoft::CodeAnalysis::SyntaxTree const &amp; syntaxTree);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -330,7 +366,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.INamedTypeSymbol</ReturnType>
@@ -361,7 +398,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.IArrayTypeSymbol</ReturnType>
@@ -388,7 +426,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.INamespaceSymbol</ReturnType>
@@ -415,7 +454,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.INamedTypeSymbol</ReturnType>
@@ -444,7 +484,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.IPointerTypeSymbol</ReturnType>
@@ -469,7 +510,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.INamedTypeSymbol</ReturnType>
@@ -498,7 +540,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.INamedTypeSymbol</ReturnType>
@@ -527,7 +570,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.ITypeSymbol</ReturnType>
@@ -548,7 +592,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.ISymbol</ReturnType>
@@ -573,7 +618,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.INamespaceSymbol</ReturnType>
@@ -597,7 +643,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.IMethodSymbol</ReturnType>
@@ -618,12 +665,11 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.CodeAnalysis.CSharp.CSharpCompilation.CommonGetSemanticModel(Microsoft.CodeAnalysis.SyntaxTree,System.Boolean)" />
       <MemberSignature Language="F#" Value="override this.CommonGetSemanticModel : Microsoft.CodeAnalysis.SyntaxTree * bool -&gt; Microsoft.CodeAnalysis.SemanticModel" Usage="cSharpCompilation.CommonGetSemanticModel (syntaxTree, ignoreAccessibility)" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override Microsoft::CodeAnalysis::SemanticModel ^ CommonGetSemanticModel(Microsoft::CodeAnalysis::SyntaxTree ^ syntaxTree, bool ignoreAccessibility);" />
-      <MemberSignature Language="C++ CX" Value="protected:&#xA; override Microsoft::CodeAnalysis::SemanticModel ^ CommonGetSemanticModel(Microsoft::CodeAnalysis::SyntaxTree ^ syntaxTree, bool ignoreAccessibility);" />
-      <MemberSignature Language="C++ WINRT" Value=" override Microsoft::CodeAnalysis::SemanticModel CommonGetSemanticModel(Microsoft::CodeAnalysis::SyntaxTree const &amp; syntaxTree, bool ignoreAccessibility);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.SemanticModel</ReturnType>
@@ -649,7 +695,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.INamedTypeSymbol</ReturnType>
@@ -674,7 +721,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.INamedTypeSymbol</ReturnType>
@@ -699,7 +747,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.INamespaceSymbol</ReturnType>
@@ -720,7 +769,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.INamedTypeSymbol</ReturnType>
@@ -738,11 +788,11 @@
       <MemberSignature Language="VB.NET" Value="Protected Overrides ReadOnly Property CommonOptions As CompilationOptions" />
       <MemberSignature Language="F#" Value="member this.CommonOptions : Microsoft.CodeAnalysis.CompilationOptions" Usage="Microsoft.CodeAnalysis.CSharp.CSharpCompilation.CommonOptions" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual property Microsoft::CodeAnalysis::CompilationOptions ^ CommonOptions { Microsoft::CodeAnalysis::CompilationOptions ^ get(); };" />
-      <MemberSignature Language="C++ CX" Value="protected:&#xA; virtual property Microsoft::CodeAnalysis::CompilationOptions ^ CommonOptions { Microsoft::CodeAnalysis::CompilationOptions ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.CompilationOptions</ReturnType>
@@ -760,12 +810,11 @@
       <MemberSignature Language="VB.NET" Value="Protected Overrides Function CommonRemoveAllSyntaxTrees () As Compilation" />
       <MemberSignature Language="F#" Value="override this.CommonRemoveAllSyntaxTrees : unit -&gt; Microsoft.CodeAnalysis.Compilation" Usage="cSharpCompilation.CommonRemoveAllSyntaxTrees " />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override Microsoft::CodeAnalysis::Compilation ^ CommonRemoveAllSyntaxTrees();" />
-      <MemberSignature Language="C++ CX" Value="protected:&#xA; override Microsoft::CodeAnalysis::Compilation ^ CommonRemoveAllSyntaxTrees();" />
-      <MemberSignature Language="C++ WINRT" Value=" override Microsoft::CodeAnalysis::Compilation CommonRemoveAllSyntaxTrees();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.Compilation</ReturnType>
@@ -787,7 +836,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.Compilation</ReturnType>
@@ -809,12 +859,11 @@
       <MemberSignature Language="VB.NET" Value="Protected Overrides Function CommonReplaceSyntaxTree (oldTree As SyntaxTree, newTree As SyntaxTree) As Compilation" />
       <MemberSignature Language="F#" Value="override this.CommonReplaceSyntaxTree : Microsoft.CodeAnalysis.SyntaxTree * Microsoft.CodeAnalysis.SyntaxTree -&gt; Microsoft.CodeAnalysis.Compilation" Usage="cSharpCompilation.CommonReplaceSyntaxTree (oldTree, newTree)" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override Microsoft::CodeAnalysis::Compilation ^ CommonReplaceSyntaxTree(Microsoft::CodeAnalysis::SyntaxTree ^ oldTree, Microsoft::CodeAnalysis::SyntaxTree ^ newTree);" />
-      <MemberSignature Language="C++ CX" Value="protected:&#xA; override Microsoft::CodeAnalysis::Compilation ^ CommonReplaceSyntaxTree(Microsoft::CodeAnalysis::SyntaxTree ^ oldTree, Microsoft::CodeAnalysis::SyntaxTree ^ newTree);" />
-      <MemberSignature Language="C++ WINRT" Value=" override Microsoft::CodeAnalysis::Compilation CommonReplaceSyntaxTree(Microsoft::CodeAnalysis::SyntaxTree const &amp; oldTree, Microsoft::CodeAnalysis::SyntaxTree const &amp; newTree);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.Compilation</ReturnType>
@@ -841,7 +890,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.INamedTypeSymbol</ReturnType>
@@ -862,7 +912,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.IModuleSymbol</ReturnType>
@@ -883,7 +934,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IEnumerable&lt;Microsoft.CodeAnalysis.SyntaxTree&gt;</ReturnType>
@@ -901,12 +953,11 @@
       <MemberSignature Language="VB.NET" Value="Protected Overrides Function CommonWithAssemblyName (assemblyName As String) As Compilation" />
       <MemberSignature Language="F#" Value="override this.CommonWithAssemblyName : string -&gt; Microsoft.CodeAnalysis.Compilation" Usage="cSharpCompilation.CommonWithAssemblyName assemblyName" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override Microsoft::CodeAnalysis::Compilation ^ CommonWithAssemblyName(System::String ^ assemblyName);" />
-      <MemberSignature Language="C++ CX" Value="protected:&#xA; override Microsoft::CodeAnalysis::Compilation ^ CommonWithAssemblyName(Platform::String ^ assemblyName);" />
-      <MemberSignature Language="C++ WINRT" Value=" override Microsoft::CodeAnalysis::Compilation CommonWithAssemblyName(std::wstring const &amp; assemblyName);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.Compilation</ReturnType>
@@ -928,12 +979,11 @@
       <MemberSignature Language="VB.NET" Value="Protected Overrides Function CommonWithOptions (options As CompilationOptions) As Compilation" />
       <MemberSignature Language="F#" Value="override this.CommonWithOptions : Microsoft.CodeAnalysis.CompilationOptions -&gt; Microsoft.CodeAnalysis.Compilation" Usage="cSharpCompilation.CommonWithOptions options" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override Microsoft::CodeAnalysis::Compilation ^ CommonWithOptions(Microsoft::CodeAnalysis::CompilationOptions ^ options);" />
-      <MemberSignature Language="C++ CX" Value="protected:&#xA; override Microsoft::CodeAnalysis::Compilation ^ CommonWithOptions(Microsoft::CodeAnalysis::CompilationOptions ^ options);" />
-      <MemberSignature Language="C++ WINRT" Value=" override Microsoft::CodeAnalysis::Compilation CommonWithOptions(Microsoft::CodeAnalysis::CompilationOptions const &amp; options);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.Compilation</ReturnType>
@@ -958,7 +1008,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.Compilation</ReturnType>
@@ -980,12 +1031,11 @@
       <MemberSignature Language="VB.NET" Value="Protected Overrides Function CommonWithScriptCompilationInfo (info As ScriptCompilationInfo) As Compilation" />
       <MemberSignature Language="F#" Value="override this.CommonWithScriptCompilationInfo : Microsoft.CodeAnalysis.ScriptCompilationInfo -&gt; Microsoft.CodeAnalysis.Compilation" Usage="cSharpCompilation.CommonWithScriptCompilationInfo info" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override Microsoft::CodeAnalysis::Compilation ^ CommonWithScriptCompilationInfo(Microsoft::CodeAnalysis::ScriptCompilationInfo ^ info);" />
-      <MemberSignature Language="C++ CX" Value="protected:&#xA; override Microsoft::CodeAnalysis::Compilation ^ CommonWithScriptCompilationInfo(Microsoft::CodeAnalysis::ScriptCompilationInfo ^ info);" />
-      <MemberSignature Language="C++ WINRT" Value=" override Microsoft::CodeAnalysis::Compilation CommonWithScriptCompilationInfo(Microsoft::CodeAnalysis::ScriptCompilationInfo const &amp; info);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.Compilation</ReturnType>
@@ -1008,7 +1058,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -1029,18 +1080,49 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="ContainsSymbolsWithName">
+      <MemberSignature Language="C#" Value="public override bool ContainsSymbolsWithName (string name, Microsoft.CodeAnalysis.SymbolFilter filter = Microsoft.CodeAnalysis.SymbolFilter.TypeAndMember, System.Threading.CancellationToken cancellationToken = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance bool ContainsSymbolsWithName(string name, valuetype Microsoft.CodeAnalysis.SymbolFilter filter, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.CodeAnalysis.CSharp.CSharpCompilation.ContainsSymbolsWithName(System.String,Microsoft.CodeAnalysis.SymbolFilter,System.Threading.CancellationToken)" />
+      <MemberSignature Language="F#" Value="override this.ContainsSymbolsWithName : string * Microsoft.CodeAnalysis.SymbolFilter * System.Threading.CancellationToken -&gt; bool" Usage="cSharpCompilation.ContainsSymbolsWithName (name, filter, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="filter" Type="Microsoft.CodeAnalysis.SymbolFilter" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="name">To be added.</param>
+        <param name="filter">To be added.</param>
+        <param name="cancellationToken">To be added.</param>
+        <summary>
+            Return true if there is a source declaration symbol name that matches the provided name.
+            This will be faster than <see cref="M:Microsoft.CodeAnalysis.CSharp.CSharpCompilation.ContainsSymbolsWithName(System.Func{System.String,System.Boolean},Microsoft.CodeAnalysis.SymbolFilter,System.Threading.CancellationToken)" />
+            when predicate is just a simple string check.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="ContainsSyntaxTree">
       <MemberSignature Language="C#" Value="public bool ContainsSyntaxTree (Microsoft.CodeAnalysis.SyntaxTree syntaxTree);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool ContainsSyntaxTree(class Microsoft.CodeAnalysis.SyntaxTree syntaxTree) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.CodeAnalysis.CSharp.CSharpCompilation.ContainsSyntaxTree(Microsoft.CodeAnalysis.SyntaxTree)" />
       <MemberSignature Language="F#" Value="override this.ContainsSyntaxTree : Microsoft.CodeAnalysis.SyntaxTree -&gt; bool" Usage="cSharpCompilation.ContainsSyntaxTree syntaxTree" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; bool ContainsSyntaxTree(Microsoft::CodeAnalysis::SyntaxTree ^ syntaxTree);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; bool ContainsSyntaxTree(Microsoft::CodeAnalysis::SyntaxTree ^ syntaxTree);" />
-      <MemberSignature Language="C++ WINRT" Value="bool ContainsSyntaxTree(Microsoft::CodeAnalysis::SyntaxTree const &amp; syntaxTree);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -1066,7 +1148,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.CSharp.CSharpCompilation</ReturnType>
@@ -1098,7 +1181,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.CSharp.CSharpCompilation</ReturnType>
@@ -1137,7 +1221,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Immutable.ImmutableArray&lt;Microsoft.CodeAnalysis.MetadataReference&gt;</ReturnType>
@@ -1156,7 +1241,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Immutable.ImmutableArray&lt;Microsoft.CodeAnalysis.Diagnostic&gt;</ReturnType>
@@ -1182,7 +1268,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Immutable.ImmutableArray&lt;Microsoft.CodeAnalysis.Diagnostic&gt;</ReturnType>
@@ -1207,12 +1294,11 @@
       <MemberSignature Language="VB.NET" Value="Public Function GetDirectiveReference (directive As ReferenceDirectiveTriviaSyntax) As MetadataReference" />
       <MemberSignature Language="F#" Value="member this.GetDirectiveReference : Microsoft.CodeAnalysis.CSharp.Syntax.ReferenceDirectiveTriviaSyntax -&gt; Microsoft.CodeAnalysis.MetadataReference" Usage="cSharpCompilation.GetDirectiveReference directive" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::CodeAnalysis::MetadataReference ^ GetDirectiveReference(Microsoft::CodeAnalysis::CSharp::Syntax::ReferenceDirectiveTriviaSyntax ^ directive);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; Microsoft::CodeAnalysis::MetadataReference ^ GetDirectiveReference(Microsoft::CodeAnalysis::CSharp::Syntax::ReferenceDirectiveTriviaSyntax ^ directive);" />
-      <MemberSignature Language="C++ WINRT" Value="Microsoft::CodeAnalysis::MetadataReference GetDirectiveReference(Microsoft::CodeAnalysis::CSharp::Syntax::ReferenceDirectiveTriviaSyntax const &amp; directive);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.MetadataReference</ReturnType>
@@ -1239,7 +1325,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.MetadataReference</ReturnType>
@@ -1264,7 +1351,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Immutable.ImmutableArray&lt;Microsoft.CodeAnalysis.Diagnostic&gt;</ReturnType>
@@ -1289,7 +1377,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Immutable.ImmutableArray&lt;Microsoft.CodeAnalysis.Diagnostic&gt;</ReturnType>
@@ -1313,12 +1402,11 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.CodeAnalysis.CSharp.CSharpCompilation.GetSemanticModel(Microsoft.CodeAnalysis.SyntaxTree,System.Boolean)" />
       <MemberSignature Language="F#" Value="override this.GetSemanticModel : Microsoft.CodeAnalysis.SyntaxTree * bool -&gt; Microsoft.CodeAnalysis.SemanticModel" Usage="cSharpCompilation.GetSemanticModel (syntaxTree, ignoreAccessibility)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::CodeAnalysis::SemanticModel ^ GetSemanticModel(Microsoft::CodeAnalysis::SyntaxTree ^ syntaxTree, bool ignoreAccessibility);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; Microsoft::CodeAnalysis::SemanticModel ^ GetSemanticModel(Microsoft::CodeAnalysis::SyntaxTree ^ syntaxTree, bool ignoreAccessibility);" />
-      <MemberSignature Language="C++ WINRT" Value="Microsoft::CodeAnalysis::SemanticModel GetSemanticModel(Microsoft::CodeAnalysis::SyntaxTree const &amp; syntaxTree, bool ignoreAccessibility);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.SemanticModel</ReturnType>
@@ -1345,7 +1433,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IEnumerable&lt;Microsoft.CodeAnalysis.ISymbol&gt;</ReturnType>
@@ -1366,6 +1455,37 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="GetSymbolsWithName">
+      <MemberSignature Language="C#" Value="public override System.Collections.Generic.IEnumerable&lt;Microsoft.CodeAnalysis.ISymbol&gt; GetSymbolsWithName (string name, Microsoft.CodeAnalysis.SymbolFilter filter = Microsoft.CodeAnalysis.SymbolFilter.TypeAndMember, System.Threading.CancellationToken cancellationToken = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.CodeAnalysis.ISymbol&gt; GetSymbolsWithName(string name, valuetype Microsoft.CodeAnalysis.SymbolFilter filter, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.CodeAnalysis.CSharp.CSharpCompilation.GetSymbolsWithName(System.String,Microsoft.CodeAnalysis.SymbolFilter,System.Threading.CancellationToken)" />
+      <MemberSignature Language="F#" Value="override this.GetSymbolsWithName : string * Microsoft.CodeAnalysis.SymbolFilter * System.Threading.CancellationToken -&gt; seq&lt;Microsoft.CodeAnalysis.ISymbol&gt;" Usage="cSharpCompilation.GetSymbolsWithName (name, filter, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IEnumerable&lt;Microsoft.CodeAnalysis.ISymbol&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="filter" Type="Microsoft.CodeAnalysis.SymbolFilter" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="name">To be added.</param>
+        <param name="filter">To be added.</param>
+        <param name="cancellationToken">To be added.</param>
+        <summary>
+            Return source declaration symbols whose name matches the provided name.  This will be
+            faster than <see cref="M:Microsoft.CodeAnalysis.CSharp.CSharpCompilation.GetSymbolsWithName(System.Func{System.String,System.Boolean},Microsoft.CodeAnalysis.SymbolFilter,System.Threading.CancellationToken)" /> when predicate is just a simple string check.  <paramref name="name" /> is case sensitive.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="IsCaseSensitive">
       <MemberSignature Language="C#" Value="public override bool IsCaseSensitive { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance bool IsCaseSensitive" />
@@ -1373,11 +1493,11 @@
       <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property IsCaseSensitive As Boolean" />
       <MemberSignature Language="F#" Value="member this.IsCaseSensitive : bool" Usage="Microsoft.CodeAnalysis.CSharp.CSharpCompilation.IsCaseSensitive" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property bool IsCaseSensitive { bool get(); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; virtual property bool IsCaseSensitive { bool get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -1395,11 +1515,11 @@
       <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property Language As String" />
       <MemberSignature Language="F#" Value="member this.Language : string" Usage="Microsoft.CodeAnalysis.CSharp.CSharpCompilation.Language" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::String ^ Language { System::String ^ get(); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; virtual property Platform::String ^ Language { Platform::String ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -1417,11 +1537,11 @@
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property LanguageVersion As LanguageVersion" />
       <MemberSignature Language="F#" Value="member this.LanguageVersion : Microsoft.CodeAnalysis.CSharp.LanguageVersion" Usage="Microsoft.CodeAnalysis.CSharp.CSharpCompilation.LanguageVersion" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::CodeAnalysis::CSharp::LanguageVersion LanguageVersion { Microsoft::CodeAnalysis::CSharp::LanguageVersion get(); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; property Microsoft::CodeAnalysis::CSharp::LanguageVersion LanguageVersion { Microsoft::CodeAnalysis::CSharp::LanguageVersion get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.CSharp.LanguageVersion</ReturnType>
@@ -1444,7 +1564,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.CSharp.CSharpCompilationOptions</ReturnType>
@@ -1467,7 +1588,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IEnumerable&lt;Microsoft.CodeAnalysis.AssemblyIdentity&gt;</ReturnType>
@@ -1485,12 +1607,11 @@
       <MemberSignature Language="VB.NET" Value="Public Function RemoveAllReferences () As CSharpCompilation" />
       <MemberSignature Language="F#" Value="override this.RemoveAllReferences : unit -&gt; Microsoft.CodeAnalysis.CSharp.CSharpCompilation" Usage="cSharpCompilation.RemoveAllReferences " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::CodeAnalysis::CSharp::CSharpCompilation ^ RemoveAllReferences();" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; Microsoft::CodeAnalysis::CSharp::CSharpCompilation ^ RemoveAllReferences();" />
-      <MemberSignature Language="C++ WINRT" Value="Microsoft::CodeAnalysis::CSharp::CSharpCompilation RemoveAllReferences();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.CSharp.CSharpCompilation</ReturnType>
@@ -1511,12 +1632,11 @@
       <MemberSignature Language="VB.NET" Value="Public Function RemoveAllSyntaxTrees () As CSharpCompilation" />
       <MemberSignature Language="F#" Value="override this.RemoveAllSyntaxTrees : unit -&gt; Microsoft.CodeAnalysis.CSharp.CSharpCompilation" Usage="cSharpCompilation.RemoveAllSyntaxTrees " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::CodeAnalysis::CSharp::CSharpCompilation ^ RemoveAllSyntaxTrees();" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; Microsoft::CodeAnalysis::CSharp::CSharpCompilation ^ RemoveAllSyntaxTrees();" />
-      <MemberSignature Language="C++ WINRT" Value="Microsoft::CodeAnalysis::CSharp::CSharpCompilation RemoveAllSyntaxTrees();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.CSharp.CSharpCompilation</ReturnType>
@@ -1541,7 +1661,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.CSharp.CSharpCompilation</ReturnType>
@@ -1574,7 +1695,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.CSharp.CSharpCompilation</ReturnType>
@@ -1601,7 +1723,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.CSharp.CSharpCompilation</ReturnType>
@@ -1635,7 +1758,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.CSharp.CSharpCompilation</ReturnType>
@@ -1660,12 +1784,11 @@
       <MemberSignature Language="VB.NET" Value="Public Function ReplaceReference (oldReference As MetadataReference, newReference As MetadataReference) As CSharpCompilation" />
       <MemberSignature Language="F#" Value="override this.ReplaceReference : Microsoft.CodeAnalysis.MetadataReference * Microsoft.CodeAnalysis.MetadataReference -&gt; Microsoft.CodeAnalysis.CSharp.CSharpCompilation" Usage="cSharpCompilation.ReplaceReference (oldReference, newReference)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::CodeAnalysis::CSharp::CSharpCompilation ^ ReplaceReference(Microsoft::CodeAnalysis::MetadataReference ^ oldReference, Microsoft::CodeAnalysis::MetadataReference ^ newReference);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; Microsoft::CodeAnalysis::CSharp::CSharpCompilation ^ ReplaceReference(Microsoft::CodeAnalysis::MetadataReference ^ oldReference, Microsoft::CodeAnalysis::MetadataReference ^ newReference);" />
-      <MemberSignature Language="C++ WINRT" Value="Microsoft::CodeAnalysis::CSharp::CSharpCompilation ReplaceReference(Microsoft::CodeAnalysis::MetadataReference const &amp; oldReference, Microsoft::CodeAnalysis::MetadataReference const &amp; newReference);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.CSharp.CSharpCompilation</ReturnType>
@@ -1691,12 +1814,11 @@
       <MemberSignature Language="VB.NET" Value="Public Function ReplaceSyntaxTree (oldTree As SyntaxTree, newTree As SyntaxTree) As CSharpCompilation" />
       <MemberSignature Language="F#" Value="override this.ReplaceSyntaxTree : Microsoft.CodeAnalysis.SyntaxTree * Microsoft.CodeAnalysis.SyntaxTree -&gt; Microsoft.CodeAnalysis.CSharp.CSharpCompilation" Usage="cSharpCompilation.ReplaceSyntaxTree (oldTree, newTree)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::CodeAnalysis::CSharp::CSharpCompilation ^ ReplaceSyntaxTree(Microsoft::CodeAnalysis::SyntaxTree ^ oldTree, Microsoft::CodeAnalysis::SyntaxTree ^ newTree);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; Microsoft::CodeAnalysis::CSharp::CSharpCompilation ^ ReplaceSyntaxTree(Microsoft::CodeAnalysis::SyntaxTree ^ oldTree, Microsoft::CodeAnalysis::SyntaxTree ^ newTree);" />
-      <MemberSignature Language="C++ WINRT" Value="Microsoft::CodeAnalysis::CSharp::CSharpCompilation ReplaceSyntaxTree(Microsoft::CodeAnalysis::SyntaxTree const &amp; oldTree, Microsoft::CodeAnalysis::SyntaxTree const &amp; newTree);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.CSharp.CSharpCompilation</ReturnType>
@@ -1722,11 +1844,11 @@
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ScriptCompilationInfo As CSharpScriptCompilationInfo" />
       <MemberSignature Language="F#" Value="member this.ScriptCompilationInfo : Microsoft.CodeAnalysis.CSharp.CSharpScriptCompilationInfo" Usage="Microsoft.CodeAnalysis.CSharp.CSharpCompilation.ScriptCompilationInfo" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::CodeAnalysis::CSharp::CSharpScriptCompilationInfo ^ ScriptCompilationInfo { Microsoft::CodeAnalysis::CSharp::CSharpScriptCompilationInfo ^ get(); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; property Microsoft::CodeAnalysis::CSharp::CSharpScriptCompilationInfo ^ ScriptCompilationInfo { Microsoft::CodeAnalysis::CSharp::CSharpScriptCompilationInfo ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.CSharp.CSharpScriptCompilationInfo</ReturnType>
@@ -1747,7 +1869,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Immutable.ImmutableArray&lt;Microsoft.CodeAnalysis.SyntaxTree&gt;</ReturnType>
@@ -1769,7 +1892,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.CompilationReference</ReturnType>
@@ -1793,12 +1917,11 @@
       <MemberSignature Language="VB.NET" Value="Public Function WithAssemblyName (assemblyName As String) As CSharpCompilation" />
       <MemberSignature Language="F#" Value="override this.WithAssemblyName : string -&gt; Microsoft.CodeAnalysis.CSharp.CSharpCompilation" Usage="cSharpCompilation.WithAssemblyName assemblyName" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::CodeAnalysis::CSharp::CSharpCompilation ^ WithAssemblyName(System::String ^ assemblyName);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; Microsoft::CodeAnalysis::CSharp::CSharpCompilation ^ WithAssemblyName(Platform::String ^ assemblyName);" />
-      <MemberSignature Language="C++ WINRT" Value="Microsoft::CodeAnalysis::CSharp::CSharpCompilation WithAssemblyName(std::wstring const &amp; assemblyName);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.CSharp.CSharpCompilation</ReturnType>
@@ -1825,7 +1948,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.CSharp.CSharpCompilation</ReturnType>
@@ -1852,7 +1976,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.CSharp.CSharpCompilation</ReturnType>
@@ -1885,7 +2010,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.CSharp.CSharpCompilation</ReturnType>
@@ -1916,12 +2042,11 @@
       <MemberSignature Language="VB.NET" Value="Public Function WithScriptCompilationInfo (info As CSharpScriptCompilationInfo) As CSharpCompilation" />
       <MemberSignature Language="F#" Value="override this.WithScriptCompilationInfo : Microsoft.CodeAnalysis.CSharp.CSharpScriptCompilationInfo -&gt; Microsoft.CodeAnalysis.CSharp.CSharpCompilation" Usage="cSharpCompilation.WithScriptCompilationInfo info" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::CodeAnalysis::CSharp::CSharpCompilation ^ WithScriptCompilationInfo(Microsoft::CodeAnalysis::CSharp::CSharpScriptCompilationInfo ^ info);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; Microsoft::CodeAnalysis::CSharp::CSharpCompilation ^ WithScriptCompilationInfo(Microsoft::CodeAnalysis::CSharp::CSharpScriptCompilationInfo ^ info);" />
-      <MemberSignature Language="C++ WINRT" Value="Microsoft::CodeAnalysis::CSharp::CSharpCompilation WithScriptCompilationInfo(Microsoft::CodeAnalysis::CSharp::CSharpScriptCompilationInfo const &amp; info);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.CSharp.CSharpCompilation</ReturnType>

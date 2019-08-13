@@ -5,11 +5,10 @@
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class AnalyzerTelemetryInfo" />
   <TypeSignature Language="F#" Value="type AnalyzerTelemetryInfo = class" />
   <TypeSignature Language="C++ CLI" Value="public ref class AnalyzerTelemetryInfo sealed" />
-  <TypeSignature Language="C++ CX" Value="public ref class AnalyzerTelemetryInfo sealed" />
-  <TypeSignature Language="C++ WINRT" Value="class AnalyzerTelemetryInfo sealed" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-    <AssemblyVersion>2.6.0.0</AssemblyVersion>
+    <AssemblyVersion>2.9.0.0</AssemblyVersion>
+    <AssemblyVersion>3.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -28,12 +27,11 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.CodeAnalysis.Diagnostics.Telemetry.AnalyzerTelemetryInfo.#ctor" />
       <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; AnalyzerTelemetryInfo();" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; AnalyzerTelemetryInfo();" />
-      <MemberSignature Language="C++ WINRT" Value=" AnalyzerTelemetryInfo();" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -50,11 +48,11 @@
       <MemberSignature Language="VB.NET" Value="Public Property CodeBlockActionsCount As Integer" />
       <MemberSignature Language="F#" Value="member this.CodeBlockActionsCount : int with get, set" Usage="Microsoft.CodeAnalysis.Diagnostics.Telemetry.AnalyzerTelemetryInfo.CodeBlockActionsCount" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int CodeBlockActionsCount { int get(); void set(int value); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; property int CodeBlockActionsCount { int get(); void set(int value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -74,11 +72,11 @@
       <MemberSignature Language="VB.NET" Value="Public Property CodeBlockEndActionsCount As Integer" />
       <MemberSignature Language="F#" Value="member this.CodeBlockEndActionsCount : int with get, set" Usage="Microsoft.CodeAnalysis.Diagnostics.Telemetry.AnalyzerTelemetryInfo.CodeBlockEndActionsCount" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int CodeBlockEndActionsCount { int get(); void set(int value); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; property int CodeBlockEndActionsCount { int get(); void set(int value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -98,11 +96,11 @@
       <MemberSignature Language="VB.NET" Value="Public Property CodeBlockStartActionsCount As Integer" />
       <MemberSignature Language="F#" Value="member this.CodeBlockStartActionsCount : int with get, set" Usage="Microsoft.CodeAnalysis.Diagnostics.Telemetry.AnalyzerTelemetryInfo.CodeBlockStartActionsCount" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int CodeBlockStartActionsCount { int get(); void set(int value); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; property int CodeBlockStartActionsCount { int get(); void set(int value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -122,11 +120,11 @@
       <MemberSignature Language="VB.NET" Value="Public Property CompilationActionsCount As Integer" />
       <MemberSignature Language="F#" Value="member this.CompilationActionsCount : int with get, set" Usage="Microsoft.CodeAnalysis.Diagnostics.Telemetry.AnalyzerTelemetryInfo.CompilationActionsCount" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int CompilationActionsCount { int get(); void set(int value); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; property int CompilationActionsCount { int get(); void set(int value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -146,11 +144,11 @@
       <MemberSignature Language="VB.NET" Value="Public Property CompilationEndActionsCount As Integer" />
       <MemberSignature Language="F#" Value="member this.CompilationEndActionsCount : int with get, set" Usage="Microsoft.CodeAnalysis.Diagnostics.Telemetry.AnalyzerTelemetryInfo.CompilationEndActionsCount" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int CompilationEndActionsCount { int get(); void set(int value); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; property int CompilationEndActionsCount { int get(); void set(int value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -170,11 +168,11 @@
       <MemberSignature Language="VB.NET" Value="Public Property CompilationStartActionsCount As Integer" />
       <MemberSignature Language="F#" Value="member this.CompilationStartActionsCount : int with get, set" Usage="Microsoft.CodeAnalysis.Diagnostics.Telemetry.AnalyzerTelemetryInfo.CompilationStartActionsCount" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int CompilationStartActionsCount { int get(); void set(int value); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; property int CompilationStartActionsCount { int get(); void set(int value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -182,6 +180,30 @@
       <Docs>
         <summary>
             Count of registered compilation start actions.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Concurrent">
+      <MemberSignature Language="C#" Value="public bool Concurrent { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool Concurrent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.CodeAnalysis.Diagnostics.Telemetry.AnalyzerTelemetryInfo.Concurrent" />
+      <MemberSignature Language="VB.NET" Value="Public Property Concurrent As Boolean" />
+      <MemberSignature Language="F#" Value="member this.Concurrent : bool with get, set" Usage="Microsoft.CodeAnalysis.Diagnostics.Telemetry.AnalyzerTelemetryInfo.Concurrent" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool Concurrent { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets a value indicating whether the analyzer supports concurrent execution.
             </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -197,7 +219,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.TimeSpan</ReturnType>
@@ -217,11 +240,11 @@
       <MemberSignature Language="VB.NET" Value="Public Property OperationActionsCount As Integer" />
       <MemberSignature Language="F#" Value="member this.OperationActionsCount : int with get, set" Usage="Microsoft.CodeAnalysis.Diagnostics.Telemetry.AnalyzerTelemetryInfo.OperationActionsCount" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int OperationActionsCount { int get(); void set(int value); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; property int OperationActionsCount { int get(); void set(int value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -241,11 +264,11 @@
       <MemberSignature Language="VB.NET" Value="Public Property OperationBlockActionsCount As Integer" />
       <MemberSignature Language="F#" Value="member this.OperationBlockActionsCount : int with get, set" Usage="Microsoft.CodeAnalysis.Diagnostics.Telemetry.AnalyzerTelemetryInfo.OperationBlockActionsCount" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int OperationBlockActionsCount { int get(); void set(int value); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; property int OperationBlockActionsCount { int get(); void set(int value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -265,11 +288,11 @@
       <MemberSignature Language="VB.NET" Value="Public Property OperationBlockEndActionsCount As Integer" />
       <MemberSignature Language="F#" Value="member this.OperationBlockEndActionsCount : int with get, set" Usage="Microsoft.CodeAnalysis.Diagnostics.Telemetry.AnalyzerTelemetryInfo.OperationBlockEndActionsCount" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int OperationBlockEndActionsCount { int get(); void set(int value); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; property int OperationBlockEndActionsCount { int get(); void set(int value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -289,11 +312,11 @@
       <MemberSignature Language="VB.NET" Value="Public Property OperationBlockStartActionsCount As Integer" />
       <MemberSignature Language="F#" Value="member this.OperationBlockStartActionsCount : int with get, set" Usage="Microsoft.CodeAnalysis.Diagnostics.Telemetry.AnalyzerTelemetryInfo.OperationBlockStartActionsCount" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int OperationBlockStartActionsCount { int get(); void set(int value); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; property int OperationBlockStartActionsCount { int get(); void set(int value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -313,11 +336,11 @@
       <MemberSignature Language="VB.NET" Value="Public Property SemanticModelActionsCount As Integer" />
       <MemberSignature Language="F#" Value="member this.SemanticModelActionsCount : int with get, set" Usage="Microsoft.CodeAnalysis.Diagnostics.Telemetry.AnalyzerTelemetryInfo.SemanticModelActionsCount" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int SemanticModelActionsCount { int get(); void set(int value); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; property int SemanticModelActionsCount { int get(); void set(int value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -337,11 +360,11 @@
       <MemberSignature Language="VB.NET" Value="Public Property SymbolActionsCount As Integer" />
       <MemberSignature Language="F#" Value="member this.SymbolActionsCount : int with get, set" Usage="Microsoft.CodeAnalysis.Diagnostics.Telemetry.AnalyzerTelemetryInfo.SymbolActionsCount" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int SymbolActionsCount { int get(); void set(int value); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; property int SymbolActionsCount { int get(); void set(int value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -354,6 +377,50 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="SymbolEndActionsCount">
+      <MemberSignature Language="C#" Value="public int SymbolEndActionsCount { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 SymbolEndActionsCount" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.CodeAnalysis.Diagnostics.Telemetry.AnalyzerTelemetryInfo.SymbolEndActionsCount" />
+      <MemberSignature Language="VB.NET" Value="Public Property SymbolEndActionsCount As Integer" />
+      <MemberSignature Language="F#" Value="member this.SymbolEndActionsCount : int with get, set" Usage="Microsoft.CodeAnalysis.Diagnostics.Telemetry.AnalyzerTelemetryInfo.SymbolEndActionsCount" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Count of registered symbol end actions.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SymbolStartActionsCount">
+      <MemberSignature Language="C#" Value="public int SymbolStartActionsCount { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 SymbolStartActionsCount" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.CodeAnalysis.Diagnostics.Telemetry.AnalyzerTelemetryInfo.SymbolStartActionsCount" />
+      <MemberSignature Language="VB.NET" Value="Public Property SymbolStartActionsCount As Integer" />
+      <MemberSignature Language="F#" Value="member this.SymbolStartActionsCount : int with get, set" Usage="Microsoft.CodeAnalysis.Diagnostics.Telemetry.AnalyzerTelemetryInfo.SymbolStartActionsCount" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Count of registered symbol start actions.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="SyntaxNodeActionsCount">
       <MemberSignature Language="C#" Value="public int SyntaxNodeActionsCount { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance int32 SyntaxNodeActionsCount" />
@@ -361,11 +428,11 @@
       <MemberSignature Language="VB.NET" Value="Public Property SyntaxNodeActionsCount As Integer" />
       <MemberSignature Language="F#" Value="member this.SyntaxNodeActionsCount : int with get, set" Usage="Microsoft.CodeAnalysis.Diagnostics.Telemetry.AnalyzerTelemetryInfo.SyntaxNodeActionsCount" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int SyntaxNodeActionsCount { int get(); void set(int value); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; property int SyntaxNodeActionsCount { int get(); void set(int value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -385,11 +452,11 @@
       <MemberSignature Language="VB.NET" Value="Public Property SyntaxTreeActionsCount As Integer" />
       <MemberSignature Language="F#" Value="member this.SyntaxTreeActionsCount : int with get, set" Usage="Microsoft.CodeAnalysis.Diagnostics.Telemetry.AnalyzerTelemetryInfo.SyntaxTreeActionsCount" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int SyntaxTreeActionsCount { int get(); void set(int value); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; property int SyntaxTreeActionsCount { int get(); void set(int value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>

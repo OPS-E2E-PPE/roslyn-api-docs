@@ -7,7 +7,8 @@
   <TypeSignature Language="C++ CLI" Value="public value class Conversion : IEquatable&lt;Microsoft::CodeAnalysis::VisualBasic::Conversion&gt;" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-    <AssemblyVersion>2.6.0.0</AssemblyVersion>
+    <AssemblyVersion>2.9.0.0</AssemblyVersion>
+    <AssemblyVersion>3.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.ValueType</BaseTypeName>
@@ -38,7 +39,8 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -64,12 +66,11 @@
       <MemberSignature Language="VB.NET" Value="Public Overrides Function Equals (obj As Object) As Boolean" />
       <MemberSignature Language="F#" Value="override this.Equals : obj -&gt; bool" Usage="conversion.Equals obj" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; override bool Equals(System::Object ^ obj);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; override bool Equals(Platform::Object ^ obj);" />
-      <MemberSignature Language="C++ WINRT" Value=" override bool Equals(winrt::Windows::Foundation::IInspectable const &amp; obj);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -95,11 +96,11 @@
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Exists As Boolean" />
       <MemberSignature Language="F#" Value="member this.Exists : bool" Usage="Microsoft.CodeAnalysis.VisualBasic.Conversion.Exists" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool Exists { bool get(); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; property bool Exists { bool get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -122,12 +123,11 @@
       <MemberSignature Language="VB.NET" Value="Public Overrides Function GetHashCode () As Integer" />
       <MemberSignature Language="F#" Value="override this.GetHashCode : unit -&gt; int" Usage="conversion.GetHashCode " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; override int GetHashCode();" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; override int GetHashCode();" />
-      <MemberSignature Language="C++ WINRT" Value=" override int GetHashCode();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -148,11 +148,11 @@
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsAnonymousDelegate As Boolean" />
       <MemberSignature Language="F#" Value="member this.IsAnonymousDelegate : bool" Usage="Microsoft.CodeAnalysis.VisualBasic.Conversion.IsAnonymousDelegate" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsAnonymousDelegate { bool get(); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; property bool IsAnonymousDelegate { bool get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -173,11 +173,11 @@
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsArray As Boolean" />
       <MemberSignature Language="F#" Value="member this.IsArray : bool" Usage="Microsoft.CodeAnalysis.VisualBasic.Conversion.IsArray" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsArray { bool get(); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; property bool IsArray { bool get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -198,11 +198,11 @@
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsBoolean As Boolean" />
       <MemberSignature Language="F#" Value="member this.IsBoolean : bool" Usage="Microsoft.CodeAnalysis.VisualBasic.Conversion.IsBoolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsBoolean { bool get(); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; property bool IsBoolean { bool get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -222,11 +222,11 @@
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsDefault As Boolean" />
       <MemberSignature Language="F#" Value="member this.IsDefault : bool" Usage="Microsoft.CodeAnalysis.VisualBasic.Conversion.IsDefault" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsDefault { bool get(); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; property bool IsDefault { bool get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -246,11 +246,11 @@
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsIdentity As Boolean" />
       <MemberSignature Language="F#" Value="member this.IsIdentity : bool" Usage="Microsoft.CodeAnalysis.VisualBasic.Conversion.IsIdentity" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsIdentity { bool get(); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; property bool IsIdentity { bool get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -272,11 +272,11 @@
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsLambda As Boolean" />
       <MemberSignature Language="F#" Value="member this.IsLambda : bool" Usage="Microsoft.CodeAnalysis.VisualBasic.Conversion.IsLambda" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsLambda { bool get(); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; property bool IsLambda { bool get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -296,11 +296,11 @@
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsNarrowing As Boolean" />
       <MemberSignature Language="F#" Value="member this.IsNarrowing : bool" Usage="Microsoft.CodeAnalysis.VisualBasic.Conversion.IsNarrowing" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsNarrowing { bool get(); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; property bool IsNarrowing { bool get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -320,11 +320,11 @@
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsNullableValueType As Boolean" />
       <MemberSignature Language="F#" Value="member this.IsNullableValueType : bool" Usage="Microsoft.CodeAnalysis.VisualBasic.Conversion.IsNullableValueType" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsNullableValueType { bool get(); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; property bool IsNullableValueType { bool get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -345,11 +345,11 @@
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsNumeric As Boolean" />
       <MemberSignature Language="F#" Value="member this.IsNumeric : bool" Usage="Microsoft.CodeAnalysis.VisualBasic.Conversion.IsNumeric" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsNumeric { bool get(); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; property bool IsNumeric { bool get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -370,11 +370,11 @@
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsReference As Boolean" />
       <MemberSignature Language="F#" Value="member this.IsReference : bool" Usage="Microsoft.CodeAnalysis.VisualBasic.Conversion.IsReference" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsReference { bool get(); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; property bool IsReference { bool get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -395,11 +395,11 @@
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsString As Boolean" />
       <MemberSignature Language="F#" Value="member this.IsString : bool" Usage="Microsoft.CodeAnalysis.VisualBasic.Conversion.IsString" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsString { bool get(); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; property bool IsString { bool get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -420,11 +420,11 @@
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsTypeParameter As Boolean" />
       <MemberSignature Language="F#" Value="member this.IsTypeParameter : bool" Usage="Microsoft.CodeAnalysis.VisualBasic.Conversion.IsTypeParameter" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsTypeParameter { bool get(); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; property bool IsTypeParameter { bool get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -445,11 +445,11 @@
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsUserDefined As Boolean" />
       <MemberSignature Language="F#" Value="member this.IsUserDefined : bool" Usage="Microsoft.CodeAnalysis.VisualBasic.Conversion.IsUserDefined" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsUserDefined { bool get(); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; property bool IsUserDefined { bool get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -473,11 +473,11 @@
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsValueType As Boolean" />
       <MemberSignature Language="F#" Value="member this.IsValueType : bool" Usage="Microsoft.CodeAnalysis.VisualBasic.Conversion.IsValueType" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsValueType { bool get(); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; property bool IsValueType { bool get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -498,11 +498,11 @@
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsWidening As Boolean" />
       <MemberSignature Language="F#" Value="member this.IsWidening : bool" Usage="Microsoft.CodeAnalysis.VisualBasic.Conversion.IsWidening" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsWidening { bool get(); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; property bool IsWidening { bool get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -525,7 +525,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.IMethodSymbol</ReturnType>
@@ -548,7 +549,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -577,7 +579,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -598,16 +601,19 @@
     </Member>
     <Member MemberName="ToCommonConversion">
       <MemberSignature Language="C#" Value="public Microsoft.CodeAnalysis.Operations.CommonConversion ToCommonConversion ();" />
-      <MemberSignature Language="ILAsm" Value=".method public instance valuetype Microsoft.CodeAnalysis.Operations.CommonConversion ToCommonConversion() cil managed" />
+      <MemberSignature Language="ILAsm" Value=".method public newslot virtual instance valuetype Microsoft.CodeAnalysis.Operations.CommonConversion ToCommonConversion() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.CodeAnalysis.VisualBasic.Conversion.ToCommonConversion" />
       <MemberSignature Language="VB.NET" Value="Public Function ToCommonConversion () As CommonConversion" />
-      <MemberSignature Language="F#" Value="member this.ToCommonConversion : unit -&gt; Microsoft.CodeAnalysis.Operations.CommonConversion" Usage="conversion.ToCommonConversion " />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::CodeAnalysis::Operations::CommonConversion ToCommonConversion();" />
-      <MemberSignature Language="C++ WINRT" Value="Microsoft::CodeAnalysis::Operations::CommonConversion ToCommonConversion();" />
+      <MemberSignature Language="F#" Value="abstract member ToCommonConversion : unit -&gt; Microsoft.CodeAnalysis.Operations.CommonConversion&#xA;override this.ToCommonConversion : unit -&gt; Microsoft.CodeAnalysis.Operations.CommonConversion" Usage="conversion.ToCommonConversion " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual Microsoft::CodeAnalysis::Operations::CommonConversion ToCommonConversion() = Microsoft::CodeAnalysis::Operations::IConvertibleConversion::ToCommonConversion;" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.CodeAnalysis.Operations.IConvertibleConversion.ToCommonConversion</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.Operations.CommonConversion</ReturnType>
@@ -631,12 +637,11 @@
       <MemberSignature Language="VB.NET" Value="Public Overrides Function ToString () As String" />
       <MemberSignature Language="F#" Value="override this.ToString : unit -&gt; string" Usage="conversion.ToString " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; override System::String ^ ToString();" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; override Platform::String ^ ToString();" />
-      <MemberSignature Language="C++ WINRT" Value=" override std::wstring ToString();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>

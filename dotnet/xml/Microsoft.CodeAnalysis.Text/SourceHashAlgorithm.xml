@@ -5,11 +5,10 @@
   <TypeSignature Language="VB.NET" Value="Public Enum SourceHashAlgorithm" />
   <TypeSignature Language="F#" Value="type SourceHashAlgorithm = " />
   <TypeSignature Language="C++ CLI" Value="public enum class SourceHashAlgorithm" />
-  <TypeSignature Language="C++ CX" Value="public enum class SourceHashAlgorithm" />
-  <TypeSignature Language="C++ WINRT" Value="enum SourceHashAlgorithm" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-    <AssemblyVersion>2.6.0.0</AssemblyVersion>
+    <AssemblyVersion>2.9.0.0</AssemblyVersion>
+    <AssemblyVersion>3.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Enum</BaseTypeName>
@@ -28,12 +27,11 @@
       <MemberSignature Language="VB.NET" Value="None" />
       <MemberSignature Language="F#" Value="None = 0" Usage="Microsoft.CodeAnalysis.Text.SourceHashAlgorithm.None" />
       <MemberSignature Language="C++ CLI" Value="None" />
-      <MemberSignature Language="C++ CX" Value="None" />
-      <MemberSignature Language="C++ WINRT" Value="None" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.Text.SourceHashAlgorithm</ReturnType>
@@ -52,12 +50,11 @@
       <MemberSignature Language="VB.NET" Value="Sha1" />
       <MemberSignature Language="F#" Value="Sha1 = 1" Usage="Microsoft.CodeAnalysis.Text.SourceHashAlgorithm.Sha1" />
       <MemberSignature Language="C++ CLI" Value="Sha1" />
-      <MemberSignature Language="C++ CX" Value="Sha1" />
-      <MemberSignature Language="C++ WINRT" Value="Sha1" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.Text.SourceHashAlgorithm</ReturnType>
@@ -76,12 +73,11 @@
       <MemberSignature Language="VB.NET" Value="Sha256" />
       <MemberSignature Language="F#" Value="Sha256 = 2" Usage="Microsoft.CodeAnalysis.Text.SourceHashAlgorithm.Sha256" />
       <MemberSignature Language="C++ CLI" Value="Sha256" />
-      <MemberSignature Language="C++ CX" Value="Sha256" />
-      <MemberSignature Language="C++ WINRT" Value="Sha256" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.Text.SourceHashAlgorithm</ReturnType>

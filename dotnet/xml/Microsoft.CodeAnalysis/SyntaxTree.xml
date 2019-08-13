@@ -5,11 +5,10 @@
   <TypeSignature Language="VB.NET" Value="Public MustInherit Class SyntaxTree" />
   <TypeSignature Language="F#" Value="type SyntaxTree = class" />
   <TypeSignature Language="C++ CLI" Value="public ref class SyntaxTree abstract" />
-  <TypeSignature Language="C++ CX" Value="[Windows::Foundation::Metadata::WebHostHidden]&#xA;public ref class SyntaxTree abstract" />
-  <TypeSignature Language="C++ WINRT" Value="[Windows::Foundation::Metadata::WebHostHidden]&#xA;class SyntaxTree abstract" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-    <AssemblyVersion>2.6.0.0</AssemblyVersion>
+    <AssemblyVersion>2.9.0.0</AssemblyVersion>
+    <AssemblyVersion>3.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -28,16 +27,61 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.CodeAnalysis.SyntaxTree.#ctor" />
       <MemberSignature Language="VB.NET" Value="Protected Sub New ()" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; SyntaxTree();" />
-      <MemberSignature Language="C++ CX" Value="protected:&#xA; SyntaxTree();" />
-      <MemberSignature Language="C++ WINRT" Value=" SyntaxTree();" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
         <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DiagnosticOptions">
+      <MemberSignature Language="C#" Value="public virtual System.Collections.Immutable.ImmutableDictionary&lt;string,Microsoft.CodeAnalysis.ReportDiagnostic&gt; DiagnosticOptions { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Immutable.ImmutableDictionary`2&lt;string, valuetype Microsoft.CodeAnalysis.ReportDiagnostic&gt; DiagnosticOptions" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.CodeAnalysis.SyntaxTree.DiagnosticOptions" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property DiagnosticOptions As ImmutableDictionary(Of String, ReportDiagnostic)" />
+      <MemberSignature Language="F#" Value="member this.DiagnosticOptions : System.Collections.Immutable.ImmutableDictionary&lt;string, Microsoft.CodeAnalysis.ReportDiagnostic&gt;" Usage="Microsoft.CodeAnalysis.SyntaxTree.DiagnosticOptions" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Immutable.ImmutableDictionary&lt;System.String,Microsoft.CodeAnalysis.ReportDiagnostic&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Option to specify custom behavior for each warning in this tree.
+            </summary>
+        <value>
+            A map from diagnostic ID to diagnostic reporting level. The diagnostic
+            ID string may be case insensitive depending on the language.
+            </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EmptyDiagnosticOptions">
+      <MemberSignature Language="C#" Value="protected internal static readonly System.Collections.Immutable.ImmutableDictionary&lt;string,Microsoft.CodeAnalysis.ReportDiagnostic&gt; EmptyDiagnosticOptions;" />
+      <MemberSignature Language="ILAsm" Value=".field familyorassembly static initonly class System.Collections.Immutable.ImmutableDictionary`2&lt;string, valuetype Microsoft.CodeAnalysis.ReportDiagnostic&gt; EmptyDiagnosticOptions" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.CodeAnalysis.SyntaxTree.EmptyDiagnosticOptions" />
+      <MemberSignature Language="VB.NET" Value="Protected Friend Shared ReadOnly EmptyDiagnosticOptions As ImmutableDictionary(Of String, ReportDiagnostic) " />
+      <MemberSignature Language="F#" Value=" staticval mutable EmptyDiagnosticOptions : System.Collections.Immutable.ImmutableDictionary&lt;string, Microsoft.CodeAnalysis.ReportDiagnostic&gt;" Usage="Microsoft.CodeAnalysis.SyntaxTree.EmptyDiagnosticOptions" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Immutable.ImmutableDictionary&lt;System.String,Microsoft.CodeAnalysis.ReportDiagnostic&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Cached value for empty <see cref="P:Microsoft.CodeAnalysis.SyntaxTree.DiagnosticOptions" />.
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -51,7 +95,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Text.Encoding</ReturnType>
@@ -71,11 +116,11 @@
       <MemberSignature Language="VB.NET" Value="Public MustOverride ReadOnly Property FilePath As String" />
       <MemberSignature Language="F#" Value="member this.FilePath : string" Usage="Microsoft.CodeAnalysis.SyntaxTree.FilePath" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; abstract property System::String ^ FilePath { System::String ^ get(); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; abstract property Platform::String ^ FilePath { Platform::String ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -113,7 +158,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IList&lt;Microsoft.CodeAnalysis.Text.TextSpan&gt;</ReturnType>
@@ -141,7 +187,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IList&lt;Microsoft.CodeAnalysis.Text.TextChange&gt;</ReturnType>
@@ -169,7 +216,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IEnumerable&lt;Microsoft.CodeAnalysis.Diagnostic&gt;</ReturnType>
@@ -198,7 +246,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IEnumerable&lt;Microsoft.CodeAnalysis.Diagnostic&gt;</ReturnType>
@@ -228,7 +277,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IEnumerable&lt;Microsoft.CodeAnalysis.Diagnostic&gt;</ReturnType>
@@ -257,7 +307,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IEnumerable&lt;Microsoft.CodeAnalysis.Diagnostic&gt;</ReturnType>
@@ -284,7 +335,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IEnumerable&lt;Microsoft.CodeAnalysis.Diagnostic&gt;</ReturnType>
@@ -311,7 +363,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.FileLinePositionSpan</ReturnType>
@@ -328,7 +381,7 @@
             </summary>
         <returns>
             A valid <see cref="T:Microsoft.CodeAnalysis.FileLinePositionSpan" /> that contains path, line and column information.
-            The values are not affected by line mapping directives (<code>#line</code>).
+            The values are not affected by line mapping directives (<c>#line</c>).
             </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -341,7 +394,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.LineVisibility</ReturnType>
@@ -370,7 +424,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.Location</ReturnType>
@@ -395,7 +450,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.FileLinePositionSpan</ReturnType>
@@ -409,16 +465,16 @@
         <param name="cancellationToken">Cancellation token.</param>
         <summary>
             Gets the location in terms of path, line and column after applying source line mapping directives 
-            (<code>#line</code> in C# or <code>#ExternalSource</code> in VB). 
+            (<c>#line</c> in C# or <c>#ExternalSource</c> in VB). 
             </summary>
         <returns>
             A valid <see cref="T:Microsoft.CodeAnalysis.FileLinePositionSpan" /> that contains path, line and column information.
             
-            If the location path is mapped the resulting path is the path specified in the corresponding <code>#line</code>,
+            If the location path is mapped the resulting path is the path specified in the corresponding <c>#line</c>,
             otherwise it's <see cref="P:Microsoft.CodeAnalysis.SyntaxTree.FilePath" />.
             
-            A location path is considered mapped if the first <code>#line</code> directive that precedes it and that 
-            either specifies an explicit file path or is <code>#line default</code> exists and specifies an explicit path.
+            A location path is considered mapped if the first <c>#line</c> directive that precedes it and that 
+            either specifies an explicit file path or is <c>#line default</c> exists and specifies an explicit path.
             </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -430,12 +486,11 @@
       <MemberSignature Language="VB.NET" Value="Public MustOverride Function GetReference (node As SyntaxNode) As SyntaxReference" />
       <MemberSignature Language="F#" Value="abstract member GetReference : Microsoft.CodeAnalysis.SyntaxNode -&gt; Microsoft.CodeAnalysis.SyntaxReference" Usage="syntaxTree.GetReference node" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; abstract Microsoft::CodeAnalysis::SyntaxReference ^ GetReference(Microsoft::CodeAnalysis::SyntaxNode ^ node);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; abstract Microsoft::CodeAnalysis::SyntaxReference ^ GetReference(Microsoft::CodeAnalysis::SyntaxNode ^ node);" />
-      <MemberSignature Language="C++ WINRT" Value=" abstract Microsoft::CodeAnalysis::SyntaxReference GetReference(Microsoft::CodeAnalysis::SyntaxNode const &amp; node);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.SyntaxReference</ReturnType>
@@ -462,7 +517,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.SyntaxNode</ReturnType>
@@ -487,7 +543,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.CodeAnalysis.SyntaxNode&gt;</ReturnType>
@@ -513,7 +570,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.CodeAnalysis.SyntaxNode&gt;</ReturnType>
@@ -539,7 +597,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.SyntaxNode</ReturnType>
@@ -564,7 +623,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.Text.SourceText</ReturnType>
@@ -589,7 +649,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.CodeAnalysis.Text.SourceText&gt;</ReturnType>
@@ -616,11 +677,11 @@
       <MemberSignature Language="VB.NET" Value="Public MustOverride ReadOnly Property HasCompilationUnitRoot As Boolean" />
       <MemberSignature Language="F#" Value="member this.HasCompilationUnitRoot : bool" Usage="Microsoft.CodeAnalysis.SyntaxTree.HasCompilationUnitRoot" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; abstract property bool HasCompilationUnitRoot { bool get(); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; abstract property bool HasCompilationUnitRoot { bool get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -640,12 +701,11 @@
       <MemberSignature Language="VB.NET" Value="Public MustOverride Function HasHiddenRegions () As Boolean" />
       <MemberSignature Language="F#" Value="abstract member HasHiddenRegions : unit -&gt; bool" Usage="syntaxTree.HasHiddenRegions " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; abstract bool HasHiddenRegions();" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; abstract bool HasHiddenRegions();" />
-      <MemberSignature Language="C++ WINRT" Value=" abstract bool HasHiddenRegions();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -665,11 +725,11 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.CodeAnalysis.SyntaxTree.IsEquivalentTo(Microsoft.CodeAnalysis.SyntaxTree,System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public MustOverride Function IsEquivalentTo (tree As SyntaxTree, Optional topLevel As Boolean = false) As Boolean" />
       <MemberSignature Language="F#" Value="abstract member IsEquivalentTo : Microsoft.CodeAnalysis.SyntaxTree * bool -&gt; bool" Usage="syntaxTree.IsEquivalentTo (tree, topLevel)" />
-      <MemberSignature Language="C++ WINRT" Value=" abstract bool IsEquivalentTo(Microsoft::CodeAnalysis::SyntaxTree const &amp; tree, bool topLevel = false);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -698,11 +758,11 @@
       <MemberSignature Language="VB.NET" Value="Public MustOverride ReadOnly Property Length As Integer" />
       <MemberSignature Language="F#" Value="member this.Length : int" Usage="Microsoft.CodeAnalysis.SyntaxTree.Length" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; abstract property int Length { int get(); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; abstract property int Length { int get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -722,11 +782,11 @@
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Options As ParseOptions" />
       <MemberSignature Language="F#" Value="member this.Options : Microsoft.CodeAnalysis.ParseOptions" Usage="Microsoft.CodeAnalysis.SyntaxTree.Options" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::CodeAnalysis::ParseOptions ^ Options { Microsoft::CodeAnalysis::ParseOptions ^ get(); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; property Microsoft::CodeAnalysis::ParseOptions ^ Options { Microsoft::CodeAnalysis::ParseOptions ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.ParseOptions</ReturnType>
@@ -746,11 +806,11 @@
       <MemberSignature Language="VB.NET" Value="Protected MustOverride ReadOnly Property OptionsCore As ParseOptions" />
       <MemberSignature Language="F#" Value="member this.OptionsCore : Microsoft.CodeAnalysis.ParseOptions" Usage="Microsoft.CodeAnalysis.SyntaxTree.OptionsCore" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; abstract property Microsoft::CodeAnalysis::ParseOptions ^ OptionsCore { Microsoft::CodeAnalysis::ParseOptions ^ get(); };" />
-      <MemberSignature Language="C++ CX" Value="protected:&#xA; abstract property Microsoft::CodeAnalysis::ParseOptions ^ OptionsCore { Microsoft::CodeAnalysis::ParseOptions ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.ParseOptions</ReturnType>
@@ -770,12 +830,11 @@
       <MemberSignature Language="VB.NET" Value="Public Overrides Function ToString () As String" />
       <MemberSignature Language="F#" Value="override this.ToString : unit -&gt; string" Usage="syntaxTree.ToString " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; override System::String ^ ToString();" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; override Platform::String ^ ToString();" />
-      <MemberSignature Language="C++ WINRT" Value=" override std::wstring ToString();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -796,18 +855,17 @@
       <MemberSignature Language="VB.NET" Value="Public Function TryGetRoot (ByRef root As SyntaxNode) As Boolean" />
       <MemberSignature Language="F#" Value="member this.TryGetRoot :  -&gt; bool" Usage="syntaxTree.TryGetRoot root" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; bool TryGetRoot([Runtime::InteropServices::Out] Microsoft::CodeAnalysis::SyntaxNode ^ % root);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; bool TryGetRoot([Runtime::InteropServices::Out] Microsoft::CodeAnalysis::SyntaxNode ^ &amp;  root);" />
-      <MemberSignature Language="C++ WINRT" Value="bool TryGetRoot([Runtime::InteropServices::Out] Microsoft::CodeAnalysis::SyntaxNode const &amp; &amp; root);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="root" Type="Microsoft.CodeAnalysis.SyntaxNode&amp;" RefType="out" />
+        <Parameter Name="root" Type="Microsoft.CodeAnalysis.SyntaxNode" RefType="out" />
       </Parameters>
       <Docs>
         <param name="root">To be added.</param>
@@ -825,18 +883,17 @@
       <MemberSignature Language="VB.NET" Value="Protected MustOverride Function TryGetRootCore (ByRef root As SyntaxNode) As Boolean" />
       <MemberSignature Language="F#" Value="abstract member TryGetRootCore :  -&gt; bool" Usage="syntaxTree.TryGetRootCore root" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; abstract bool TryGetRootCore([Runtime::InteropServices::Out] Microsoft::CodeAnalysis::SyntaxNode ^ % root);" />
-      <MemberSignature Language="C++ CX" Value="protected:&#xA; abstract bool TryGetRootCore([Runtime::InteropServices::Out] Microsoft::CodeAnalysis::SyntaxNode ^ &amp;  root);" />
-      <MemberSignature Language="C++ WINRT" Value=" abstract bool TryGetRootCore([Runtime::InteropServices::Out] Microsoft::CodeAnalysis::SyntaxNode const &amp; &amp; root);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="root" Type="Microsoft.CodeAnalysis.SyntaxNode&amp;" RefType="out" />
+        <Parameter Name="root" Type="Microsoft.CodeAnalysis.SyntaxNode" RefType="out" />
       </Parameters>
       <Docs>
         <param name="root">To be added.</param>
@@ -854,18 +911,17 @@
       <MemberSignature Language="VB.NET" Value="Public MustOverride Function TryGetText (ByRef text As SourceText) As Boolean" />
       <MemberSignature Language="F#" Value="abstract member TryGetText :  -&gt; bool" Usage="syntaxTree.TryGetText text" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; abstract bool TryGetText([Runtime::InteropServices::Out] Microsoft::CodeAnalysis::Text::SourceText ^ % text);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; abstract bool TryGetText([Runtime::InteropServices::Out] Microsoft::CodeAnalysis::Text::SourceText ^ &amp;  text);" />
-      <MemberSignature Language="C++ WINRT" Value=" abstract bool TryGetText([Runtime::InteropServices::Out] Microsoft::CodeAnalysis::Text::SourceText const &amp; &amp; text);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="text" Type="Microsoft.CodeAnalysis.Text.SourceText&amp;" RefType="out" />
+        <Parameter Name="text" Type="Microsoft.CodeAnalysis.Text.SourceText" RefType="out" />
       </Parameters>
       <Docs>
         <param name="text">To be added.</param>
@@ -883,12 +939,11 @@
       <MemberSignature Language="VB.NET" Value="Public MustOverride Function WithChangedText (newText As SourceText) As SyntaxTree" />
       <MemberSignature Language="F#" Value="abstract member WithChangedText : Microsoft.CodeAnalysis.Text.SourceText -&gt; Microsoft.CodeAnalysis.SyntaxTree" Usage="syntaxTree.WithChangedText newText" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; abstract Microsoft::CodeAnalysis::SyntaxTree ^ WithChangedText(Microsoft::CodeAnalysis::Text::SourceText ^ newText);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; abstract Microsoft::CodeAnalysis::SyntaxTree ^ WithChangedText(Microsoft::CodeAnalysis::Text::SourceText ^ newText);" />
-      <MemberSignature Language="C++ WINRT" Value=" abstract Microsoft::CodeAnalysis::SyntaxTree WithChangedText(Microsoft::CodeAnalysis::Text::SourceText const &amp; newText);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.SyntaxTree</ReturnType>
@@ -909,6 +964,36 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="WithDiagnosticOptions">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.CodeAnalysis.SyntaxTree WithDiagnosticOptions (System.Collections.Immutable.ImmutableDictionary&lt;string,Microsoft.CodeAnalysis.ReportDiagnostic&gt; options);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.CodeAnalysis.SyntaxTree WithDiagnosticOptions(class System.Collections.Immutable.ImmutableDictionary`2&lt;string, valuetype Microsoft.CodeAnalysis.ReportDiagnostic&gt; options) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.CodeAnalysis.SyntaxTree.WithDiagnosticOptions(System.Collections.Immutable.ImmutableDictionary{System.String,Microsoft.CodeAnalysis.ReportDiagnostic})" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function WithDiagnosticOptions (options As ImmutableDictionary(Of String, ReportDiagnostic)) As SyntaxTree" />
+      <MemberSignature Language="F#" Value="abstract member WithDiagnosticOptions : System.Collections.Immutable.ImmutableDictionary&lt;string, Microsoft.CodeAnalysis.ReportDiagnostic&gt; -&gt; Microsoft.CodeAnalysis.SyntaxTree&#xA;override this.WithDiagnosticOptions : System.Collections.Immutable.ImmutableDictionary&lt;string, Microsoft.CodeAnalysis.ReportDiagnostic&gt; -&gt; Microsoft.CodeAnalysis.SyntaxTree" Usage="syntaxTree.WithDiagnosticOptions options" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.CodeAnalysis.SyntaxTree</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="options" Type="System.Collections.Immutable.ImmutableDictionary&lt;System.String,Microsoft.CodeAnalysis.ReportDiagnostic&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="options">
+            A mapping from diagnostic id to diagnostic reporting level. The diagnostic ID may be case-sensitive depending
+            on the language.
+            </param>
+        <summary>
+            Returns a new tree whose <see cref="P:Microsoft.CodeAnalysis.SyntaxTree.DiagnosticOptions" /> are the specifed value and other properties are copied
+            from the current tree.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="WithFilePath">
       <MemberSignature Language="C#" Value="public abstract Microsoft.CodeAnalysis.SyntaxTree WithFilePath (string path);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.CodeAnalysis.SyntaxTree WithFilePath(string path) cil managed" />
@@ -916,12 +1001,11 @@
       <MemberSignature Language="VB.NET" Value="Public MustOverride Function WithFilePath (path As String) As SyntaxTree" />
       <MemberSignature Language="F#" Value="abstract member WithFilePath : string -&gt; Microsoft.CodeAnalysis.SyntaxTree" Usage="syntaxTree.WithFilePath path" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; abstract Microsoft::CodeAnalysis::SyntaxTree ^ WithFilePath(System::String ^ path);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; abstract Microsoft::CodeAnalysis::SyntaxTree ^ WithFilePath(Platform::String ^ path);" />
-      <MemberSignature Language="C++ WINRT" Value=" abstract Microsoft::CodeAnalysis::SyntaxTree WithFilePath(std::wstring const &amp; path);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.SyntaxTree</ReturnType>
@@ -945,12 +1029,11 @@
       <MemberSignature Language="VB.NET" Value="Public MustOverride Function WithRootAndOptions (root As SyntaxNode, options As ParseOptions) As SyntaxTree" />
       <MemberSignature Language="F#" Value="abstract member WithRootAndOptions : Microsoft.CodeAnalysis.SyntaxNode * Microsoft.CodeAnalysis.ParseOptions -&gt; Microsoft.CodeAnalysis.SyntaxTree" Usage="syntaxTree.WithRootAndOptions (root, options)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; abstract Microsoft::CodeAnalysis::SyntaxTree ^ WithRootAndOptions(Microsoft::CodeAnalysis::SyntaxNode ^ root, Microsoft::CodeAnalysis::ParseOptions ^ options);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; abstract Microsoft::CodeAnalysis::SyntaxTree ^ WithRootAndOptions(Microsoft::CodeAnalysis::SyntaxNode ^ root, Microsoft::CodeAnalysis::ParseOptions ^ options);" />
-      <MemberSignature Language="C++ WINRT" Value=" abstract Microsoft::CodeAnalysis::SyntaxTree WithRootAndOptions(Microsoft::CodeAnalysis::SyntaxNode const &amp; root, Microsoft::CodeAnalysis::ParseOptions const &amp; options);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.SyntaxTree</ReturnType>

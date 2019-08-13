@@ -5,13 +5,15 @@
   <TypeSignature Language="VB.NET" Value="Public Interface ICompoundAssignmentOperation&#xA;Implements IAssignmentOperation" />
   <TypeSignature Language="F#" Value="type ICompoundAssignmentOperation = interface&#xA;    interface IAssignmentOperation&#xA;    interface IOperation" />
   <TypeSignature Language="C++ CLI" Value="public interface class ICompoundAssignmentOperation : Microsoft::CodeAnalysis::Operations::IAssignmentOperation" />
-  <TypeSignature Language="C++ CX" Value="public interface class ICompoundAssignmentOperation : Microsoft::CodeAnalysis::Operations::IAssignmentOperation" />
-  <TypeSignature Language="C++ WINRT" Value="__interface ICompoundAssignmentOperation : Microsoft::CodeAnalysis::Operations::IAssignmentOperation" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-    <AssemblyVersion>2.6.0.0</AssemblyVersion>
+    <AssemblyVersion>2.9.0.0</AssemblyVersion>
+    <AssemblyVersion>3.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.CodeAnalysis.IOperation</InterfaceName>
+    </Interface>
     <Interface>
       <InterfaceName>Microsoft.CodeAnalysis.Operations.IAssignmentOperation</InterfaceName>
     </Interface>
@@ -40,7 +42,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.Operations.CommonConversion</ReturnType>
@@ -60,18 +63,18 @@
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsChecked As Boolean" />
       <MemberSignature Language="F#" Value="member this.IsChecked : bool" Usage="Microsoft.CodeAnalysis.Operations.ICompoundAssignmentOperation.IsChecked" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsChecked { bool get(); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; property bool IsChecked { bool get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <code>true</code> if overflow checking is performed for the arithmetic operation.
+          <see langword="true" /> if overflow checking is performed for the arithmetic operation.
             </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -84,18 +87,18 @@
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsLifted As Boolean" />
       <MemberSignature Language="F#" Value="member this.IsLifted : bool" Usage="Microsoft.CodeAnalysis.Operations.ICompoundAssignmentOperation.IsLifted" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsLifted { bool get(); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; property bool IsLifted { bool get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <code>true</code> if this assignment contains a 'lifted' binary operation.
+          <see langword="true" /> if this assignment contains a 'lifted' binary operation.
             </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -108,11 +111,11 @@
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property OperatorKind As BinaryOperatorKind" />
       <MemberSignature Language="F#" Value="member this.OperatorKind : Microsoft.CodeAnalysis.Operations.BinaryOperatorKind" Usage="Microsoft.CodeAnalysis.Operations.ICompoundAssignmentOperation.OperatorKind" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::CodeAnalysis::Operations::BinaryOperatorKind OperatorKind { Microsoft::CodeAnalysis::Operations::BinaryOperatorKind get(); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; property Microsoft::CodeAnalysis::Operations::BinaryOperatorKind OperatorKind { Microsoft::CodeAnalysis::Operations::BinaryOperatorKind get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.Operations.BinaryOperatorKind</ReturnType>
@@ -135,7 +138,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.IMethodSymbol</ReturnType>
@@ -158,7 +162,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.Operations.CommonConversion</ReturnType>

@@ -5,11 +5,10 @@
   <TypeSignature Language="VB.NET" Value="Public Interface ITryOperation&#xA;Implements IOperation" />
   <TypeSignature Language="F#" Value="type ITryOperation = interface&#xA;    interface IOperation" />
   <TypeSignature Language="C++ CLI" Value="public interface class ITryOperation : Microsoft::CodeAnalysis::IOperation" />
-  <TypeSignature Language="C++ CX" Value="public interface class ITryOperation : Microsoft::CodeAnalysis::IOperation" />
-  <TypeSignature Language="C++ WINRT" Value="__interface ITryOperation : Microsoft::CodeAnalysis::IOperation" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-    <AssemblyVersion>2.6.0.0</AssemblyVersion>
+    <AssemblyVersion>2.9.0.0</AssemblyVersion>
+    <AssemblyVersion>3.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Interfaces>
     <Interface>
@@ -37,11 +36,11 @@
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Body As IBlockOperation" />
       <MemberSignature Language="F#" Value="member this.Body : Microsoft.CodeAnalysis.Operations.IBlockOperation" Usage="Microsoft.CodeAnalysis.Operations.ITryOperation.Body" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::CodeAnalysis::Operations::IBlockOperation ^ Body { Microsoft::CodeAnalysis::Operations::IBlockOperation ^ get(); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; property Microsoft::CodeAnalysis::Operations::IBlockOperation ^ Body { Microsoft::CodeAnalysis::Operations::IBlockOperation ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.Operations.IBlockOperation</ReturnType>
@@ -64,7 +63,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Immutable.ImmutableArray&lt;Microsoft.CodeAnalysis.Operations.ICatchClauseOperation&gt;</ReturnType>
@@ -77,6 +77,30 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="ExitLabel">
+      <MemberSignature Language="C#" Value="public Microsoft.CodeAnalysis.ILabelSymbol ExitLabel { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.CodeAnalysis.ILabelSymbol ExitLabel" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.CodeAnalysis.Operations.ITryOperation.ExitLabel" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ExitLabel As ILabelSymbol" />
+      <MemberSignature Language="F#" Value="member this.ExitLabel : Microsoft.CodeAnalysis.ILabelSymbol" Usage="Microsoft.CodeAnalysis.Operations.ITryOperation.ExitLabel" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::CodeAnalysis::ILabelSymbol ^ ExitLabel { Microsoft::CodeAnalysis::ILabelSymbol ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.CodeAnalysis.ILabelSymbol</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Exit label for the try. This will always be null for C#.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="Finally">
       <MemberSignature Language="C#" Value="public Microsoft.CodeAnalysis.Operations.IBlockOperation Finally { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.CodeAnalysis.Operations.IBlockOperation Finally" />
@@ -84,11 +108,11 @@
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Finally As IBlockOperation" />
       <MemberSignature Language="F#" Value="member this.Finally : Microsoft.CodeAnalysis.Operations.IBlockOperation" Usage="Microsoft.CodeAnalysis.Operations.ITryOperation.Finally" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::CodeAnalysis::Operations::IBlockOperation ^ Finally { Microsoft::CodeAnalysis::Operations::IBlockOperation ^ get(); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; property Microsoft::CodeAnalysis::Operations::IBlockOperation ^ Finally { Microsoft::CodeAnalysis::Operations::IBlockOperation ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.Operations.IBlockOperation</ReturnType>

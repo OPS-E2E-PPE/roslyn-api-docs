@@ -5,11 +5,10 @@
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class XmlEmbeddedExpressionSyntax&#xA;Inherits XmlNodeSyntax" />
   <TypeSignature Language="F#" Value="type XmlEmbeddedExpressionSyntax = class&#xA;    inherit XmlNodeSyntax" />
   <TypeSignature Language="C++ CLI" Value="public ref class XmlEmbeddedExpressionSyntax sealed : Microsoft::CodeAnalysis::VisualBasic::Syntax::XmlNodeSyntax" />
-  <TypeSignature Language="C++ CX" Value="public ref class XmlEmbeddedExpressionSyntax sealed : Microsoft::CodeAnalysis::VisualBasic::Syntax::XmlNodeSyntax" />
-  <TypeSignature Language="C++ WINRT" Value="class XmlEmbeddedExpressionSyntax sealed : Microsoft::CodeAnalysis::VisualBasic::Syntax::XmlNodeSyntax" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-    <AssemblyVersion>2.6.0.0</AssemblyVersion>
+    <AssemblyVersion>2.9.0.0</AssemblyVersion>
+    <AssemblyVersion>3.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Microsoft.CodeAnalysis.VisualBasic.Syntax.XmlNodeSyntax</BaseTypeName>
@@ -30,12 +29,11 @@
       <MemberSignature Language="VB.NET" Value="Public Overrides Sub Accept (visitor As VisualBasicSyntaxVisitor)" />
       <MemberSignature Language="F#" Value="override this.Accept : Microsoft.CodeAnalysis.VisualBasic.VisualBasicSyntaxVisitor -&gt; unit" Usage="xmlEmbeddedExpressionSyntax.Accept visitor" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; override void Accept(Microsoft::CodeAnalysis::VisualBasic::VisualBasicSyntaxVisitor ^ visitor);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; override void Accept(Microsoft::CodeAnalysis::VisualBasic::VisualBasicSyntaxVisitor ^ visitor);" />
-      <MemberSignature Language="C++ WINRT" Value=" override void Accept(Microsoft::CodeAnalysis::VisualBasic::VisualBasicSyntaxVisitor const &amp; visitor);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -56,11 +54,11 @@
       <MemberSignature Language="VB.NET" Value="Public Overrides Function Accept(Of TResult) (visitor As VisualBasicSyntaxVisitor(Of TResult)) As TResult" />
       <MemberSignature Language="F#" Value="override this.Accept : Microsoft.CodeAnalysis.VisualBasic.VisualBasicSyntaxVisitor&lt;'Result&gt; -&gt; 'Result" Usage="xmlEmbeddedExpressionSyntax.Accept visitor" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename TResult&gt;&#xA; override TResult Accept(Microsoft::CodeAnalysis::VisualBasic::VisualBasicSyntaxVisitor&lt;TResult&gt; ^ visitor);" />
-      <MemberSignature Language="C++ WINRT" Value="template &lt;typename TResult&gt;&#xA; override TResult Accept(Microsoft::CodeAnalysis::VisualBasic::VisualBasicSyntaxVisitor&lt;TResult&gt; const &amp; visitor);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>TResult</ReturnType>
@@ -86,11 +84,11 @@
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Expression As ExpressionSyntax" />
       <MemberSignature Language="F#" Value="member this.Expression : Microsoft.CodeAnalysis.VisualBasic.Syntax.ExpressionSyntax" Usage="Microsoft.CodeAnalysis.VisualBasic.Syntax.XmlEmbeddedExpressionSyntax.Expression" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::CodeAnalysis::VisualBasic::Syntax::ExpressionSyntax ^ Expression { Microsoft::CodeAnalysis::VisualBasic::Syntax::ExpressionSyntax ^ get(); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; property Microsoft::CodeAnalysis::VisualBasic::Syntax::ExpressionSyntax ^ Expression { Microsoft::CodeAnalysis::VisualBasic::Syntax::ExpressionSyntax ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.VisualBasic.Syntax.ExpressionSyntax</ReturnType>
@@ -111,7 +109,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.SyntaxToken</ReturnType>
@@ -132,7 +131,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.SyntaxToken</ReturnType>
@@ -153,7 +153,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.VisualBasic.Syntax.XmlEmbeddedExpressionSyntax</ReturnType>
@@ -188,12 +189,11 @@
       <MemberSignature Language="VB.NET" Value="Public Function WithExpression (expression As ExpressionSyntax) As XmlEmbeddedExpressionSyntax" />
       <MemberSignature Language="F#" Value="member this.WithExpression : Microsoft.CodeAnalysis.VisualBasic.Syntax.ExpressionSyntax -&gt; Microsoft.CodeAnalysis.VisualBasic.Syntax.XmlEmbeddedExpressionSyntax" Usage="xmlEmbeddedExpressionSyntax.WithExpression expression" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::CodeAnalysis::VisualBasic::Syntax::XmlEmbeddedExpressionSyntax ^ WithExpression(Microsoft::CodeAnalysis::VisualBasic::Syntax::ExpressionSyntax ^ expression);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; Microsoft::CodeAnalysis::VisualBasic::Syntax::XmlEmbeddedExpressionSyntax ^ WithExpression(Microsoft::CodeAnalysis::VisualBasic::Syntax::ExpressionSyntax ^ expression);" />
-      <MemberSignature Language="C++ WINRT" Value="Microsoft::CodeAnalysis::VisualBasic::Syntax::XmlEmbeddedExpressionSyntax WithExpression(Microsoft::CodeAnalysis::VisualBasic::Syntax::ExpressionSyntax const &amp; expression);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.VisualBasic.Syntax.XmlEmbeddedExpressionSyntax</ReturnType>
@@ -222,7 +222,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.VisualBasic.Syntax.XmlEmbeddedExpressionSyntax</ReturnType>
@@ -251,7 +252,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.VisualBasic.Syntax.XmlEmbeddedExpressionSyntax</ReturnType>

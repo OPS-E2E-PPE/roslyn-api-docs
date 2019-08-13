@@ -5,11 +5,10 @@
   <TypeSignature Language="VB.NET" Value="Public MustInherit Class TextLoader" />
   <TypeSignature Language="F#" Value="type TextLoader = class" />
   <TypeSignature Language="C++ CLI" Value="public ref class TextLoader abstract" />
-  <TypeSignature Language="C++ CX" Value="[Windows::Foundation::Metadata::WebHostHidden]&#xA;public ref class TextLoader abstract" />
-  <TypeSignature Language="C++ WINRT" Value="[Windows::Foundation::Metadata::WebHostHidden]&#xA;class TextLoader abstract" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.CodeAnalysis.Workspaces</AssemblyName>
-    <AssemblyVersion>2.6.0.0</AssemblyVersion>
+    <AssemblyVersion>2.9.0.0</AssemblyVersion>
+    <AssemblyVersion>3.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -28,12 +27,11 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.CodeAnalysis.TextLoader.#ctor" />
       <MemberSignature Language="VB.NET" Value="Protected Sub New ()" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; TextLoader();" />
-      <MemberSignature Language="C++ CX" Value="protected:&#xA; TextLoader();" />
-      <MemberSignature Language="C++ WINRT" Value=" TextLoader();" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.Workspaces</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -47,12 +45,11 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.CodeAnalysis.TextLoader.From(Microsoft.CodeAnalysis.TextAndVersion)" />
       <MemberSignature Language="F#" Value="static member From : Microsoft.CodeAnalysis.TextAndVersion -&gt; Microsoft.CodeAnalysis.TextLoader" Usage="Microsoft.CodeAnalysis.TextLoader.From textAndVersion" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::CodeAnalysis::TextLoader ^ From(Microsoft::CodeAnalysis::TextAndVersion ^ textAndVersion);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static Microsoft::CodeAnalysis::TextLoader ^ From(Microsoft::CodeAnalysis::TextAndVersion ^ textAndVersion);" />
-      <MemberSignature Language="C++ WINRT" Value=" static Microsoft::CodeAnalysis::TextLoader From(Microsoft::CodeAnalysis::TextAndVersion const &amp; textAndVersion);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.Workspaces</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.TextLoader</ReturnType>
@@ -78,7 +75,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.Workspaces</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.TextLoader</ReturnType>
@@ -111,7 +109,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.Workspaces</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.CodeAnalysis.TextAndVersion&gt;</ReturnType>

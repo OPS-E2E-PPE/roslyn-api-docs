@@ -5,11 +5,10 @@
   <TypeSignature Language="VB.NET" Value="Public Enum LiteralBase" />
   <TypeSignature Language="F#" Value="type LiteralBase = " />
   <TypeSignature Language="C++ CLI" Value="public enum class LiteralBase" />
-  <TypeSignature Language="C++ CX" Value="public enum class LiteralBase" />
-  <TypeSignature Language="C++ WINRT" Value="enum LiteralBase" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-    <AssemblyVersion>2.6.0.0</AssemblyVersion>
+    <AssemblyVersion>2.9.0.0</AssemblyVersion>
+    <AssemblyVersion>3.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Enum</BaseTypeName>
@@ -28,12 +27,11 @@
       <MemberSignature Language="VB.NET" Value="Binary" />
       <MemberSignature Language="F#" Value="Binary = 3" Usage="Microsoft.CodeAnalysis.VisualBasic.Syntax.LiteralBase.Binary" />
       <MemberSignature Language="C++ CLI" Value="Binary" />
-      <MemberSignature Language="C++ CX" Value="Binary" />
-      <MemberSignature Language="C++ WINRT" Value="Binary" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.VisualBasic.Syntax.LiteralBase</ReturnType>
@@ -50,12 +48,11 @@
       <MemberSignature Language="VB.NET" Value="Decimal" />
       <MemberSignature Language="F#" Value="Decimal = 0" Usage="Microsoft.CodeAnalysis.VisualBasic.Syntax.LiteralBase.Decimal" />
       <MemberSignature Language="C++ CLI" Value="Decimal" />
-      <MemberSignature Language="C++ CX" Value="Decimal" />
-      <MemberSignature Language="C++ WINRT" Value="Decimal" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.VisualBasic.Syntax.LiteralBase</ReturnType>
@@ -72,12 +69,11 @@
       <MemberSignature Language="VB.NET" Value="Hexadecimal" />
       <MemberSignature Language="F#" Value="Hexadecimal = 1" Usage="Microsoft.CodeAnalysis.VisualBasic.Syntax.LiteralBase.Hexadecimal" />
       <MemberSignature Language="C++ CLI" Value="Hexadecimal" />
-      <MemberSignature Language="C++ CX" Value="Hexadecimal" />
-      <MemberSignature Language="C++ WINRT" Value="Hexadecimal" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.VisualBasic.Syntax.LiteralBase</ReturnType>
@@ -94,12 +90,11 @@
       <MemberSignature Language="VB.NET" Value="Octal" />
       <MemberSignature Language="F#" Value="Octal = 2" Usage="Microsoft.CodeAnalysis.VisualBasic.Syntax.LiteralBase.Octal" />
       <MemberSignature Language="C++ CLI" Value="Octal" />
-      <MemberSignature Language="C++ CX" Value="Octal" />
-      <MemberSignature Language="C++ WINRT" Value="Octal" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.VisualBasic.Syntax.LiteralBase</ReturnType>

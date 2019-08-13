@@ -5,11 +5,10 @@
   <TypeSignature Language="VB.NET" Value="Public Module SyntaxNodeExtensions" />
   <TypeSignature Language="F#" Value="type SyntaxNodeExtensions = class" />
   <TypeSignature Language="C++ CLI" Value="public ref class SyntaxNodeExtensions abstract sealed" />
-  <TypeSignature Language="C++ CX" Value="public ref class SyntaxNodeExtensions abstract sealed" />
-  <TypeSignature Language="C++ WINRT" Value="class SyntaxNodeExtensions abstract sealed" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-    <AssemblyVersion>2.6.0.0</AssemblyVersion>
+    <AssemblyVersion>2.9.0.0</AssemblyVersion>
+    <AssemblyVersion>3.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -27,11 +26,11 @@
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetCurrentNode(Of TNode As SyntaxNode) (root As SyntaxNode, node As TNode) As TNode" />
       <MemberSignature Language="F#" Value="static member GetCurrentNode : Microsoft.CodeAnalysis.SyntaxNode * 'Node -&gt; 'Node (requires 'Node :&gt; Microsoft.CodeAnalysis.SyntaxNode)" Usage="Microsoft.CodeAnalysis.SyntaxNodeExtensions.GetCurrentNode (root, node)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename TNode&gt;&#xA; where TNode : Microsoft::CodeAnalysis::SyntaxNode[System::Runtime::CompilerServices::Extension]&#xA; static TNode GetCurrentNode(Microsoft::CodeAnalysis::SyntaxNode ^ root, TNode node);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA;generic &lt;typename TNode&gt;&#xA; where TNode : Microsoft::CodeAnalysis::SyntaxNode[System::Runtime::CompilerServices::Extension]&#xA; static TNode GetCurrentNode(Microsoft::CodeAnalysis::SyntaxNode ^ root, TNode node);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>TNode</ReturnType>
@@ -69,11 +68,12 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.CompilerServices.IteratorStateMachine(typeof(Microsoft.CodeAnalysis.SyntaxNodeExtensions/&lt;GetCurrentNodes&gt;d__40`1))</AttributeName>
+          <AttributeName>System.Runtime.CompilerServices.IteratorStateMachine(typeof(Microsoft.CodeAnalysis.SyntaxNodeExtensions/&lt;GetCurrentNodes&gt;d__41`1))</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -112,7 +112,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IEnumerable&lt;TNode&gt;</ReturnType>
@@ -150,7 +151,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>TRoot</ReturnType>
@@ -189,7 +191,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>TRoot</ReturnType>
@@ -228,7 +231,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>TRoot</ReturnType>
@@ -267,7 +271,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>TRoot</ReturnType>
@@ -306,7 +311,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>TRoot</ReturnType>
@@ -345,7 +351,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>TRoot</ReturnType>
@@ -381,11 +388,11 @@
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function NormalizeWhitespace(Of TNode As SyntaxNode) (node As TNode, indentation As String, elasticTrivia As Boolean) As TNode" />
       <MemberSignature Language="F#" Value="static member NormalizeWhitespace : 'Node * string * bool -&gt; 'Node (requires 'Node :&gt; Microsoft.CodeAnalysis.SyntaxNode)" Usage="Microsoft.CodeAnalysis.SyntaxNodeExtensions.NormalizeWhitespace (node, indentation, elasticTrivia)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename TNode&gt;&#xA; where TNode : Microsoft::CodeAnalysis::SyntaxNode[System::Runtime::CompilerServices::Extension]&#xA; static TNode NormalizeWhitespace(TNode node, System::String ^ indentation, bool elasticTrivia);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA;generic &lt;typename TNode&gt;&#xA; where TNode : Microsoft::CodeAnalysis::SyntaxNode[System::Runtime::CompilerServices::Extension]&#xA; static TNode NormalizeWhitespace(TNode node, Platform::String ^ indentation, bool elasticTrivia);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>TNode</ReturnType>
@@ -416,15 +423,16 @@
       </Docs>
     </Member>
     <Member MemberName="NormalizeWhitespace&lt;TNode&gt;">
-      <MemberSignature Language="C#" Value="public static TNode NormalizeWhitespace&lt;TNode&gt; (this TNode node, string indentation = &quot;    &quot;, string eol = &quot;&#xD;&#xA;&quot;, bool elasticTrivia = false) where TNode : Microsoft.CodeAnalysis.SyntaxNode;" />
+      <MemberSignature Language="C#" Value="public static TNode NormalizeWhitespace&lt;TNode&gt; (this TNode node, string indentation = &quot;    &quot;, string eol = &quot;\r\n&quot;, bool elasticTrivia = false) where TNode : Microsoft.CodeAnalysis.SyntaxNode;" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TNode NormalizeWhitespace&lt;(class Microsoft.CodeAnalysis.SyntaxNode) TNode&gt;(!!TNode node, string indentation, string eol, bool elasticTrivia) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.CodeAnalysis.SyntaxNodeExtensions.NormalizeWhitespace``1(``0,System.String,System.String,System.Boolean)" />
-      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function NormalizeWhitespace(Of TNode As SyntaxNode) (node As TNode, Optional indentation As String = &quot;    &quot;, Optional eol As String = &quot;&#xD;&#xA;&quot;, Optional elasticTrivia As Boolean = false) As TNode" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function NormalizeWhitespace(Of TNode As SyntaxNode) (node As TNode, Optional indentation As String = &quot;    &quot;, Optional eol As String = &quot;\r\n&quot;, Optional elasticTrivia As Boolean = false) As TNode" />
       <MemberSignature Language="F#" Value="static member NormalizeWhitespace : 'Node * string * string * bool -&gt; 'Node (requires 'Node :&gt; Microsoft.CodeAnalysis.SyntaxNode)" Usage="Microsoft.CodeAnalysis.SyntaxNodeExtensions.NormalizeWhitespace (node, indentation, eol, elasticTrivia)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>TNode</ReturnType>
@@ -463,11 +471,11 @@
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function RemoveNode(Of TRoot As SyntaxNode) (root As TRoot, node As SyntaxNode, options As SyntaxRemoveOptions) As TRoot" />
       <MemberSignature Language="F#" Value="static member RemoveNode : 'Root * Microsoft.CodeAnalysis.SyntaxNode * Microsoft.CodeAnalysis.SyntaxRemoveOptions -&gt; 'Root (requires 'Root :&gt; Microsoft.CodeAnalysis.SyntaxNode)" Usage="Microsoft.CodeAnalysis.SyntaxNodeExtensions.RemoveNode (root, node, options)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename TRoot&gt;&#xA; where TRoot : Microsoft::CodeAnalysis::SyntaxNode[System::Runtime::CompilerServices::Extension]&#xA; static TRoot RemoveNode(TRoot root, Microsoft::CodeAnalysis::SyntaxNode ^ node, Microsoft::CodeAnalysis::SyntaxRemoveOptions options);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA;generic &lt;typename TRoot&gt;&#xA; where TRoot : Microsoft::CodeAnalysis::SyntaxNode[System::Runtime::CompilerServices::Extension]&#xA; static TRoot RemoveNode(TRoot root, Microsoft::CodeAnalysis::SyntaxNode ^ node, Microsoft::CodeAnalysis::SyntaxRemoveOptions options);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>TRoot</ReturnType>
@@ -506,7 +514,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>TRoot</ReturnType>
@@ -542,11 +551,11 @@
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ReplaceNode(Of TRoot As SyntaxNode) (root As TRoot, oldNode As SyntaxNode, newNode As SyntaxNode) As TRoot" />
       <MemberSignature Language="F#" Value="static member ReplaceNode : 'Root * Microsoft.CodeAnalysis.SyntaxNode * Microsoft.CodeAnalysis.SyntaxNode -&gt; 'Root (requires 'Root :&gt; Microsoft.CodeAnalysis.SyntaxNode)" Usage="Microsoft.CodeAnalysis.SyntaxNodeExtensions.ReplaceNode (root, oldNode, newNode)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename TRoot&gt;&#xA; where TRoot : Microsoft::CodeAnalysis::SyntaxNode[System::Runtime::CompilerServices::Extension]&#xA; static TRoot ReplaceNode(TRoot root, Microsoft::CodeAnalysis::SyntaxNode ^ oldNode, Microsoft::CodeAnalysis::SyntaxNode ^ newNode);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA;generic &lt;typename TRoot&gt;&#xA; where TRoot : Microsoft::CodeAnalysis::SyntaxNode[System::Runtime::CompilerServices::Extension]&#xA; static TRoot ReplaceNode(TRoot root, Microsoft::CodeAnalysis::SyntaxNode ^ oldNode, Microsoft::CodeAnalysis::SyntaxNode ^ newNode);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>TRoot</ReturnType>
@@ -585,7 +594,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>TRoot</ReturnType>
@@ -624,7 +634,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>TRoot</ReturnType>
@@ -671,7 +682,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>TRoot</ReturnType>
@@ -724,7 +736,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>TRoot</ReturnType>
@@ -764,7 +777,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>TRoot</ReturnType>
@@ -803,7 +817,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>TRoot</ReturnType>
@@ -844,7 +859,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>TRoot</ReturnType>
@@ -883,7 +899,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>TRoot</ReturnType>
@@ -922,7 +939,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>TRoot</ReturnType>
@@ -963,7 +981,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>TRoot</ReturnType>
@@ -1009,7 +1028,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>TRoot</ReturnType>
@@ -1049,7 +1069,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>TSyntax</ReturnType>
@@ -1092,7 +1113,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>TSyntax</ReturnType>
@@ -1129,7 +1151,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>TSyntax</ReturnType>
@@ -1163,11 +1186,11 @@
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function WithoutLeadingTrivia(Of TSyntax As SyntaxNode) (node As TSyntax) As TSyntax" />
       <MemberSignature Language="F#" Value="static member WithoutLeadingTrivia : 'Syntax -&gt; 'Syntax (requires 'Syntax :&gt; Microsoft.CodeAnalysis.SyntaxNode)" Usage="Microsoft.CodeAnalysis.SyntaxNodeExtensions.WithoutLeadingTrivia node" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename TSyntax&gt;&#xA; where TSyntax : Microsoft::CodeAnalysis::SyntaxNode[System::Runtime::CompilerServices::Extension]&#xA; static TSyntax WithoutLeadingTrivia(TSyntax node);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA;generic &lt;typename TSyntax&gt;&#xA; where TSyntax : Microsoft::CodeAnalysis::SyntaxNode[System::Runtime::CompilerServices::Extension]&#xA; static TSyntax WithoutLeadingTrivia(TSyntax node);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>TSyntax</ReturnType>
@@ -1199,11 +1222,11 @@
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function WithoutTrailingTrivia(Of TSyntax As SyntaxNode) (node As TSyntax) As TSyntax" />
       <MemberSignature Language="F#" Value="static member WithoutTrailingTrivia : 'Syntax -&gt; 'Syntax (requires 'Syntax :&gt; Microsoft.CodeAnalysis.SyntaxNode)" Usage="Microsoft.CodeAnalysis.SyntaxNodeExtensions.WithoutTrailingTrivia node" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename TSyntax&gt;&#xA; where TSyntax : Microsoft::CodeAnalysis::SyntaxNode[System::Runtime::CompilerServices::Extension]&#xA; static TSyntax WithoutTrailingTrivia(TSyntax node);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA;generic &lt;typename TSyntax&gt;&#xA; where TSyntax : Microsoft::CodeAnalysis::SyntaxNode[System::Runtime::CompilerServices::Extension]&#xA; static TSyntax WithoutTrailingTrivia(TSyntax node);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>TSyntax</ReturnType>
@@ -1238,7 +1261,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.SyntaxToken</ReturnType>
@@ -1262,11 +1286,11 @@
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function WithoutTrivia(Of TSyntax As SyntaxNode) (syntax As TSyntax) As TSyntax" />
       <MemberSignature Language="F#" Value="static member WithoutTrivia : 'Syntax -&gt; 'Syntax (requires 'Syntax :&gt; Microsoft.CodeAnalysis.SyntaxNode)" Usage="Microsoft.CodeAnalysis.SyntaxNodeExtensions.WithoutTrivia syntax" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename TSyntax&gt;&#xA; where TSyntax : Microsoft::CodeAnalysis::SyntaxNode[System::Runtime::CompilerServices::Extension]&#xA; static TSyntax WithoutTrivia(TSyntax syntax);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA;generic &lt;typename TSyntax&gt;&#xA; where TSyntax : Microsoft::CodeAnalysis::SyntaxNode[System::Runtime::CompilerServices::Extension]&#xA; static TSyntax WithoutTrivia(TSyntax syntax);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>TSyntax</ReturnType>
@@ -1301,7 +1325,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>TSyntax</ReturnType>
@@ -1344,7 +1369,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>TSyntax</ReturnType>
@@ -1381,7 +1407,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>TSyntax</ReturnType>
@@ -1415,11 +1442,11 @@
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function WithTriviaFrom(Of TSyntax As SyntaxNode) (syntax As TSyntax, node As SyntaxNode) As TSyntax" />
       <MemberSignature Language="F#" Value="static member WithTriviaFrom : 'Syntax * Microsoft.CodeAnalysis.SyntaxNode -&gt; 'Syntax (requires 'Syntax :&gt; Microsoft.CodeAnalysis.SyntaxNode)" Usage="Microsoft.CodeAnalysis.SyntaxNodeExtensions.WithTriviaFrom (syntax, node)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename TSyntax&gt;&#xA; where TSyntax : Microsoft::CodeAnalysis::SyntaxNode[System::Runtime::CompilerServices::Extension]&#xA; static TSyntax WithTriviaFrom(TSyntax syntax, Microsoft::CodeAnalysis::SyntaxNode ^ node);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA;generic &lt;typename TSyntax&gt;&#xA; where TSyntax : Microsoft::CodeAnalysis::SyntaxNode[System::Runtime::CompilerServices::Extension]&#xA; static TSyntax WithTriviaFrom(TSyntax syntax, Microsoft::CodeAnalysis::SyntaxNode ^ node);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>TSyntax</ReturnType>

@@ -7,7 +7,8 @@
   <TypeSignature Language="C++ CLI" Value="public interface class IFieldSymbol : IEquatable&lt;Microsoft::CodeAnalysis::ISymbol ^&gt;, Microsoft::CodeAnalysis::ISymbol" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-    <AssemblyVersion>2.6.0.0</AssemblyVersion>
+    <AssemblyVersion>2.9.0.0</AssemblyVersion>
+    <AssemblyVersion>3.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Interfaces>
     <Interface>
@@ -37,7 +38,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.ISymbol</ReturnType>
@@ -61,11 +63,11 @@
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ConstantValue As Object" />
       <MemberSignature Language="F#" Value="member this.ConstantValue : obj" Usage="Microsoft.CodeAnalysis.IFieldSymbol.ConstantValue" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ ConstantValue { System::Object ^ get(); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; property Platform::Object ^ ConstantValue { Platform::Object ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Object</ReturnType>
@@ -88,7 +90,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.IFieldSymbol</ReturnType>
@@ -116,7 +119,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Immutable.ImmutableArray&lt;Microsoft.CodeAnalysis.CustomModifier&gt;</ReturnType>
@@ -136,11 +140,11 @@
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property HasConstantValue As Boolean" />
       <MemberSignature Language="F#" Value="member this.HasConstantValue : bool" Usage="Microsoft.CodeAnalysis.IFieldSymbol.HasConstantValue" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool HasConstantValue { bool get(); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; property bool HasConstantValue { bool get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -161,11 +165,11 @@
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsConst As Boolean" />
       <MemberSignature Language="F#" Value="member this.IsConst : bool" Usage="Microsoft.CodeAnalysis.IFieldSymbol.IsConst" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsConst { bool get(); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; property bool IsConst { bool get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -179,6 +183,30 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="IsFixedSizeBuffer">
+      <MemberSignature Language="C#" Value="public bool IsFixedSizeBuffer { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsFixedSizeBuffer" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.CodeAnalysis.IFieldSymbol.IsFixedSizeBuffer" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsFixedSizeBuffer As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsFixedSizeBuffer : bool" Usage="Microsoft.CodeAnalysis.IFieldSymbol.IsFixedSizeBuffer" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Returns true if this field was declared as "fixed".
+            Note that for a fixed-size buffer declaration, this.Type will be a pointer type, of which
+            the pointed-to type will be the declared element type of the fixed-size buffer.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="IsReadOnly">
       <MemberSignature Language="C#" Value="public bool IsReadOnly { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance bool IsReadOnly" />
@@ -186,11 +214,11 @@
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsReadOnly As Boolean" />
       <MemberSignature Language="F#" Value="member this.IsReadOnly : bool" Usage="Microsoft.CodeAnalysis.IFieldSymbol.IsReadOnly" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsReadOnly { bool get(); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; property bool IsReadOnly { bool get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -210,11 +238,11 @@
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsVolatile As Boolean" />
       <MemberSignature Language="F#" Value="member this.IsVolatile : bool" Usage="Microsoft.CodeAnalysis.IFieldSymbol.IsVolatile" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsVolatile { bool get(); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; property bool IsVolatile { bool get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -222,6 +250,28 @@
       <Docs>
         <summary>
             Returns true if this field was declared as "volatile". 
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NullableAnnotation">
+      <MemberSignature Language="C#" Value="public Microsoft.CodeAnalysis.NullableAnnotation NullableAnnotation { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.CodeAnalysis.NullableAnnotation NullableAnnotation" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.CodeAnalysis.IFieldSymbol.NullableAnnotation" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property NullableAnnotation As NullableAnnotation" />
+      <MemberSignature Language="F#" Value="member this.NullableAnnotation : Microsoft.CodeAnalysis.NullableAnnotation" Usage="Microsoft.CodeAnalysis.IFieldSymbol.NullableAnnotation" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.CodeAnalysis.NullableAnnotation</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the top-level nullability of this field.
             </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -237,7 +287,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.IFieldSymbol</ReturnType>
@@ -262,7 +313,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.ITypeSymbol</ReturnType>

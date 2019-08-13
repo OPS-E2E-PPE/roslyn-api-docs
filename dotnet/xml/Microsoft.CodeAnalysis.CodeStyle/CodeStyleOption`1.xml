@@ -3,11 +3,12 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit CodeStyleOption`1&lt;T&gt; extends System.Object implements class System.IEquatable`1&lt;class Microsoft.CodeAnalysis.CodeStyle.CodeStyleOption`1&lt;!T&gt;&gt;" />
   <TypeSignature Language="DocId" Value="T:Microsoft.CodeAnalysis.CodeStyle.CodeStyleOption`1" />
   <TypeSignature Language="VB.NET" Value="Public Class CodeStyleOption(Of T)&#xA;Implements IEquatable(Of CodeStyleOption(Of T))" />
-  <TypeSignature Language="F#" Value="type CodeStyleOption&lt;'T&gt; = class&#xA;    interface ICodeStyleOption&#xA;    interface IEquatable&lt;CodeStyleOption&lt;'T&gt;&gt;" />
+  <TypeSignature Language="F#" Value="type CodeStyleOption&lt;'T&gt; = class&#xA;    interface IEquatable&lt;CodeStyleOption&lt;'T&gt;&gt;" />
   <TypeSignature Language="C++ CLI" Value="generic &lt;typename T&gt;&#xA;public ref class CodeStyleOption : IEquatable&lt;Microsoft::CodeAnalysis::CodeStyle::CodeStyleOption&lt;T&gt; ^&gt;" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.CodeAnalysis.Workspaces</AssemblyName>
-    <AssemblyVersion>2.6.0.0</AssemblyVersion>
+    <AssemblyVersion>2.9.0.0</AssemblyVersion>
+    <AssemblyVersion>3.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <TypeParameters>
     <TypeParameter Name="T" />
@@ -24,10 +25,10 @@
     <typeparam name="T">To be added.</typeparam>
     <summary>
             Represents a code style option and an associated notification option.  Supports
-            being instantiated with T as a <see cref="T:System.Boolean" /> or an <code>enum type</code>.
+            being instantiated with T as a <see cref="T:System.Boolean" /> or an <c>enum type</c>.
             
             CodeStyleOption also has some basic support for migration a <see cref="T:System.Boolean" /> option
-            forward to an <code>enum type</code> option.  Specifically, if a previously serialized
+            forward to an <c>enum type</c> option.  Specifically, if a previously serialized
             bool-CodeStyleOption is then deserialized into an enum-CodeStyleOption then 'false' 
             values will be migrated to have the 0-value of the enum, and 'true' values will be
             migrated to have the 1-value of the enum.
@@ -46,12 +47,11 @@
       <MemberSignature Language="VB.NET" Value="Public Sub New (value As T, notification As NotificationOption)" />
       <MemberSignature Language="F#" Value="new Microsoft.CodeAnalysis.CodeStyle.CodeStyleOption&lt;'T&gt; : 'T * Microsoft.CodeAnalysis.CodeStyle.NotificationOption -&gt; Microsoft.CodeAnalysis.CodeStyle.CodeStyleOption&lt;'T&gt;" Usage="new Microsoft.CodeAnalysis.CodeStyle.CodeStyleOption&lt;'T&gt; (value, notification)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; CodeStyleOption(T value, Microsoft::CodeAnalysis::CodeStyle::NotificationOption ^ notification);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; CodeStyleOption(T value, Microsoft::CodeAnalysis::CodeStyle::NotificationOption ^ notification);" />
-      <MemberSignature Language="C++ WINRT" Value=" CodeStyleOption(T value, Microsoft::CodeAnalysis::CodeStyle::NotificationOption const &amp; notification);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.Workspaces</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="value" Type="T" />
@@ -74,7 +74,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.Workspaces</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.CodeStyle.CodeStyleOption&lt;T&gt;</ReturnType>
@@ -98,7 +99,8 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.Workspaces</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -120,12 +122,11 @@
       <MemberSignature Language="VB.NET" Value="Public Overrides Function Equals (obj As Object) As Boolean" />
       <MemberSignature Language="F#" Value="override this.Equals : obj -&gt; bool" Usage="codeStyleOption.Equals obj" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; override bool Equals(System::Object ^ obj);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; override bool Equals(Platform::Object ^ obj);" />
-      <MemberSignature Language="C++ WINRT" Value=" override bool Equals(winrt::Windows::Foundation::IInspectable const &amp; obj);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.Workspaces</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -150,7 +151,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.Workspaces</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.CodeStyle.CodeStyleOption&lt;T&gt;</ReturnType>
@@ -172,12 +174,11 @@
       <MemberSignature Language="VB.NET" Value="Public Overrides Function GetHashCode () As Integer" />
       <MemberSignature Language="F#" Value="override this.GetHashCode : unit -&gt; int" Usage="codeStyleOption.GetHashCode " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; override int GetHashCode();" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; override int GetHashCode();" />
-      <MemberSignature Language="C++ WINRT" Value=" override int GetHashCode();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.Workspaces</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -196,11 +197,11 @@
       <MemberSignature Language="VB.NET" Value="Public Property Notification As NotificationOption" />
       <MemberSignature Language="F#" Value="member this.Notification : Microsoft.CodeAnalysis.CodeStyle.NotificationOption with get, set" Usage="Microsoft.CodeAnalysis.CodeStyle.CodeStyleOption&lt;'T&gt;.Notification" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::CodeAnalysis::CodeStyle::NotificationOption ^ Notification { Microsoft::CodeAnalysis::CodeStyle::NotificationOption ^ get(); void set(Microsoft::CodeAnalysis::CodeStyle::NotificationOption ^ value); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; property Microsoft::CodeAnalysis::CodeStyle::NotificationOption ^ Notification { Microsoft::CodeAnalysis::CodeStyle::NotificationOption ^ get(); void set(Microsoft::CodeAnalysis::CodeStyle::NotificationOption ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.Workspaces</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.CodeStyle.NotificationOption</ReturnType>
@@ -224,7 +225,8 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.Workspaces</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Xml.Linq.XElement</ReturnType>
@@ -243,11 +245,11 @@
       <MemberSignature Language="VB.NET" Value="Public Property Value As T" />
       <MemberSignature Language="F#" Value="member this.Value : 'T with get, set" Usage="Microsoft.CodeAnalysis.CodeStyle.CodeStyleOption&lt;'T&gt;.Value" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property T Value { T get(); void set(T value); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; property T Value { T get(); void set(T value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.Workspaces</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>T</ReturnType>

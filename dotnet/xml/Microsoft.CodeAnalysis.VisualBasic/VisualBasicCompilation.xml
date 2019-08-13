@@ -5,11 +5,10 @@
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class VisualBasicCompilation&#xA;Inherits Compilation" />
   <TypeSignature Language="F#" Value="type VisualBasicCompilation = class&#xA;    inherit Compilation" />
   <TypeSignature Language="C++ CLI" Value="public ref class VisualBasicCompilation sealed : Microsoft::CodeAnalysis::Compilation" />
-  <TypeSignature Language="C++ CX" Value="public ref class VisualBasicCompilation sealed : Microsoft::CodeAnalysis::Compilation" />
-  <TypeSignature Language="C++ WINRT" Value="class VisualBasicCompilation sealed : Microsoft::CodeAnalysis::Compilation" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-    <AssemblyVersion>2.6.0.0</AssemblyVersion>
+    <AssemblyVersion>2.9.0.0</AssemblyVersion>
+    <AssemblyVersion>3.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Microsoft.CodeAnalysis.Compilation</BaseTypeName>
@@ -38,7 +37,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.VisualBasic.VisualBasicCompilation</ReturnType>
@@ -69,7 +69,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.VisualBasic.VisualBasicCompilation</ReturnType>
@@ -94,7 +95,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.VisualBasic.VisualBasicCompilation</ReturnType>
@@ -125,7 +127,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.VisualBasic.VisualBasicCompilation</ReturnType>
@@ -150,7 +153,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -164,6 +168,34 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="ClassifyCommonConversion">
+      <MemberSignature Language="C#" Value="public override Microsoft.CodeAnalysis.Operations.CommonConversion ClassifyCommonConversion (Microsoft.CodeAnalysis.ITypeSymbol source, Microsoft.CodeAnalysis.ITypeSymbol destination);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance valuetype Microsoft.CodeAnalysis.Operations.CommonConversion ClassifyCommonConversion(class Microsoft.CodeAnalysis.ITypeSymbol source, class Microsoft.CodeAnalysis.ITypeSymbol destination) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.CodeAnalysis.VisualBasic.VisualBasicCompilation.ClassifyCommonConversion(Microsoft.CodeAnalysis.ITypeSymbol,Microsoft.CodeAnalysis.ITypeSymbol)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function ClassifyCommonConversion (source As ITypeSymbol, destination As ITypeSymbol) As CommonConversion" />
+      <MemberSignature Language="F#" Value="override this.ClassifyCommonConversion : Microsoft.CodeAnalysis.ITypeSymbol * Microsoft.CodeAnalysis.ITypeSymbol -&gt; Microsoft.CodeAnalysis.Operations.CommonConversion" Usage="visualBasicCompilation.ClassifyCommonConversion (source, destination)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override Microsoft::CodeAnalysis::Operations::CommonConversion ClassifyCommonConversion(Microsoft::CodeAnalysis::ITypeSymbol ^ source, Microsoft::CodeAnalysis::ITypeSymbol ^ destination);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.CodeAnalysis.Operations.CommonConversion</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="source" Type="Microsoft.CodeAnalysis.ITypeSymbol" />
+        <Parameter Name="destination" Type="Microsoft.CodeAnalysis.ITypeSymbol" />
+      </Parameters>
+      <Docs>
+        <param name="source">To be added.</param>
+        <param name="destination">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="ClassifyConversion">
       <MemberSignature Language="C#" Value="public Microsoft.CodeAnalysis.VisualBasic.Conversion ClassifyConversion (Microsoft.CodeAnalysis.ITypeSymbol source, Microsoft.CodeAnalysis.ITypeSymbol destination);" />
       <MemberSignature Language="ILAsm" Value=".method public instance valuetype Microsoft.CodeAnalysis.VisualBasic.Conversion ClassifyConversion(class Microsoft.CodeAnalysis.ITypeSymbol source, class Microsoft.CodeAnalysis.ITypeSymbol destination) cil managed" />
@@ -174,7 +206,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.VisualBasic.Conversion</ReturnType>
@@ -201,12 +234,11 @@
       <MemberSignature Language="VB.NET" Value="Public Function Clone () As VisualBasicCompilation" />
       <MemberSignature Language="F#" Value="override this.Clone : unit -&gt; Microsoft.CodeAnalysis.VisualBasic.VisualBasicCompilation" Usage="visualBasicCompilation.Clone " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::CodeAnalysis::VisualBasic::VisualBasicCompilation ^ Clone();" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; Microsoft::CodeAnalysis::VisualBasic::VisualBasicCompilation ^ Clone();" />
-      <MemberSignature Language="C++ WINRT" Value="Microsoft::CodeAnalysis::VisualBasic::VisualBasicCompilation Clone();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.VisualBasic.VisualBasicCompilation</ReturnType>
@@ -230,7 +262,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.Compilation</ReturnType>
@@ -255,7 +288,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.IAssemblySymbol</ReturnType>
@@ -273,12 +307,11 @@
       <MemberSignature Language="VB.NET" Value="Protected Overrides Function CommonClone () As Compilation" />
       <MemberSignature Language="F#" Value="override this.CommonClone : unit -&gt; Microsoft.CodeAnalysis.Compilation" Usage="visualBasicCompilation.CommonClone " />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override Microsoft::CodeAnalysis::Compilation ^ CommonClone();" />
-      <MemberSignature Language="C++ CX" Value="protected:&#xA; override Microsoft::CodeAnalysis::Compilation ^ CommonClone();" />
-      <MemberSignature Language="C++ WINRT" Value=" override Microsoft::CodeAnalysis::Compilation CommonClone();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.Compilation</ReturnType>
@@ -296,12 +329,11 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.CodeAnalysis.VisualBasic.VisualBasicCompilation.CommonContainsSyntaxTree(Microsoft.CodeAnalysis.SyntaxTree)" />
       <MemberSignature Language="F#" Value="override this.CommonContainsSyntaxTree : Microsoft.CodeAnalysis.SyntaxTree -&gt; bool" Usage="visualBasicCompilation.CommonContainsSyntaxTree syntaxTree" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override bool CommonContainsSyntaxTree(Microsoft::CodeAnalysis::SyntaxTree ^ syntaxTree);" />
-      <MemberSignature Language="C++ CX" Value="protected:&#xA; override bool CommonContainsSyntaxTree(Microsoft::CodeAnalysis::SyntaxTree ^ syntaxTree);" />
-      <MemberSignature Language="C++ WINRT" Value=" override bool CommonContainsSyntaxTree(Microsoft::CodeAnalysis::SyntaxTree const &amp; syntaxTree);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -326,7 +358,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.INamedTypeSymbol</ReturnType>
@@ -357,7 +390,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.IArrayTypeSymbol</ReturnType>
@@ -384,7 +418,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.INamespaceSymbol</ReturnType>
@@ -411,7 +446,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.INamedTypeSymbol</ReturnType>
@@ -440,7 +476,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.IPointerTypeSymbol</ReturnType>
@@ -465,7 +502,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.INamedTypeSymbol</ReturnType>
@@ -494,7 +532,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.INamedTypeSymbol</ReturnType>
@@ -523,7 +562,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.ITypeSymbol</ReturnType>
@@ -544,7 +584,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.ISymbol</ReturnType>
@@ -569,7 +610,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.INamespaceSymbol</ReturnType>
@@ -593,7 +635,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.IMethodSymbol</ReturnType>
@@ -614,12 +657,11 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.CodeAnalysis.VisualBasic.VisualBasicCompilation.CommonGetSemanticModel(Microsoft.CodeAnalysis.SyntaxTree,System.Boolean)" />
       <MemberSignature Language="F#" Value="override this.CommonGetSemanticModel : Microsoft.CodeAnalysis.SyntaxTree * bool -&gt; Microsoft.CodeAnalysis.SemanticModel" Usage="visualBasicCompilation.CommonGetSemanticModel (syntaxTree, ignoreAccessibility)" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override Microsoft::CodeAnalysis::SemanticModel ^ CommonGetSemanticModel(Microsoft::CodeAnalysis::SyntaxTree ^ syntaxTree, bool ignoreAccessibility);" />
-      <MemberSignature Language="C++ CX" Value="protected:&#xA; override Microsoft::CodeAnalysis::SemanticModel ^ CommonGetSemanticModel(Microsoft::CodeAnalysis::SyntaxTree ^ syntaxTree, bool ignoreAccessibility);" />
-      <MemberSignature Language="C++ WINRT" Value=" override Microsoft::CodeAnalysis::SemanticModel CommonGetSemanticModel(Microsoft::CodeAnalysis::SyntaxTree const &amp; syntaxTree, bool ignoreAccessibility);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.SemanticModel</ReturnType>
@@ -645,7 +687,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.INamedTypeSymbol</ReturnType>
@@ -670,7 +713,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.INamedTypeSymbol</ReturnType>
@@ -695,7 +739,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.INamespaceSymbol</ReturnType>
@@ -716,7 +761,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.INamedTypeSymbol</ReturnType>
@@ -734,11 +780,11 @@
       <MemberSignature Language="VB.NET" Value="Protected Overrides ReadOnly Property CommonOptions As CompilationOptions" />
       <MemberSignature Language="F#" Value="member this.CommonOptions : Microsoft.CodeAnalysis.CompilationOptions" Usage="Microsoft.CodeAnalysis.VisualBasic.VisualBasicCompilation.CommonOptions" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual property Microsoft::CodeAnalysis::CompilationOptions ^ CommonOptions { Microsoft::CodeAnalysis::CompilationOptions ^ get(); };" />
-      <MemberSignature Language="C++ CX" Value="protected:&#xA; virtual property Microsoft::CodeAnalysis::CompilationOptions ^ CommonOptions { Microsoft::CodeAnalysis::CompilationOptions ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.CompilationOptions</ReturnType>
@@ -756,12 +802,11 @@
       <MemberSignature Language="VB.NET" Value="Protected Overrides Function CommonRemoveAllSyntaxTrees () As Compilation" />
       <MemberSignature Language="F#" Value="override this.CommonRemoveAllSyntaxTrees : unit -&gt; Microsoft.CodeAnalysis.Compilation" Usage="visualBasicCompilation.CommonRemoveAllSyntaxTrees " />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override Microsoft::CodeAnalysis::Compilation ^ CommonRemoveAllSyntaxTrees();" />
-      <MemberSignature Language="C++ CX" Value="protected:&#xA; override Microsoft::CodeAnalysis::Compilation ^ CommonRemoveAllSyntaxTrees();" />
-      <MemberSignature Language="C++ WINRT" Value=" override Microsoft::CodeAnalysis::Compilation CommonRemoveAllSyntaxTrees();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.Compilation</ReturnType>
@@ -783,7 +828,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.Compilation</ReturnType>
@@ -805,12 +851,11 @@
       <MemberSignature Language="VB.NET" Value="Protected Overrides Function CommonReplaceSyntaxTree (oldTree As SyntaxTree, newTree As SyntaxTree) As Compilation" />
       <MemberSignature Language="F#" Value="override this.CommonReplaceSyntaxTree : Microsoft.CodeAnalysis.SyntaxTree * Microsoft.CodeAnalysis.SyntaxTree -&gt; Microsoft.CodeAnalysis.Compilation" Usage="visualBasicCompilation.CommonReplaceSyntaxTree (oldTree, newTree)" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override Microsoft::CodeAnalysis::Compilation ^ CommonReplaceSyntaxTree(Microsoft::CodeAnalysis::SyntaxTree ^ oldTree, Microsoft::CodeAnalysis::SyntaxTree ^ newTree);" />
-      <MemberSignature Language="C++ CX" Value="protected:&#xA; override Microsoft::CodeAnalysis::Compilation ^ CommonReplaceSyntaxTree(Microsoft::CodeAnalysis::SyntaxTree ^ oldTree, Microsoft::CodeAnalysis::SyntaxTree ^ newTree);" />
-      <MemberSignature Language="C++ WINRT" Value=" override Microsoft::CodeAnalysis::Compilation CommonReplaceSyntaxTree(Microsoft::CodeAnalysis::SyntaxTree const &amp; oldTree, Microsoft::CodeAnalysis::SyntaxTree const &amp; newTree);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.Compilation</ReturnType>
@@ -837,7 +882,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.INamedTypeSymbol</ReturnType>
@@ -858,7 +904,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.IModuleSymbol</ReturnType>
@@ -879,7 +926,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IEnumerable&lt;Microsoft.CodeAnalysis.SyntaxTree&gt;</ReturnType>
@@ -897,12 +945,11 @@
       <MemberSignature Language="VB.NET" Value="Protected Overrides Function CommonWithAssemblyName (assemblyName As String) As Compilation" />
       <MemberSignature Language="F#" Value="override this.CommonWithAssemblyName : string -&gt; Microsoft.CodeAnalysis.Compilation" Usage="visualBasicCompilation.CommonWithAssemblyName assemblyName" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override Microsoft::CodeAnalysis::Compilation ^ CommonWithAssemblyName(System::String ^ assemblyName);" />
-      <MemberSignature Language="C++ CX" Value="protected:&#xA; override Microsoft::CodeAnalysis::Compilation ^ CommonWithAssemblyName(Platform::String ^ assemblyName);" />
-      <MemberSignature Language="C++ WINRT" Value=" override Microsoft::CodeAnalysis::Compilation CommonWithAssemblyName(std::wstring const &amp; assemblyName);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.Compilation</ReturnType>
@@ -924,12 +971,11 @@
       <MemberSignature Language="VB.NET" Value="Protected Overrides Function CommonWithOptions (options As CompilationOptions) As Compilation" />
       <MemberSignature Language="F#" Value="override this.CommonWithOptions : Microsoft.CodeAnalysis.CompilationOptions -&gt; Microsoft.CodeAnalysis.Compilation" Usage="visualBasicCompilation.CommonWithOptions options" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override Microsoft::CodeAnalysis::Compilation ^ CommonWithOptions(Microsoft::CodeAnalysis::CompilationOptions ^ options);" />
-      <MemberSignature Language="C++ CX" Value="protected:&#xA; override Microsoft::CodeAnalysis::Compilation ^ CommonWithOptions(Microsoft::CodeAnalysis::CompilationOptions ^ options);" />
-      <MemberSignature Language="C++ WINRT" Value=" override Microsoft::CodeAnalysis::Compilation CommonWithOptions(Microsoft::CodeAnalysis::CompilationOptions const &amp; options);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.Compilation</ReturnType>
@@ -954,7 +1000,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.Compilation</ReturnType>
@@ -976,12 +1023,11 @@
       <MemberSignature Language="VB.NET" Value="Protected Overrides Function CommonWithScriptCompilationInfo (info As ScriptCompilationInfo) As Compilation" />
       <MemberSignature Language="F#" Value="override this.CommonWithScriptCompilationInfo : Microsoft.CodeAnalysis.ScriptCompilationInfo -&gt; Microsoft.CodeAnalysis.Compilation" Usage="visualBasicCompilation.CommonWithScriptCompilationInfo info" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override Microsoft::CodeAnalysis::Compilation ^ CommonWithScriptCompilationInfo(Microsoft::CodeAnalysis::ScriptCompilationInfo ^ info);" />
-      <MemberSignature Language="C++ CX" Value="protected:&#xA; override Microsoft::CodeAnalysis::Compilation ^ CommonWithScriptCompilationInfo(Microsoft::CodeAnalysis::ScriptCompilationInfo ^ info);" />
-      <MemberSignature Language="C++ WINRT" Value=" override Microsoft::CodeAnalysis::Compilation CommonWithScriptCompilationInfo(Microsoft::CodeAnalysis::ScriptCompilationInfo const &amp; info);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.Compilation</ReturnType>
@@ -1004,7 +1050,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -1019,7 +1066,39 @@
         <param name="filter">To be added.</param>
         <param name="cancellationToken">To be added.</param>
         <summary>
- Return true if there Is a source declaration symbol name that meets given predicate.
+ Return true if there is a source declaration symbol name that meets given predicate.
+ </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ContainsSymbolsWithName">
+      <MemberSignature Language="C#" Value="public override bool ContainsSymbolsWithName (string name, Microsoft.CodeAnalysis.SymbolFilter filter = Microsoft.CodeAnalysis.SymbolFilter.TypeAndMember, System.Threading.CancellationToken cancellationToken = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance bool ContainsSymbolsWithName(string name, valuetype Microsoft.CodeAnalysis.SymbolFilter filter, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.CodeAnalysis.VisualBasic.VisualBasicCompilation.ContainsSymbolsWithName(System.String,Microsoft.CodeAnalysis.SymbolFilter,System.Threading.CancellationToken)" />
+      <MemberSignature Language="F#" Value="override this.ContainsSymbolsWithName : string * Microsoft.CodeAnalysis.SymbolFilter * System.Threading.CancellationToken -&gt; bool" Usage="visualBasicCompilation.ContainsSymbolsWithName (name, filter, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="filter" Type="Microsoft.CodeAnalysis.SymbolFilter" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="name">To be added.</param>
+        <param name="filter">To be added.</param>
+        <param name="cancellationToken">To be added.</param>
+        <summary>
+ Return true if there is a source declaration symbol name that matches the provided name.
+ This may be faster than <see cref="M:Microsoft.CodeAnalysis.VisualBasic.VisualBasicCompilation.ContainsSymbolsWithName(System.Func{System.String,System.Boolean},Microsoft.CodeAnalysis.SymbolFilter,System.Threading.CancellationToken)" /> when predicate is just a simple string check.
+ <paramref name="name" /> is case insensitive.
  </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
@@ -1031,12 +1110,11 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.CodeAnalysis.VisualBasic.VisualBasicCompilation.ContainsSyntaxTree(Microsoft.CodeAnalysis.SyntaxTree)" />
       <MemberSignature Language="F#" Value="override this.ContainsSyntaxTree : Microsoft.CodeAnalysis.SyntaxTree -&gt; bool" Usage="visualBasicCompilation.ContainsSyntaxTree syntaxTree" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; bool ContainsSyntaxTree(Microsoft::CodeAnalysis::SyntaxTree ^ syntaxTree);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; bool ContainsSyntaxTree(Microsoft::CodeAnalysis::SyntaxTree ^ syntaxTree);" />
-      <MemberSignature Language="C++ WINRT" Value="bool ContainsSyntaxTree(Microsoft::CodeAnalysis::SyntaxTree const &amp; syntaxTree);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -1062,7 +1140,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.VisualBasic.VisualBasicCompilation</ReturnType>
@@ -1095,7 +1174,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Immutable.ImmutableArray&lt;Microsoft.CodeAnalysis.MetadataReference&gt;</ReturnType>
@@ -1114,7 +1194,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Immutable.ImmutableArray&lt;Microsoft.CodeAnalysis.Diagnostic&gt;</ReturnType>
@@ -1141,7 +1222,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Immutable.ImmutableArray&lt;Microsoft.CodeAnalysis.Diagnostic&gt;</ReturnType>
@@ -1169,7 +1251,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Immutable.ImmutableArray&lt;Microsoft.CodeAnalysis.Diagnostic&gt;</ReturnType>
@@ -1196,7 +1279,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Immutable.ImmutableArray&lt;Microsoft.CodeAnalysis.Diagnostic&gt;</ReturnType>
@@ -1220,11 +1304,11 @@
       <MemberSignature Language="ILAsm" Value=".method public instance class Microsoft.CodeAnalysis.SemanticModel GetSemanticModel(class Microsoft.CodeAnalysis.SyntaxTree syntaxTree, bool ignoreAccessibility) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.CodeAnalysis.VisualBasic.VisualBasicCompilation.GetSemanticModel(Microsoft.CodeAnalysis.SyntaxTree,System.Boolean)" />
       <MemberSignature Language="F#" Value="override this.GetSemanticModel : Microsoft.CodeAnalysis.SyntaxTree * bool -&gt; Microsoft.CodeAnalysis.SemanticModel" Usage="visualBasicCompilation.GetSemanticModel (syntaxTree, ignoreAccessibility)" />
-      <MemberSignature Language="C++ WINRT" Value="Microsoft::CodeAnalysis::SemanticModel GetSemanticModel(Microsoft::CodeAnalysis::SyntaxTree const &amp; syntaxTree, bool ignoreAccessibility = false);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.SemanticModel</ReturnType>
@@ -1253,7 +1337,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IEnumerable&lt;Microsoft.CodeAnalysis.ISymbol&gt;</ReturnType>
@@ -1274,6 +1359,34 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="GetSymbolsWithName">
+      <MemberSignature Language="C#" Value="public override System.Collections.Generic.IEnumerable&lt;Microsoft.CodeAnalysis.ISymbol&gt; GetSymbolsWithName (string name, Microsoft.CodeAnalysis.SymbolFilter filter = Microsoft.CodeAnalysis.SymbolFilter.TypeAndMember, System.Threading.CancellationToken cancellationToken = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.CodeAnalysis.ISymbol&gt; GetSymbolsWithName(string name, valuetype Microsoft.CodeAnalysis.SymbolFilter filter, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.CodeAnalysis.VisualBasic.VisualBasicCompilation.GetSymbolsWithName(System.String,Microsoft.CodeAnalysis.SymbolFilter,System.Threading.CancellationToken)" />
+      <MemberSignature Language="F#" Value="override this.GetSymbolsWithName : string * Microsoft.CodeAnalysis.SymbolFilter * System.Threading.CancellationToken -&gt; seq&lt;Microsoft.CodeAnalysis.ISymbol&gt;" Usage="visualBasicCompilation.GetSymbolsWithName (name, filter, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IEnumerable&lt;Microsoft.CodeAnalysis.ISymbol&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="filter" Type="Microsoft.CodeAnalysis.SymbolFilter" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="name">To be added.</param>
+        <param name="filter">To be added.</param>
+        <param name="cancellationToken">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="IsCaseSensitive">
       <MemberSignature Language="C#" Value="public override bool IsCaseSensitive { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance bool IsCaseSensitive" />
@@ -1281,11 +1394,11 @@
       <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property IsCaseSensitive As Boolean" />
       <MemberSignature Language="F#" Value="member this.IsCaseSensitive : bool" Usage="Microsoft.CodeAnalysis.VisualBasic.VisualBasicCompilation.IsCaseSensitive" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property bool IsCaseSensitive { bool get(); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; virtual property bool IsCaseSensitive { bool get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -1303,11 +1416,11 @@
       <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property Language As String" />
       <MemberSignature Language="F#" Value="member this.Language : string" Usage="Microsoft.CodeAnalysis.VisualBasic.VisualBasicCompilation.Language" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::String ^ Language { System::String ^ get(); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; virtual property Platform::String ^ Language { Platform::String ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -1325,11 +1438,11 @@
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property LanguageVersion As LanguageVersion" />
       <MemberSignature Language="F#" Value="member this.LanguageVersion : Microsoft.CodeAnalysis.VisualBasic.LanguageVersion" Usage="Microsoft.CodeAnalysis.VisualBasic.VisualBasicCompilation.LanguageVersion" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::CodeAnalysis::VisualBasic::LanguageVersion LanguageVersion { Microsoft::CodeAnalysis::VisualBasic::LanguageVersion get(); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; property Microsoft::CodeAnalysis::VisualBasic::LanguageVersion LanguageVersion { Microsoft::CodeAnalysis::VisualBasic::LanguageVersion get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.VisualBasic.LanguageVersion</ReturnType>
@@ -1352,7 +1465,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.VisualBasic.VisualBasicCompilationOptions</ReturnType>
@@ -1373,7 +1487,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IEnumerable&lt;Microsoft.CodeAnalysis.AssemblyIdentity&gt;</ReturnType>
@@ -1391,12 +1506,11 @@
       <MemberSignature Language="VB.NET" Value="Public Function RemoveAllReferences () As VisualBasicCompilation" />
       <MemberSignature Language="F#" Value="override this.RemoveAllReferences : unit -&gt; Microsoft.CodeAnalysis.VisualBasic.VisualBasicCompilation" Usage="visualBasicCompilation.RemoveAllReferences " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::CodeAnalysis::VisualBasic::VisualBasicCompilation ^ RemoveAllReferences();" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; Microsoft::CodeAnalysis::VisualBasic::VisualBasicCompilation ^ RemoveAllReferences();" />
-      <MemberSignature Language="C++ WINRT" Value="Microsoft::CodeAnalysis::VisualBasic::VisualBasicCompilation RemoveAllReferences();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.VisualBasic.VisualBasicCompilation</ReturnType>
@@ -1415,12 +1529,11 @@
       <MemberSignature Language="VB.NET" Value="Public Function RemoveAllSyntaxTrees () As VisualBasicCompilation" />
       <MemberSignature Language="F#" Value="override this.RemoveAllSyntaxTrees : unit -&gt; Microsoft.CodeAnalysis.VisualBasic.VisualBasicCompilation" Usage="visualBasicCompilation.RemoveAllSyntaxTrees " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::CodeAnalysis::VisualBasic::VisualBasicCompilation ^ RemoveAllSyntaxTrees();" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; Microsoft::CodeAnalysis::VisualBasic::VisualBasicCompilation ^ RemoveAllSyntaxTrees();" />
-      <MemberSignature Language="C++ WINRT" Value="Microsoft::CodeAnalysis::VisualBasic::VisualBasicCompilation RemoveAllSyntaxTrees();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.VisualBasic.VisualBasicCompilation</ReturnType>
@@ -1442,7 +1555,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.VisualBasic.VisualBasicCompilation</ReturnType>
@@ -1473,7 +1587,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.VisualBasic.VisualBasicCompilation</ReturnType>
@@ -1498,7 +1613,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.VisualBasic.VisualBasicCompilation</ReturnType>
@@ -1529,7 +1645,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.VisualBasic.VisualBasicCompilation</ReturnType>
@@ -1551,12 +1668,11 @@
       <MemberSignature Language="VB.NET" Value="Public Function ReplaceReference (oldReference As MetadataReference, newReference As MetadataReference) As VisualBasicCompilation" />
       <MemberSignature Language="F#" Value="override this.ReplaceReference : Microsoft.CodeAnalysis.MetadataReference * Microsoft.CodeAnalysis.MetadataReference -&gt; Microsoft.CodeAnalysis.VisualBasic.VisualBasicCompilation" Usage="visualBasicCompilation.ReplaceReference (oldReference, newReference)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::CodeAnalysis::VisualBasic::VisualBasicCompilation ^ ReplaceReference(Microsoft::CodeAnalysis::MetadataReference ^ oldReference, Microsoft::CodeAnalysis::MetadataReference ^ newReference);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; Microsoft::CodeAnalysis::VisualBasic::VisualBasicCompilation ^ ReplaceReference(Microsoft::CodeAnalysis::MetadataReference ^ oldReference, Microsoft::CodeAnalysis::MetadataReference ^ newReference);" />
-      <MemberSignature Language="C++ WINRT" Value="Microsoft::CodeAnalysis::VisualBasic::VisualBasicCompilation ReplaceReference(Microsoft::CodeAnalysis::MetadataReference const &amp; oldReference, Microsoft::CodeAnalysis::MetadataReference const &amp; newReference);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.VisualBasic.VisualBasicCompilation</ReturnType>
@@ -1580,12 +1696,11 @@
       <MemberSignature Language="VB.NET" Value="Public Function ReplaceSyntaxTree (oldTree As SyntaxTree, newTree As SyntaxTree) As VisualBasicCompilation" />
       <MemberSignature Language="F#" Value="override this.ReplaceSyntaxTree : Microsoft.CodeAnalysis.SyntaxTree * Microsoft.CodeAnalysis.SyntaxTree -&gt; Microsoft.CodeAnalysis.VisualBasic.VisualBasicCompilation" Usage="visualBasicCompilation.ReplaceSyntaxTree (oldTree, newTree)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::CodeAnalysis::VisualBasic::VisualBasicCompilation ^ ReplaceSyntaxTree(Microsoft::CodeAnalysis::SyntaxTree ^ oldTree, Microsoft::CodeAnalysis::SyntaxTree ^ newTree);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; Microsoft::CodeAnalysis::VisualBasic::VisualBasicCompilation ^ ReplaceSyntaxTree(Microsoft::CodeAnalysis::SyntaxTree ^ oldTree, Microsoft::CodeAnalysis::SyntaxTree ^ newTree);" />
-      <MemberSignature Language="C++ WINRT" Value="Microsoft::CodeAnalysis::VisualBasic::VisualBasicCompilation ReplaceSyntaxTree(Microsoft::CodeAnalysis::SyntaxTree const &amp; oldTree, Microsoft::CodeAnalysis::SyntaxTree const &amp; newTree);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.VisualBasic.VisualBasicCompilation</ReturnType>
@@ -1612,7 +1727,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Immutable.ImmutableArray&lt;Microsoft.CodeAnalysis.SyntaxTree&gt;</ReturnType>
@@ -1634,7 +1750,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.CompilationReference</ReturnType>
@@ -1658,12 +1775,11 @@
       <MemberSignature Language="VB.NET" Value="Public Function WithAssemblyName (assemblyName As String) As VisualBasicCompilation" />
       <MemberSignature Language="F#" Value="override this.WithAssemblyName : string -&gt; Microsoft.CodeAnalysis.VisualBasic.VisualBasicCompilation" Usage="visualBasicCompilation.WithAssemblyName assemblyName" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::CodeAnalysis::VisualBasic::VisualBasicCompilation ^ WithAssemblyName(System::String ^ assemblyName);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; Microsoft::CodeAnalysis::VisualBasic::VisualBasicCompilation ^ WithAssemblyName(Platform::String ^ assemblyName);" />
-      <MemberSignature Language="C++ WINRT" Value="Microsoft::CodeAnalysis::VisualBasic::VisualBasicCompilation WithAssemblyName(std::wstring const &amp; assemblyName);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.VisualBasic.VisualBasicCompilation</ReturnType>
@@ -1690,7 +1806,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.VisualBasic.VisualBasicCompilation</ReturnType>
@@ -1715,7 +1832,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.VisualBasic.VisualBasicCompilation</ReturnType>
@@ -1746,7 +1864,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.VisualBasic.VisualBasicCompilation</ReturnType>

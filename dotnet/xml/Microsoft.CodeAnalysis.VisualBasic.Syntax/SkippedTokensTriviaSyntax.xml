@@ -5,11 +5,10 @@
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class SkippedTokensTriviaSyntax&#xA;Inherits StructuredTriviaSyntax&#xA;Implements ISkippedTokensTriviaSyntax" />
   <TypeSignature Language="F#" Value="type SkippedTokensTriviaSyntax = class&#xA;    inherit StructuredTriviaSyntax&#xA;    interface ISkippedTokensTriviaSyntax" />
   <TypeSignature Language="C++ CLI" Value="public ref class SkippedTokensTriviaSyntax sealed : Microsoft::CodeAnalysis::VisualBasic::Syntax::StructuredTriviaSyntax, Microsoft::CodeAnalysis::ISkippedTokensTriviaSyntax" />
-  <TypeSignature Language="C++ CX" Value="public ref class SkippedTokensTriviaSyntax sealed : Microsoft::CodeAnalysis::VisualBasic::Syntax::StructuredTriviaSyntax, Microsoft::CodeAnalysis::ISkippedTokensTriviaSyntax" />
-  <TypeSignature Language="C++ WINRT" Value="class SkippedTokensTriviaSyntax sealed : Microsoft::CodeAnalysis::VisualBasic::Syntax::StructuredTriviaSyntax, Microsoft::CodeAnalysis::ISkippedTokensTriviaSyntax" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-    <AssemblyVersion>2.6.0.0</AssemblyVersion>
+    <AssemblyVersion>2.9.0.0</AssemblyVersion>
+    <AssemblyVersion>3.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Microsoft.CodeAnalysis.VisualBasic.Syntax.StructuredTriviaSyntax</BaseTypeName>
@@ -34,12 +33,11 @@
       <MemberSignature Language="VB.NET" Value="Public Overrides Sub Accept (visitor As VisualBasicSyntaxVisitor)" />
       <MemberSignature Language="F#" Value="override this.Accept : Microsoft.CodeAnalysis.VisualBasic.VisualBasicSyntaxVisitor -&gt; unit" Usage="skippedTokensTriviaSyntax.Accept visitor" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; override void Accept(Microsoft::CodeAnalysis::VisualBasic::VisualBasicSyntaxVisitor ^ visitor);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; override void Accept(Microsoft::CodeAnalysis::VisualBasic::VisualBasicSyntaxVisitor ^ visitor);" />
-      <MemberSignature Language="C++ WINRT" Value=" override void Accept(Microsoft::CodeAnalysis::VisualBasic::VisualBasicSyntaxVisitor const &amp; visitor);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -60,11 +58,11 @@
       <MemberSignature Language="VB.NET" Value="Public Overrides Function Accept(Of TResult) (visitor As VisualBasicSyntaxVisitor(Of TResult)) As TResult" />
       <MemberSignature Language="F#" Value="override this.Accept : Microsoft.CodeAnalysis.VisualBasic.VisualBasicSyntaxVisitor&lt;'Result&gt; -&gt; 'Result" Usage="skippedTokensTriviaSyntax.Accept visitor" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename TResult&gt;&#xA; override TResult Accept(Microsoft::CodeAnalysis::VisualBasic::VisualBasicSyntaxVisitor&lt;TResult&gt; ^ visitor);" />
-      <MemberSignature Language="C++ WINRT" Value="template &lt;typename TResult&gt;&#xA; override TResult Accept(Microsoft::CodeAnalysis::VisualBasic::VisualBasicSyntaxVisitor&lt;TResult&gt; const &amp; visitor);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>TResult</ReturnType>
@@ -93,7 +91,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.VisualBasic.Syntax.SkippedTokensTriviaSyntax</ReturnType>
@@ -114,17 +113,18 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="Microsoft.CodeAnalysis.ISkippedTokensTriviaSyntax.ISkippedTokensTriviaSyntax_Tokens">
-      <MemberSignature Language="C#" Value="Microsoft.CodeAnalysis.SyntaxTokenList Microsoft.CodeAnalysis.ISkippedTokensTriviaSyntax.ISkippedTokensTriviaSyntax_Tokens { get; }" />
+    <Member MemberName="Microsoft.CodeAnalysis.ISkippedTokensTriviaSyntax.Tokens" ExplicitInterfaceMemberName="ISkippedTokensTriviaSyntax_Tokens">
+      <MemberSignature Language="C#" Value="Microsoft.CodeAnalysis.SyntaxTokenList Microsoft.CodeAnalysis.ISkippedTokensTriviaSyntax.Tokens { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.CodeAnalysis.SyntaxTokenList ISkippedTokensTriviaSyntax_Tokens" />
       <MemberSignature Language="DocId" Value="P:Microsoft.CodeAnalysis.VisualBasic.Syntax.SkippedTokensTriviaSyntax.ISkippedTokensTriviaSyntax_Tokens" />
-      <MemberSignature Language="VB.NET" Value=" ReadOnly Property ISkippedTokensTriviaSyntax_Tokens As SyntaxTokenList Implements ISkippedTokensTriviaSyntax.ISkippedTokensTriviaSyntax_Tokens" />
-      <MemberSignature Language="F#" Usage="Microsoft.CodeAnalysis.VisualBasic.Syntax.SkippedTokensTriviaSyntax.ISkippedTokensTriviaSyntax_Tokens" />
-      <MemberSignature Language="C++ CLI" Value="property Microsoft::CodeAnalysis::SyntaxTokenList Microsoft.CodeAnalysis.ISkippedTokensTriviaSyntax.ISkippedTokensTriviaSyntax_Tokens { Microsoft::CodeAnalysis::SyntaxTokenList get(); };" />
+      <MemberSignature Language="VB.NET" Value=" ReadOnly Property ISkippedTokensTriviaSyntax_Tokens As SyntaxTokenList Implements ISkippedTokensTriviaSyntax.Tokens" />
+      <MemberSignature Language="F#" Usage="Microsoft.CodeAnalysis.ISkippedTokensTriviaSyntax.Tokens" />
+      <MemberSignature Language="C++ CLI" Value="property Microsoft::CodeAnalysis::SyntaxTokenList Microsoft::CodeAnalysis::ISkippedTokensTriviaSyntax::Tokens { Microsoft::CodeAnalysis::SyntaxTokenList get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.SyntaxTokenList</ReturnType>
@@ -148,7 +148,8 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.SyntaxTokenList</ReturnType>
@@ -173,7 +174,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.VisualBasic.Syntax.SkippedTokensTriviaSyntax</ReturnType>
@@ -203,7 +205,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.VisualBasic.Syntax.SkippedTokensTriviaSyntax</ReturnType>

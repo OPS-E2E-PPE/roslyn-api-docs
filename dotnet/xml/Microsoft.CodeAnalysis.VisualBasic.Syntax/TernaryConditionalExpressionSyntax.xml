@@ -5,11 +5,10 @@
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class TernaryConditionalExpressionSyntax&#xA;Inherits ExpressionSyntax" />
   <TypeSignature Language="F#" Value="type TernaryConditionalExpressionSyntax = class&#xA;    inherit ExpressionSyntax" />
   <TypeSignature Language="C++ CLI" Value="public ref class TernaryConditionalExpressionSyntax sealed : Microsoft::CodeAnalysis::VisualBasic::Syntax::ExpressionSyntax" />
-  <TypeSignature Language="C++ CX" Value="public ref class TernaryConditionalExpressionSyntax sealed : Microsoft::CodeAnalysis::VisualBasic::Syntax::ExpressionSyntax" />
-  <TypeSignature Language="C++ WINRT" Value="class TernaryConditionalExpressionSyntax sealed : Microsoft::CodeAnalysis::VisualBasic::Syntax::ExpressionSyntax" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-    <AssemblyVersion>2.6.0.0</AssemblyVersion>
+    <AssemblyVersion>2.9.0.0</AssemblyVersion>
+    <AssemblyVersion>3.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Microsoft.CodeAnalysis.VisualBasic.Syntax.ExpressionSyntax</BaseTypeName>
@@ -30,12 +29,11 @@
       <MemberSignature Language="VB.NET" Value="Public Overrides Sub Accept (visitor As VisualBasicSyntaxVisitor)" />
       <MemberSignature Language="F#" Value="override this.Accept : Microsoft.CodeAnalysis.VisualBasic.VisualBasicSyntaxVisitor -&gt; unit" Usage="ternaryConditionalExpressionSyntax.Accept visitor" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; override void Accept(Microsoft::CodeAnalysis::VisualBasic::VisualBasicSyntaxVisitor ^ visitor);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; override void Accept(Microsoft::CodeAnalysis::VisualBasic::VisualBasicSyntaxVisitor ^ visitor);" />
-      <MemberSignature Language="C++ WINRT" Value=" override void Accept(Microsoft::CodeAnalysis::VisualBasic::VisualBasicSyntaxVisitor const &amp; visitor);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -56,11 +54,11 @@
       <MemberSignature Language="VB.NET" Value="Public Overrides Function Accept(Of TResult) (visitor As VisualBasicSyntaxVisitor(Of TResult)) As TResult" />
       <MemberSignature Language="F#" Value="override this.Accept : Microsoft.CodeAnalysis.VisualBasic.VisualBasicSyntaxVisitor&lt;'Result&gt; -&gt; 'Result" Usage="ternaryConditionalExpressionSyntax.Accept visitor" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename TResult&gt;&#xA; override TResult Accept(Microsoft::CodeAnalysis::VisualBasic::VisualBasicSyntaxVisitor&lt;TResult&gt; ^ visitor);" />
-      <MemberSignature Language="C++ WINRT" Value="template &lt;typename TResult&gt;&#xA; override TResult Accept(Microsoft::CodeAnalysis::VisualBasic::VisualBasicSyntaxVisitor&lt;TResult&gt; const &amp; visitor);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>TResult</ReturnType>
@@ -89,7 +87,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.SyntaxToken</ReturnType>
@@ -109,11 +108,11 @@
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Condition As ExpressionSyntax" />
       <MemberSignature Language="F#" Value="member this.Condition : Microsoft.CodeAnalysis.VisualBasic.Syntax.ExpressionSyntax" Usage="Microsoft.CodeAnalysis.VisualBasic.Syntax.TernaryConditionalExpressionSyntax.Condition" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::CodeAnalysis::VisualBasic::Syntax::ExpressionSyntax ^ Condition { Microsoft::CodeAnalysis::VisualBasic::Syntax::ExpressionSyntax ^ get(); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; property Microsoft::CodeAnalysis::VisualBasic::Syntax::ExpressionSyntax ^ Condition { Microsoft::CodeAnalysis::VisualBasic::Syntax::ExpressionSyntax ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.VisualBasic.Syntax.ExpressionSyntax</ReturnType>
@@ -136,7 +135,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.SyntaxToken</ReturnType>
@@ -159,7 +159,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.SyntaxToken</ReturnType>
@@ -182,7 +183,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.SyntaxToken</ReturnType>
@@ -205,7 +207,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.SyntaxToken</ReturnType>
@@ -228,7 +231,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.VisualBasic.Syntax.TernaryConditionalExpressionSyntax</ReturnType>
@@ -283,11 +287,11 @@
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property WhenFalse As ExpressionSyntax" />
       <MemberSignature Language="F#" Value="member this.WhenFalse : Microsoft.CodeAnalysis.VisualBasic.Syntax.ExpressionSyntax" Usage="Microsoft.CodeAnalysis.VisualBasic.Syntax.TernaryConditionalExpressionSyntax.WhenFalse" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::CodeAnalysis::VisualBasic::Syntax::ExpressionSyntax ^ WhenFalse { Microsoft::CodeAnalysis::VisualBasic::Syntax::ExpressionSyntax ^ get(); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; property Microsoft::CodeAnalysis::VisualBasic::Syntax::ExpressionSyntax ^ WhenFalse { Microsoft::CodeAnalysis::VisualBasic::Syntax::ExpressionSyntax ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.VisualBasic.Syntax.ExpressionSyntax</ReturnType>
@@ -307,11 +311,11 @@
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property WhenTrue As ExpressionSyntax" />
       <MemberSignature Language="F#" Value="member this.WhenTrue : Microsoft.CodeAnalysis.VisualBasic.Syntax.ExpressionSyntax" Usage="Microsoft.CodeAnalysis.VisualBasic.Syntax.TernaryConditionalExpressionSyntax.WhenTrue" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::CodeAnalysis::VisualBasic::Syntax::ExpressionSyntax ^ WhenTrue { Microsoft::CodeAnalysis::VisualBasic::Syntax::ExpressionSyntax ^ get(); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; property Microsoft::CodeAnalysis::VisualBasic::Syntax::ExpressionSyntax ^ WhenTrue { Microsoft::CodeAnalysis::VisualBasic::Syntax::ExpressionSyntax ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.VisualBasic.Syntax.ExpressionSyntax</ReturnType>
@@ -334,7 +338,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.VisualBasic.Syntax.TernaryConditionalExpressionSyntax</ReturnType>
@@ -360,12 +365,11 @@
       <MemberSignature Language="VB.NET" Value="Public Function WithCondition (condition As ExpressionSyntax) As TernaryConditionalExpressionSyntax" />
       <MemberSignature Language="F#" Value="member this.WithCondition : Microsoft.CodeAnalysis.VisualBasic.Syntax.ExpressionSyntax -&gt; Microsoft.CodeAnalysis.VisualBasic.Syntax.TernaryConditionalExpressionSyntax" Usage="ternaryConditionalExpressionSyntax.WithCondition condition" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::CodeAnalysis::VisualBasic::Syntax::TernaryConditionalExpressionSyntax ^ WithCondition(Microsoft::CodeAnalysis::VisualBasic::Syntax::ExpressionSyntax ^ condition);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; Microsoft::CodeAnalysis::VisualBasic::Syntax::TernaryConditionalExpressionSyntax ^ WithCondition(Microsoft::CodeAnalysis::VisualBasic::Syntax::ExpressionSyntax ^ condition);" />
-      <MemberSignature Language="C++ WINRT" Value="Microsoft::CodeAnalysis::VisualBasic::Syntax::TernaryConditionalExpressionSyntax WithCondition(Microsoft::CodeAnalysis::VisualBasic::Syntax::ExpressionSyntax const &amp; condition);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.VisualBasic.Syntax.TernaryConditionalExpressionSyntax</ReturnType>
@@ -394,7 +398,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.VisualBasic.Syntax.TernaryConditionalExpressionSyntax</ReturnType>
@@ -423,7 +428,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.VisualBasic.Syntax.TernaryConditionalExpressionSyntax</ReturnType>
@@ -452,7 +458,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.VisualBasic.Syntax.TernaryConditionalExpressionSyntax</ReturnType>
@@ -481,7 +488,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.VisualBasic.Syntax.TernaryConditionalExpressionSyntax</ReturnType>
@@ -507,12 +515,11 @@
       <MemberSignature Language="VB.NET" Value="Public Function WithWhenFalse (whenFalse As ExpressionSyntax) As TernaryConditionalExpressionSyntax" />
       <MemberSignature Language="F#" Value="member this.WithWhenFalse : Microsoft.CodeAnalysis.VisualBasic.Syntax.ExpressionSyntax -&gt; Microsoft.CodeAnalysis.VisualBasic.Syntax.TernaryConditionalExpressionSyntax" Usage="ternaryConditionalExpressionSyntax.WithWhenFalse whenFalse" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::CodeAnalysis::VisualBasic::Syntax::TernaryConditionalExpressionSyntax ^ WithWhenFalse(Microsoft::CodeAnalysis::VisualBasic::Syntax::ExpressionSyntax ^ whenFalse);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; Microsoft::CodeAnalysis::VisualBasic::Syntax::TernaryConditionalExpressionSyntax ^ WithWhenFalse(Microsoft::CodeAnalysis::VisualBasic::Syntax::ExpressionSyntax ^ whenFalse);" />
-      <MemberSignature Language="C++ WINRT" Value="Microsoft::CodeAnalysis::VisualBasic::Syntax::TernaryConditionalExpressionSyntax WithWhenFalse(Microsoft::CodeAnalysis::VisualBasic::Syntax::ExpressionSyntax const &amp; whenFalse);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.VisualBasic.Syntax.TernaryConditionalExpressionSyntax</ReturnType>
@@ -538,12 +545,11 @@
       <MemberSignature Language="VB.NET" Value="Public Function WithWhenTrue (whenTrue As ExpressionSyntax) As TernaryConditionalExpressionSyntax" />
       <MemberSignature Language="F#" Value="member this.WithWhenTrue : Microsoft.CodeAnalysis.VisualBasic.Syntax.ExpressionSyntax -&gt; Microsoft.CodeAnalysis.VisualBasic.Syntax.TernaryConditionalExpressionSyntax" Usage="ternaryConditionalExpressionSyntax.WithWhenTrue whenTrue" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::CodeAnalysis::VisualBasic::Syntax::TernaryConditionalExpressionSyntax ^ WithWhenTrue(Microsoft::CodeAnalysis::VisualBasic::Syntax::ExpressionSyntax ^ whenTrue);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; Microsoft::CodeAnalysis::VisualBasic::Syntax::TernaryConditionalExpressionSyntax ^ WithWhenTrue(Microsoft::CodeAnalysis::VisualBasic::Syntax::ExpressionSyntax ^ whenTrue);" />
-      <MemberSignature Language="C++ WINRT" Value="Microsoft::CodeAnalysis::VisualBasic::Syntax::TernaryConditionalExpressionSyntax WithWhenTrue(Microsoft::CodeAnalysis::VisualBasic::Syntax::ExpressionSyntax const &amp; whenTrue);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.VisualBasic.Syntax.TernaryConditionalExpressionSyntax</ReturnType>

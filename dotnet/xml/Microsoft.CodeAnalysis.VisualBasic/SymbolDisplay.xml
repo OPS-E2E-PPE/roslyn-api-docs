@@ -5,11 +5,10 @@
   <TypeSignature Language="VB.NET" Value="Public Module SymbolDisplay" />
   <TypeSignature Language="F#" Value="type SymbolDisplay = class" />
   <TypeSignature Language="C++ CLI" Value="public ref class SymbolDisplay sealed" />
-  <TypeSignature Language="C++ CX" Value="public ref class SymbolDisplay sealed" />
-  <TypeSignature Language="C++ WINRT" Value="class SymbolDisplay sealed" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-    <AssemblyVersion>2.6.0.0</AssemblyVersion>
+    <AssemblyVersion>2.9.0.0</AssemblyVersion>
+    <AssemblyVersion>3.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -30,12 +29,11 @@
       <MemberSignature Language="VB.NET" Value="Public Function FormatPrimitive (obj As Object, quoteStrings As Boolean, useHexadecimalNumbers As Boolean) As String" />
       <MemberSignature Language="F#" Value="static member FormatPrimitive : obj * bool * bool -&gt; string" Usage="Microsoft.CodeAnalysis.VisualBasic.SymbolDisplay.FormatPrimitive (obj, quoteStrings, useHexadecimalNumbers)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::String ^ FormatPrimitive(System::Object ^ obj, bool quoteStrings, bool useHexadecimalNumbers);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static Platform::String ^ FormatPrimitive(Platform::Object ^ obj, bool quoteStrings, bool useHexadecimalNumbers);" />
-      <MemberSignature Language="C++ WINRT" Value=" static std::wstring FormatPrimitive(winrt::Windows::Foundation::IInspectable const &amp; obj, bool quoteStrings, bool useHexadecimalNumbers);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -69,7 +67,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Immutable.ImmutableArray&lt;Microsoft.CodeAnalysis.SymbolDisplayPart&gt;</ReturnType>
@@ -100,7 +99,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -129,7 +129,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Immutable.ImmutableArray&lt;Microsoft.CodeAnalysis.SymbolDisplayPart&gt;</ReturnType>
@@ -163,7 +164,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>

@@ -5,11 +5,10 @@
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class EmbeddedText" />
   <TypeSignature Language="F#" Value="type EmbeddedText = class" />
   <TypeSignature Language="C++ CLI" Value="public ref class EmbeddedText sealed" />
-  <TypeSignature Language="C++ CX" Value="public ref class EmbeddedText sealed" />
-  <TypeSignature Language="C++ WINRT" Value="class EmbeddedText sealed" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-    <AssemblyVersion>2.6.0.0</AssemblyVersion>
+    <AssemblyVersion>2.9.0.0</AssemblyVersion>
+    <AssemblyVersion>3.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -32,14 +31,15 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Immutable.ImmutableArray&lt;System.Byte&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-            The <see cref="P:Microsoft.CodeAnalysis.EmbeddedText.ChecksumAlgorithm" /> hash of the uncrompressed bytes
+            The <see cref="P:Microsoft.CodeAnalysis.EmbeddedText.ChecksumAlgorithm" /> hash of the uncompressed bytes
             that's saved to the PDB.
             </summary>
         <value>To be added.</value>
@@ -53,11 +53,11 @@
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ChecksumAlgorithm As SourceHashAlgorithm" />
       <MemberSignature Language="F#" Value="member this.ChecksumAlgorithm : Microsoft.CodeAnalysis.Text.SourceHashAlgorithm" Usage="Microsoft.CodeAnalysis.EmbeddedText.ChecksumAlgorithm" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::CodeAnalysis::Text::SourceHashAlgorithm ChecksumAlgorithm { Microsoft::CodeAnalysis::Text::SourceHashAlgorithm get(); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; property Microsoft::CodeAnalysis::Text::SourceHashAlgorithm ChecksumAlgorithm { Microsoft::CodeAnalysis::Text::SourceHashAlgorithm get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.Text.SourceHashAlgorithm</ReturnType>
@@ -77,11 +77,11 @@
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FilePath As String" />
       <MemberSignature Language="F#" Value="member this.FilePath : string" Usage="Microsoft.CodeAnalysis.EmbeddedText.FilePath" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ FilePath { System::String ^ get(); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; property Platform::String ^ FilePath { Platform::String ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -92,6 +92,7 @@
             </summary>
         <value>To be added.</value>
         <remarks>See remarks of <see cref="P:Microsoft.CodeAnalysis.SyntaxTree.FilePath" /></remarks>
+        <remarks>Empty file paths are disallowed, as the debugger finds source by looking up files by their name (and then verifying their signature)</remarks>
       </Docs>
     </Member>
     <Member MemberName="FromBytes">
@@ -103,7 +104,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.EmbeddedText</ReturnType>
@@ -140,12 +142,11 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function FromSource (filePath As String, text As SourceText) As EmbeddedText" />
       <MemberSignature Language="F#" Value="static member FromSource : string * Microsoft.CodeAnalysis.Text.SourceText -&gt; Microsoft.CodeAnalysis.EmbeddedText" Usage="Microsoft.CodeAnalysis.EmbeddedText.FromSource (filePath, text)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::CodeAnalysis::EmbeddedText ^ FromSource(System::String ^ filePath, Microsoft::CodeAnalysis::Text::SourceText ^ text);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static Microsoft::CodeAnalysis::EmbeddedText ^ FromSource(Platform::String ^ filePath, Microsoft::CodeAnalysis::Text::SourceText ^ text);" />
-      <MemberSignature Language="C++ WINRT" Value=" static Microsoft::CodeAnalysis::EmbeddedText FromSource(std::wstring const &amp; filePath, Microsoft::CodeAnalysis::Text::SourceText const &amp; text);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.EmbeddedText</ReturnType>
@@ -180,7 +181,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.EmbeddedText</ReturnType>

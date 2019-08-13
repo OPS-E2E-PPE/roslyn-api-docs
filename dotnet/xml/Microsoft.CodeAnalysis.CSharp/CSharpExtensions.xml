@@ -5,11 +5,10 @@
   <TypeSignature Language="VB.NET" Value="Public Module CSharpExtensions" />
   <TypeSignature Language="F#" Value="type CSharpExtensions = class" />
   <TypeSignature Language="C++ CLI" Value="public ref class CSharpExtensions abstract sealed" />
-  <TypeSignature Language="C++ CX" Value="public ref class CSharpExtensions abstract sealed" />
-  <TypeSignature Language="C++ WINRT" Value="class CSharpExtensions abstract sealed" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-    <AssemblyVersion>2.6.0.0</AssemblyVersion>
+    <AssemblyVersion>2.9.0.0</AssemblyVersion>
+    <AssemblyVersion>3.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -26,11 +25,11 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.CodeAnalysis.CSharp.CSharpExtensions.AnalyzeControlFlow(Microsoft.CodeAnalysis.SemanticModel,Microsoft.CodeAnalysis.CSharp.Syntax.StatementSyntax)" />
       <MemberSignature Language="F#" Value="static member AnalyzeControlFlow : Microsoft.CodeAnalysis.SemanticModel * Microsoft.CodeAnalysis.CSharp.Syntax.StatementSyntax -&gt; Microsoft.CodeAnalysis.ControlFlowAnalysis" Usage="Microsoft.CodeAnalysis.CSharp.CSharpExtensions.AnalyzeControlFlow (semanticModel, statement)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::CodeAnalysis::ControlFlowAnalysis ^ AnalyzeControlFlow(Microsoft::CodeAnalysis::SemanticModel ^ semanticModel, Microsoft::CodeAnalysis::CSharp::Syntax::StatementSyntax ^ statement);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::CodeAnalysis::ControlFlowAnalysis ^ AnalyzeControlFlow(Microsoft::CodeAnalysis::SemanticModel ^ semanticModel, Microsoft::CodeAnalysis::CSharp::Syntax::StatementSyntax ^ statement);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.ControlFlowAnalysis</ReturnType>
@@ -43,7 +42,7 @@
         <param name="semanticModel">To be added.</param>
         <param name="statement">To be added.</param>
         <summary>
-            Analyze control-flow within a part of a method body. 
+            Analyze control-flow within a part of a method body.
             </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
@@ -55,11 +54,11 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.CodeAnalysis.CSharp.CSharpExtensions.AnalyzeControlFlow(Microsoft.CodeAnalysis.SemanticModel,Microsoft.CodeAnalysis.CSharp.Syntax.StatementSyntax,Microsoft.CodeAnalysis.CSharp.Syntax.StatementSyntax)" />
       <MemberSignature Language="F#" Value="static member AnalyzeControlFlow : Microsoft.CodeAnalysis.SemanticModel * Microsoft.CodeAnalysis.CSharp.Syntax.StatementSyntax * Microsoft.CodeAnalysis.CSharp.Syntax.StatementSyntax -&gt; Microsoft.CodeAnalysis.ControlFlowAnalysis" Usage="Microsoft.CodeAnalysis.CSharp.CSharpExtensions.AnalyzeControlFlow (semanticModel, firstStatement, lastStatement)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::CodeAnalysis::ControlFlowAnalysis ^ AnalyzeControlFlow(Microsoft::CodeAnalysis::SemanticModel ^ semanticModel, Microsoft::CodeAnalysis::CSharp::Syntax::StatementSyntax ^ firstStatement, Microsoft::CodeAnalysis::CSharp::Syntax::StatementSyntax ^ lastStatement);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::CodeAnalysis::ControlFlowAnalysis ^ AnalyzeControlFlow(Microsoft::CodeAnalysis::SemanticModel ^ semanticModel, Microsoft::CodeAnalysis::CSharp::Syntax::StatementSyntax ^ firstStatement, Microsoft::CodeAnalysis::CSharp::Syntax::StatementSyntax ^ lastStatement);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.ControlFlowAnalysis</ReturnType>
@@ -74,7 +73,7 @@
         <param name="firstStatement">To be added.</param>
         <param name="lastStatement">To be added.</param>
         <summary>
-            Analyze control-flow within a part of a method body. 
+            Analyze control-flow within a part of a method body.
             </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
@@ -86,11 +85,11 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.CodeAnalysis.CSharp.CSharpExtensions.AnalyzeDataFlow(Microsoft.CodeAnalysis.SemanticModel,Microsoft.CodeAnalysis.CSharp.Syntax.ExpressionSyntax)" />
       <MemberSignature Language="F#" Value="static member AnalyzeDataFlow : Microsoft.CodeAnalysis.SemanticModel * Microsoft.CodeAnalysis.CSharp.Syntax.ExpressionSyntax -&gt; Microsoft.CodeAnalysis.DataFlowAnalysis" Usage="Microsoft.CodeAnalysis.CSharp.CSharpExtensions.AnalyzeDataFlow (semanticModel, expression)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::CodeAnalysis::DataFlowAnalysis ^ AnalyzeDataFlow(Microsoft::CodeAnalysis::SemanticModel ^ semanticModel, Microsoft::CodeAnalysis::CSharp::Syntax::ExpressionSyntax ^ expression);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::CodeAnalysis::DataFlowAnalysis ^ AnalyzeDataFlow(Microsoft::CodeAnalysis::SemanticModel ^ semanticModel, Microsoft::CodeAnalysis::CSharp::Syntax::ExpressionSyntax ^ expression);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.DataFlowAnalysis</ReturnType>
@@ -103,7 +102,7 @@
         <param name="semanticModel">To be added.</param>
         <param name="expression">To be added.</param>
         <summary>
-            Analyze data-flow within an expression. 
+            Analyze data-flow within an expression.
             </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
@@ -115,11 +114,11 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.CodeAnalysis.CSharp.CSharpExtensions.AnalyzeDataFlow(Microsoft.CodeAnalysis.SemanticModel,Microsoft.CodeAnalysis.CSharp.Syntax.StatementSyntax)" />
       <MemberSignature Language="F#" Value="static member AnalyzeDataFlow : Microsoft.CodeAnalysis.SemanticModel * Microsoft.CodeAnalysis.CSharp.Syntax.StatementSyntax -&gt; Microsoft.CodeAnalysis.DataFlowAnalysis" Usage="Microsoft.CodeAnalysis.CSharp.CSharpExtensions.AnalyzeDataFlow (semanticModel, statement)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::CodeAnalysis::DataFlowAnalysis ^ AnalyzeDataFlow(Microsoft::CodeAnalysis::SemanticModel ^ semanticModel, Microsoft::CodeAnalysis::CSharp::Syntax::StatementSyntax ^ statement);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::CodeAnalysis::DataFlowAnalysis ^ AnalyzeDataFlow(Microsoft::CodeAnalysis::SemanticModel ^ semanticModel, Microsoft::CodeAnalysis::CSharp::Syntax::StatementSyntax ^ statement);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.DataFlowAnalysis</ReturnType>
@@ -132,7 +131,7 @@
         <param name="semanticModel">To be added.</param>
         <param name="statement">To be added.</param>
         <summary>
-            Analyze data-flow within a part of a method body. 
+            Analyze data-flow within a part of a method body.
             </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
@@ -144,11 +143,11 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.CodeAnalysis.CSharp.CSharpExtensions.AnalyzeDataFlow(Microsoft.CodeAnalysis.SemanticModel,Microsoft.CodeAnalysis.CSharp.Syntax.StatementSyntax,Microsoft.CodeAnalysis.CSharp.Syntax.StatementSyntax)" />
       <MemberSignature Language="F#" Value="static member AnalyzeDataFlow : Microsoft.CodeAnalysis.SemanticModel * Microsoft.CodeAnalysis.CSharp.Syntax.StatementSyntax * Microsoft.CodeAnalysis.CSharp.Syntax.StatementSyntax -&gt; Microsoft.CodeAnalysis.DataFlowAnalysis" Usage="Microsoft.CodeAnalysis.CSharp.CSharpExtensions.AnalyzeDataFlow (semanticModel, firstStatement, lastStatement)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::CodeAnalysis::DataFlowAnalysis ^ AnalyzeDataFlow(Microsoft::CodeAnalysis::SemanticModel ^ semanticModel, Microsoft::CodeAnalysis::CSharp::Syntax::StatementSyntax ^ firstStatement, Microsoft::CodeAnalysis::CSharp::Syntax::StatementSyntax ^ lastStatement);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::CodeAnalysis::DataFlowAnalysis ^ AnalyzeDataFlow(Microsoft::CodeAnalysis::SemanticModel ^ semanticModel, Microsoft::CodeAnalysis::CSharp::Syntax::StatementSyntax ^ firstStatement, Microsoft::CodeAnalysis::CSharp::Syntax::StatementSyntax ^ lastStatement);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.DataFlowAnalysis</ReturnType>
@@ -163,7 +162,7 @@
         <param name="firstStatement">To be added.</param>
         <param name="lastStatement">To be added.</param>
         <summary>
-            Analyze data-flow within a part of a method body. 
+            Analyze data-flow within a part of a method body.
             </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
@@ -178,7 +177,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.CSharp.Conversion</ReturnType>
@@ -205,7 +205,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.CSharp.Conversion</ReturnType>
@@ -238,7 +239,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.CSharp.Conversion</ReturnType>
@@ -273,7 +275,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.IAliasSymbol</ReturnType>
@@ -304,7 +307,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.CSharp.AwaitExpressionInfo</ReturnType>
@@ -329,7 +333,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.SymbolInfo</ReturnType>
@@ -344,7 +349,7 @@
         <param name="expression">To be added.</param>
         <param name="cancellationToken">To be added.</param>
         <summary>
-            Returns what 'Add' method symbol(s), if any, corresponds to the given expression syntax 
+            Returns what 'Add' method symbol(s), if any, corresponds to the given expression syntax
             within <see cref="P:Microsoft.CodeAnalysis.CSharp.Syntax.ObjectCreationExpressionSyntax.Initializer" />.
             </summary>
         <returns>To be added.</returns>
@@ -359,7 +364,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.CSharp.Syntax.CompilationUnitSyntax</ReturnType>
@@ -384,7 +390,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.Optional&lt;System.Object&gt;</ReturnType>
@@ -413,7 +420,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.CSharp.Conversion</ReturnType>
@@ -440,7 +448,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.CSharp.Conversion</ReturnType>
@@ -467,7 +476,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.IMethodSymbol</ReturnType>
@@ -496,7 +506,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.INamedTypeSymbol</ReturnType>
@@ -525,7 +536,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.IPropertySymbol</ReturnType>
@@ -554,7 +566,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.ISymbol</ReturnType>
@@ -583,7 +596,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.IMethodSymbol</ReturnType>
@@ -612,7 +626,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.ISymbol</ReturnType>
@@ -641,7 +656,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.INamedTypeSymbol</ReturnType>
@@ -670,7 +686,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.ILocalSymbol</ReturnType>
@@ -699,7 +716,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.INamedTypeSymbol</ReturnType>
@@ -728,7 +746,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.IFieldSymbol</ReturnType>
@@ -757,7 +776,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.IEventSymbol</ReturnType>
@@ -786,7 +806,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.IAliasSymbol</ReturnType>
@@ -815,7 +836,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.ILocalSymbol</ReturnType>
@@ -844,7 +866,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.IPropertySymbol</ReturnType>
@@ -873,7 +896,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.IRangeVariableSymbol</ReturnType>
@@ -902,7 +926,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.ILabelSymbol</ReturnType>
@@ -931,7 +956,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.ISymbol</ReturnType>
@@ -960,7 +986,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.INamespaceSymbol</ReturnType>
@@ -990,7 +1017,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.IParameterSymbol</ReturnType>
@@ -1019,7 +1047,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.IPropertySymbol</ReturnType>
@@ -1048,7 +1077,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.IRangeVariableSymbol</ReturnType>
@@ -1075,7 +1105,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.IRangeVariableSymbol</ReturnType>
@@ -1104,7 +1135,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.ISymbol</ReturnType>
@@ -1133,7 +1165,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.ILabelSymbol</ReturnType>
@@ -1162,7 +1195,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.ISymbol</ReturnType>
@@ -1191,7 +1225,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.INamedTypeSymbol</ReturnType>
@@ -1220,7 +1255,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.ITypeParameterSymbol</ReturnType>
@@ -1249,7 +1285,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.IAliasSymbol</ReturnType>
@@ -1278,7 +1315,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.ISymbol</ReturnType>
@@ -1299,6 +1337,60 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="GetDeconstructionInfo">
+      <MemberSignature Language="C#" Value="public static Microsoft.CodeAnalysis.CSharp.DeconstructionInfo GetDeconstructionInfo (this Microsoft.CodeAnalysis.SemanticModel semanticModel, Microsoft.CodeAnalysis.CSharp.Syntax.AssignmentExpressionSyntax assignment);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.CodeAnalysis.CSharp.DeconstructionInfo GetDeconstructionInfo(class Microsoft.CodeAnalysis.SemanticModel semanticModel, class Microsoft.CodeAnalysis.CSharp.Syntax.AssignmentExpressionSyntax assignment) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.CodeAnalysis.CSharp.CSharpExtensions.GetDeconstructionInfo(Microsoft.CodeAnalysis.SemanticModel,Microsoft.CodeAnalysis.CSharp.Syntax.AssignmentExpressionSyntax)" />
+      <MemberSignature Language="F#" Value="static member GetDeconstructionInfo : Microsoft.CodeAnalysis.SemanticModel * Microsoft.CodeAnalysis.CSharp.Syntax.AssignmentExpressionSyntax -&gt; Microsoft.CodeAnalysis.CSharp.DeconstructionInfo" Usage="Microsoft.CodeAnalysis.CSharp.CSharpExtensions.GetDeconstructionInfo (semanticModel, assignment)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::CodeAnalysis::CSharp::DeconstructionInfo GetDeconstructionInfo(Microsoft::CodeAnalysis::SemanticModel ^ semanticModel, Microsoft::CodeAnalysis::CSharp::Syntax::AssignmentExpressionSyntax ^ assignment);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.CodeAnalysis.CSharp.DeconstructionInfo</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="semanticModel" Type="Microsoft.CodeAnalysis.SemanticModel" RefType="this" />
+        <Parameter Name="assignment" Type="Microsoft.CodeAnalysis.CSharp.Syntax.AssignmentExpressionSyntax" />
+      </Parameters>
+      <Docs>
+        <param name="semanticModel">To be added.</param>
+        <param name="assignment">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetDeconstructionInfo">
+      <MemberSignature Language="C#" Value="public static Microsoft.CodeAnalysis.CSharp.DeconstructionInfo GetDeconstructionInfo (this Microsoft.CodeAnalysis.SemanticModel semanticModel, Microsoft.CodeAnalysis.CSharp.Syntax.ForEachVariableStatementSyntax foreach);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.CodeAnalysis.CSharp.DeconstructionInfo GetDeconstructionInfo(class Microsoft.CodeAnalysis.SemanticModel semanticModel, class Microsoft.CodeAnalysis.CSharp.Syntax.ForEachVariableStatementSyntax foreach) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.CodeAnalysis.CSharp.CSharpExtensions.GetDeconstructionInfo(Microsoft.CodeAnalysis.SemanticModel,Microsoft.CodeAnalysis.CSharp.Syntax.ForEachVariableStatementSyntax)" />
+      <MemberSignature Language="F#" Value="static member GetDeconstructionInfo : Microsoft.CodeAnalysis.SemanticModel * Microsoft.CodeAnalysis.CSharp.Syntax.ForEachVariableStatementSyntax -&gt; Microsoft.CodeAnalysis.CSharp.DeconstructionInfo" Usage="Microsoft.CodeAnalysis.CSharp.CSharpExtensions.GetDeconstructionInfo (semanticModel, foreach)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::CodeAnalysis::CSharp::DeconstructionInfo GetDeconstructionInfo(Microsoft::CodeAnalysis::SemanticModel ^ semanticModel, Microsoft::CodeAnalysis::CSharp::Syntax::ForEachVariableStatementSyntax ^ foreach);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.CodeAnalysis.CSharp.DeconstructionInfo</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="semanticModel" Type="Microsoft.CodeAnalysis.SemanticModel" RefType="this" />
+        <Parameter Name="foreach" Type="Microsoft.CodeAnalysis.CSharp.Syntax.ForEachVariableStatementSyntax" />
+      </Parameters>
+      <Docs>
+        <param name="semanticModel">To be added.</param>
+        <param name="foreach">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="GetFirstDirective">
       <MemberSignature Language="C#" Value="public static Microsoft.CodeAnalysis.CSharp.Syntax.DirectiveTriviaSyntax GetFirstDirective (this Microsoft.CodeAnalysis.SyntaxNode node, Func&lt;Microsoft.CodeAnalysis.CSharp.Syntax.DirectiveTriviaSyntax,bool&gt; predicate = null);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.CodeAnalysis.CSharp.Syntax.DirectiveTriviaSyntax GetFirstDirective(class Microsoft.CodeAnalysis.SyntaxNode node, class System.Func`2&lt;class Microsoft.CodeAnalysis.CSharp.Syntax.DirectiveTriviaSyntax, bool&gt; predicate) cil managed" />
@@ -1308,7 +1400,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.CSharp.Syntax.DirectiveTriviaSyntax</ReturnType>
@@ -1336,7 +1429,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.CSharp.ForEachStatementInfo</ReturnType>
@@ -1362,7 +1456,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.CSharp.ForEachStatementInfo</ReturnType>
@@ -1389,7 +1484,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.CSharp.Conversion</ReturnType>
@@ -1417,7 +1513,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Immutable.ImmutableArray&lt;Microsoft.CodeAnalysis.IPropertySymbol&gt;</ReturnType>
@@ -1447,7 +1544,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.CSharp.Syntax.DirectiveTriviaSyntax</ReturnType>
@@ -1474,7 +1572,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Immutable.ImmutableArray&lt;Microsoft.CodeAnalysis.ISymbol&gt;</ReturnType>
@@ -1501,7 +1600,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Immutable.ImmutableArray&lt;Microsoft.CodeAnalysis.ISymbol&gt;</ReturnType>
@@ -1528,7 +1628,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Immutable.ImmutableArray&lt;Microsoft.CodeAnalysis.ISymbol&gt;</ReturnType>
@@ -1557,7 +1658,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.CSharp.Conversion</ReturnType>
@@ -1585,7 +1687,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.CSharp.QueryClauseInfo</ReturnType>
@@ -1615,7 +1718,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.IAliasSymbol</ReturnType>
@@ -1648,7 +1752,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.CSharp.Conversion</ReturnType>
@@ -1678,7 +1783,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.SymbolInfo</ReturnType>
@@ -1710,7 +1816,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.SymbolInfo</ReturnType>
@@ -1725,12 +1832,12 @@
         <param name="position">To be added.</param>
         <param name="constructorInitializer">To be added.</param>
         <summary>
-            Bind the constructor initializer in the context of the specified location and get semantic information
-            such as type, symbols and diagnostics. This method is used to get semantic information about a constructor
-            initializer that did not actually appear in the source code.
+             Bind the constructor initializer in the context of the specified location and get semantic information
+             such as type, symbols and diagnostics. This method is used to get semantic information about a constructor
+             initializer that did not actually appear in the source code.
             
-            NOTE: This will only work in locations where there is already a constructor initializer.
-            </summary>
+             NOTE: This will only work in locations where there is already a constructor initializer.
+             </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1744,7 +1851,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.SymbolInfo</ReturnType>
@@ -1778,7 +1886,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.SymbolInfo</ReturnType>
@@ -1812,7 +1921,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.TypeInfo</ReturnType>
@@ -1845,7 +1955,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.SymbolInfo</ReturnType>
@@ -1874,7 +1985,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.SymbolInfo</ReturnType>
@@ -1903,7 +2015,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.SymbolInfo</ReturnType>
@@ -1932,7 +2045,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.SymbolInfo</ReturnType>
@@ -1947,16 +2061,16 @@
         <param name="expression">To be added.</param>
         <param name="cancellationToken">To be added.</param>
         <summary>
-            Returns what symbol(s), if any, the given expression syntax bound to in the program.
+             Returns what symbol(s), if any, the given expression syntax bound to in the program.
             
-            An AliasSymbol will never be returned by this method. What the alias refers to will be
-            returned instead. To get information about aliases, call GetAliasInfo.
+             An AliasSymbol will never be returned by this method. What the alias refers to will be
+             returned instead. To get information about aliases, call GetAliasInfo.
             
-            If binding the type name C in the expression "new C(...)" the actual constructor bound to
-            will be returned (or all constructor if overload resolution failed). This occurs as long as C
-            unambiguously binds to a single type that has a constructor. If C ambiguously binds to multiple
-            types, or C binds to a static class, then type(s) are returned.
-            </summary>
+             If binding the type name C in the expression "new C(...)" the actual constructor bound to
+             will be returned (or all constructor if overload resolution failed). This occurs as long as C
+             unambiguously binds to a single type that has a constructor. If C ambiguously binds to multiple
+             types, or C binds to a static class, then type(s) are returned.
+             </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1969,7 +2083,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.SymbolInfo</ReturnType>
@@ -1998,7 +2113,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.SymbolInfo</ReturnType>
@@ -2027,7 +2143,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.TypeInfo</ReturnType>
@@ -2056,7 +2173,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.TypeInfo</ReturnType>
@@ -2085,7 +2203,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.TypeInfo</ReturnType>
@@ -2114,7 +2233,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.TypeInfo</ReturnType>
@@ -2143,7 +2263,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.SyntaxTokenList</ReturnType>
@@ -2180,7 +2301,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -2205,7 +2327,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -2230,7 +2353,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -2255,7 +2379,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -2280,7 +2405,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -2302,11 +2428,11 @@
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Kind (node As SyntaxNode) As SyntaxKind" />
       <MemberSignature Language="F#" Value="static member Kind : Microsoft.CodeAnalysis.SyntaxNode -&gt; Microsoft.CodeAnalysis.CSharp.SyntaxKind" Usage="Microsoft.CodeAnalysis.CSharp.CSharpExtensions.Kind node" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::CodeAnalysis::CSharp::SyntaxKind Kind(Microsoft::CodeAnalysis::SyntaxNode ^ node);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::CodeAnalysis::CSharp::SyntaxKind Kind(Microsoft::CodeAnalysis::SyntaxNode ^ node);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.CSharp.SyntaxKind</ReturnType>
@@ -2331,7 +2457,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.CSharp.SyntaxKind</ReturnType>
@@ -2356,7 +2483,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.CSharp.SyntaxKind</ReturnType>
@@ -2381,7 +2509,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.CSharp.SyntaxKind</ReturnType>
@@ -2406,7 +2535,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.SyntaxToken</ReturnType>
@@ -2439,7 +2569,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.SyntaxToken</ReturnType>
@@ -2468,11 +2599,11 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.CodeAnalysis.CSharp.CSharpExtensions.TryGetSpeculativeSemanticModel(Microsoft.CodeAnalysis.SemanticModel,System.Int32,Microsoft.CodeAnalysis.CSharp.Syntax.ArrowExpressionClauseSyntax,Microsoft.CodeAnalysis.SemanticModel@)" />
       <MemberSignature Language="F#" Value="static member TryGetSpeculativeSemanticModel : Microsoft.CodeAnalysis.SemanticModel * int * Microsoft.CodeAnalysis.CSharp.Syntax.ArrowExpressionClauseSyntax *  -&gt; bool" Usage="Microsoft.CodeAnalysis.CSharp.CSharpExtensions.TryGetSpeculativeSemanticModel (semanticModel, position, expressionBody, speculativeModel)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static bool TryGetSpeculativeSemanticModel(Microsoft::CodeAnalysis::SemanticModel ^ semanticModel, int position, Microsoft::CodeAnalysis::CSharp::Syntax::ArrowExpressionClauseSyntax ^ expressionBody, [Runtime::InteropServices::Out] Microsoft::CodeAnalysis::SemanticModel ^ % speculativeModel);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static bool TryGetSpeculativeSemanticModel(Microsoft::CodeAnalysis::SemanticModel ^ semanticModel, int position, Microsoft::CodeAnalysis::CSharp::Syntax::ArrowExpressionClauseSyntax ^ expressionBody, [Runtime::InteropServices::Out] Microsoft::CodeAnalysis::SemanticModel ^ &amp;  speculativeModel);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -2481,7 +2612,7 @@
         <Parameter Name="semanticModel" Type="Microsoft.CodeAnalysis.SemanticModel" RefType="this" />
         <Parameter Name="position" Type="System.Int32" />
         <Parameter Name="expressionBody" Type="Microsoft.CodeAnalysis.CSharp.Syntax.ArrowExpressionClauseSyntax" />
-        <Parameter Name="speculativeModel" Type="Microsoft.CodeAnalysis.SemanticModel&amp;" RefType="out" />
+        <Parameter Name="speculativeModel" Type="Microsoft.CodeAnalysis.SemanticModel" RefType="out" />
       </Parameters>
       <Docs>
         <param name="semanticModel">To be added.</param>
@@ -2503,11 +2634,11 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.CodeAnalysis.CSharp.CSharpExtensions.TryGetSpeculativeSemanticModel(Microsoft.CodeAnalysis.SemanticModel,System.Int32,Microsoft.CodeAnalysis.CSharp.Syntax.AttributeSyntax,Microsoft.CodeAnalysis.SemanticModel@)" />
       <MemberSignature Language="F#" Value="static member TryGetSpeculativeSemanticModel : Microsoft.CodeAnalysis.SemanticModel * int * Microsoft.CodeAnalysis.CSharp.Syntax.AttributeSyntax *  -&gt; bool" Usage="Microsoft.CodeAnalysis.CSharp.CSharpExtensions.TryGetSpeculativeSemanticModel (semanticModel, position, attribute, speculativeModel)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static bool TryGetSpeculativeSemanticModel(Microsoft::CodeAnalysis::SemanticModel ^ semanticModel, int position, Microsoft::CodeAnalysis::CSharp::Syntax::AttributeSyntax ^ attribute, [Runtime::InteropServices::Out] Microsoft::CodeAnalysis::SemanticModel ^ % speculativeModel);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static bool TryGetSpeculativeSemanticModel(Microsoft::CodeAnalysis::SemanticModel ^ semanticModel, int position, Microsoft::CodeAnalysis::CSharp::Syntax::AttributeSyntax ^ attribute, [Runtime::InteropServices::Out] Microsoft::CodeAnalysis::SemanticModel ^ &amp;  speculativeModel);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -2516,7 +2647,7 @@
         <Parameter Name="semanticModel" Type="Microsoft.CodeAnalysis.SemanticModel" RefType="this" />
         <Parameter Name="position" Type="System.Int32" />
         <Parameter Name="attribute" Type="Microsoft.CodeAnalysis.CSharp.Syntax.AttributeSyntax" />
-        <Parameter Name="speculativeModel" Type="Microsoft.CodeAnalysis.SemanticModel&amp;" RefType="out" />
+        <Parameter Name="speculativeModel" Type="Microsoft.CodeAnalysis.SemanticModel" RefType="out" />
       </Parameters>
       <Docs>
         <param name="semanticModel">To be added.</param>
@@ -2526,7 +2657,7 @@
         <summary>
             Get a SemanticModel object that is associated with an attribute that did not appear in
             this source code. This can be used to get detailed semantic information about sub-parts
-            of an attribute that did not appear in source code. 
+            of an attribute that did not appear in source code.
             </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
@@ -2538,11 +2669,11 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.CodeAnalysis.CSharp.CSharpExtensions.TryGetSpeculativeSemanticModel(Microsoft.CodeAnalysis.SemanticModel,System.Int32,Microsoft.CodeAnalysis.CSharp.Syntax.ConstructorInitializerSyntax,Microsoft.CodeAnalysis.SemanticModel@)" />
       <MemberSignature Language="F#" Value="static member TryGetSpeculativeSemanticModel : Microsoft.CodeAnalysis.SemanticModel * int * Microsoft.CodeAnalysis.CSharp.Syntax.ConstructorInitializerSyntax *  -&gt; bool" Usage="Microsoft.CodeAnalysis.CSharp.CSharpExtensions.TryGetSpeculativeSemanticModel (semanticModel, position, constructorInitializer, speculativeModel)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static bool TryGetSpeculativeSemanticModel(Microsoft::CodeAnalysis::SemanticModel ^ semanticModel, int position, Microsoft::CodeAnalysis::CSharp::Syntax::ConstructorInitializerSyntax ^ constructorInitializer, [Runtime::InteropServices::Out] Microsoft::CodeAnalysis::SemanticModel ^ % speculativeModel);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static bool TryGetSpeculativeSemanticModel(Microsoft::CodeAnalysis::SemanticModel ^ semanticModel, int position, Microsoft::CodeAnalysis::CSharp::Syntax::ConstructorInitializerSyntax ^ constructorInitializer, [Runtime::InteropServices::Out] Microsoft::CodeAnalysis::SemanticModel ^ &amp;  speculativeModel);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -2551,7 +2682,7 @@
         <Parameter Name="semanticModel" Type="Microsoft.CodeAnalysis.SemanticModel" RefType="this" />
         <Parameter Name="position" Type="System.Int32" />
         <Parameter Name="constructorInitializer" Type="Microsoft.CodeAnalysis.CSharp.Syntax.ConstructorInitializerSyntax" />
-        <Parameter Name="speculativeModel" Type="Microsoft.CodeAnalysis.SemanticModel&amp;" RefType="out" />
+        <Parameter Name="speculativeModel" Type="Microsoft.CodeAnalysis.SemanticModel" RefType="out" />
       </Parameters>
       <Docs>
         <param name="semanticModel">To be added.</param>
@@ -2559,12 +2690,12 @@
         <param name="constructorInitializer">To be added.</param>
         <param name="speculativeModel">To be added.</param>
         <summary>
-            Get a SemanticModel object that is associated with a constructor initializer that did not appear in
-            this source code. This can be used to get detailed semantic information about sub-parts
-            of a constructor initializer that did not appear in source code. 
+             Get a SemanticModel object that is associated with a constructor initializer that did not appear in
+             this source code. This can be used to get detailed semantic information about sub-parts
+             of a constructor initializer that did not appear in source code.
             
-            NOTE: This will only work in locations where there is already a constructor initializer.
-            </summary>
+             NOTE: This will only work in locations where there is already a constructor initializer.
+             </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2575,11 +2706,11 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.CodeAnalysis.CSharp.CSharpExtensions.TryGetSpeculativeSemanticModel(Microsoft.CodeAnalysis.SemanticModel,System.Int32,Microsoft.CodeAnalysis.CSharp.Syntax.CrefSyntax,Microsoft.CodeAnalysis.SemanticModel@)" />
       <MemberSignature Language="F#" Value="static member TryGetSpeculativeSemanticModel : Microsoft.CodeAnalysis.SemanticModel * int * Microsoft.CodeAnalysis.CSharp.Syntax.CrefSyntax *  -&gt; bool" Usage="Microsoft.CodeAnalysis.CSharp.CSharpExtensions.TryGetSpeculativeSemanticModel (semanticModel, position, crefSyntax, speculativeModel)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static bool TryGetSpeculativeSemanticModel(Microsoft::CodeAnalysis::SemanticModel ^ semanticModel, int position, Microsoft::CodeAnalysis::CSharp::Syntax::CrefSyntax ^ crefSyntax, [Runtime::InteropServices::Out] Microsoft::CodeAnalysis::SemanticModel ^ % speculativeModel);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static bool TryGetSpeculativeSemanticModel(Microsoft::CodeAnalysis::SemanticModel ^ semanticModel, int position, Microsoft::CodeAnalysis::CSharp::Syntax::CrefSyntax ^ crefSyntax, [Runtime::InteropServices::Out] Microsoft::CodeAnalysis::SemanticModel ^ &amp;  speculativeModel);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -2588,7 +2719,7 @@
         <Parameter Name="semanticModel" Type="Microsoft.CodeAnalysis.SemanticModel" RefType="this" />
         <Parameter Name="position" Type="System.Int32" />
         <Parameter Name="crefSyntax" Type="Microsoft.CodeAnalysis.CSharp.Syntax.CrefSyntax" />
-        <Parameter Name="speculativeModel" Type="Microsoft.CodeAnalysis.SemanticModel&amp;" RefType="out" />
+        <Parameter Name="speculativeModel" Type="Microsoft.CodeAnalysis.SemanticModel" RefType="out" />
       </Parameters>
       <Docs>
         <param name="semanticModel">To be added.</param>
@@ -2598,7 +2729,7 @@
         <summary>
             Get a SemanticModel object that is associated with a cref syntax node that did not appear in
             this source code. This can be used to get detailed semantic information about sub-parts
-            of a cref syntax that did not appear in source code. 
+            of a cref syntax that did not appear in source code.
             </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
@@ -2610,11 +2741,11 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.CodeAnalysis.CSharp.CSharpExtensions.TryGetSpeculativeSemanticModel(Microsoft.CodeAnalysis.SemanticModel,System.Int32,Microsoft.CodeAnalysis.CSharp.Syntax.EqualsValueClauseSyntax,Microsoft.CodeAnalysis.SemanticModel@)" />
       <MemberSignature Language="F#" Value="static member TryGetSpeculativeSemanticModel : Microsoft.CodeAnalysis.SemanticModel * int * Microsoft.CodeAnalysis.CSharp.Syntax.EqualsValueClauseSyntax *  -&gt; bool" Usage="Microsoft.CodeAnalysis.CSharp.CSharpExtensions.TryGetSpeculativeSemanticModel (semanticModel, position, initializer, speculativeModel)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static bool TryGetSpeculativeSemanticModel(Microsoft::CodeAnalysis::SemanticModel ^ semanticModel, int position, Microsoft::CodeAnalysis::CSharp::Syntax::EqualsValueClauseSyntax ^ initializer, [Runtime::InteropServices::Out] Microsoft::CodeAnalysis::SemanticModel ^ % speculativeModel);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static bool TryGetSpeculativeSemanticModel(Microsoft::CodeAnalysis::SemanticModel ^ semanticModel, int position, Microsoft::CodeAnalysis::CSharp::Syntax::EqualsValueClauseSyntax ^ initializer, [Runtime::InteropServices::Out] Microsoft::CodeAnalysis::SemanticModel ^ &amp;  speculativeModel);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -2623,7 +2754,7 @@
         <Parameter Name="semanticModel" Type="Microsoft.CodeAnalysis.SemanticModel" RefType="this" />
         <Parameter Name="position" Type="System.Int32" />
         <Parameter Name="initializer" Type="Microsoft.CodeAnalysis.CSharp.Syntax.EqualsValueClauseSyntax" />
-        <Parameter Name="speculativeModel" Type="Microsoft.CodeAnalysis.SemanticModel&amp;" RefType="out" />
+        <Parameter Name="speculativeModel" Type="Microsoft.CodeAnalysis.SemanticModel" RefType="out" />
       </Parameters>
       <Docs>
         <param name="semanticModel">To be added.</param>
@@ -2645,11 +2776,11 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.CodeAnalysis.CSharp.CSharpExtensions.TryGetSpeculativeSemanticModel(Microsoft.CodeAnalysis.SemanticModel,System.Int32,Microsoft.CodeAnalysis.CSharp.Syntax.StatementSyntax,Microsoft.CodeAnalysis.SemanticModel@)" />
       <MemberSignature Language="F#" Value="static member TryGetSpeculativeSemanticModel : Microsoft.CodeAnalysis.SemanticModel * int * Microsoft.CodeAnalysis.CSharp.Syntax.StatementSyntax *  -&gt; bool" Usage="Microsoft.CodeAnalysis.CSharp.CSharpExtensions.TryGetSpeculativeSemanticModel (semanticModel, position, statement, speculativeModel)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static bool TryGetSpeculativeSemanticModel(Microsoft::CodeAnalysis::SemanticModel ^ semanticModel, int position, Microsoft::CodeAnalysis::CSharp::Syntax::StatementSyntax ^ statement, [Runtime::InteropServices::Out] Microsoft::CodeAnalysis::SemanticModel ^ % speculativeModel);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static bool TryGetSpeculativeSemanticModel(Microsoft::CodeAnalysis::SemanticModel ^ semanticModel, int position, Microsoft::CodeAnalysis::CSharp::Syntax::StatementSyntax ^ statement, [Runtime::InteropServices::Out] Microsoft::CodeAnalysis::SemanticModel ^ &amp;  speculativeModel);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -2658,7 +2789,7 @@
         <Parameter Name="semanticModel" Type="Microsoft.CodeAnalysis.SemanticModel" RefType="this" />
         <Parameter Name="position" Type="System.Int32" />
         <Parameter Name="statement" Type="Microsoft.CodeAnalysis.CSharp.Syntax.StatementSyntax" />
-        <Parameter Name="speculativeModel" Type="Microsoft.CodeAnalysis.SemanticModel&amp;" RefType="out" />
+        <Parameter Name="speculativeModel" Type="Microsoft.CodeAnalysis.SemanticModel" RefType="out" />
       </Parameters>
       <Docs>
         <param name="semanticModel">To be added.</param>
@@ -2668,7 +2799,7 @@
         <summary>
             Get a SemanticModel object that is associated with a statement that did not appear in
             this source code. This can be used to get detailed semantic information about sub-parts
-            of a statement that did not appear in source code. 
+            of a statement that did not appear in source code.
             </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
@@ -2682,7 +2813,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -2691,7 +2823,7 @@
         <Parameter Name="semanticModel" Type="Microsoft.CodeAnalysis.SemanticModel" RefType="this" />
         <Parameter Name="position" Type="System.Int32" />
         <Parameter Name="type" Type="Microsoft.CodeAnalysis.CSharp.Syntax.TypeSyntax" />
-        <Parameter Name="speculativeModel" Type="Microsoft.CodeAnalysis.SemanticModel&amp;" RefType="out" />
+        <Parameter Name="speculativeModel" Type="Microsoft.CodeAnalysis.SemanticModel" RefType="out" />
         <Parameter Name="bindingOption" Type="Microsoft.CodeAnalysis.SpeculativeBindingOption" />
       </Parameters>
       <Docs>
@@ -2703,7 +2835,7 @@
         <summary>
             Get a SemanticModel object that is associated with a type syntax node that did not appear in
             this source code. This can be used to get detailed semantic information about sub-parts
-            of a type syntax that did not appear in source code. 
+            of a type syntax that did not appear in source code.
             </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
@@ -2715,11 +2847,11 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.CodeAnalysis.CSharp.CSharpExtensions.TryGetSpeculativeSemanticModelForMethodBody(Microsoft.CodeAnalysis.SemanticModel,System.Int32,Microsoft.CodeAnalysis.CSharp.Syntax.AccessorDeclarationSyntax,Microsoft.CodeAnalysis.SemanticModel@)" />
       <MemberSignature Language="F#" Value="static member TryGetSpeculativeSemanticModelForMethodBody : Microsoft.CodeAnalysis.SemanticModel * int * Microsoft.CodeAnalysis.CSharp.Syntax.AccessorDeclarationSyntax *  -&gt; bool" Usage="Microsoft.CodeAnalysis.CSharp.CSharpExtensions.TryGetSpeculativeSemanticModelForMethodBody (semanticModel, position, accessor, speculativeModel)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static bool TryGetSpeculativeSemanticModelForMethodBody(Microsoft::CodeAnalysis::SemanticModel ^ semanticModel, int position, Microsoft::CodeAnalysis::CSharp::Syntax::AccessorDeclarationSyntax ^ accessor, [Runtime::InteropServices::Out] Microsoft::CodeAnalysis::SemanticModel ^ % speculativeModel);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static bool TryGetSpeculativeSemanticModelForMethodBody(Microsoft::CodeAnalysis::SemanticModel ^ semanticModel, int position, Microsoft::CodeAnalysis::CSharp::Syntax::AccessorDeclarationSyntax ^ accessor, [Runtime::InteropServices::Out] Microsoft::CodeAnalysis::SemanticModel ^ &amp;  speculativeModel);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -2728,7 +2860,7 @@
         <Parameter Name="semanticModel" Type="Microsoft.CodeAnalysis.SemanticModel" RefType="this" />
         <Parameter Name="position" Type="System.Int32" />
         <Parameter Name="accessor" Type="Microsoft.CodeAnalysis.CSharp.Syntax.AccessorDeclarationSyntax" />
-        <Parameter Name="speculativeModel" Type="Microsoft.CodeAnalysis.SemanticModel&amp;" RefType="out" />
+        <Parameter Name="speculativeModel" Type="Microsoft.CodeAnalysis.SemanticModel" RefType="out" />
       </Parameters>
       <Docs>
         <param name="semanticModel">To be added.</param>
@@ -2750,11 +2882,11 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.CodeAnalysis.CSharp.CSharpExtensions.TryGetSpeculativeSemanticModelForMethodBody(Microsoft.CodeAnalysis.SemanticModel,System.Int32,Microsoft.CodeAnalysis.CSharp.Syntax.BaseMethodDeclarationSyntax,Microsoft.CodeAnalysis.SemanticModel@)" />
       <MemberSignature Language="F#" Value="static member TryGetSpeculativeSemanticModelForMethodBody : Microsoft.CodeAnalysis.SemanticModel * int * Microsoft.CodeAnalysis.CSharp.Syntax.BaseMethodDeclarationSyntax *  -&gt; bool" Usage="Microsoft.CodeAnalysis.CSharp.CSharpExtensions.TryGetSpeculativeSemanticModelForMethodBody (semanticModel, position, method, speculativeModel)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static bool TryGetSpeculativeSemanticModelForMethodBody(Microsoft::CodeAnalysis::SemanticModel ^ semanticModel, int position, Microsoft::CodeAnalysis::CSharp::Syntax::BaseMethodDeclarationSyntax ^ method, [Runtime::InteropServices::Out] Microsoft::CodeAnalysis::SemanticModel ^ % speculativeModel);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static bool TryGetSpeculativeSemanticModelForMethodBody(Microsoft::CodeAnalysis::SemanticModel ^ semanticModel, int position, Microsoft::CodeAnalysis::CSharp::Syntax::BaseMethodDeclarationSyntax ^ method, [Runtime::InteropServices::Out] Microsoft::CodeAnalysis::SemanticModel ^ &amp;  speculativeModel);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -2763,7 +2895,7 @@
         <Parameter Name="semanticModel" Type="Microsoft.CodeAnalysis.SemanticModel" RefType="this" />
         <Parameter Name="position" Type="System.Int32" />
         <Parameter Name="method" Type="Microsoft.CodeAnalysis.CSharp.Syntax.BaseMethodDeclarationSyntax" />
-        <Parameter Name="speculativeModel" Type="Microsoft.CodeAnalysis.SemanticModel&amp;" RefType="out" />
+        <Parameter Name="speculativeModel" Type="Microsoft.CodeAnalysis.SemanticModel" RefType="out" />
       </Parameters>
       <Docs>
         <param name="semanticModel">To be added.</param>
@@ -2789,7 +2921,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.VarianceKind</ReturnType>

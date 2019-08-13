@@ -5,11 +5,10 @@
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class EventDeclarationSyntax&#xA;Inherits BasePropertyDeclarationSyntax" />
   <TypeSignature Language="F#" Value="type EventDeclarationSyntax = class&#xA;    inherit BasePropertyDeclarationSyntax" />
   <TypeSignature Language="C++ CLI" Value="public ref class EventDeclarationSyntax sealed : Microsoft::CodeAnalysis::CSharp::Syntax::BasePropertyDeclarationSyntax" />
-  <TypeSignature Language="C++ CX" Value="public ref class EventDeclarationSyntax sealed : Microsoft::CodeAnalysis::CSharp::Syntax::BasePropertyDeclarationSyntax" />
-  <TypeSignature Language="C++ WINRT" Value="class EventDeclarationSyntax sealed : Microsoft::CodeAnalysis::CSharp::Syntax::BasePropertyDeclarationSyntax" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-    <AssemblyVersion>2.6.0.0</AssemblyVersion>
+    <AssemblyVersion>2.9.0.0</AssemblyVersion>
+    <AssemblyVersion>3.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Microsoft.CodeAnalysis.CSharp.Syntax.BasePropertyDeclarationSyntax</BaseTypeName>
@@ -27,12 +26,11 @@
       <MemberSignature Language="VB.NET" Value="Public Overrides Sub Accept (visitor As CSharpSyntaxVisitor)" />
       <MemberSignature Language="F#" Value="override this.Accept : Microsoft.CodeAnalysis.CSharp.CSharpSyntaxVisitor -&gt; unit" Usage="eventDeclarationSyntax.Accept visitor" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; override void Accept(Microsoft::CodeAnalysis::CSharp::CSharpSyntaxVisitor ^ visitor);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; override void Accept(Microsoft::CodeAnalysis::CSharp::CSharpSyntaxVisitor ^ visitor);" />
-      <MemberSignature Language="C++ WINRT" Value=" override void Accept(Microsoft::CodeAnalysis::CSharp::CSharpSyntaxVisitor const &amp; visitor);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -53,11 +51,11 @@
       <MemberSignature Language="VB.NET" Value="Public Overrides Function Accept(Of TResult) (visitor As CSharpSyntaxVisitor(Of TResult)) As TResult" />
       <MemberSignature Language="F#" Value="override this.Accept : Microsoft.CodeAnalysis.CSharp.CSharpSyntaxVisitor&lt;'Result&gt; -&gt; 'Result" Usage="eventDeclarationSyntax.Accept visitor" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename TResult&gt;&#xA; override TResult Accept(Microsoft::CodeAnalysis::CSharp::CSharpSyntaxVisitor&lt;TResult&gt; ^ visitor);" />
-      <MemberSignature Language="C++ WINRT" Value="template &lt;typename TResult&gt;&#xA; override TResult Accept(Microsoft::CodeAnalysis::CSharp::CSharpSyntaxVisitor&lt;TResult&gt; const &amp; visitor);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>TResult</ReturnType>
@@ -83,11 +81,11 @@
       <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property AccessorList As AccessorListSyntax" />
       <MemberSignature Language="F#" Value="member this.AccessorList : Microsoft.CodeAnalysis.CSharp.Syntax.AccessorListSyntax" Usage="Microsoft.CodeAnalysis.CSharp.Syntax.EventDeclarationSyntax.AccessorList" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::CodeAnalysis::CSharp::Syntax::AccessorListSyntax ^ AccessorList { Microsoft::CodeAnalysis::CSharp::Syntax::AccessorListSyntax ^ get(); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; virtual property Microsoft::CodeAnalysis::CSharp::Syntax::AccessorListSyntax ^ AccessorList { Microsoft::CodeAnalysis::CSharp::Syntax::AccessorListSyntax ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.CSharp.Syntax.AccessorListSyntax</ReturnType>
@@ -103,12 +101,13 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.CodeAnalysis.CSharp.Syntax.EventDeclarationSyntax AddAccessorListAccessors(class Microsoft.CodeAnalysis.CSharp.Syntax.AccessorDeclarationSyntax[] items) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.CodeAnalysis.CSharp.Syntax.EventDeclarationSyntax.AddAccessorListAccessors(Microsoft.CodeAnalysis.CSharp.Syntax.AccessorDeclarationSyntax[])" />
       <MemberSignature Language="VB.NET" Value="Public Function AddAccessorListAccessors (ParamArray items As AccessorDeclarationSyntax()) As EventDeclarationSyntax" />
-      <MemberSignature Language="F#" Value="member this.AddAccessorListAccessors : Microsoft.CodeAnalysis.CSharp.Syntax.AccessorDeclarationSyntax[] -&gt; Microsoft.CodeAnalysis.CSharp.Syntax.EventDeclarationSyntax" Usage="eventDeclarationSyntax.AddAccessorListAccessors items" />
+      <MemberSignature Language="F#" Value="override this.AddAccessorListAccessors : Microsoft.CodeAnalysis.CSharp.Syntax.AccessorDeclarationSyntax[] -&gt; Microsoft.CodeAnalysis.CSharp.Syntax.EventDeclarationSyntax" Usage="eventDeclarationSyntax.AddAccessorListAccessors items" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::CodeAnalysis::CSharp::Syntax::EventDeclarationSyntax ^ AddAccessorListAccessors(... cli::array &lt;Microsoft::CodeAnalysis::CSharp::Syntax::AccessorDeclarationSyntax ^&gt; ^ items);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.CSharp.Syntax.EventDeclarationSyntax</ReturnType>
@@ -134,12 +133,13 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.CodeAnalysis.CSharp.Syntax.EventDeclarationSyntax AddAttributeLists(class Microsoft.CodeAnalysis.CSharp.Syntax.AttributeListSyntax[] items) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.CodeAnalysis.CSharp.Syntax.EventDeclarationSyntax.AddAttributeLists(Microsoft.CodeAnalysis.CSharp.Syntax.AttributeListSyntax[])" />
       <MemberSignature Language="VB.NET" Value="Public Function AddAttributeLists (ParamArray items As AttributeListSyntax()) As EventDeclarationSyntax" />
-      <MemberSignature Language="F#" Value="member this.AddAttributeLists : Microsoft.CodeAnalysis.CSharp.Syntax.AttributeListSyntax[] -&gt; Microsoft.CodeAnalysis.CSharp.Syntax.EventDeclarationSyntax" Usage="eventDeclarationSyntax.AddAttributeLists items" />
+      <MemberSignature Language="F#" Value="override this.AddAttributeLists : Microsoft.CodeAnalysis.CSharp.Syntax.AttributeListSyntax[] -&gt; Microsoft.CodeAnalysis.CSharp.Syntax.EventDeclarationSyntax" Usage="eventDeclarationSyntax.AddAttributeLists items" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::CodeAnalysis::CSharp::Syntax::EventDeclarationSyntax ^ AddAttributeLists(... cli::array &lt;Microsoft::CodeAnalysis::CSharp::Syntax::AttributeListSyntax ^&gt; ^ items);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.CSharp.Syntax.EventDeclarationSyntax</ReturnType>
@@ -165,12 +165,13 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.CodeAnalysis.CSharp.Syntax.EventDeclarationSyntax AddModifiers(valuetype Microsoft.CodeAnalysis.SyntaxToken[] items) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.CodeAnalysis.CSharp.Syntax.EventDeclarationSyntax.AddModifiers(Microsoft.CodeAnalysis.SyntaxToken[])" />
       <MemberSignature Language="VB.NET" Value="Public Function AddModifiers (ParamArray items As SyntaxToken()) As EventDeclarationSyntax" />
-      <MemberSignature Language="F#" Value="member this.AddModifiers : Microsoft.CodeAnalysis.SyntaxToken[] -&gt; Microsoft.CodeAnalysis.CSharp.Syntax.EventDeclarationSyntax" Usage="eventDeclarationSyntax.AddModifiers items" />
+      <MemberSignature Language="F#" Value="override this.AddModifiers : Microsoft.CodeAnalysis.SyntaxToken[] -&gt; Microsoft.CodeAnalysis.CSharp.Syntax.EventDeclarationSyntax" Usage="eventDeclarationSyntax.AddModifiers items" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::CodeAnalysis::CSharp::Syntax::EventDeclarationSyntax ^ AddModifiers(... cli::array &lt;Microsoft::CodeAnalysis::SyntaxToken&gt; ^ items);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.CSharp.Syntax.EventDeclarationSyntax</ReturnType>
@@ -201,7 +202,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.SyntaxList&lt;Microsoft.CodeAnalysis.CSharp.Syntax.AttributeListSyntax&gt;</ReturnType>
@@ -222,7 +224,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.SyntaxToken</ReturnType>
@@ -240,11 +243,11 @@
       <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property ExplicitInterfaceSpecifier As ExplicitInterfaceSpecifierSyntax" />
       <MemberSignature Language="F#" Value="member this.ExplicitInterfaceSpecifier : Microsoft.CodeAnalysis.CSharp.Syntax.ExplicitInterfaceSpecifierSyntax" Usage="Microsoft.CodeAnalysis.CSharp.Syntax.EventDeclarationSyntax.ExplicitInterfaceSpecifier" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::CodeAnalysis::CSharp::Syntax::ExplicitInterfaceSpecifierSyntax ^ ExplicitInterfaceSpecifier { Microsoft::CodeAnalysis::CSharp::Syntax::ExplicitInterfaceSpecifierSyntax ^ get(); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; virtual property Microsoft::CodeAnalysis::CSharp::Syntax::ExplicitInterfaceSpecifierSyntax ^ ExplicitInterfaceSpecifier { Microsoft::CodeAnalysis::CSharp::Syntax::ExplicitInterfaceSpecifierSyntax ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.CSharp.Syntax.ExplicitInterfaceSpecifierSyntax</ReturnType>
@@ -265,7 +268,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.SyntaxToken</ReturnType>
@@ -286,7 +290,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.SyntaxTokenList</ReturnType>
@@ -304,11 +309,11 @@
       <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property Type As TypeSyntax" />
       <MemberSignature Language="F#" Value="member this.Type : Microsoft.CodeAnalysis.CSharp.Syntax.TypeSyntax" Usage="Microsoft.CodeAnalysis.CSharp.Syntax.EventDeclarationSyntax.Type" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::CodeAnalysis::CSharp::Syntax::TypeSyntax ^ Type { Microsoft::CodeAnalysis::CSharp::Syntax::TypeSyntax ^ get(); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; virtual property Microsoft::CodeAnalysis::CSharp::Syntax::TypeSyntax ^ Type { Microsoft::CodeAnalysis::CSharp::Syntax::TypeSyntax ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.CSharp.Syntax.TypeSyntax</ReturnType>
@@ -329,7 +334,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.CSharp.Syntax.EventDeclarationSyntax</ReturnType>
@@ -361,14 +367,13 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.CodeAnalysis.CSharp.Syntax.EventDeclarationSyntax WithAccessorList(class Microsoft.CodeAnalysis.CSharp.Syntax.AccessorListSyntax accessorList) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.CodeAnalysis.CSharp.Syntax.EventDeclarationSyntax.WithAccessorList(Microsoft.CodeAnalysis.CSharp.Syntax.AccessorListSyntax)" />
       <MemberSignature Language="VB.NET" Value="Public Function WithAccessorList (accessorList As AccessorListSyntax) As EventDeclarationSyntax" />
-      <MemberSignature Language="F#" Value="member this.WithAccessorList : Microsoft.CodeAnalysis.CSharp.Syntax.AccessorListSyntax -&gt; Microsoft.CodeAnalysis.CSharp.Syntax.EventDeclarationSyntax" Usage="eventDeclarationSyntax.WithAccessorList accessorList" />
+      <MemberSignature Language="F#" Value="override this.WithAccessorList : Microsoft.CodeAnalysis.CSharp.Syntax.AccessorListSyntax -&gt; Microsoft.CodeAnalysis.CSharp.Syntax.EventDeclarationSyntax" Usage="eventDeclarationSyntax.WithAccessorList accessorList" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::CodeAnalysis::CSharp::Syntax::EventDeclarationSyntax ^ WithAccessorList(Microsoft::CodeAnalysis::CSharp::Syntax::AccessorListSyntax ^ accessorList);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; Microsoft::CodeAnalysis::CSharp::Syntax::EventDeclarationSyntax ^ WithAccessorList(Microsoft::CodeAnalysis::CSharp::Syntax::AccessorListSyntax ^ accessorList);" />
-      <MemberSignature Language="C++ WINRT" Value="Microsoft::CodeAnalysis::CSharp::Syntax::EventDeclarationSyntax WithAccessorList(Microsoft::CodeAnalysis::CSharp::Syntax::AccessorListSyntax const &amp; accessorList);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.CSharp.Syntax.EventDeclarationSyntax</ReturnType>
@@ -388,12 +393,13 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.CodeAnalysis.CSharp.Syntax.EventDeclarationSyntax WithAttributeLists(valuetype Microsoft.CodeAnalysis.SyntaxList`1&lt;class Microsoft.CodeAnalysis.CSharp.Syntax.AttributeListSyntax&gt; attributeLists) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.CodeAnalysis.CSharp.Syntax.EventDeclarationSyntax.WithAttributeLists(Microsoft.CodeAnalysis.SyntaxList{Microsoft.CodeAnalysis.CSharp.Syntax.AttributeListSyntax})" />
       <MemberSignature Language="VB.NET" Value="Public Function WithAttributeLists (attributeLists As SyntaxList(Of AttributeListSyntax)) As EventDeclarationSyntax" />
-      <MemberSignature Language="F#" Value="member this.WithAttributeLists : Microsoft.CodeAnalysis.SyntaxList&lt;Microsoft.CodeAnalysis.CSharp.Syntax.AttributeListSyntax&gt; -&gt; Microsoft.CodeAnalysis.CSharp.Syntax.EventDeclarationSyntax" Usage="eventDeclarationSyntax.WithAttributeLists attributeLists" />
+      <MemberSignature Language="F#" Value="override this.WithAttributeLists : Microsoft.CodeAnalysis.SyntaxList&lt;Microsoft.CodeAnalysis.CSharp.Syntax.AttributeListSyntax&gt; -&gt; Microsoft.CodeAnalysis.CSharp.Syntax.EventDeclarationSyntax" Usage="eventDeclarationSyntax.WithAttributeLists attributeLists" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::CodeAnalysis::CSharp::Syntax::EventDeclarationSyntax ^ WithAttributeLists(Microsoft::CodeAnalysis::SyntaxList&lt;Microsoft::CodeAnalysis::CSharp::Syntax::AttributeListSyntax ^&gt; attributeLists);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.CSharp.Syntax.EventDeclarationSyntax</ReturnType>
@@ -418,7 +424,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.CSharp.Syntax.EventDeclarationSyntax</ReturnType>
@@ -438,14 +445,13 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.CodeAnalysis.CSharp.Syntax.EventDeclarationSyntax WithExplicitInterfaceSpecifier(class Microsoft.CodeAnalysis.CSharp.Syntax.ExplicitInterfaceSpecifierSyntax explicitInterfaceSpecifier) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.CodeAnalysis.CSharp.Syntax.EventDeclarationSyntax.WithExplicitInterfaceSpecifier(Microsoft.CodeAnalysis.CSharp.Syntax.ExplicitInterfaceSpecifierSyntax)" />
       <MemberSignature Language="VB.NET" Value="Public Function WithExplicitInterfaceSpecifier (explicitInterfaceSpecifier As ExplicitInterfaceSpecifierSyntax) As EventDeclarationSyntax" />
-      <MemberSignature Language="F#" Value="member this.WithExplicitInterfaceSpecifier : Microsoft.CodeAnalysis.CSharp.Syntax.ExplicitInterfaceSpecifierSyntax -&gt; Microsoft.CodeAnalysis.CSharp.Syntax.EventDeclarationSyntax" Usage="eventDeclarationSyntax.WithExplicitInterfaceSpecifier explicitInterfaceSpecifier" />
+      <MemberSignature Language="F#" Value="override this.WithExplicitInterfaceSpecifier : Microsoft.CodeAnalysis.CSharp.Syntax.ExplicitInterfaceSpecifierSyntax -&gt; Microsoft.CodeAnalysis.CSharp.Syntax.EventDeclarationSyntax" Usage="eventDeclarationSyntax.WithExplicitInterfaceSpecifier explicitInterfaceSpecifier" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::CodeAnalysis::CSharp::Syntax::EventDeclarationSyntax ^ WithExplicitInterfaceSpecifier(Microsoft::CodeAnalysis::CSharp::Syntax::ExplicitInterfaceSpecifierSyntax ^ explicitInterfaceSpecifier);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; Microsoft::CodeAnalysis::CSharp::Syntax::EventDeclarationSyntax ^ WithExplicitInterfaceSpecifier(Microsoft::CodeAnalysis::CSharp::Syntax::ExplicitInterfaceSpecifierSyntax ^ explicitInterfaceSpecifier);" />
-      <MemberSignature Language="C++ WINRT" Value="Microsoft::CodeAnalysis::CSharp::Syntax::EventDeclarationSyntax WithExplicitInterfaceSpecifier(Microsoft::CodeAnalysis::CSharp::Syntax::ExplicitInterfaceSpecifierSyntax const &amp; explicitInterfaceSpecifier);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.CSharp.Syntax.EventDeclarationSyntax</ReturnType>
@@ -470,7 +476,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.CSharp.Syntax.EventDeclarationSyntax</ReturnType>
@@ -490,12 +497,13 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.CodeAnalysis.CSharp.Syntax.EventDeclarationSyntax WithModifiers(valuetype Microsoft.CodeAnalysis.SyntaxTokenList modifiers) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.CodeAnalysis.CSharp.Syntax.EventDeclarationSyntax.WithModifiers(Microsoft.CodeAnalysis.SyntaxTokenList)" />
       <MemberSignature Language="VB.NET" Value="Public Function WithModifiers (modifiers As SyntaxTokenList) As EventDeclarationSyntax" />
-      <MemberSignature Language="F#" Value="member this.WithModifiers : Microsoft.CodeAnalysis.SyntaxTokenList -&gt; Microsoft.CodeAnalysis.CSharp.Syntax.EventDeclarationSyntax" Usage="eventDeclarationSyntax.WithModifiers modifiers" />
+      <MemberSignature Language="F#" Value="override this.WithModifiers : Microsoft.CodeAnalysis.SyntaxTokenList -&gt; Microsoft.CodeAnalysis.CSharp.Syntax.EventDeclarationSyntax" Usage="eventDeclarationSyntax.WithModifiers modifiers" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::CodeAnalysis::CSharp::Syntax::EventDeclarationSyntax ^ WithModifiers(Microsoft::CodeAnalysis::SyntaxTokenList modifiers);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.CSharp.Syntax.EventDeclarationSyntax</ReturnType>
@@ -515,14 +523,13 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.CodeAnalysis.CSharp.Syntax.EventDeclarationSyntax WithType(class Microsoft.CodeAnalysis.CSharp.Syntax.TypeSyntax type) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.CodeAnalysis.CSharp.Syntax.EventDeclarationSyntax.WithType(Microsoft.CodeAnalysis.CSharp.Syntax.TypeSyntax)" />
       <MemberSignature Language="VB.NET" Value="Public Function WithType (type As TypeSyntax) As EventDeclarationSyntax" />
-      <MemberSignature Language="F#" Value="member this.WithType : Microsoft.CodeAnalysis.CSharp.Syntax.TypeSyntax -&gt; Microsoft.CodeAnalysis.CSharp.Syntax.EventDeclarationSyntax" Usage="eventDeclarationSyntax.WithType type" />
+      <MemberSignature Language="F#" Value="override this.WithType : Microsoft.CodeAnalysis.CSharp.Syntax.TypeSyntax -&gt; Microsoft.CodeAnalysis.CSharp.Syntax.EventDeclarationSyntax" Usage="eventDeclarationSyntax.WithType type" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::CodeAnalysis::CSharp::Syntax::EventDeclarationSyntax ^ WithType(Microsoft::CodeAnalysis::CSharp::Syntax::TypeSyntax ^ type);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; Microsoft::CodeAnalysis::CSharp::Syntax::EventDeclarationSyntax ^ WithType(Microsoft::CodeAnalysis::CSharp::Syntax::TypeSyntax ^ type);" />
-      <MemberSignature Language="C++ WINRT" Value="Microsoft::CodeAnalysis::CSharp::Syntax::EventDeclarationSyntax WithType(Microsoft::CodeAnalysis::CSharp::Syntax::TypeSyntax const &amp; type);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.CSharp</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.CSharp.Syntax.EventDeclarationSyntax</ReturnType>

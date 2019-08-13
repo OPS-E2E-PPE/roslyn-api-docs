@@ -5,11 +5,10 @@
   <TypeSignature Language="VB.NET" Value="Public MustInherit Class PortableExecutableReference&#xA;Inherits MetadataReference" />
   <TypeSignature Language="F#" Value="type PortableExecutableReference = class&#xA;    inherit MetadataReference" />
   <TypeSignature Language="C++ CLI" Value="public ref class PortableExecutableReference abstract : Microsoft::CodeAnalysis::MetadataReference" />
-  <TypeSignature Language="C++ CX" Value="[Windows::Foundation::Metadata::WebHostHidden]&#xA;public ref class PortableExecutableReference abstract : Microsoft::CodeAnalysis::MetadataReference" />
-  <TypeSignature Language="C++ WINRT" Value="[Windows::Foundation::Metadata::WebHostHidden]&#xA;class PortableExecutableReference abstract : Microsoft::CodeAnalysis::MetadataReference" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-    <AssemblyVersion>2.6.0.0</AssemblyVersion>
+    <AssemblyVersion>2.9.0.0</AssemblyVersion>
+    <AssemblyVersion>3.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Microsoft.CodeAnalysis.MetadataReference</BaseTypeName>
@@ -31,7 +30,8 @@
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="properties" Type="Microsoft.CodeAnalysis.MetadataReferenceProperties" />
@@ -53,12 +53,11 @@
       <MemberSignature Language="VB.NET" Value="Protected MustOverride Function CreateDocumentationProvider () As DocumentationProvider" />
       <MemberSignature Language="F#" Value="abstract member CreateDocumentationProvider : unit -&gt; Microsoft.CodeAnalysis.DocumentationProvider" Usage="portableExecutableReference.CreateDocumentationProvider " />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; abstract Microsoft::CodeAnalysis::DocumentationProvider ^ CreateDocumentationProvider();" />
-      <MemberSignature Language="C++ CX" Value="protected:&#xA; abstract Microsoft::CodeAnalysis::DocumentationProvider ^ CreateDocumentationProvider();" />
-      <MemberSignature Language="C++ WINRT" Value=" abstract Microsoft::CodeAnalysis::DocumentationProvider CreateDocumentationProvider();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.DocumentationProvider</ReturnType>
@@ -83,11 +82,11 @@
       <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property Display As String" />
       <MemberSignature Language="F#" Value="member this.Display : string" Usage="Microsoft.CodeAnalysis.PortableExecutableReference.Display" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::String ^ Display { System::String ^ get(); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; virtual property Platform::String ^ Display { Platform::String ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -107,11 +106,11 @@
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FilePath As String" />
       <MemberSignature Language="F#" Value="member this.FilePath : string" Usage="Microsoft.CodeAnalysis.PortableExecutableReference.FilePath" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ FilePath { System::String ^ get(); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; property Platform::String ^ FilePath { Platform::String ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -134,7 +133,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.Metadata</ReturnType>
@@ -159,12 +159,11 @@
       <MemberSignature Language="VB.NET" Value="Public Function GetMetadataId () As MetadataId" />
       <MemberSignature Language="F#" Value="member this.GetMetadataId : unit -&gt; Microsoft.CodeAnalysis.MetadataId" Usage="portableExecutableReference.GetMetadataId " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::CodeAnalysis::MetadataId ^ GetMetadataId();" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; Microsoft::CodeAnalysis::MetadataId ^ GetMetadataId();" />
-      <MemberSignature Language="C++ WINRT" Value="Microsoft::CodeAnalysis::MetadataId GetMetadataId();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.MetadataId</ReturnType>
@@ -193,7 +192,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.Metadata</ReturnType>
@@ -235,7 +235,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.PortableExecutableReference</ReturnType>
@@ -263,7 +264,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.PortableExecutableReference</ReturnType>
@@ -288,12 +290,11 @@
       <MemberSignature Language="VB.NET" Value="Public Function WithEmbedInteropTypes (value As Boolean) As PortableExecutableReference" />
       <MemberSignature Language="F#" Value="override this.WithEmbedInteropTypes : bool -&gt; Microsoft.CodeAnalysis.PortableExecutableReference" Usage="portableExecutableReference.WithEmbedInteropTypes value" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::CodeAnalysis::PortableExecutableReference ^ WithEmbedInteropTypes(bool value);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; Microsoft::CodeAnalysis::PortableExecutableReference ^ WithEmbedInteropTypes(bool value);" />
-      <MemberSignature Language="C++ WINRT" Value="Microsoft::CodeAnalysis::PortableExecutableReference WithEmbedInteropTypes(bool value);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.PortableExecutableReference</ReturnType>
@@ -321,7 +322,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.PortableExecutableReference</ReturnType>
@@ -349,7 +351,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.PortableExecutableReference</ReturnType>

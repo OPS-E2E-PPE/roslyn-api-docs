@@ -5,11 +5,10 @@
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class AssemblyMetadata&#xA;Inherits Metadata" />
   <TypeSignature Language="F#" Value="type AssemblyMetadata = class&#xA;    inherit Metadata" />
   <TypeSignature Language="C++ CLI" Value="public ref class AssemblyMetadata sealed : Microsoft::CodeAnalysis::Metadata" />
-  <TypeSignature Language="C++ CX" Value="public ref class AssemblyMetadata sealed : Microsoft::CodeAnalysis::Metadata" />
-  <TypeSignature Language="C++ WINRT" Value="class AssemblyMetadata sealed : Microsoft::CodeAnalysis::Metadata" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-    <AssemblyVersion>2.6.0.0</AssemblyVersion>
+    <AssemblyVersion>2.9.0.0</AssemblyVersion>
+    <AssemblyVersion>3.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Microsoft.CodeAnalysis.Metadata</BaseTypeName>
@@ -32,7 +31,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.Metadata</ReturnType>
@@ -51,12 +51,11 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function Create (module As ModuleMetadata) As AssemblyMetadata" />
       <MemberSignature Language="F#" Value="static member Create : Microsoft.CodeAnalysis.ModuleMetadata -&gt; Microsoft.CodeAnalysis.AssemblyMetadata" Usage="Microsoft.CodeAnalysis.AssemblyMetadata.Create module" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::CodeAnalysis::AssemblyMetadata ^ Create(Microsoft::CodeAnalysis::ModuleMetadata ^ module);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static Microsoft::CodeAnalysis::AssemblyMetadata ^ Create(Microsoft::CodeAnalysis::ModuleMetadata ^ module);" />
-      <MemberSignature Language="C++ WINRT" Value=" static Microsoft::CodeAnalysis::AssemblyMetadata Create(Microsoft::CodeAnalysis::ModuleMetadata const &amp; module);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.AssemblyMetadata</ReturnType>
@@ -85,7 +84,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.AssemblyMetadata</ReturnType>
@@ -122,7 +122,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.AssemblyMetadata</ReturnType>
@@ -154,7 +155,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.AssemblyMetadata</ReturnType>
@@ -183,12 +185,11 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function CreateFromFile (path As String) As AssemblyMetadata" />
       <MemberSignature Language="F#" Value="static member CreateFromFile : string -&gt; Microsoft.CodeAnalysis.AssemblyMetadata" Usage="Microsoft.CodeAnalysis.AssemblyMetadata.CreateFromFile path" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::CodeAnalysis::AssemblyMetadata ^ CreateFromFile(System::String ^ path);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; static Microsoft::CodeAnalysis::AssemblyMetadata ^ CreateFromFile(Platform::String ^ path);" />
-      <MemberSignature Language="C++ WINRT" Value=" static Microsoft::CodeAnalysis::AssemblyMetadata CreateFromFile(std::wstring const &amp; path);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.AssemblyMetadata</ReturnType>
@@ -221,7 +222,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.AssemblyMetadata</ReturnType>
@@ -253,7 +255,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.AssemblyMetadata</ReturnType>
@@ -283,7 +286,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.AssemblyMetadata</ReturnType>
@@ -313,7 +317,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.AssemblyMetadata</ReturnType>
@@ -340,12 +345,11 @@
       <MemberSignature Language="VB.NET" Value="Public Overrides Sub Dispose ()" />
       <MemberSignature Language="F#" Value="override this.Dispose : unit -&gt; unit" Usage="assemblyMetadata.Dispose " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; override void Dispose();" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; override void Dispose();" />
-      <MemberSignature Language="C++ WINRT" Value=" override void Dispose();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -368,7 +372,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Immutable.ImmutableArray&lt;Microsoft.CodeAnalysis.ModuleMetadata&gt;</ReturnType>
@@ -394,7 +399,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.PortableExecutableReference</ReturnType>
@@ -426,11 +432,11 @@
       <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property Kind As MetadataImageKind" />
       <MemberSignature Language="F#" Value="member this.Kind : Microsoft.CodeAnalysis.MetadataImageKind" Usage="Microsoft.CodeAnalysis.AssemblyMetadata.Kind" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::CodeAnalysis::MetadataImageKind Kind { Microsoft::CodeAnalysis::MetadataImageKind get(); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; virtual property Microsoft::CodeAnalysis::MetadataImageKind Kind { Microsoft::CodeAnalysis::MetadataImageKind get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.MetadataImageKind</ReturnType>

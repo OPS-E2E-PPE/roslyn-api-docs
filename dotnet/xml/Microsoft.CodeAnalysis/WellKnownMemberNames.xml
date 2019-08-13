@@ -5,11 +5,10 @@
   <TypeSignature Language="VB.NET" Value="Public Class WellKnownMemberNames" />
   <TypeSignature Language="F#" Value="type WellKnownMemberNames = class" />
   <TypeSignature Language="C++ CLI" Value="public ref class WellKnownMemberNames abstract sealed" />
-  <TypeSignature Language="C++ CX" Value="public ref class WellKnownMemberNames abstract sealed" />
-  <TypeSignature Language="C++ WINRT" Value="class WellKnownMemberNames abstract sealed" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-    <AssemblyVersion>2.6.0.0</AssemblyVersion>
+    <AssemblyVersion>2.9.0.0</AssemblyVersion>
+    <AssemblyVersion>3.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -29,11 +28,11 @@
       <MemberSignature Language="VB.NET" Value="Public Const AdditionOperatorName As String " />
       <MemberSignature Language="F#" Value="val mutable AdditionOperatorName : string" Usage="Microsoft.CodeAnalysis.WellKnownMemberNames.AdditionOperatorName" />
       <MemberSignature Language="C++ CLI" Value="public: System::String ^ AdditionOperatorName;" />
-      <MemberSignature Language="C++ WINRT" Value="std::wstring AdditionOperatorName;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -52,11 +51,11 @@
       <MemberSignature Language="VB.NET" Value="Public Const BitwiseAndOperatorName As String " />
       <MemberSignature Language="F#" Value="val mutable BitwiseAndOperatorName : string" Usage="Microsoft.CodeAnalysis.WellKnownMemberNames.BitwiseAndOperatorName" />
       <MemberSignature Language="C++ CLI" Value="public: System::String ^ BitwiseAndOperatorName;" />
-      <MemberSignature Language="C++ WINRT" Value="std::wstring BitwiseAndOperatorName;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -75,11 +74,11 @@
       <MemberSignature Language="VB.NET" Value="Public Const BitwiseOrOperatorName As String " />
       <MemberSignature Language="F#" Value="val mutable BitwiseOrOperatorName : string" Usage="Microsoft.CodeAnalysis.WellKnownMemberNames.BitwiseOrOperatorName" />
       <MemberSignature Language="C++ CLI" Value="public: System::String ^ BitwiseOrOperatorName;" />
-      <MemberSignature Language="C++ WINRT" Value="std::wstring BitwiseOrOperatorName;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -98,11 +97,11 @@
       <MemberSignature Language="VB.NET" Value="Public Const CollectionInitializerAddMethodName As String " />
       <MemberSignature Language="F#" Value="val mutable CollectionInitializerAddMethodName : string" Usage="Microsoft.CodeAnalysis.WellKnownMemberNames.CollectionInitializerAddMethodName" />
       <MemberSignature Language="C++ CLI" Value="public: System::String ^ CollectionInitializerAddMethodName;" />
-      <MemberSignature Language="C++ WINRT" Value="std::wstring CollectionInitializerAddMethodName;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -122,11 +121,11 @@
       <MemberSignature Language="VB.NET" Value="Public Const ConcatenateOperatorName As String " />
       <MemberSignature Language="F#" Value="val mutable ConcatenateOperatorName : string" Usage="Microsoft.CodeAnalysis.WellKnownMemberNames.ConcatenateOperatorName" />
       <MemberSignature Language="C++ CLI" Value="public: System::String ^ ConcatenateOperatorName;" />
-      <MemberSignature Language="C++ WINRT" Value="std::wstring ConcatenateOperatorName;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -138,6 +137,27 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="CountPropertyName">
+      <MemberSignature Language="C#" Value="public const string CountPropertyName;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string CountPropertyName" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.CodeAnalysis.WellKnownMemberNames.CountPropertyName" />
+      <MemberSignature Language="VB.NET" Value="Public Const CountPropertyName As String " />
+      <MemberSignature Language="F#" Value="val mutable CountPropertyName : string" Usage="Microsoft.CodeAnalysis.WellKnownMemberNames.CountPropertyName" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The required name for the <c>Count</c> property used in a pattern-based Index or Range indexer.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="CurrentPropertyName">
       <MemberSignature Language="C#" Value="public const string CurrentPropertyName;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string CurrentPropertyName" />
@@ -145,11 +165,11 @@
       <MemberSignature Language="VB.NET" Value="Public Const CurrentPropertyName As String " />
       <MemberSignature Language="F#" Value="val mutable CurrentPropertyName : string" Usage="Microsoft.CodeAnalysis.WellKnownMemberNames.CurrentPropertyName" />
       <MemberSignature Language="C++ CLI" Value="public: System::String ^ CurrentPropertyName;" />
-      <MemberSignature Language="C++ WINRT" Value="std::wstring CurrentPropertyName;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -161,6 +181,29 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="DeconstructMethodName">
+      <MemberSignature Language="C#" Value="public const string DeconstructMethodName;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string DeconstructMethodName" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.CodeAnalysis.WellKnownMemberNames.DeconstructMethodName" />
+      <MemberSignature Language="VB.NET" Value="Public Const DeconstructMethodName As String " />
+      <MemberSignature Language="F#" Value="val mutable DeconstructMethodName : string" Usage="Microsoft.CodeAnalysis.WellKnownMemberNames.DeconstructMethodName" />
+      <MemberSignature Language="C++ CLI" Value="public: System::String ^ DeconstructMethodName;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The required name for the <c>Deconstruct</c> method used in a deconstruction.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="DecrementOperatorName">
       <MemberSignature Language="C#" Value="public const string DecrementOperatorName;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string DecrementOperatorName" />
@@ -168,11 +211,11 @@
       <MemberSignature Language="VB.NET" Value="Public Const DecrementOperatorName As String " />
       <MemberSignature Language="F#" Value="val mutable DecrementOperatorName : string" Usage="Microsoft.CodeAnalysis.WellKnownMemberNames.DecrementOperatorName" />
       <MemberSignature Language="C++ CLI" Value="public: System::String ^ DecrementOperatorName;" />
-      <MemberSignature Language="C++ WINRT" Value="std::wstring DecrementOperatorName;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -191,11 +234,11 @@
       <MemberSignature Language="VB.NET" Value="Public Const DefaultScriptClassName As String " />
       <MemberSignature Language="F#" Value="val mutable DefaultScriptClassName : string" Usage="Microsoft.CodeAnalysis.WellKnownMemberNames.DefaultScriptClassName" />
       <MemberSignature Language="C++ CLI" Value="public: System::String ^ DefaultScriptClassName;" />
-      <MemberSignature Language="C++ WINRT" Value="std::wstring DefaultScriptClassName;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -214,11 +257,11 @@
       <MemberSignature Language="VB.NET" Value="Public Const DelegateBeginInvokeName As String " />
       <MemberSignature Language="F#" Value="val mutable DelegateBeginInvokeName : string" Usage="Microsoft.CodeAnalysis.WellKnownMemberNames.DelegateBeginInvokeName" />
       <MemberSignature Language="C++ CLI" Value="public: System::String ^ DelegateBeginInvokeName;" />
-      <MemberSignature Language="C++ WINRT" Value="std::wstring DelegateBeginInvokeName;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -237,11 +280,11 @@
       <MemberSignature Language="VB.NET" Value="Public Const DelegateEndInvokeName As String " />
       <MemberSignature Language="F#" Value="val mutable DelegateEndInvokeName : string" Usage="Microsoft.CodeAnalysis.WellKnownMemberNames.DelegateEndInvokeName" />
       <MemberSignature Language="C++ CLI" Value="public: System::String ^ DelegateEndInvokeName;" />
-      <MemberSignature Language="C++ WINRT" Value="std::wstring DelegateEndInvokeName;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -260,11 +303,11 @@
       <MemberSignature Language="VB.NET" Value="Public Const DelegateInvokeName As String " />
       <MemberSignature Language="F#" Value="val mutable DelegateInvokeName : string" Usage="Microsoft.CodeAnalysis.WellKnownMemberNames.DelegateInvokeName" />
       <MemberSignature Language="C++ CLI" Value="public: System::String ^ DelegateInvokeName;" />
-      <MemberSignature Language="C++ WINRT" Value="std::wstring DelegateInvokeName;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -283,11 +326,11 @@
       <MemberSignature Language="VB.NET" Value="Public Const DestructorName As String " />
       <MemberSignature Language="F#" Value="val mutable DestructorName : string" Usage="Microsoft.CodeAnalysis.WellKnownMemberNames.DestructorName" />
       <MemberSignature Language="C++ CLI" Value="public: System::String ^ DestructorName;" />
-      <MemberSignature Language="C++ WINRT" Value="std::wstring DestructorName;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -299,6 +342,48 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="DisposeAsyncMethodName">
+      <MemberSignature Language="C#" Value="public const string DisposeAsyncMethodName;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string DisposeAsyncMethodName" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.CodeAnalysis.WellKnownMemberNames.DisposeAsyncMethodName" />
+      <MemberSignature Language="VB.NET" Value="Public Const DisposeAsyncMethodName As String " />
+      <MemberSignature Language="F#" Value="val mutable DisposeAsyncMethodName : string" Usage="Microsoft.CodeAnalysis.WellKnownMemberNames.DisposeAsyncMethodName" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The required name for the <c>DisposeAsync</c> method used in an await using statement.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DisposeMethodName">
+      <MemberSignature Language="C#" Value="public const string DisposeMethodName;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string DisposeMethodName" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.CodeAnalysis.WellKnownMemberNames.DisposeMethodName" />
+      <MemberSignature Language="VB.NET" Value="Public Const DisposeMethodName As String " />
+      <MemberSignature Language="F#" Value="val mutable DisposeMethodName : string" Usage="Microsoft.CodeAnalysis.WellKnownMemberNames.DisposeMethodName" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The required name for the <c>Dispose</c> method used in a Using statement.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="DivisionOperatorName">
       <MemberSignature Language="C#" Value="public const string DivisionOperatorName;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string DivisionOperatorName" />
@@ -306,11 +391,11 @@
       <MemberSignature Language="VB.NET" Value="Public Const DivisionOperatorName As String " />
       <MemberSignature Language="F#" Value="val mutable DivisionOperatorName : string" Usage="Microsoft.CodeAnalysis.WellKnownMemberNames.DivisionOperatorName" />
       <MemberSignature Language="C++ CLI" Value="public: System::String ^ DivisionOperatorName;" />
-      <MemberSignature Language="C++ WINRT" Value="std::wstring DivisionOperatorName;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -329,11 +414,11 @@
       <MemberSignature Language="VB.NET" Value="Public Const EntryPointMethodName As String " />
       <MemberSignature Language="F#" Value="val mutable EntryPointMethodName : string" Usage="Microsoft.CodeAnalysis.WellKnownMemberNames.EntryPointMethodName" />
       <MemberSignature Language="C++ CLI" Value="public: System::String ^ EntryPointMethodName;" />
-      <MemberSignature Language="C++ WINRT" Value="std::wstring EntryPointMethodName;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -352,11 +437,11 @@
       <MemberSignature Language="VB.NET" Value="Public Const EnumBackingFieldName As String " />
       <MemberSignature Language="F#" Value="val mutable EnumBackingFieldName : string" Usage="Microsoft.CodeAnalysis.WellKnownMemberNames.EnumBackingFieldName" />
       <MemberSignature Language="C++ CLI" Value="public: System::String ^ EnumBackingFieldName;" />
-      <MemberSignature Language="C++ WINRT" Value="std::wstring EnumBackingFieldName;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -375,11 +460,11 @@
       <MemberSignature Language="VB.NET" Value="Public Const EqualityOperatorName As String " />
       <MemberSignature Language="F#" Value="val mutable EqualityOperatorName : string" Usage="Microsoft.CodeAnalysis.WellKnownMemberNames.EqualityOperatorName" />
       <MemberSignature Language="C++ CLI" Value="public: System::String ^ EqualityOperatorName;" />
-      <MemberSignature Language="C++ WINRT" Value="std::wstring EqualityOperatorName;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -398,11 +483,11 @@
       <MemberSignature Language="VB.NET" Value="Public Const ExclusiveOrOperatorName As String " />
       <MemberSignature Language="F#" Value="val mutable ExclusiveOrOperatorName : string" Usage="Microsoft.CodeAnalysis.WellKnownMemberNames.ExclusiveOrOperatorName" />
       <MemberSignature Language="C++ CLI" Value="public: System::String ^ ExclusiveOrOperatorName;" />
-      <MemberSignature Language="C++ WINRT" Value="std::wstring ExclusiveOrOperatorName;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -421,11 +506,11 @@
       <MemberSignature Language="VB.NET" Value="Public Const ExplicitConversionName As String " />
       <MemberSignature Language="F#" Value="val mutable ExplicitConversionName : string" Usage="Microsoft.CodeAnalysis.WellKnownMemberNames.ExplicitConversionName" />
       <MemberSignature Language="C++ CLI" Value="public: System::String ^ ExplicitConversionName;" />
-      <MemberSignature Language="C++ WINRT" Value="std::wstring ExplicitConversionName;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -444,11 +529,11 @@
       <MemberSignature Language="VB.NET" Value="Public Const ExponentOperatorName As String " />
       <MemberSignature Language="F#" Value="val mutable ExponentOperatorName : string" Usage="Microsoft.CodeAnalysis.WellKnownMemberNames.ExponentOperatorName" />
       <MemberSignature Language="C++ CLI" Value="public: System::String ^ ExponentOperatorName;" />
-      <MemberSignature Language="C++ WINRT" Value="std::wstring ExponentOperatorName;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -467,11 +552,11 @@
       <MemberSignature Language="VB.NET" Value="Public Const FalseOperatorName As String " />
       <MemberSignature Language="F#" Value="val mutable FalseOperatorName : string" Usage="Microsoft.CodeAnalysis.WellKnownMemberNames.FalseOperatorName" />
       <MemberSignature Language="C++ CLI" Value="public: System::String ^ FalseOperatorName;" />
-      <MemberSignature Language="C++ WINRT" Value="std::wstring FalseOperatorName;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -483,6 +568,27 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="GetAsyncEnumeratorMethodName">
+      <MemberSignature Language="C#" Value="public const string GetAsyncEnumeratorMethodName;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string GetAsyncEnumeratorMethodName" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.CodeAnalysis.WellKnownMemberNames.GetAsyncEnumeratorMethodName" />
+      <MemberSignature Language="VB.NET" Value="Public Const GetAsyncEnumeratorMethodName As String " />
+      <MemberSignature Language="F#" Value="val mutable GetAsyncEnumeratorMethodName : string" Usage="Microsoft.CodeAnalysis.WellKnownMemberNames.GetAsyncEnumeratorMethodName" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The required name for the <c>GetAsyncEnumerator</c> method used in a ForEach statement.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="GetAwaiter">
       <MemberSignature Language="C#" Value="public const string GetAwaiter;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string GetAwaiter" />
@@ -490,11 +596,11 @@
       <MemberSignature Language="VB.NET" Value="Public Const GetAwaiter As String " />
       <MemberSignature Language="F#" Value="val mutable GetAwaiter : string" Usage="Microsoft.CodeAnalysis.WellKnownMemberNames.GetAwaiter" />
       <MemberSignature Language="C++ CLI" Value="public: System::String ^ GetAwaiter;" />
-      <MemberSignature Language="C++ WINRT" Value="std::wstring GetAwaiter;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -514,11 +620,11 @@
       <MemberSignature Language="VB.NET" Value="Public Const GetEnumeratorMethodName As String " />
       <MemberSignature Language="F#" Value="val mutable GetEnumeratorMethodName : string" Usage="Microsoft.CodeAnalysis.WellKnownMemberNames.GetEnumeratorMethodName" />
       <MemberSignature Language="C++ CLI" Value="public: System::String ^ GetEnumeratorMethodName;" />
-      <MemberSignature Language="C++ WINRT" Value="std::wstring GetEnumeratorMethodName;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -537,11 +643,11 @@
       <MemberSignature Language="VB.NET" Value="Public Const GetResult As String " />
       <MemberSignature Language="F#" Value="val mutable GetResult : string" Usage="Microsoft.CodeAnalysis.WellKnownMemberNames.GetResult" />
       <MemberSignature Language="C++ CLI" Value="public: System::String ^ GetResult;" />
-      <MemberSignature Language="C++ WINRT" Value="std::wstring GetResult;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -561,11 +667,11 @@
       <MemberSignature Language="VB.NET" Value="Public Const GreaterThanOperatorName As String " />
       <MemberSignature Language="F#" Value="val mutable GreaterThanOperatorName : string" Usage="Microsoft.CodeAnalysis.WellKnownMemberNames.GreaterThanOperatorName" />
       <MemberSignature Language="C++ CLI" Value="public: System::String ^ GreaterThanOperatorName;" />
-      <MemberSignature Language="C++ WINRT" Value="std::wstring GreaterThanOperatorName;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -584,11 +690,11 @@
       <MemberSignature Language="VB.NET" Value="Public Const GreaterThanOrEqualOperatorName As String " />
       <MemberSignature Language="F#" Value="val mutable GreaterThanOrEqualOperatorName : string" Usage="Microsoft.CodeAnalysis.WellKnownMemberNames.GreaterThanOrEqualOperatorName" />
       <MemberSignature Language="C++ CLI" Value="public: System::String ^ GreaterThanOrEqualOperatorName;" />
-      <MemberSignature Language="C++ WINRT" Value="std::wstring GreaterThanOrEqualOperatorName;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -607,11 +713,11 @@
       <MemberSignature Language="VB.NET" Value="Public Const ImplicitConversionName As String " />
       <MemberSignature Language="F#" Value="val mutable ImplicitConversionName : string" Usage="Microsoft.CodeAnalysis.WellKnownMemberNames.ImplicitConversionName" />
       <MemberSignature Language="C++ CLI" Value="public: System::String ^ ImplicitConversionName;" />
-      <MemberSignature Language="C++ WINRT" Value="std::wstring ImplicitConversionName;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -630,11 +736,11 @@
       <MemberSignature Language="VB.NET" Value="Public Const IncrementOperatorName As String " />
       <MemberSignature Language="F#" Value="val mutable IncrementOperatorName : string" Usage="Microsoft.CodeAnalysis.WellKnownMemberNames.IncrementOperatorName" />
       <MemberSignature Language="C++ CLI" Value="public: System::String ^ IncrementOperatorName;" />
-      <MemberSignature Language="C++ WINRT" Value="std::wstring IncrementOperatorName;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -653,11 +759,11 @@
       <MemberSignature Language="VB.NET" Value="Public Const Indexer As String " />
       <MemberSignature Language="F#" Value="val mutable Indexer : string" Usage="Microsoft.CodeAnalysis.WellKnownMemberNames.Indexer" />
       <MemberSignature Language="C++ CLI" Value="public: System::String ^ Indexer;" />
-      <MemberSignature Language="C++ WINRT" Value="std::wstring Indexer;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -678,11 +784,11 @@
       <MemberSignature Language="VB.NET" Value="Public Const InequalityOperatorName As String " />
       <MemberSignature Language="F#" Value="val mutable InequalityOperatorName : string" Usage="Microsoft.CodeAnalysis.WellKnownMemberNames.InequalityOperatorName" />
       <MemberSignature Language="C++ CLI" Value="public: System::String ^ InequalityOperatorName;" />
-      <MemberSignature Language="C++ WINRT" Value="std::wstring InequalityOperatorName;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -701,11 +807,11 @@
       <MemberSignature Language="VB.NET" Value="Public Const InstanceConstructorName As String " />
       <MemberSignature Language="F#" Value="val mutable InstanceConstructorName : string" Usage="Microsoft.CodeAnalysis.WellKnownMemberNames.InstanceConstructorName" />
       <MemberSignature Language="C++ CLI" Value="public: System::String ^ InstanceConstructorName;" />
-      <MemberSignature Language="C++ WINRT" Value="std::wstring InstanceConstructorName;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -724,11 +830,11 @@
       <MemberSignature Language="VB.NET" Value="Public Const IntegerDivisionOperatorName As String " />
       <MemberSignature Language="F#" Value="val mutable IntegerDivisionOperatorName : string" Usage="Microsoft.CodeAnalysis.WellKnownMemberNames.IntegerDivisionOperatorName" />
       <MemberSignature Language="C++ CLI" Value="public: System::String ^ IntegerDivisionOperatorName;" />
-      <MemberSignature Language="C++ WINRT" Value="std::wstring IntegerDivisionOperatorName;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -747,11 +853,11 @@
       <MemberSignature Language="VB.NET" Value="Public Const IsCompleted As String " />
       <MemberSignature Language="F#" Value="val mutable IsCompleted : string" Usage="Microsoft.CodeAnalysis.WellKnownMemberNames.IsCompleted" />
       <MemberSignature Language="C++ CLI" Value="public: System::String ^ IsCompleted;" />
-      <MemberSignature Language="C++ WINRT" Value="std::wstring IsCompleted;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -771,11 +877,11 @@
       <MemberSignature Language="VB.NET" Value="Public Const LeftShiftOperatorName As String " />
       <MemberSignature Language="F#" Value="val mutable LeftShiftOperatorName : string" Usage="Microsoft.CodeAnalysis.WellKnownMemberNames.LeftShiftOperatorName" />
       <MemberSignature Language="C++ CLI" Value="public: System::String ^ LeftShiftOperatorName;" />
-      <MemberSignature Language="C++ WINRT" Value="std::wstring LeftShiftOperatorName;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -787,6 +893,27 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="LengthPropertyName">
+      <MemberSignature Language="C#" Value="public const string LengthPropertyName;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string LengthPropertyName" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.CodeAnalysis.WellKnownMemberNames.LengthPropertyName" />
+      <MemberSignature Language="VB.NET" Value="Public Const LengthPropertyName As String " />
+      <MemberSignature Language="F#" Value="val mutable LengthPropertyName : string" Usage="Microsoft.CodeAnalysis.WellKnownMemberNames.LengthPropertyName" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The required name for the <c>Length</c> property used in a pattern-based Index or Range indexer.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="LessThanOperatorName">
       <MemberSignature Language="C#" Value="public const string LessThanOperatorName;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string LessThanOperatorName" />
@@ -794,11 +921,11 @@
       <MemberSignature Language="VB.NET" Value="Public Const LessThanOperatorName As String " />
       <MemberSignature Language="F#" Value="val mutable LessThanOperatorName : string" Usage="Microsoft.CodeAnalysis.WellKnownMemberNames.LessThanOperatorName" />
       <MemberSignature Language="C++ CLI" Value="public: System::String ^ LessThanOperatorName;" />
-      <MemberSignature Language="C++ WINRT" Value="std::wstring LessThanOperatorName;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -817,11 +944,11 @@
       <MemberSignature Language="VB.NET" Value="Public Const LessThanOrEqualOperatorName As String " />
       <MemberSignature Language="F#" Value="val mutable LessThanOrEqualOperatorName : string" Usage="Microsoft.CodeAnalysis.WellKnownMemberNames.LessThanOrEqualOperatorName" />
       <MemberSignature Language="C++ CLI" Value="public: System::String ^ LessThanOrEqualOperatorName;" />
-      <MemberSignature Language="C++ WINRT" Value="std::wstring LessThanOrEqualOperatorName;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -840,11 +967,11 @@
       <MemberSignature Language="VB.NET" Value="Public Const LikeOperatorName As String " />
       <MemberSignature Language="F#" Value="val mutable LikeOperatorName : string" Usage="Microsoft.CodeAnalysis.WellKnownMemberNames.LikeOperatorName" />
       <MemberSignature Language="C++ CLI" Value="public: System::String ^ LikeOperatorName;" />
-      <MemberSignature Language="C++ WINRT" Value="std::wstring LikeOperatorName;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -863,11 +990,11 @@
       <MemberSignature Language="VB.NET" Value="Public Const LogicalAndOperatorName As String " />
       <MemberSignature Language="F#" Value="val mutable LogicalAndOperatorName : string" Usage="Microsoft.CodeAnalysis.WellKnownMemberNames.LogicalAndOperatorName" />
       <MemberSignature Language="C++ CLI" Value="public: System::String ^ LogicalAndOperatorName;" />
-      <MemberSignature Language="C++ WINRT" Value="std::wstring LogicalAndOperatorName;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -886,11 +1013,11 @@
       <MemberSignature Language="VB.NET" Value="Public Const LogicalNotOperatorName As String " />
       <MemberSignature Language="F#" Value="val mutable LogicalNotOperatorName : string" Usage="Microsoft.CodeAnalysis.WellKnownMemberNames.LogicalNotOperatorName" />
       <MemberSignature Language="C++ CLI" Value="public: System::String ^ LogicalNotOperatorName;" />
-      <MemberSignature Language="C++ WINRT" Value="std::wstring LogicalNotOperatorName;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -909,11 +1036,11 @@
       <MemberSignature Language="VB.NET" Value="Public Const LogicalOrOperatorName As String " />
       <MemberSignature Language="F#" Value="val mutable LogicalOrOperatorName : string" Usage="Microsoft.CodeAnalysis.WellKnownMemberNames.LogicalOrOperatorName" />
       <MemberSignature Language="C++ CLI" Value="public: System::String ^ LogicalOrOperatorName;" />
-      <MemberSignature Language="C++ WINRT" Value="std::wstring LogicalOrOperatorName;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -932,11 +1059,11 @@
       <MemberSignature Language="VB.NET" Value="Public Const ModulusOperatorName As String " />
       <MemberSignature Language="F#" Value="val mutable ModulusOperatorName : string" Usage="Microsoft.CodeAnalysis.WellKnownMemberNames.ModulusOperatorName" />
       <MemberSignature Language="C++ CLI" Value="public: System::String ^ ModulusOperatorName;" />
-      <MemberSignature Language="C++ WINRT" Value="std::wstring ModulusOperatorName;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -948,6 +1075,27 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="MoveNextAsyncMethodName">
+      <MemberSignature Language="C#" Value="public const string MoveNextAsyncMethodName;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string MoveNextAsyncMethodName" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.CodeAnalysis.WellKnownMemberNames.MoveNextAsyncMethodName" />
+      <MemberSignature Language="VB.NET" Value="Public Const MoveNextAsyncMethodName As String " />
+      <MemberSignature Language="F#" Value="val mutable MoveNextAsyncMethodName : string" Usage="Microsoft.CodeAnalysis.WellKnownMemberNames.MoveNextAsyncMethodName" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The required name for the <c>MoveNextAsync</c> method used in a ForEach-await statement.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="MoveNextMethodName">
       <MemberSignature Language="C#" Value="public const string MoveNextMethodName;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string MoveNextMethodName" />
@@ -955,11 +1103,11 @@
       <MemberSignature Language="VB.NET" Value="Public Const MoveNextMethodName As String " />
       <MemberSignature Language="F#" Value="val mutable MoveNextMethodName : string" Usage="Microsoft.CodeAnalysis.WellKnownMemberNames.MoveNextMethodName" />
       <MemberSignature Language="C++ CLI" Value="public: System::String ^ MoveNextMethodName;" />
-      <MemberSignature Language="C++ WINRT" Value="std::wstring MoveNextMethodName;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -978,11 +1126,11 @@
       <MemberSignature Language="VB.NET" Value="Public Const MultiplyOperatorName As String " />
       <MemberSignature Language="F#" Value="val mutable MultiplyOperatorName : string" Usage="Microsoft.CodeAnalysis.WellKnownMemberNames.MultiplyOperatorName" />
       <MemberSignature Language="C++ CLI" Value="public: System::String ^ MultiplyOperatorName;" />
-      <MemberSignature Language="C++ WINRT" Value="std::wstring MultiplyOperatorName;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -1001,11 +1149,11 @@
       <MemberSignature Language="VB.NET" Value="Public Const ObjectEquals As String " />
       <MemberSignature Language="F#" Value="val mutable ObjectEquals : string" Usage="Microsoft.CodeAnalysis.WellKnownMemberNames.ObjectEquals" />
       <MemberSignature Language="C++ CLI" Value="public: System::String ^ ObjectEquals;" />
-      <MemberSignature Language="C++ WINRT" Value="std::wstring ObjectEquals;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -1024,11 +1172,11 @@
       <MemberSignature Language="VB.NET" Value="Public Const ObjectGetHashCode As String " />
       <MemberSignature Language="F#" Value="val mutable ObjectGetHashCode : string" Usage="Microsoft.CodeAnalysis.WellKnownMemberNames.ObjectGetHashCode" />
       <MemberSignature Language="C++ CLI" Value="public: System::String ^ ObjectGetHashCode;" />
-      <MemberSignature Language="C++ WINRT" Value="std::wstring ObjectGetHashCode;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -1047,11 +1195,11 @@
       <MemberSignature Language="VB.NET" Value="Public Const ObjectToString As String " />
       <MemberSignature Language="F#" Value="val mutable ObjectToString : string" Usage="Microsoft.CodeAnalysis.WellKnownMemberNames.ObjectToString" />
       <MemberSignature Language="C++ CLI" Value="public: System::String ^ ObjectToString;" />
-      <MemberSignature Language="C++ WINRT" Value="std::wstring ObjectToString;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -1070,11 +1218,11 @@
       <MemberSignature Language="VB.NET" Value="Public Const OnCompleted As String " />
       <MemberSignature Language="F#" Value="val mutable OnCompleted : string" Usage="Microsoft.CodeAnalysis.WellKnownMemberNames.OnCompleted" />
       <MemberSignature Language="C++ CLI" Value="public: System::String ^ OnCompleted;" />
-      <MemberSignature Language="C++ WINRT" Value="std::wstring OnCompleted;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -1094,11 +1242,11 @@
       <MemberSignature Language="VB.NET" Value="Public Const OnesComplementOperatorName As String " />
       <MemberSignature Language="F#" Value="val mutable OnesComplementOperatorName : string" Usage="Microsoft.CodeAnalysis.WellKnownMemberNames.OnesComplementOperatorName" />
       <MemberSignature Language="C++ CLI" Value="public: System::String ^ OnesComplementOperatorName;" />
-      <MemberSignature Language="C++ WINRT" Value="std::wstring OnesComplementOperatorName;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -1117,11 +1265,11 @@
       <MemberSignature Language="VB.NET" Value="Public Const RightShiftOperatorName As String " />
       <MemberSignature Language="F#" Value="val mutable RightShiftOperatorName : string" Usage="Microsoft.CodeAnalysis.WellKnownMemberNames.RightShiftOperatorName" />
       <MemberSignature Language="C++ CLI" Value="public: System::String ^ RightShiftOperatorName;" />
-      <MemberSignature Language="C++ WINRT" Value="std::wstring RightShiftOperatorName;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -1133,6 +1281,27 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="SliceMethodName">
+      <MemberSignature Language="C#" Value="public const string SliceMethodName;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string SliceMethodName" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.CodeAnalysis.WellKnownMemberNames.SliceMethodName" />
+      <MemberSignature Language="VB.NET" Value="Public Const SliceMethodName As String " />
+      <MemberSignature Language="F#" Value="val mutable SliceMethodName : string" Usage="Microsoft.CodeAnalysis.WellKnownMemberNames.SliceMethodName" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The required name for the <c>Slice</c> method used in a pattern-based Range indexer.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="StaticConstructorName">
       <MemberSignature Language="C#" Value="public const string StaticConstructorName;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string StaticConstructorName" />
@@ -1140,11 +1309,11 @@
       <MemberSignature Language="VB.NET" Value="Public Const StaticConstructorName As String " />
       <MemberSignature Language="F#" Value="val mutable StaticConstructorName : string" Usage="Microsoft.CodeAnalysis.WellKnownMemberNames.StaticConstructorName" />
       <MemberSignature Language="C++ CLI" Value="public: System::String ^ StaticConstructorName;" />
-      <MemberSignature Language="C++ WINRT" Value="std::wstring StaticConstructorName;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -1163,11 +1332,11 @@
       <MemberSignature Language="VB.NET" Value="Public Const SubtractionOperatorName As String " />
       <MemberSignature Language="F#" Value="val mutable SubtractionOperatorName : string" Usage="Microsoft.CodeAnalysis.WellKnownMemberNames.SubtractionOperatorName" />
       <MemberSignature Language="C++ CLI" Value="public: System::String ^ SubtractionOperatorName;" />
-      <MemberSignature Language="C++ WINRT" Value="std::wstring SubtractionOperatorName;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -1186,11 +1355,11 @@
       <MemberSignature Language="VB.NET" Value="Public Const TrueOperatorName As String " />
       <MemberSignature Language="F#" Value="val mutable TrueOperatorName : string" Usage="Microsoft.CodeAnalysis.WellKnownMemberNames.TrueOperatorName" />
       <MemberSignature Language="C++ CLI" Value="public: System::String ^ TrueOperatorName;" />
-      <MemberSignature Language="C++ WINRT" Value="std::wstring TrueOperatorName;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -1209,11 +1378,11 @@
       <MemberSignature Language="VB.NET" Value="Public Const UnaryNegationOperatorName As String " />
       <MemberSignature Language="F#" Value="val mutable UnaryNegationOperatorName : string" Usage="Microsoft.CodeAnalysis.WellKnownMemberNames.UnaryNegationOperatorName" />
       <MemberSignature Language="C++ CLI" Value="public: System::String ^ UnaryNegationOperatorName;" />
-      <MemberSignature Language="C++ WINRT" Value="std::wstring UnaryNegationOperatorName;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -1232,11 +1401,11 @@
       <MemberSignature Language="VB.NET" Value="Public Const UnaryPlusOperatorName As String " />
       <MemberSignature Language="F#" Value="val mutable UnaryPlusOperatorName : string" Usage="Microsoft.CodeAnalysis.WellKnownMemberNames.UnaryPlusOperatorName" />
       <MemberSignature Language="C++ CLI" Value="public: System::String ^ UnaryPlusOperatorName;" />
-      <MemberSignature Language="C++ WINRT" Value="std::wstring UnaryPlusOperatorName;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -1255,11 +1424,11 @@
       <MemberSignature Language="VB.NET" Value="Public Const UnsignedLeftShiftOperatorName As String " />
       <MemberSignature Language="F#" Value="val mutable UnsignedLeftShiftOperatorName : string" Usage="Microsoft.CodeAnalysis.WellKnownMemberNames.UnsignedLeftShiftOperatorName" />
       <MemberSignature Language="C++ CLI" Value="public: System::String ^ UnsignedLeftShiftOperatorName;" />
-      <MemberSignature Language="C++ WINRT" Value="std::wstring UnsignedLeftShiftOperatorName;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -1278,11 +1447,11 @@
       <MemberSignature Language="VB.NET" Value="Public Const UnsignedRightShiftOperatorName As String " />
       <MemberSignature Language="F#" Value="val mutable UnsignedRightShiftOperatorName : string" Usage="Microsoft.CodeAnalysis.WellKnownMemberNames.UnsignedRightShiftOperatorName" />
       <MemberSignature Language="C++ CLI" Value="public: System::String ^ UnsignedRightShiftOperatorName;" />
-      <MemberSignature Language="C++ WINRT" Value="std::wstring UnsignedRightShiftOperatorName;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -1301,11 +1470,11 @@
       <MemberSignature Language="VB.NET" Value="Public Const ValuePropertyName As String " />
       <MemberSignature Language="F#" Value="val mutable ValuePropertyName : string" Usage="Microsoft.CodeAnalysis.WellKnownMemberNames.ValuePropertyName" />
       <MemberSignature Language="C++ CLI" Value="public: System::String ^ ValuePropertyName;" />
-      <MemberSignature Language="C++ WINRT" Value="std::wstring ValuePropertyName;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>

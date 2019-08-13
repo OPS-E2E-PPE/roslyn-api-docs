@@ -5,11 +5,10 @@
   <TypeSignature Language="VB.NET" Value="Public Interface IVariableDeclarationOperation&#xA;Implements IOperation" />
   <TypeSignature Language="F#" Value="type IVariableDeclarationOperation = interface&#xA;    interface IOperation" />
   <TypeSignature Language="C++ CLI" Value="public interface class IVariableDeclarationOperation : Microsoft::CodeAnalysis::IOperation" />
-  <TypeSignature Language="C++ CX" Value="public interface class IVariableDeclarationOperation : Microsoft::CodeAnalysis::IOperation" />
-  <TypeSignature Language="C++ WINRT" Value="__interface IVariableDeclarationOperation : Microsoft::CodeAnalysis::IOperation" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-    <AssemblyVersion>2.6.0.0</AssemblyVersion>
+    <AssemblyVersion>2.9.0.0</AssemblyVersion>
+    <AssemblyVersion>3.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Interfaces>
     <Interface>
@@ -49,7 +48,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Immutable.ImmutableArray&lt;Microsoft.CodeAnalysis.Operations.IVariableDeclaratorOperation&gt;</ReturnType>
@@ -60,9 +60,32 @@
             </summary>
         <value>To be added.</value>
         <remarks>
-            All <see cref="T:Microsoft.CodeAnalysis.Operations.IVariableDeclarationGroupOperation" /> will have at least 1 <code>IVariableDeclarationOpertion</code>,
+            All <see cref="T:Microsoft.CodeAnalysis.Operations.IVariableDeclarationGroupOperation" /> will have at least 1 <see cref="T:Microsoft.CodeAnalysis.Operations.IVariableDeclarationOperation" />,
             even if the declaration group only declares 1 variable.
             </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IgnoredDimensions">
+      <MemberSignature Language="C#" Value="public System.Collections.Immutable.ImmutableArray&lt;Microsoft.CodeAnalysis.IOperation&gt; IgnoredDimensions { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Collections.Immutable.ImmutableArray`1&lt;class Microsoft.CodeAnalysis.IOperation&gt; IgnoredDimensions" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.CodeAnalysis.Operations.IVariableDeclarationOperation.IgnoredDimensions" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IgnoredDimensions As ImmutableArray(Of IOperation)" />
+      <MemberSignature Language="F#" Value="member this.IgnoredDimensions : System.Collections.Immutable.ImmutableArray&lt;Microsoft.CodeAnalysis.IOperation&gt;" Usage="Microsoft.CodeAnalysis.Operations.IVariableDeclarationOperation.IgnoredDimensions" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Immutable.ImmutableArray&lt;Microsoft.CodeAnalysis.IOperation&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Array dimensions supplied to an array declaration in error cases, ignored by the compiler. This is only used for the C# case of
+            RankSpecifierSyntax nodes on an ArrayTypeSyntax.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="Initializer">
@@ -72,11 +95,11 @@
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Initializer As IVariableInitializerOperation" />
       <MemberSignature Language="F#" Value="member this.Initializer : Microsoft.CodeAnalysis.Operations.IVariableInitializerOperation" Usage="Microsoft.CodeAnalysis.Operations.IVariableDeclarationOperation.Initializer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::CodeAnalysis::Operations::IVariableInitializerOperation ^ Initializer { Microsoft::CodeAnalysis::Operations::IVariableInitializerOperation ^ get(); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; property Microsoft::CodeAnalysis::Operations::IVariableInitializerOperation ^ Initializer { Microsoft::CodeAnalysis::Operations::IVariableInitializerOperation ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.Operations.IVariableInitializerOperation</ReturnType>

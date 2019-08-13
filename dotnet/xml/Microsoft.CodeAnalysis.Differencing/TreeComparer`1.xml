@@ -5,10 +5,10 @@
   <TypeSignature Language="VB.NET" Value="Public MustInherit Class TreeComparer(Of TNode)" />
   <TypeSignature Language="F#" Value="type TreeComparer&lt;'Node&gt; = class" />
   <TypeSignature Language="C++ CLI" Value="generic &lt;typename TNode&gt;&#xA;public ref class TreeComparer abstract" />
-  <TypeSignature Language="C++ WINRT" Value="template &lt;typename TNode&gt;&#xA;[Windows::Foundation::Metadata::WebHostHidden]&#xA;class TreeComparer abstract" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.CodeAnalysis.Workspaces</AssemblyName>
-    <AssemblyVersion>2.6.0.0</AssemblyVersion>
+    <AssemblyVersion>2.9.0.0</AssemblyVersion>
+    <AssemblyVersion>3.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <TypeParameters>
     <TypeParameter Name="TNode" />
@@ -33,12 +33,11 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.CodeAnalysis.Differencing.TreeComparer`1.#ctor" />
       <MemberSignature Language="VB.NET" Value="Protected Sub New ()" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; TreeComparer();" />
-      <MemberSignature Language="C++ CX" Value="protected:&#xA; TreeComparer();" />
-      <MemberSignature Language="C++ WINRT" Value=" TreeComparer();" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.Workspaces</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -53,11 +52,11 @@
       <MemberSignature Language="VB.NET" Value="Public Function ComputeEditScript (oldRoot As TNode, newRoot As TNode) As EditScript(Of TNode)" />
       <MemberSignature Language="F#" Value="member this.ComputeEditScript : 'Node * 'Node -&gt; Microsoft.CodeAnalysis.Differencing.EditScript&lt;'Node&gt;" Usage="treeComparer.ComputeEditScript (oldRoot, newRoot)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::CodeAnalysis::Differencing::EditScript&lt;TNode&gt; ^ ComputeEditScript(TNode oldRoot, TNode newRoot);" />
-      <MemberSignature Language="C++ WINRT" Value="Microsoft::CodeAnalysis::Differencing::EditScript&lt;TNode&gt; ComputeEditScript(TNode oldRoot, TNode newRoot);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.Workspaces</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.Differencing.EditScript&lt;TNode&gt;</ReturnType>
@@ -85,7 +84,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.Workspaces</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.Differencing.Match&lt;TNode&gt;</ReturnType>
@@ -116,7 +116,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.Workspaces</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IEnumerable&lt;TNode&gt;</ReturnType>
@@ -143,7 +144,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.Workspaces</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IEnumerable&lt;TNode&gt;</ReturnType>
@@ -167,12 +169,11 @@
       <MemberSignature Language="VB.NET" Value="Public MustOverride Function GetDistance (oldNode As TNode, newNode As TNode) As Double" />
       <MemberSignature Language="F#" Value="abstract member GetDistance : 'Node * 'Node -&gt; double" Usage="treeComparer.GetDistance (oldNode, newNode)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; abstract double GetDistance(TNode oldNode, TNode newNode);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; abstract double GetDistance(TNode oldNode, TNode newNode);" />
-      <MemberSignature Language="C++ WINRT" Value=" abstract double GetDistance(TNode oldNode, TNode newNode);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.Workspaces</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Double</ReturnType>
@@ -203,12 +204,11 @@
       <MemberSignature Language="VB.NET" Value="Protected Friend MustOverride Function GetLabel (node As TNode) As Integer" />
       <MemberSignature Language="F#" Value="abstract member GetLabel : 'Node -&gt; int" Usage="treeComparer.GetLabel node" />
       <MemberSignature Language="C++ CLI" Value="protected public:&#xA; abstract int GetLabel(TNode node);" />
-      <MemberSignature Language="C++ CX" Value="protected public:&#xA; abstract int GetLabel(TNode node);" />
-      <MemberSignature Language="C++ WINRT" Value=" abstract int GetLabel(TNode node);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.Workspaces</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -235,7 +235,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.Workspaces</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.Text.TextSpan</ReturnType>
@@ -259,11 +260,11 @@
       <MemberSignature Language="VB.NET" Value="Protected Friend MustOverride ReadOnly Property LabelCount As Integer" />
       <MemberSignature Language="F#" Value="member this.LabelCount : int" Usage="Microsoft.CodeAnalysis.Differencing.TreeComparer&lt;'Node&gt;.LabelCount" />
       <MemberSignature Language="C++ CLI" Value="protected public:&#xA; abstract property int LabelCount { int get(); };" />
-      <MemberSignature Language="C++ CX" Value="protected public:&#xA; abstract property int LabelCount { int get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.Workspaces</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -283,12 +284,11 @@
       <MemberSignature Language="VB.NET" Value="Protected Friend MustOverride Function TiedToAncestor (label As Integer) As Integer" />
       <MemberSignature Language="F#" Value="abstract member TiedToAncestor : int -&gt; int" Usage="treeComparer.TiedToAncestor label" />
       <MemberSignature Language="C++ CLI" Value="protected public:&#xA; abstract int TiedToAncestor(int label);" />
-      <MemberSignature Language="C++ CX" Value="protected public:&#xA; abstract int TiedToAncestor(int label);" />
-      <MemberSignature Language="C++ WINRT" Value=" abstract int TiedToAncestor(int label);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.Workspaces</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -316,12 +316,11 @@
       <MemberSignature Language="VB.NET" Value="Protected Friend MustOverride Function TreesEqual (oldNode As TNode, newNode As TNode) As Boolean" />
       <MemberSignature Language="F#" Value="abstract member TreesEqual : 'Node * 'Node -&gt; bool" Usage="treeComparer.TreesEqual (oldNode, newNode)" />
       <MemberSignature Language="C++ CLI" Value="protected public:&#xA; abstract bool TreesEqual(TNode oldNode, TNode newNode);" />
-      <MemberSignature Language="C++ CX" Value="protected public:&#xA; abstract bool TreesEqual(TNode oldNode, TNode newNode);" />
-      <MemberSignature Language="C++ WINRT" Value=" abstract bool TreesEqual(TNode oldNode, TNode newNode);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.Workspaces</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -347,19 +346,18 @@
       <MemberSignature Language="VB.NET" Value="Protected Friend MustOverride Function TryGetParent (node As TNode, ByRef parent As TNode) As Boolean" />
       <MemberSignature Language="F#" Value="abstract member TryGetParent : 'Node *  -&gt; bool" Usage="treeComparer.TryGetParent (node, parent)" />
       <MemberSignature Language="C++ CLI" Value="protected public:&#xA; abstract bool TryGetParent(TNode node, [Runtime::InteropServices::Out] TNode % parent);" />
-      <MemberSignature Language="C++ CX" Value="protected public:&#xA; abstract bool TryGetParent(TNode node, [Runtime::InteropServices::Out] TNode &amp;  parent);" />
-      <MemberSignature Language="C++ WINRT" Value=" abstract bool TryGetParent(TNode node, [Runtime::InteropServices::Out] TNode &amp; parent);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.Workspaces</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="node" Type="TNode" />
-        <Parameter Name="parent" Type="TNode&amp;" RefType="out" />
+        <Parameter Name="parent" Type="TNode" RefType="out" />
       </Parameters>
       <Docs>
         <param name="node">To be added.</param>
@@ -378,12 +376,11 @@
       <MemberSignature Language="VB.NET" Value="Public MustOverride Function ValuesEqual (oldNode As TNode, newNode As TNode) As Boolean" />
       <MemberSignature Language="F#" Value="abstract member ValuesEqual : 'Node * 'Node -&gt; bool" Usage="treeComparer.ValuesEqual (oldNode, newNode)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; abstract bool ValuesEqual(TNode oldNode, TNode newNode);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; abstract bool ValuesEqual(TNode oldNode, TNode newNode);" />
-      <MemberSignature Language="C++ WINRT" Value=" abstract bool ValuesEqual(TNode oldNode, TNode newNode);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.Workspaces</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>

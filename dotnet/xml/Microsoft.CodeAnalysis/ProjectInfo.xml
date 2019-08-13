@@ -5,11 +5,10 @@
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class ProjectInfo" />
   <TypeSignature Language="F#" Value="type ProjectInfo = class" />
   <TypeSignature Language="C++ CLI" Value="public ref class ProjectInfo sealed" />
-  <TypeSignature Language="C++ CX" Value="public ref class ProjectInfo sealed" />
-  <TypeSignature Language="C++ WINRT" Value="class ProjectInfo sealed" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.CodeAnalysis.Workspaces</AssemblyName>
-    <AssemblyVersion>2.6.0.0</AssemblyVersion>
+    <AssemblyVersion>2.9.0.0</AssemblyVersion>
+    <AssemblyVersion>3.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -37,7 +36,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.Workspaces</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IReadOnlyList&lt;Microsoft.CodeAnalysis.DocumentInfo&gt;</ReturnType>
@@ -60,7 +60,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.Workspaces</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IReadOnlyList&lt;Microsoft.CodeAnalysis.Diagnostics.AnalyzerReference&gt;</ReturnType>
@@ -80,11 +81,11 @@
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AssemblyName As String" />
       <MemberSignature Language="F#" Value="member this.AssemblyName : string" Usage="Microsoft.CodeAnalysis.ProjectInfo.AssemblyName" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ AssemblyName { System::String ^ get(); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; property Platform::String ^ AssemblyName { Platform::String ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.Workspaces</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -104,11 +105,11 @@
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CompilationOptions As CompilationOptions" />
       <MemberSignature Language="F#" Value="member this.CompilationOptions : Microsoft.CodeAnalysis.CompilationOptions" Usage="Microsoft.CodeAnalysis.ProjectInfo.CompilationOptions" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::CodeAnalysis::CompilationOptions ^ CompilationOptions { Microsoft::CodeAnalysis::CompilationOptions ^ get(); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; property Microsoft::CodeAnalysis::CompilationOptions ^ CompilationOptions { Microsoft::CodeAnalysis::CompilationOptions ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.Workspaces</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.CompilationOptions</ReturnType>
@@ -122,14 +123,16 @@
       </Docs>
     </Member>
     <Member MemberName="Create">
-      <MemberSignature Language="C#" Value="public static Microsoft.CodeAnalysis.ProjectInfo Create (Microsoft.CodeAnalysis.ProjectId id, Microsoft.CodeAnalysis.VersionStamp version, string name, string assemblyName, string language, string filePath = null, string outputFilePath = null, Microsoft.CodeAnalysis.CompilationOptions compilationOptions = null, Microsoft.CodeAnalysis.ParseOptions parseOptions = null, System.Collections.Generic.IEnumerable&lt;Microsoft.CodeAnalysis.DocumentInfo&gt; documents = null, System.Collections.Generic.IEnumerable&lt;Microsoft.CodeAnalysis.ProjectReference&gt; projectReferences = null, System.Collections.Generic.IEnumerable&lt;Microsoft.CodeAnalysis.MetadataReference&gt; metadataReferences = null, System.Collections.Generic.IEnumerable&lt;Microsoft.CodeAnalysis.Diagnostics.AnalyzerReference&gt; analyzerReferences = null, System.Collections.Generic.IEnumerable&lt;Microsoft.CodeAnalysis.DocumentInfo&gt; additionalDocuments = null, bool isSubmission = false, Type hostObjectType = null);" />
+      <MemberSignature Language="C#" Value="public static Microsoft.CodeAnalysis.ProjectInfo Create (Microsoft.CodeAnalysis.ProjectId id, Microsoft.CodeAnalysis.VersionStamp version, string name, string assemblyName, string language, string filePath, string outputFilePath, Microsoft.CodeAnalysis.CompilationOptions compilationOptions, Microsoft.CodeAnalysis.ParseOptions parseOptions, System.Collections.Generic.IEnumerable&lt;Microsoft.CodeAnalysis.DocumentInfo&gt; documents, System.Collections.Generic.IEnumerable&lt;Microsoft.CodeAnalysis.ProjectReference&gt; projectReferences, System.Collections.Generic.IEnumerable&lt;Microsoft.CodeAnalysis.MetadataReference&gt; metadataReferences, System.Collections.Generic.IEnumerable&lt;Microsoft.CodeAnalysis.Diagnostics.AnalyzerReference&gt; analyzerReferences, System.Collections.Generic.IEnumerable&lt;Microsoft.CodeAnalysis.DocumentInfo&gt; additionalDocuments, bool isSubmission, Type hostObjectType);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.CodeAnalysis.ProjectInfo Create(class Microsoft.CodeAnalysis.ProjectId id, valuetype Microsoft.CodeAnalysis.VersionStamp version, string name, string assemblyName, string language, string filePath, string outputFilePath, class Microsoft.CodeAnalysis.CompilationOptions compilationOptions, class Microsoft.CodeAnalysis.ParseOptions parseOptions, class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.CodeAnalysis.DocumentInfo&gt; documents, class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.CodeAnalysis.ProjectReference&gt; projectReferences, class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.CodeAnalysis.MetadataReference&gt; metadataReferences, class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.CodeAnalysis.Diagnostics.AnalyzerReference&gt; analyzerReferences, class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.CodeAnalysis.DocumentInfo&gt; additionalDocuments, bool isSubmission, class System.Type hostObjectType) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.CodeAnalysis.ProjectInfo.Create(Microsoft.CodeAnalysis.ProjectId,Microsoft.CodeAnalysis.VersionStamp,System.String,System.String,System.String,System.String,System.String,Microsoft.CodeAnalysis.CompilationOptions,Microsoft.CodeAnalysis.ParseOptions,System.Collections.Generic.IEnumerable{Microsoft.CodeAnalysis.DocumentInfo},System.Collections.Generic.IEnumerable{Microsoft.CodeAnalysis.ProjectReference},System.Collections.Generic.IEnumerable{Microsoft.CodeAnalysis.MetadataReference},System.Collections.Generic.IEnumerable{Microsoft.CodeAnalysis.Diagnostics.AnalyzerReference},System.Collections.Generic.IEnumerable{Microsoft.CodeAnalysis.DocumentInfo},System.Boolean,System.Type)" />
       <MemberSignature Language="F#" Value="static member Create : Microsoft.CodeAnalysis.ProjectId * Microsoft.CodeAnalysis.VersionStamp * string * string * string * string * string * Microsoft.CodeAnalysis.CompilationOptions * Microsoft.CodeAnalysis.ParseOptions * seq&lt;Microsoft.CodeAnalysis.DocumentInfo&gt; * seq&lt;Microsoft.CodeAnalysis.ProjectReference&gt; * seq&lt;Microsoft.CodeAnalysis.MetadataReference&gt; * seq&lt;Microsoft.CodeAnalysis.Diagnostics.AnalyzerReference&gt; * seq&lt;Microsoft.CodeAnalysis.DocumentInfo&gt; * bool * Type -&gt; Microsoft.CodeAnalysis.ProjectInfo" Usage="Microsoft.CodeAnalysis.ProjectInfo.Create (id, version, name, assemblyName, language, filePath, outputFilePath, compilationOptions, parseOptions, documents, projectReferences, metadataReferences, analyzerReferences, additionalDocuments, isSubmission, hostObjectType)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::CodeAnalysis::ProjectInfo ^ Create(Microsoft::CodeAnalysis::ProjectId ^ id, Microsoft::CodeAnalysis::VersionStamp version, System::String ^ name, System::String ^ assemblyName, System::String ^ language, System::String ^ filePath, System::String ^ outputFilePath, Microsoft::CodeAnalysis::CompilationOptions ^ compilationOptions, Microsoft::CodeAnalysis::ParseOptions ^ parseOptions, System::Collections::Generic::IEnumerable&lt;Microsoft::CodeAnalysis::DocumentInfo ^&gt; ^ documents, System::Collections::Generic::IEnumerable&lt;Microsoft::CodeAnalysis::ProjectReference ^&gt; ^ projectReferences, System::Collections::Generic::IEnumerable&lt;Microsoft::CodeAnalysis::MetadataReference ^&gt; ^ metadataReferences, System::Collections::Generic::IEnumerable&lt;Microsoft::CodeAnalysis::Diagnostics::AnalyzerReference ^&gt; ^ analyzerReferences, System::Collections::Generic::IEnumerable&lt;Microsoft::CodeAnalysis::DocumentInfo ^&gt; ^ additionalDocuments, bool isSubmission, Type ^ hostObjectType);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.Workspaces</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.ProjectInfo</ReturnType>
@@ -176,6 +179,64 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="Create">
+      <MemberSignature Language="C#" Value="public static Microsoft.CodeAnalysis.ProjectInfo Create (Microsoft.CodeAnalysis.ProjectId id, Microsoft.CodeAnalysis.VersionStamp version, string name, string assemblyName, string language, string filePath = null, string outputFilePath = null, Microsoft.CodeAnalysis.CompilationOptions compilationOptions = null, Microsoft.CodeAnalysis.ParseOptions parseOptions = null, System.Collections.Generic.IEnumerable&lt;Microsoft.CodeAnalysis.DocumentInfo&gt; documents = null, System.Collections.Generic.IEnumerable&lt;Microsoft.CodeAnalysis.ProjectReference&gt; projectReferences = null, System.Collections.Generic.IEnumerable&lt;Microsoft.CodeAnalysis.MetadataReference&gt; metadataReferences = null, System.Collections.Generic.IEnumerable&lt;Microsoft.CodeAnalysis.Diagnostics.AnalyzerReference&gt; analyzerReferences = null, System.Collections.Generic.IEnumerable&lt;Microsoft.CodeAnalysis.DocumentInfo&gt; additionalDocuments = null, bool isSubmission = false, Type hostObjectType = null, string outputRefFilePath = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.CodeAnalysis.ProjectInfo Create(class Microsoft.CodeAnalysis.ProjectId id, valuetype Microsoft.CodeAnalysis.VersionStamp version, string name, string assemblyName, string language, string filePath, string outputFilePath, class Microsoft.CodeAnalysis.CompilationOptions compilationOptions, class Microsoft.CodeAnalysis.ParseOptions parseOptions, class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.CodeAnalysis.DocumentInfo&gt; documents, class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.CodeAnalysis.ProjectReference&gt; projectReferences, class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.CodeAnalysis.MetadataReference&gt; metadataReferences, class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.CodeAnalysis.Diagnostics.AnalyzerReference&gt; analyzerReferences, class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.CodeAnalysis.DocumentInfo&gt; additionalDocuments, bool isSubmission, class System.Type hostObjectType, string outputRefFilePath) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.CodeAnalysis.ProjectInfo.Create(Microsoft.CodeAnalysis.ProjectId,Microsoft.CodeAnalysis.VersionStamp,System.String,System.String,System.String,System.String,System.String,Microsoft.CodeAnalysis.CompilationOptions,Microsoft.CodeAnalysis.ParseOptions,System.Collections.Generic.IEnumerable{Microsoft.CodeAnalysis.DocumentInfo},System.Collections.Generic.IEnumerable{Microsoft.CodeAnalysis.ProjectReference},System.Collections.Generic.IEnumerable{Microsoft.CodeAnalysis.MetadataReference},System.Collections.Generic.IEnumerable{Microsoft.CodeAnalysis.Diagnostics.AnalyzerReference},System.Collections.Generic.IEnumerable{Microsoft.CodeAnalysis.DocumentInfo},System.Boolean,System.Type,System.String)" />
+      <MemberSignature Language="F#" Value="static member Create : Microsoft.CodeAnalysis.ProjectId * Microsoft.CodeAnalysis.VersionStamp * string * string * string * string * string * Microsoft.CodeAnalysis.CompilationOptions * Microsoft.CodeAnalysis.ParseOptions * seq&lt;Microsoft.CodeAnalysis.DocumentInfo&gt; * seq&lt;Microsoft.CodeAnalysis.ProjectReference&gt; * seq&lt;Microsoft.CodeAnalysis.MetadataReference&gt; * seq&lt;Microsoft.CodeAnalysis.Diagnostics.AnalyzerReference&gt; * seq&lt;Microsoft.CodeAnalysis.DocumentInfo&gt; * bool * Type * string -&gt; Microsoft.CodeAnalysis.ProjectInfo" Usage="Microsoft.CodeAnalysis.ProjectInfo.Create (id, version, name, assemblyName, language, filePath, outputFilePath, compilationOptions, parseOptions, documents, projectReferences, metadataReferences, analyzerReferences, additionalDocuments, isSubmission, hostObjectType, outputRefFilePath)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.CodeAnalysis.Workspaces</AssemblyName>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.CodeAnalysis.ProjectInfo</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="id" Type="Microsoft.CodeAnalysis.ProjectId" />
+        <Parameter Name="version" Type="Microsoft.CodeAnalysis.VersionStamp" />
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="assemblyName" Type="System.String" />
+        <Parameter Name="language" Type="System.String" />
+        <Parameter Name="filePath" Type="System.String" />
+        <Parameter Name="outputFilePath" Type="System.String" />
+        <Parameter Name="compilationOptions" Type="Microsoft.CodeAnalysis.CompilationOptions" />
+        <Parameter Name="parseOptions" Type="Microsoft.CodeAnalysis.ParseOptions" />
+        <Parameter Name="documents" Type="System.Collections.Generic.IEnumerable&lt;Microsoft.CodeAnalysis.DocumentInfo&gt;" />
+        <Parameter Name="projectReferences" Type="System.Collections.Generic.IEnumerable&lt;Microsoft.CodeAnalysis.ProjectReference&gt;" />
+        <Parameter Name="metadataReferences" Type="System.Collections.Generic.IEnumerable&lt;Microsoft.CodeAnalysis.MetadataReference&gt;" />
+        <Parameter Name="analyzerReferences" Type="System.Collections.Generic.IEnumerable&lt;Microsoft.CodeAnalysis.Diagnostics.AnalyzerReference&gt;" />
+        <Parameter Name="additionalDocuments" Type="System.Collections.Generic.IEnumerable&lt;Microsoft.CodeAnalysis.DocumentInfo&gt;" />
+        <Parameter Name="isSubmission" Type="System.Boolean" />
+        <Parameter Name="hostObjectType" Type="System.Type" />
+        <Parameter Name="outputRefFilePath" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="id">To be added.</param>
+        <param name="version">To be added.</param>
+        <param name="name">To be added.</param>
+        <param name="assemblyName">To be added.</param>
+        <param name="language">To be added.</param>
+        <param name="filePath">To be added.</param>
+        <param name="outputFilePath">To be added.</param>
+        <param name="compilationOptions">To be added.</param>
+        <param name="parseOptions">To be added.</param>
+        <param name="documents">To be added.</param>
+        <param name="projectReferences">To be added.</param>
+        <param name="metadataReferences">To be added.</param>
+        <param name="analyzerReferences">To be added.</param>
+        <param name="additionalDocuments">To be added.</param>
+        <param name="isSubmission">To be added.</param>
+        <param name="hostObjectType">To be added.</param>
+        <param name="outputRefFilePath">To be added.</param>
+        <summary>
+            Create a new instance of a ProjectInfo.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="Documents">
       <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyList&lt;Microsoft.CodeAnalysis.DocumentInfo&gt; Documents { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyList`1&lt;class Microsoft.CodeAnalysis.DocumentInfo&gt; Documents" />
@@ -186,7 +247,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.Workspaces</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IReadOnlyList&lt;Microsoft.CodeAnalysis.DocumentInfo&gt;</ReturnType>
@@ -206,11 +268,11 @@
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FilePath As String" />
       <MemberSignature Language="F#" Value="member this.FilePath : string" Usage="Microsoft.CodeAnalysis.ProjectInfo.FilePath" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ FilePath { System::String ^ get(); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; property Platform::String ^ FilePath { Platform::String ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.Workspaces</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -230,11 +292,11 @@
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property HostObjectType As Type" />
       <MemberSignature Language="F#" Value="member this.HostObjectType : Type" Usage="Microsoft.CodeAnalysis.ProjectInfo.HostObjectType" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Type ^ HostObjectType { Type ^ get(); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; property Platform::Type ^ HostObjectType { Platform::Type ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.Workspaces</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Type</ReturnType>
@@ -257,7 +319,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.Workspaces</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.ProjectId</ReturnType>
@@ -277,11 +340,11 @@
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsSubmission As Boolean" />
       <MemberSignature Language="F#" Value="member this.IsSubmission : bool" Usage="Microsoft.CodeAnalysis.ProjectInfo.IsSubmission" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsSubmission { bool get(); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; property bool IsSubmission { bool get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.Workspaces</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -301,11 +364,11 @@
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Language As String" />
       <MemberSignature Language="F#" Value="member this.Language : string" Usage="Microsoft.CodeAnalysis.ProjectInfo.Language" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Language { System::String ^ get(); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; property Platform::String ^ Language { Platform::String ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.Workspaces</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -328,7 +391,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.Workspaces</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IReadOnlyList&lt;Microsoft.CodeAnalysis.MetadataReference&gt;</ReturnType>
@@ -348,11 +412,11 @@
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Name As String" />
       <MemberSignature Language="F#" Value="member this.Name : string" Usage="Microsoft.CodeAnalysis.ProjectInfo.Name" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Name { System::String ^ get(); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; property Platform::String ^ Name { Platform::String ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.Workspaces</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -372,11 +436,11 @@
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property OutputFilePath As String" />
       <MemberSignature Language="F#" Value="member this.OutputFilePath : string" Usage="Microsoft.CodeAnalysis.ProjectInfo.OutputFilePath" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ OutputFilePath { System::String ^ get(); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; property Platform::String ^ OutputFilePath { Platform::String ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.Workspaces</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -389,6 +453,30 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="OutputRefFilePath">
+      <MemberSignature Language="C#" Value="public string OutputRefFilePath { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string OutputRefFilePath" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.CodeAnalysis.ProjectInfo.OutputRefFilePath" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property OutputRefFilePath As String" />
+      <MemberSignature Language="F#" Value="member this.OutputRefFilePath : string" Usage="Microsoft.CodeAnalysis.ProjectInfo.OutputRefFilePath" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ OutputRefFilePath { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.CodeAnalysis.Workspaces</AssemblyName>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The path to the reference assembly output file.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="ParseOptions">
       <MemberSignature Language="C#" Value="public Microsoft.CodeAnalysis.ParseOptions ParseOptions { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.CodeAnalysis.ParseOptions ParseOptions" />
@@ -396,11 +484,11 @@
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ParseOptions As ParseOptions" />
       <MemberSignature Language="F#" Value="member this.ParseOptions : Microsoft.CodeAnalysis.ParseOptions" Usage="Microsoft.CodeAnalysis.ProjectInfo.ParseOptions" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::CodeAnalysis::ParseOptions ^ ParseOptions { Microsoft::CodeAnalysis::ParseOptions ^ get(); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; property Microsoft::CodeAnalysis::ParseOptions ^ ParseOptions { Microsoft::CodeAnalysis::ParseOptions ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.Workspaces</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.ParseOptions</ReturnType>
@@ -423,7 +511,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.Workspaces</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IReadOnlyList&lt;Microsoft.CodeAnalysis.ProjectReference&gt;</ReturnType>
@@ -446,7 +535,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.Workspaces</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.VersionStamp</ReturnType>
@@ -469,7 +559,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.Workspaces</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.ProjectInfo</ReturnType>
@@ -494,7 +585,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.Workspaces</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.ProjectInfo</ReturnType>
@@ -516,12 +608,11 @@
       <MemberSignature Language="VB.NET" Value="Public Function WithAssemblyName (assemblyName As String) As ProjectInfo" />
       <MemberSignature Language="F#" Value="member this.WithAssemblyName : string -&gt; Microsoft.CodeAnalysis.ProjectInfo" Usage="projectInfo.WithAssemblyName assemblyName" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::CodeAnalysis::ProjectInfo ^ WithAssemblyName(System::String ^ assemblyName);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; Microsoft::CodeAnalysis::ProjectInfo ^ WithAssemblyName(Platform::String ^ assemblyName);" />
-      <MemberSignature Language="C++ WINRT" Value="Microsoft::CodeAnalysis::ProjectInfo WithAssemblyName(std::wstring const &amp; assemblyName);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.Workspaces</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.ProjectInfo</ReturnType>
@@ -542,12 +633,11 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.CodeAnalysis.ProjectInfo.WithCompilationOptions(Microsoft.CodeAnalysis.CompilationOptions)" />
       <MemberSignature Language="F#" Value="member this.WithCompilationOptions : Microsoft.CodeAnalysis.CompilationOptions -&gt; Microsoft.CodeAnalysis.ProjectInfo" Usage="projectInfo.WithCompilationOptions compilationOptions" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::CodeAnalysis::ProjectInfo ^ WithCompilationOptions(Microsoft::CodeAnalysis::CompilationOptions ^ compilationOptions);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; Microsoft::CodeAnalysis::ProjectInfo ^ WithCompilationOptions(Microsoft::CodeAnalysis::CompilationOptions ^ compilationOptions);" />
-      <MemberSignature Language="C++ WINRT" Value="Microsoft::CodeAnalysis::ProjectInfo WithCompilationOptions(Microsoft::CodeAnalysis::CompilationOptions const &amp; compilationOptions);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.Workspaces</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.ProjectInfo</ReturnType>
@@ -572,7 +662,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.Workspaces</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.ProjectInfo</ReturnType>
@@ -594,12 +685,11 @@
       <MemberSignature Language="VB.NET" Value="Public Function WithFilePath (filePath As String) As ProjectInfo" />
       <MemberSignature Language="F#" Value="member this.WithFilePath : string -&gt; Microsoft.CodeAnalysis.ProjectInfo" Usage="projectInfo.WithFilePath filePath" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::CodeAnalysis::ProjectInfo ^ WithFilePath(System::String ^ filePath);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; Microsoft::CodeAnalysis::ProjectInfo ^ WithFilePath(Platform::String ^ filePath);" />
-      <MemberSignature Language="C++ WINRT" Value="Microsoft::CodeAnalysis::ProjectInfo WithFilePath(std::wstring const &amp; filePath);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.Workspaces</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.ProjectInfo</ReturnType>
@@ -624,7 +714,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.Workspaces</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.ProjectInfo</ReturnType>
@@ -646,12 +737,11 @@
       <MemberSignature Language="VB.NET" Value="Public Function WithName (name As String) As ProjectInfo" />
       <MemberSignature Language="F#" Value="member this.WithName : string -&gt; Microsoft.CodeAnalysis.ProjectInfo" Usage="projectInfo.WithName name" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::CodeAnalysis::ProjectInfo ^ WithName(System::String ^ name);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; Microsoft::CodeAnalysis::ProjectInfo ^ WithName(Platform::String ^ name);" />
-      <MemberSignature Language="C++ WINRT" Value="Microsoft::CodeAnalysis::ProjectInfo WithName(std::wstring const &amp; name);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.Workspaces</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.ProjectInfo</ReturnType>
@@ -673,12 +763,11 @@
       <MemberSignature Language="VB.NET" Value="Public Function WithOutputFilePath (outputFilePath As String) As ProjectInfo" />
       <MemberSignature Language="F#" Value="member this.WithOutputFilePath : string -&gt; Microsoft.CodeAnalysis.ProjectInfo" Usage="projectInfo.WithOutputFilePath outputFilePath" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::CodeAnalysis::ProjectInfo ^ WithOutputFilePath(System::String ^ outputFilePath);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; Microsoft::CodeAnalysis::ProjectInfo ^ WithOutputFilePath(Platform::String ^ outputFilePath);" />
-      <MemberSignature Language="C++ WINRT" Value="Microsoft::CodeAnalysis::ProjectInfo WithOutputFilePath(std::wstring const &amp; outputFilePath);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.Workspaces</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.ProjectInfo</ReturnType>
@@ -693,18 +782,43 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="WithOutputRefFilePath">
+      <MemberSignature Language="C#" Value="public Microsoft.CodeAnalysis.ProjectInfo WithOutputRefFilePath (string outputRefFilePath);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.CodeAnalysis.ProjectInfo WithOutputRefFilePath(string outputRefFilePath) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.CodeAnalysis.ProjectInfo.WithOutputRefFilePath(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function WithOutputRefFilePath (outputRefFilePath As String) As ProjectInfo" />
+      <MemberSignature Language="F#" Value="member this.WithOutputRefFilePath : string -&gt; Microsoft.CodeAnalysis.ProjectInfo" Usage="projectInfo.WithOutputRefFilePath outputRefFilePath" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::CodeAnalysis::ProjectInfo ^ WithOutputRefFilePath(System::String ^ outputRefFilePath);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.CodeAnalysis.Workspaces</AssemblyName>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.CodeAnalysis.ProjectInfo</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="outputRefFilePath" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="outputRefFilePath">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="WithParseOptions">
       <MemberSignature Language="C#" Value="public Microsoft.CodeAnalysis.ProjectInfo WithParseOptions (Microsoft.CodeAnalysis.ParseOptions parseOptions);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.CodeAnalysis.ProjectInfo WithParseOptions(class Microsoft.CodeAnalysis.ParseOptions parseOptions) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.CodeAnalysis.ProjectInfo.WithParseOptions(Microsoft.CodeAnalysis.ParseOptions)" />
       <MemberSignature Language="F#" Value="member this.WithParseOptions : Microsoft.CodeAnalysis.ParseOptions -&gt; Microsoft.CodeAnalysis.ProjectInfo" Usage="projectInfo.WithParseOptions parseOptions" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::CodeAnalysis::ProjectInfo ^ WithParseOptions(Microsoft::CodeAnalysis::ParseOptions ^ parseOptions);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; Microsoft::CodeAnalysis::ProjectInfo ^ WithParseOptions(Microsoft::CodeAnalysis::ParseOptions ^ parseOptions);" />
-      <MemberSignature Language="C++ WINRT" Value="Microsoft::CodeAnalysis::ProjectInfo WithParseOptions(Microsoft::CodeAnalysis::ParseOptions const &amp; parseOptions);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.Workspaces</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.ProjectInfo</ReturnType>
@@ -729,7 +843,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.Workspaces</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.ProjectInfo</ReturnType>
@@ -754,7 +869,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.Workspaces</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.ProjectInfo</ReturnType>

@@ -5,11 +5,10 @@
   <TypeSignature Language="VB.NET" Value="Public Enum WorkspaceChangeKind" />
   <TypeSignature Language="F#" Value="type WorkspaceChangeKind = " />
   <TypeSignature Language="C++ CLI" Value="public enum class WorkspaceChangeKind" />
-  <TypeSignature Language="C++ CX" Value="public enum class WorkspaceChangeKind" />
-  <TypeSignature Language="C++ WINRT" Value="enum WorkspaceChangeKind" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.CodeAnalysis.Workspaces</AssemblyName>
-    <AssemblyVersion>2.6.0.0</AssemblyVersion>
+    <AssemblyVersion>2.9.0.0</AssemblyVersion>
+    <AssemblyVersion>3.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Enum</BaseTypeName>
@@ -26,12 +25,11 @@
       <MemberSignature Language="VB.NET" Value="AdditionalDocumentAdded" />
       <MemberSignature Language="F#" Value="AdditionalDocumentAdded = 13" Usage="Microsoft.CodeAnalysis.WorkspaceChangeKind.AdditionalDocumentAdded" />
       <MemberSignature Language="C++ CLI" Value="AdditionalDocumentAdded" />
-      <MemberSignature Language="C++ CX" Value="AdditionalDocumentAdded" />
-      <MemberSignature Language="C++ WINRT" Value="AdditionalDocumentAdded" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.Workspaces</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.WorkspaceChangeKind</ReturnType>
@@ -50,12 +48,11 @@
       <MemberSignature Language="VB.NET" Value="AdditionalDocumentChanged" />
       <MemberSignature Language="F#" Value="AdditionalDocumentChanged = 16" Usage="Microsoft.CodeAnalysis.WorkspaceChangeKind.AdditionalDocumentChanged" />
       <MemberSignature Language="C++ CLI" Value="AdditionalDocumentChanged" />
-      <MemberSignature Language="C++ CX" Value="AdditionalDocumentChanged" />
-      <MemberSignature Language="C++ WINRT" Value="AdditionalDocumentChanged" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.Workspaces</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.WorkspaceChangeKind</ReturnType>
@@ -74,12 +71,11 @@
       <MemberSignature Language="VB.NET" Value="AdditionalDocumentReloaded" />
       <MemberSignature Language="F#" Value="AdditionalDocumentReloaded = 15" Usage="Microsoft.CodeAnalysis.WorkspaceChangeKind.AdditionalDocumentReloaded" />
       <MemberSignature Language="C++ CLI" Value="AdditionalDocumentReloaded" />
-      <MemberSignature Language="C++ CX" Value="AdditionalDocumentReloaded" />
-      <MemberSignature Language="C++ WINRT" Value="AdditionalDocumentReloaded" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.Workspaces</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.WorkspaceChangeKind</ReturnType>
@@ -98,12 +94,11 @@
       <MemberSignature Language="VB.NET" Value="AdditionalDocumentRemoved" />
       <MemberSignature Language="F#" Value="AdditionalDocumentRemoved = 14" Usage="Microsoft.CodeAnalysis.WorkspaceChangeKind.AdditionalDocumentRemoved" />
       <MemberSignature Language="C++ CLI" Value="AdditionalDocumentRemoved" />
-      <MemberSignature Language="C++ CX" Value="AdditionalDocumentRemoved" />
-      <MemberSignature Language="C++ WINRT" Value="AdditionalDocumentRemoved" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.Workspaces</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.WorkspaceChangeKind</ReturnType>
@@ -115,6 +110,90 @@
             </summary>
       </Docs>
     </Member>
+    <Member MemberName="AnalyzerConfigDocumentAdded">
+      <MemberSignature Language="C#" Value="AnalyzerConfigDocumentAdded" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.CodeAnalysis.WorkspaceChangeKind AnalyzerConfigDocumentAdded = int32(18)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.CodeAnalysis.WorkspaceChangeKind.AnalyzerConfigDocumentAdded" />
+      <MemberSignature Language="VB.NET" Value="AnalyzerConfigDocumentAdded" />
+      <MemberSignature Language="F#" Value="AnalyzerConfigDocumentAdded = 18" Usage="Microsoft.CodeAnalysis.WorkspaceChangeKind.AnalyzerConfigDocumentAdded" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.CodeAnalysis.Workspaces</AssemblyName>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.CodeAnalysis.WorkspaceChangeKind</ReturnType>
+      </ReturnValue>
+      <MemberValue>18</MemberValue>
+      <Docs>
+        <summary>
+            An analyzer config document was added to the current solution.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="AnalyzerConfigDocumentChanged">
+      <MemberSignature Language="C#" Value="AnalyzerConfigDocumentChanged" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.CodeAnalysis.WorkspaceChangeKind AnalyzerConfigDocumentChanged = int32(21)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.CodeAnalysis.WorkspaceChangeKind.AnalyzerConfigDocumentChanged" />
+      <MemberSignature Language="VB.NET" Value="AnalyzerConfigDocumentChanged" />
+      <MemberSignature Language="F#" Value="AnalyzerConfigDocumentChanged = 21" Usage="Microsoft.CodeAnalysis.WorkspaceChangeKind.AnalyzerConfigDocumentChanged" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.CodeAnalysis.Workspaces</AssemblyName>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.CodeAnalysis.WorkspaceChangeKind</ReturnType>
+      </ReturnValue>
+      <MemberValue>21</MemberValue>
+      <Docs>
+        <summary>
+            An analyzer config document in the current solution was changed.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="AnalyzerConfigDocumentReloaded">
+      <MemberSignature Language="C#" Value="AnalyzerConfigDocumentReloaded" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.CodeAnalysis.WorkspaceChangeKind AnalyzerConfigDocumentReloaded = int32(20)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.CodeAnalysis.WorkspaceChangeKind.AnalyzerConfigDocumentReloaded" />
+      <MemberSignature Language="VB.NET" Value="AnalyzerConfigDocumentReloaded" />
+      <MemberSignature Language="F#" Value="AnalyzerConfigDocumentReloaded = 20" Usage="Microsoft.CodeAnalysis.WorkspaceChangeKind.AnalyzerConfigDocumentReloaded" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.CodeAnalysis.Workspaces</AssemblyName>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.CodeAnalysis.WorkspaceChangeKind</ReturnType>
+      </ReturnValue>
+      <MemberValue>20</MemberValue>
+      <Docs>
+        <summary>
+            An analyzer config document in the current solution was reloaded.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="AnalyzerConfigDocumentRemoved">
+      <MemberSignature Language="C#" Value="AnalyzerConfigDocumentRemoved" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.CodeAnalysis.WorkspaceChangeKind AnalyzerConfigDocumentRemoved = int32(19)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.CodeAnalysis.WorkspaceChangeKind.AnalyzerConfigDocumentRemoved" />
+      <MemberSignature Language="VB.NET" Value="AnalyzerConfigDocumentRemoved" />
+      <MemberSignature Language="F#" Value="AnalyzerConfigDocumentRemoved = 19" Usage="Microsoft.CodeAnalysis.WorkspaceChangeKind.AnalyzerConfigDocumentRemoved" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.CodeAnalysis.Workspaces</AssemblyName>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.CodeAnalysis.WorkspaceChangeKind</ReturnType>
+      </ReturnValue>
+      <MemberValue>19</MemberValue>
+      <Docs>
+        <summary>
+            An analyzer config document was removed from the current solution.
+            </summary>
+      </Docs>
+    </Member>
     <Member MemberName="DocumentAdded">
       <MemberSignature Language="C#" Value="DocumentAdded" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.CodeAnalysis.WorkspaceChangeKind DocumentAdded = int32(9)" />
@@ -122,12 +201,11 @@
       <MemberSignature Language="VB.NET" Value="DocumentAdded" />
       <MemberSignature Language="F#" Value="DocumentAdded = 9" Usage="Microsoft.CodeAnalysis.WorkspaceChangeKind.DocumentAdded" />
       <MemberSignature Language="C++ CLI" Value="DocumentAdded" />
-      <MemberSignature Language="C++ CX" Value="DocumentAdded" />
-      <MemberSignature Language="C++ WINRT" Value="DocumentAdded" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.Workspaces</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.WorkspaceChangeKind</ReturnType>
@@ -146,12 +224,11 @@
       <MemberSignature Language="VB.NET" Value="DocumentChanged" />
       <MemberSignature Language="F#" Value="DocumentChanged = 12" Usage="Microsoft.CodeAnalysis.WorkspaceChangeKind.DocumentChanged" />
       <MemberSignature Language="C++ CLI" Value="DocumentChanged" />
-      <MemberSignature Language="C++ CX" Value="DocumentChanged" />
-      <MemberSignature Language="C++ WINRT" Value="DocumentChanged" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.Workspaces</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.WorkspaceChangeKind</ReturnType>
@@ -178,12 +255,11 @@
       <MemberSignature Language="VB.NET" Value="DocumentInfoChanged" />
       <MemberSignature Language="F#" Value="DocumentInfoChanged = 17" Usage="Microsoft.CodeAnalysis.WorkspaceChangeKind.DocumentInfoChanged" />
       <MemberSignature Language="C++ CLI" Value="DocumentInfoChanged" />
-      <MemberSignature Language="C++ CX" Value="DocumentInfoChanged" />
-      <MemberSignature Language="C++ WINRT" Value="DocumentInfoChanged" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.Workspaces</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.WorkspaceChangeKind</ReturnType>
@@ -202,12 +278,11 @@
       <MemberSignature Language="VB.NET" Value="DocumentReloaded" />
       <MemberSignature Language="F#" Value="DocumentReloaded = 11" Usage="Microsoft.CodeAnalysis.WorkspaceChangeKind.DocumentReloaded" />
       <MemberSignature Language="C++ CLI" Value="DocumentReloaded" />
-      <MemberSignature Language="C++ CX" Value="DocumentReloaded" />
-      <MemberSignature Language="C++ WINRT" Value="DocumentReloaded" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.Workspaces</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.WorkspaceChangeKind</ReturnType>
@@ -226,12 +301,11 @@
       <MemberSignature Language="VB.NET" Value="DocumentRemoved" />
       <MemberSignature Language="F#" Value="DocumentRemoved = 10" Usage="Microsoft.CodeAnalysis.WorkspaceChangeKind.DocumentRemoved" />
       <MemberSignature Language="C++ CLI" Value="DocumentRemoved" />
-      <MemberSignature Language="C++ CX" Value="DocumentRemoved" />
-      <MemberSignature Language="C++ WINRT" Value="DocumentRemoved" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.Workspaces</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.WorkspaceChangeKind</ReturnType>
@@ -250,12 +324,11 @@
       <MemberSignature Language="VB.NET" Value="ProjectAdded" />
       <MemberSignature Language="F#" Value="ProjectAdded = 5" Usage="Microsoft.CodeAnalysis.WorkspaceChangeKind.ProjectAdded" />
       <MemberSignature Language="C++ CLI" Value="ProjectAdded" />
-      <MemberSignature Language="C++ CX" Value="ProjectAdded" />
-      <MemberSignature Language="C++ WINRT" Value="ProjectAdded" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.Workspaces</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.WorkspaceChangeKind</ReturnType>
@@ -274,12 +347,11 @@
       <MemberSignature Language="VB.NET" Value="ProjectChanged" />
       <MemberSignature Language="F#" Value="ProjectChanged = 7" Usage="Microsoft.CodeAnalysis.WorkspaceChangeKind.ProjectChanged" />
       <MemberSignature Language="C++ CLI" Value="ProjectChanged" />
-      <MemberSignature Language="C++ CX" Value="ProjectChanged" />
-      <MemberSignature Language="C++ WINRT" Value="ProjectChanged" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.Workspaces</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.WorkspaceChangeKind</ReturnType>
@@ -298,12 +370,11 @@
       <MemberSignature Language="VB.NET" Value="ProjectReloaded" />
       <MemberSignature Language="F#" Value="ProjectReloaded = 8" Usage="Microsoft.CodeAnalysis.WorkspaceChangeKind.ProjectReloaded" />
       <MemberSignature Language="C++ CLI" Value="ProjectReloaded" />
-      <MemberSignature Language="C++ CX" Value="ProjectReloaded" />
-      <MemberSignature Language="C++ WINRT" Value="ProjectReloaded" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.Workspaces</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.WorkspaceChangeKind</ReturnType>
@@ -322,12 +393,11 @@
       <MemberSignature Language="VB.NET" Value="ProjectRemoved" />
       <MemberSignature Language="F#" Value="ProjectRemoved = 6" Usage="Microsoft.CodeAnalysis.WorkspaceChangeKind.ProjectRemoved" />
       <MemberSignature Language="C++ CLI" Value="ProjectRemoved" />
-      <MemberSignature Language="C++ CX" Value="ProjectRemoved" />
-      <MemberSignature Language="C++ WINRT" Value="ProjectRemoved" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.Workspaces</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.WorkspaceChangeKind</ReturnType>
@@ -346,12 +416,11 @@
       <MemberSignature Language="VB.NET" Value="SolutionAdded" />
       <MemberSignature Language="F#" Value="SolutionAdded = 1" Usage="Microsoft.CodeAnalysis.WorkspaceChangeKind.SolutionAdded" />
       <MemberSignature Language="C++ CLI" Value="SolutionAdded" />
-      <MemberSignature Language="C++ CX" Value="SolutionAdded" />
-      <MemberSignature Language="C++ WINRT" Value="SolutionAdded" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.Workspaces</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.WorkspaceChangeKind</ReturnType>
@@ -370,12 +439,11 @@
       <MemberSignature Language="VB.NET" Value="SolutionChanged" />
       <MemberSignature Language="F#" Value="SolutionChanged = 0" Usage="Microsoft.CodeAnalysis.WorkspaceChangeKind.SolutionChanged" />
       <MemberSignature Language="C++ CLI" Value="SolutionChanged" />
-      <MemberSignature Language="C++ CX" Value="SolutionChanged" />
-      <MemberSignature Language="C++ WINRT" Value="SolutionChanged" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.Workspaces</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.WorkspaceChangeKind</ReturnType>
@@ -394,12 +462,11 @@
       <MemberSignature Language="VB.NET" Value="SolutionCleared" />
       <MemberSignature Language="F#" Value="SolutionCleared = 3" Usage="Microsoft.CodeAnalysis.WorkspaceChangeKind.SolutionCleared" />
       <MemberSignature Language="C++ CLI" Value="SolutionCleared" />
-      <MemberSignature Language="C++ CX" Value="SolutionCleared" />
-      <MemberSignature Language="C++ WINRT" Value="SolutionCleared" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.Workspaces</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.WorkspaceChangeKind</ReturnType>
@@ -418,12 +485,11 @@
       <MemberSignature Language="VB.NET" Value="SolutionReloaded" />
       <MemberSignature Language="F#" Value="SolutionReloaded = 4" Usage="Microsoft.CodeAnalysis.WorkspaceChangeKind.SolutionReloaded" />
       <MemberSignature Language="C++ CLI" Value="SolutionReloaded" />
-      <MemberSignature Language="C++ CX" Value="SolutionReloaded" />
-      <MemberSignature Language="C++ WINRT" Value="SolutionReloaded" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.Workspaces</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.WorkspaceChangeKind</ReturnType>
@@ -442,12 +508,11 @@
       <MemberSignature Language="VB.NET" Value="SolutionRemoved" />
       <MemberSignature Language="F#" Value="SolutionRemoved = 2" Usage="Microsoft.CodeAnalysis.WorkspaceChangeKind.SolutionRemoved" />
       <MemberSignature Language="C++ CLI" Value="SolutionRemoved" />
-      <MemberSignature Language="C++ CX" Value="SolutionRemoved" />
-      <MemberSignature Language="C++ WINRT" Value="SolutionRemoved" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.Workspaces</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.WorkspaceChangeKind</ReturnType>

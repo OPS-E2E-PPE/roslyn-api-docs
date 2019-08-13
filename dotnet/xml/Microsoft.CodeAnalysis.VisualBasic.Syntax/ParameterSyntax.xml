@@ -5,11 +5,10 @@
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class ParameterSyntax&#xA;Inherits VisualBasicSyntaxNode" />
   <TypeSignature Language="F#" Value="type ParameterSyntax = class&#xA;    inherit VisualBasicSyntaxNode" />
   <TypeSignature Language="C++ CLI" Value="public ref class ParameterSyntax sealed : Microsoft::CodeAnalysis::VisualBasic::VisualBasicSyntaxNode" />
-  <TypeSignature Language="C++ CX" Value="public ref class ParameterSyntax sealed : Microsoft::CodeAnalysis::VisualBasic::VisualBasicSyntaxNode" />
-  <TypeSignature Language="C++ WINRT" Value="class ParameterSyntax sealed : Microsoft::CodeAnalysis::VisualBasic::VisualBasicSyntaxNode" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-    <AssemblyVersion>2.6.0.0</AssemblyVersion>
+    <AssemblyVersion>2.9.0.0</AssemblyVersion>
+    <AssemblyVersion>3.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Microsoft.CodeAnalysis.VisualBasic.VisualBasicSyntaxNode</BaseTypeName>
@@ -29,12 +28,11 @@
       <MemberSignature Language="VB.NET" Value="Public Overrides Sub Accept (visitor As VisualBasicSyntaxVisitor)" />
       <MemberSignature Language="F#" Value="override this.Accept : Microsoft.CodeAnalysis.VisualBasic.VisualBasicSyntaxVisitor -&gt; unit" Usage="parameterSyntax.Accept visitor" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; override void Accept(Microsoft::CodeAnalysis::VisualBasic::VisualBasicSyntaxVisitor ^ visitor);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; override void Accept(Microsoft::CodeAnalysis::VisualBasic::VisualBasicSyntaxVisitor ^ visitor);" />
-      <MemberSignature Language="C++ WINRT" Value=" override void Accept(Microsoft::CodeAnalysis::VisualBasic::VisualBasicSyntaxVisitor const &amp; visitor);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -55,11 +53,11 @@
       <MemberSignature Language="VB.NET" Value="Public Overrides Function Accept(Of TResult) (visitor As VisualBasicSyntaxVisitor(Of TResult)) As TResult" />
       <MemberSignature Language="F#" Value="override this.Accept : Microsoft.CodeAnalysis.VisualBasic.VisualBasicSyntaxVisitor&lt;'Result&gt; -&gt; 'Result" Usage="parameterSyntax.Accept visitor" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename TResult&gt;&#xA; override TResult Accept(Microsoft::CodeAnalysis::VisualBasic::VisualBasicSyntaxVisitor&lt;TResult&gt; ^ visitor);" />
-      <MemberSignature Language="C++ WINRT" Value="template &lt;typename TResult&gt;&#xA; override TResult Accept(Microsoft::CodeAnalysis::VisualBasic::VisualBasicSyntaxVisitor&lt;TResult&gt; const &amp; visitor);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>TResult</ReturnType>
@@ -88,7 +86,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.VisualBasic.Syntax.ParameterSyntax</ReturnType>
@@ -119,7 +118,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.VisualBasic.Syntax.ParameterSyntax</ReturnType>
@@ -147,11 +147,11 @@
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AsClause As SimpleAsClauseSyntax" />
       <MemberSignature Language="F#" Value="member this.AsClause : Microsoft.CodeAnalysis.VisualBasic.Syntax.SimpleAsClauseSyntax" Usage="Microsoft.CodeAnalysis.VisualBasic.Syntax.ParameterSyntax.AsClause" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::CodeAnalysis::VisualBasic::Syntax::SimpleAsClauseSyntax ^ AsClause { Microsoft::CodeAnalysis::VisualBasic::Syntax::SimpleAsClauseSyntax ^ get(); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; property Microsoft::CodeAnalysis::VisualBasic::Syntax::SimpleAsClauseSyntax ^ AsClause { Microsoft::CodeAnalysis::VisualBasic::Syntax::SimpleAsClauseSyntax ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.VisualBasic.Syntax.SimpleAsClauseSyntax</ReturnType>
@@ -177,7 +177,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.SyntaxList&lt;Microsoft.CodeAnalysis.VisualBasic.Syntax.AttributeListSyntax&gt;</ReturnType>
@@ -200,11 +201,11 @@
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Default As EqualsValueSyntax" />
       <MemberSignature Language="F#" Value="member this.Default : Microsoft.CodeAnalysis.VisualBasic.Syntax.EqualsValueSyntax" Usage="Microsoft.CodeAnalysis.VisualBasic.Syntax.ParameterSyntax.Default" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::CodeAnalysis::VisualBasic::Syntax::EqualsValueSyntax ^ Default { Microsoft::CodeAnalysis::VisualBasic::Syntax::EqualsValueSyntax ^ get(); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; property Microsoft::CodeAnalysis::VisualBasic::Syntax::EqualsValueSyntax ^ Default { Microsoft::CodeAnalysis::VisualBasic::Syntax::EqualsValueSyntax ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.VisualBasic.Syntax.EqualsValueSyntax</ReturnType>
@@ -227,11 +228,11 @@
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Identifier As ModifiedIdentifierSyntax" />
       <MemberSignature Language="F#" Value="member this.Identifier : Microsoft.CodeAnalysis.VisualBasic.Syntax.ModifiedIdentifierSyntax" Usage="Microsoft.CodeAnalysis.VisualBasic.Syntax.ParameterSyntax.Identifier" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::CodeAnalysis::VisualBasic::Syntax::ModifiedIdentifierSyntax ^ Identifier { Microsoft::CodeAnalysis::VisualBasic::Syntax::ModifiedIdentifierSyntax ^ get(); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; property Microsoft::CodeAnalysis::VisualBasic::Syntax::ModifiedIdentifierSyntax ^ Identifier { Microsoft::CodeAnalysis::VisualBasic::Syntax::ModifiedIdentifierSyntax ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.VisualBasic.Syntax.ModifiedIdentifierSyntax</ReturnType>
@@ -254,7 +255,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.SyntaxTokenList</ReturnType>
@@ -280,7 +282,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.VisualBasic.Syntax.ParameterSyntax</ReturnType>
@@ -323,12 +326,11 @@
       <MemberSignature Language="VB.NET" Value="Public Function WithAsClause (asClause As SimpleAsClauseSyntax) As ParameterSyntax" />
       <MemberSignature Language="F#" Value="member this.WithAsClause : Microsoft.CodeAnalysis.VisualBasic.Syntax.SimpleAsClauseSyntax -&gt; Microsoft.CodeAnalysis.VisualBasic.Syntax.ParameterSyntax" Usage="parameterSyntax.WithAsClause asClause" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::CodeAnalysis::VisualBasic::Syntax::ParameterSyntax ^ WithAsClause(Microsoft::CodeAnalysis::VisualBasic::Syntax::SimpleAsClauseSyntax ^ asClause);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; Microsoft::CodeAnalysis::VisualBasic::Syntax::ParameterSyntax ^ WithAsClause(Microsoft::CodeAnalysis::VisualBasic::Syntax::SimpleAsClauseSyntax ^ asClause);" />
-      <MemberSignature Language="C++ WINRT" Value="Microsoft::CodeAnalysis::VisualBasic::Syntax::ParameterSyntax WithAsClause(Microsoft::CodeAnalysis::VisualBasic::Syntax::SimpleAsClauseSyntax const &amp; asClause);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.VisualBasic.Syntax.ParameterSyntax</ReturnType>
@@ -357,7 +359,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.VisualBasic.Syntax.ParameterSyntax</ReturnType>
@@ -383,12 +386,11 @@
       <MemberSignature Language="VB.NET" Value="Public Function WithDefault (default As EqualsValueSyntax) As ParameterSyntax" />
       <MemberSignature Language="F#" Value="member this.WithDefault : Microsoft.CodeAnalysis.VisualBasic.Syntax.EqualsValueSyntax -&gt; Microsoft.CodeAnalysis.VisualBasic.Syntax.ParameterSyntax" Usage="parameterSyntax.WithDefault default" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::CodeAnalysis::VisualBasic::Syntax::ParameterSyntax ^ WithDefault(Microsoft::CodeAnalysis::VisualBasic::Syntax::EqualsValueSyntax ^ default);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; Microsoft::CodeAnalysis::VisualBasic::Syntax::ParameterSyntax ^ WithDefault(Microsoft::CodeAnalysis::VisualBasic::Syntax::EqualsValueSyntax ^ default);" />
-      <MemberSignature Language="C++ WINRT" Value="Microsoft::CodeAnalysis::VisualBasic::Syntax::ParameterSyntax WithDefault(Microsoft::CodeAnalysis::VisualBasic::Syntax::EqualsValueSyntax const &amp; default);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.VisualBasic.Syntax.ParameterSyntax</ReturnType>
@@ -414,12 +416,11 @@
       <MemberSignature Language="VB.NET" Value="Public Function WithIdentifier (identifier As ModifiedIdentifierSyntax) As ParameterSyntax" />
       <MemberSignature Language="F#" Value="member this.WithIdentifier : Microsoft.CodeAnalysis.VisualBasic.Syntax.ModifiedIdentifierSyntax -&gt; Microsoft.CodeAnalysis.VisualBasic.Syntax.ParameterSyntax" Usage="parameterSyntax.WithIdentifier identifier" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::CodeAnalysis::VisualBasic::Syntax::ParameterSyntax ^ WithIdentifier(Microsoft::CodeAnalysis::VisualBasic::Syntax::ModifiedIdentifierSyntax ^ identifier);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; Microsoft::CodeAnalysis::VisualBasic::Syntax::ParameterSyntax ^ WithIdentifier(Microsoft::CodeAnalysis::VisualBasic::Syntax::ModifiedIdentifierSyntax ^ identifier);" />
-      <MemberSignature Language="C++ WINRT" Value="Microsoft::CodeAnalysis::VisualBasic::Syntax::ParameterSyntax WithIdentifier(Microsoft::CodeAnalysis::VisualBasic::Syntax::ModifiedIdentifierSyntax const &amp; identifier);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.VisualBasic.Syntax.ParameterSyntax</ReturnType>
@@ -448,7 +449,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.VisualBasic.Syntax.ParameterSyntax</ReturnType>

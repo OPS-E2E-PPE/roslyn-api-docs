@@ -5,11 +5,10 @@
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class InterfaceBlockSyntax&#xA;Inherits TypeBlockSyntax" />
   <TypeSignature Language="F#" Value="type InterfaceBlockSyntax = class&#xA;    inherit TypeBlockSyntax" />
   <TypeSignature Language="C++ CLI" Value="public ref class InterfaceBlockSyntax sealed : Microsoft::CodeAnalysis::VisualBasic::Syntax::TypeBlockSyntax" />
-  <TypeSignature Language="C++ CX" Value="public ref class InterfaceBlockSyntax sealed : Microsoft::CodeAnalysis::VisualBasic::Syntax::TypeBlockSyntax" />
-  <TypeSignature Language="C++ WINRT" Value="class InterfaceBlockSyntax sealed : Microsoft::CodeAnalysis::VisualBasic::Syntax::TypeBlockSyntax" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-    <AssemblyVersion>2.6.0.0</AssemblyVersion>
+    <AssemblyVersion>2.9.0.0</AssemblyVersion>
+    <AssemblyVersion>3.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Microsoft.CodeAnalysis.VisualBasic.Syntax.TypeBlockSyntax</BaseTypeName>
@@ -30,12 +29,11 @@
       <MemberSignature Language="VB.NET" Value="Public Overrides Sub Accept (visitor As VisualBasicSyntaxVisitor)" />
       <MemberSignature Language="F#" Value="override this.Accept : Microsoft.CodeAnalysis.VisualBasic.VisualBasicSyntaxVisitor -&gt; unit" Usage="interfaceBlockSyntax.Accept visitor" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; override void Accept(Microsoft::CodeAnalysis::VisualBasic::VisualBasicSyntaxVisitor ^ visitor);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; override void Accept(Microsoft::CodeAnalysis::VisualBasic::VisualBasicSyntaxVisitor ^ visitor);" />
-      <MemberSignature Language="C++ WINRT" Value=" override void Accept(Microsoft::CodeAnalysis::VisualBasic::VisualBasicSyntaxVisitor const &amp; visitor);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -56,11 +54,11 @@
       <MemberSignature Language="VB.NET" Value="Public Overrides Function Accept(Of TResult) (visitor As VisualBasicSyntaxVisitor(Of TResult)) As TResult" />
       <MemberSignature Language="F#" Value="override this.Accept : Microsoft.CodeAnalysis.VisualBasic.VisualBasicSyntaxVisitor&lt;'Result&gt; -&gt; 'Result" Usage="interfaceBlockSyntax.Accept visitor" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename TResult&gt;&#xA; override TResult Accept(Microsoft::CodeAnalysis::VisualBasic::VisualBasicSyntaxVisitor&lt;TResult&gt; ^ visitor);" />
-      <MemberSignature Language="C++ WINRT" Value="template &lt;typename TResult&gt;&#xA; override TResult Accept(Microsoft::CodeAnalysis::VisualBasic::VisualBasicSyntaxVisitor&lt;TResult&gt; const &amp; visitor);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>TResult</ReturnType>
@@ -84,12 +82,13 @@
       <MemberSignature Language="ILAsm" Value=".method public instance class Microsoft.CodeAnalysis.VisualBasic.Syntax.InterfaceBlockSyntax AddImplements(class Microsoft.CodeAnalysis.VisualBasic.Syntax.ImplementsStatementSyntax[] items) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.CodeAnalysis.VisualBasic.Syntax.InterfaceBlockSyntax.AddImplements(Microsoft.CodeAnalysis.VisualBasic.Syntax.ImplementsStatementSyntax[])" />
       <MemberSignature Language="VB.NET" Value="Public Function AddImplements (ParamArray items As ImplementsStatementSyntax()) As InterfaceBlockSyntax" />
-      <MemberSignature Language="F#" Value="member this.AddImplements : Microsoft.CodeAnalysis.VisualBasic.Syntax.ImplementsStatementSyntax[] -&gt; Microsoft.CodeAnalysis.VisualBasic.Syntax.InterfaceBlockSyntax" Usage="interfaceBlockSyntax.AddImplements items" />
+      <MemberSignature Language="F#" Value="override this.AddImplements : Microsoft.CodeAnalysis.VisualBasic.Syntax.ImplementsStatementSyntax[] -&gt; Microsoft.CodeAnalysis.VisualBasic.Syntax.InterfaceBlockSyntax" Usage="interfaceBlockSyntax.AddImplements items" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::CodeAnalysis::VisualBasic::Syntax::InterfaceBlockSyntax ^ AddImplements(... cli::array &lt;Microsoft::CodeAnalysis::VisualBasic::Syntax::ImplementsStatementSyntax ^&gt; ^ items);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.VisualBasic.Syntax.InterfaceBlockSyntax</ReturnType>
@@ -115,12 +114,13 @@
       <MemberSignature Language="ILAsm" Value=".method public instance class Microsoft.CodeAnalysis.VisualBasic.Syntax.InterfaceBlockSyntax AddInherits(class Microsoft.CodeAnalysis.VisualBasic.Syntax.InheritsStatementSyntax[] items) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.CodeAnalysis.VisualBasic.Syntax.InterfaceBlockSyntax.AddInherits(Microsoft.CodeAnalysis.VisualBasic.Syntax.InheritsStatementSyntax[])" />
       <MemberSignature Language="VB.NET" Value="Public Function AddInherits (ParamArray items As InheritsStatementSyntax()) As InterfaceBlockSyntax" />
-      <MemberSignature Language="F#" Value="member this.AddInherits : Microsoft.CodeAnalysis.VisualBasic.Syntax.InheritsStatementSyntax[] -&gt; Microsoft.CodeAnalysis.VisualBasic.Syntax.InterfaceBlockSyntax" Usage="interfaceBlockSyntax.AddInherits items" />
+      <MemberSignature Language="F#" Value="override this.AddInherits : Microsoft.CodeAnalysis.VisualBasic.Syntax.InheritsStatementSyntax[] -&gt; Microsoft.CodeAnalysis.VisualBasic.Syntax.InterfaceBlockSyntax" Usage="interfaceBlockSyntax.AddInherits items" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::CodeAnalysis::VisualBasic::Syntax::InterfaceBlockSyntax ^ AddInherits(... cli::array &lt;Microsoft::CodeAnalysis::VisualBasic::Syntax::InheritsStatementSyntax ^&gt; ^ items);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.VisualBasic.Syntax.InterfaceBlockSyntax</ReturnType>
@@ -146,12 +146,13 @@
       <MemberSignature Language="ILAsm" Value=".method public instance class Microsoft.CodeAnalysis.VisualBasic.Syntax.InterfaceBlockSyntax AddMembers(class Microsoft.CodeAnalysis.VisualBasic.Syntax.StatementSyntax[] items) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.CodeAnalysis.VisualBasic.Syntax.InterfaceBlockSyntax.AddMembers(Microsoft.CodeAnalysis.VisualBasic.Syntax.StatementSyntax[])" />
       <MemberSignature Language="VB.NET" Value="Public Function AddMembers (ParamArray items As StatementSyntax()) As InterfaceBlockSyntax" />
-      <MemberSignature Language="F#" Value="member this.AddMembers : Microsoft.CodeAnalysis.VisualBasic.Syntax.StatementSyntax[] -&gt; Microsoft.CodeAnalysis.VisualBasic.Syntax.InterfaceBlockSyntax" Usage="interfaceBlockSyntax.AddMembers items" />
+      <MemberSignature Language="F#" Value="override this.AddMembers : Microsoft.CodeAnalysis.VisualBasic.Syntax.StatementSyntax[] -&gt; Microsoft.CodeAnalysis.VisualBasic.Syntax.InterfaceBlockSyntax" Usage="interfaceBlockSyntax.AddMembers items" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::CodeAnalysis::VisualBasic::Syntax::InterfaceBlockSyntax ^ AddMembers(... cli::array &lt;Microsoft::CodeAnalysis::VisualBasic::Syntax::StatementSyntax ^&gt; ^ items);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.VisualBasic.Syntax.InterfaceBlockSyntax</ReturnType>
@@ -179,15 +180,15 @@
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Begin As InterfaceStatementSyntax" />
       <MemberSignature Language="F#" Value="member this.Begin : Microsoft.CodeAnalysis.VisualBasic.Syntax.InterfaceStatementSyntax" Usage="Microsoft.CodeAnalysis.VisualBasic.Syntax.InterfaceBlockSyntax.Begin" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::CodeAnalysis::VisualBasic::Syntax::InterfaceStatementSyntax ^ Begin { Microsoft::CodeAnalysis::VisualBasic::Syntax::InterfaceStatementSyntax ^ get(); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; property Microsoft::CodeAnalysis::VisualBasic::Syntax::InterfaceStatementSyntax ^ Begin { Microsoft::CodeAnalysis::VisualBasic::Syntax::InterfaceStatementSyntax ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
+          <AttributeName>System.ComponentModel.EditorBrowsable</AttributeName>
         </Attribute>
         <Attribute>
           <AttributeName>System.Obsolete("This member is obsolete.", true)</AttributeName>
@@ -209,11 +210,11 @@
       <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property BlockStatement As TypeStatementSyntax" />
       <MemberSignature Language="F#" Value="member this.BlockStatement : Microsoft.CodeAnalysis.VisualBasic.Syntax.TypeStatementSyntax" Usage="Microsoft.CodeAnalysis.VisualBasic.Syntax.InterfaceBlockSyntax.BlockStatement" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::CodeAnalysis::VisualBasic::Syntax::TypeStatementSyntax ^ BlockStatement { Microsoft::CodeAnalysis::VisualBasic::Syntax::TypeStatementSyntax ^ get(); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; virtual property Microsoft::CodeAnalysis::VisualBasic::Syntax::TypeStatementSyntax ^ BlockStatement { Microsoft::CodeAnalysis::VisualBasic::Syntax::TypeStatementSyntax ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.VisualBasic.Syntax.TypeStatementSyntax</ReturnType>
@@ -231,15 +232,15 @@
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property End As EndBlockStatementSyntax" />
       <MemberSignature Language="F#" Value="member this.End : Microsoft.CodeAnalysis.VisualBasic.Syntax.EndBlockStatementSyntax" Usage="Microsoft.CodeAnalysis.VisualBasic.Syntax.InterfaceBlockSyntax.End" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::CodeAnalysis::VisualBasic::Syntax::EndBlockStatementSyntax ^ End { Microsoft::CodeAnalysis::VisualBasic::Syntax::EndBlockStatementSyntax ^ get(); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; property Microsoft::CodeAnalysis::VisualBasic::Syntax::EndBlockStatementSyntax ^ End { Microsoft::CodeAnalysis::VisualBasic::Syntax::EndBlockStatementSyntax ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
+          <AttributeName>System.ComponentModel.EditorBrowsable</AttributeName>
         </Attribute>
         <Attribute>
           <AttributeName>System.Obsolete("This member is obsolete.", true)</AttributeName>
@@ -261,11 +262,11 @@
       <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property EndBlockStatement As EndBlockStatementSyntax" />
       <MemberSignature Language="F#" Value="member this.EndBlockStatement : Microsoft.CodeAnalysis.VisualBasic.Syntax.EndBlockStatementSyntax" Usage="Microsoft.CodeAnalysis.VisualBasic.Syntax.InterfaceBlockSyntax.EndBlockStatement" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::CodeAnalysis::VisualBasic::Syntax::EndBlockStatementSyntax ^ EndBlockStatement { Microsoft::CodeAnalysis::VisualBasic::Syntax::EndBlockStatementSyntax ^ get(); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; virtual property Microsoft::CodeAnalysis::VisualBasic::Syntax::EndBlockStatementSyntax ^ EndBlockStatement { Microsoft::CodeAnalysis::VisualBasic::Syntax::EndBlockStatementSyntax ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.VisualBasic.Syntax.EndBlockStatementSyntax</ReturnType>
@@ -283,11 +284,11 @@
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property EndInterfaceStatement As EndBlockStatementSyntax" />
       <MemberSignature Language="F#" Value="member this.EndInterfaceStatement : Microsoft.CodeAnalysis.VisualBasic.Syntax.EndBlockStatementSyntax" Usage="Microsoft.CodeAnalysis.VisualBasic.Syntax.InterfaceBlockSyntax.EndInterfaceStatement" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::CodeAnalysis::VisualBasic::Syntax::EndBlockStatementSyntax ^ EndInterfaceStatement { Microsoft::CodeAnalysis::VisualBasic::Syntax::EndBlockStatementSyntax ^ get(); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; property Microsoft::CodeAnalysis::VisualBasic::Syntax::EndBlockStatementSyntax ^ EndInterfaceStatement { Microsoft::CodeAnalysis::VisualBasic::Syntax::EndBlockStatementSyntax ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.VisualBasic.Syntax.EndBlockStatementSyntax</ReturnType>
@@ -310,7 +311,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.SyntaxList&lt;Microsoft.CodeAnalysis.VisualBasic.Syntax.ImplementsStatementSyntax&gt;</ReturnType>
@@ -335,7 +337,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.SyntaxList&lt;Microsoft.CodeAnalysis.VisualBasic.Syntax.InheritsStatementSyntax&gt;</ReturnType>
@@ -357,11 +360,11 @@
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property InterfaceStatement As InterfaceStatementSyntax" />
       <MemberSignature Language="F#" Value="member this.InterfaceStatement : Microsoft.CodeAnalysis.VisualBasic.Syntax.InterfaceStatementSyntax" Usage="Microsoft.CodeAnalysis.VisualBasic.Syntax.InterfaceBlockSyntax.InterfaceStatement" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::CodeAnalysis::VisualBasic::Syntax::InterfaceStatementSyntax ^ InterfaceStatement { Microsoft::CodeAnalysis::VisualBasic::Syntax::InterfaceStatementSyntax ^ get(); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; property Microsoft::CodeAnalysis::VisualBasic::Syntax::InterfaceStatementSyntax ^ InterfaceStatement { Microsoft::CodeAnalysis::VisualBasic::Syntax::InterfaceStatementSyntax ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.VisualBasic.Syntax.InterfaceStatementSyntax</ReturnType>
@@ -384,7 +387,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.SyntaxList&lt;Microsoft.CodeAnalysis.VisualBasic.Syntax.StatementSyntax&gt;</ReturnType>
@@ -409,7 +413,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.VisualBasic.Syntax.InterfaceBlockSyntax</ReturnType>
@@ -452,16 +457,15 @@
       <MemberSignature Language="VB.NET" Value="Public Function WithBegin (begin As InterfaceStatementSyntax) As InterfaceBlockSyntax" />
       <MemberSignature Language="F#" Value="override this.WithBegin : Microsoft.CodeAnalysis.VisualBasic.Syntax.InterfaceStatementSyntax -&gt; Microsoft.CodeAnalysis.VisualBasic.Syntax.InterfaceBlockSyntax" Usage="interfaceBlockSyntax.WithBegin begin" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::CodeAnalysis::VisualBasic::Syntax::InterfaceBlockSyntax ^ WithBegin(Microsoft::CodeAnalysis::VisualBasic::Syntax::InterfaceStatementSyntax ^ begin);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; Microsoft::CodeAnalysis::VisualBasic::Syntax::InterfaceBlockSyntax ^ WithBegin(Microsoft::CodeAnalysis::VisualBasic::Syntax::InterfaceStatementSyntax ^ begin);" />
-      <MemberSignature Language="C++ WINRT" Value="Microsoft::CodeAnalysis::VisualBasic::Syntax::InterfaceBlockSyntax WithBegin(Microsoft::CodeAnalysis::VisualBasic::Syntax::InterfaceStatementSyntax const &amp; begin);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
+          <AttributeName>System.ComponentModel.EditorBrowsable</AttributeName>
         </Attribute>
         <Attribute>
           <AttributeName>System.Obsolete("This member is obsolete.", true)</AttributeName>
@@ -487,12 +491,11 @@
       <MemberSignature Language="VB.NET" Value="Public Overrides Function WithBlockStatement (blockStatement As TypeStatementSyntax) As TypeBlockSyntax" />
       <MemberSignature Language="F#" Value="override this.WithBlockStatement : Microsoft.CodeAnalysis.VisualBasic.Syntax.TypeStatementSyntax -&gt; Microsoft.CodeAnalysis.VisualBasic.Syntax.TypeBlockSyntax" Usage="interfaceBlockSyntax.WithBlockStatement blockStatement" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; override Microsoft::CodeAnalysis::VisualBasic::Syntax::TypeBlockSyntax ^ WithBlockStatement(Microsoft::CodeAnalysis::VisualBasic::Syntax::TypeStatementSyntax ^ blockStatement);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; override Microsoft::CodeAnalysis::VisualBasic::Syntax::TypeBlockSyntax ^ WithBlockStatement(Microsoft::CodeAnalysis::VisualBasic::Syntax::TypeStatementSyntax ^ blockStatement);" />
-      <MemberSignature Language="C++ WINRT" Value=" override Microsoft::CodeAnalysis::VisualBasic::Syntax::TypeBlockSyntax WithBlockStatement(Microsoft::CodeAnalysis::VisualBasic::Syntax::TypeStatementSyntax const &amp; blockStatement);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.VisualBasic.Syntax.TypeBlockSyntax</ReturnType>
@@ -514,16 +517,15 @@
       <MemberSignature Language="VB.NET" Value="Public Function WithEnd (end As EndBlockStatementSyntax) As InterfaceBlockSyntax" />
       <MemberSignature Language="F#" Value="override this.WithEnd : Microsoft.CodeAnalysis.VisualBasic.Syntax.EndBlockStatementSyntax -&gt; Microsoft.CodeAnalysis.VisualBasic.Syntax.InterfaceBlockSyntax" Usage="interfaceBlockSyntax.WithEnd end" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::CodeAnalysis::VisualBasic::Syntax::InterfaceBlockSyntax ^ WithEnd(Microsoft::CodeAnalysis::VisualBasic::Syntax::EndBlockStatementSyntax ^ end);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; Microsoft::CodeAnalysis::VisualBasic::Syntax::InterfaceBlockSyntax ^ WithEnd(Microsoft::CodeAnalysis::VisualBasic::Syntax::EndBlockStatementSyntax ^ end);" />
-      <MemberSignature Language="C++ WINRT" Value="Microsoft::CodeAnalysis::VisualBasic::Syntax::InterfaceBlockSyntax WithEnd(Microsoft::CodeAnalysis::VisualBasic::Syntax::EndBlockStatementSyntax const &amp; end);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
+          <AttributeName>System.ComponentModel.EditorBrowsable</AttributeName>
         </Attribute>
         <Attribute>
           <AttributeName>System.Obsolete("This member is obsolete.", true)</AttributeName>
@@ -549,12 +551,11 @@
       <MemberSignature Language="VB.NET" Value="Public Overrides Function WithEndBlockStatement (endBlockStatement As EndBlockStatementSyntax) As TypeBlockSyntax" />
       <MemberSignature Language="F#" Value="override this.WithEndBlockStatement : Microsoft.CodeAnalysis.VisualBasic.Syntax.EndBlockStatementSyntax -&gt; Microsoft.CodeAnalysis.VisualBasic.Syntax.TypeBlockSyntax" Usage="interfaceBlockSyntax.WithEndBlockStatement endBlockStatement" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; override Microsoft::CodeAnalysis::VisualBasic::Syntax::TypeBlockSyntax ^ WithEndBlockStatement(Microsoft::CodeAnalysis::VisualBasic::Syntax::EndBlockStatementSyntax ^ endBlockStatement);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; override Microsoft::CodeAnalysis::VisualBasic::Syntax::TypeBlockSyntax ^ WithEndBlockStatement(Microsoft::CodeAnalysis::VisualBasic::Syntax::EndBlockStatementSyntax ^ endBlockStatement);" />
-      <MemberSignature Language="C++ WINRT" Value=" override Microsoft::CodeAnalysis::VisualBasic::Syntax::TypeBlockSyntax WithEndBlockStatement(Microsoft::CodeAnalysis::VisualBasic::Syntax::EndBlockStatementSyntax const &amp; endBlockStatement);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.VisualBasic.Syntax.TypeBlockSyntax</ReturnType>
@@ -576,12 +577,11 @@
       <MemberSignature Language="VB.NET" Value="Public Function WithEndInterfaceStatement (endInterfaceStatement As EndBlockStatementSyntax) As InterfaceBlockSyntax" />
       <MemberSignature Language="F#" Value="member this.WithEndInterfaceStatement : Microsoft.CodeAnalysis.VisualBasic.Syntax.EndBlockStatementSyntax -&gt; Microsoft.CodeAnalysis.VisualBasic.Syntax.InterfaceBlockSyntax" Usage="interfaceBlockSyntax.WithEndInterfaceStatement endInterfaceStatement" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::CodeAnalysis::VisualBasic::Syntax::InterfaceBlockSyntax ^ WithEndInterfaceStatement(Microsoft::CodeAnalysis::VisualBasic::Syntax::EndBlockStatementSyntax ^ endInterfaceStatement);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; Microsoft::CodeAnalysis::VisualBasic::Syntax::InterfaceBlockSyntax ^ WithEndInterfaceStatement(Microsoft::CodeAnalysis::VisualBasic::Syntax::EndBlockStatementSyntax ^ endInterfaceStatement);" />
-      <MemberSignature Language="C++ WINRT" Value="Microsoft::CodeAnalysis::VisualBasic::Syntax::InterfaceBlockSyntax WithEndInterfaceStatement(Microsoft::CodeAnalysis::VisualBasic::Syntax::EndBlockStatementSyntax const &amp; endInterfaceStatement);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.VisualBasic.Syntax.InterfaceBlockSyntax</ReturnType>
@@ -605,12 +605,13 @@
       <MemberSignature Language="ILAsm" Value=".method public instance class Microsoft.CodeAnalysis.VisualBasic.Syntax.InterfaceBlockSyntax WithImplements(valuetype Microsoft.CodeAnalysis.SyntaxList`1&lt;class Microsoft.CodeAnalysis.VisualBasic.Syntax.ImplementsStatementSyntax&gt; implements) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.CodeAnalysis.VisualBasic.Syntax.InterfaceBlockSyntax.WithImplements(Microsoft.CodeAnalysis.SyntaxList{Microsoft.CodeAnalysis.VisualBasic.Syntax.ImplementsStatementSyntax})" />
       <MemberSignature Language="VB.NET" Value="Public Function WithImplements (implements As SyntaxList(Of ImplementsStatementSyntax)) As InterfaceBlockSyntax" />
-      <MemberSignature Language="F#" Value="member this.WithImplements : Microsoft.CodeAnalysis.SyntaxList&lt;Microsoft.CodeAnalysis.VisualBasic.Syntax.ImplementsStatementSyntax&gt; -&gt; Microsoft.CodeAnalysis.VisualBasic.Syntax.InterfaceBlockSyntax" Usage="interfaceBlockSyntax.WithImplements implements" />
+      <MemberSignature Language="F#" Value="override this.WithImplements : Microsoft.CodeAnalysis.SyntaxList&lt;Microsoft.CodeAnalysis.VisualBasic.Syntax.ImplementsStatementSyntax&gt; -&gt; Microsoft.CodeAnalysis.VisualBasic.Syntax.InterfaceBlockSyntax" Usage="interfaceBlockSyntax.WithImplements implements" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::CodeAnalysis::VisualBasic::Syntax::InterfaceBlockSyntax ^ WithImplements(Microsoft::CodeAnalysis::SyntaxList&lt;Microsoft::CodeAnalysis::VisualBasic::Syntax::ImplementsStatementSyntax ^&gt; implements);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.VisualBasic.Syntax.InterfaceBlockSyntax</ReturnType>
@@ -634,12 +635,13 @@
       <MemberSignature Language="ILAsm" Value=".method public instance class Microsoft.CodeAnalysis.VisualBasic.Syntax.InterfaceBlockSyntax WithInherits(valuetype Microsoft.CodeAnalysis.SyntaxList`1&lt;class Microsoft.CodeAnalysis.VisualBasic.Syntax.InheritsStatementSyntax&gt; inherits) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.CodeAnalysis.VisualBasic.Syntax.InterfaceBlockSyntax.WithInherits(Microsoft.CodeAnalysis.SyntaxList{Microsoft.CodeAnalysis.VisualBasic.Syntax.InheritsStatementSyntax})" />
       <MemberSignature Language="VB.NET" Value="Public Function WithInherits (inherits As SyntaxList(Of InheritsStatementSyntax)) As InterfaceBlockSyntax" />
-      <MemberSignature Language="F#" Value="member this.WithInherits : Microsoft.CodeAnalysis.SyntaxList&lt;Microsoft.CodeAnalysis.VisualBasic.Syntax.InheritsStatementSyntax&gt; -&gt; Microsoft.CodeAnalysis.VisualBasic.Syntax.InterfaceBlockSyntax" Usage="interfaceBlockSyntax.WithInherits inherits" />
+      <MemberSignature Language="F#" Value="override this.WithInherits : Microsoft.CodeAnalysis.SyntaxList&lt;Microsoft.CodeAnalysis.VisualBasic.Syntax.InheritsStatementSyntax&gt; -&gt; Microsoft.CodeAnalysis.VisualBasic.Syntax.InterfaceBlockSyntax" Usage="interfaceBlockSyntax.WithInherits inherits" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::CodeAnalysis::VisualBasic::Syntax::InterfaceBlockSyntax ^ WithInherits(Microsoft::CodeAnalysis::SyntaxList&lt;Microsoft::CodeAnalysis::VisualBasic::Syntax::InheritsStatementSyntax ^&gt; inherits);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.VisualBasic.Syntax.InterfaceBlockSyntax</ReturnType>
@@ -665,12 +667,11 @@
       <MemberSignature Language="VB.NET" Value="Public Function WithInterfaceStatement (interfaceStatement As InterfaceStatementSyntax) As InterfaceBlockSyntax" />
       <MemberSignature Language="F#" Value="member this.WithInterfaceStatement : Microsoft.CodeAnalysis.VisualBasic.Syntax.InterfaceStatementSyntax -&gt; Microsoft.CodeAnalysis.VisualBasic.Syntax.InterfaceBlockSyntax" Usage="interfaceBlockSyntax.WithInterfaceStatement interfaceStatement" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::CodeAnalysis::VisualBasic::Syntax::InterfaceBlockSyntax ^ WithInterfaceStatement(Microsoft::CodeAnalysis::VisualBasic::Syntax::InterfaceStatementSyntax ^ interfaceStatement);" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; Microsoft::CodeAnalysis::VisualBasic::Syntax::InterfaceBlockSyntax ^ WithInterfaceStatement(Microsoft::CodeAnalysis::VisualBasic::Syntax::InterfaceStatementSyntax ^ interfaceStatement);" />
-      <MemberSignature Language="C++ WINRT" Value="Microsoft::CodeAnalysis::VisualBasic::Syntax::InterfaceBlockSyntax WithInterfaceStatement(Microsoft::CodeAnalysis::VisualBasic::Syntax::InterfaceStatementSyntax const &amp; interfaceStatement);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.VisualBasic.Syntax.InterfaceBlockSyntax</ReturnType>
@@ -694,12 +695,13 @@
       <MemberSignature Language="ILAsm" Value=".method public instance class Microsoft.CodeAnalysis.VisualBasic.Syntax.InterfaceBlockSyntax WithMembers(valuetype Microsoft.CodeAnalysis.SyntaxList`1&lt;class Microsoft.CodeAnalysis.VisualBasic.Syntax.StatementSyntax&gt; members) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.CodeAnalysis.VisualBasic.Syntax.InterfaceBlockSyntax.WithMembers(Microsoft.CodeAnalysis.SyntaxList{Microsoft.CodeAnalysis.VisualBasic.Syntax.StatementSyntax})" />
       <MemberSignature Language="VB.NET" Value="Public Function WithMembers (members As SyntaxList(Of StatementSyntax)) As InterfaceBlockSyntax" />
-      <MemberSignature Language="F#" Value="member this.WithMembers : Microsoft.CodeAnalysis.SyntaxList&lt;Microsoft.CodeAnalysis.VisualBasic.Syntax.StatementSyntax&gt; -&gt; Microsoft.CodeAnalysis.VisualBasic.Syntax.InterfaceBlockSyntax" Usage="interfaceBlockSyntax.WithMembers members" />
+      <MemberSignature Language="F#" Value="override this.WithMembers : Microsoft.CodeAnalysis.SyntaxList&lt;Microsoft.CodeAnalysis.VisualBasic.Syntax.StatementSyntax&gt; -&gt; Microsoft.CodeAnalysis.VisualBasic.Syntax.InterfaceBlockSyntax" Usage="interfaceBlockSyntax.WithMembers members" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::CodeAnalysis::VisualBasic::Syntax::InterfaceBlockSyntax ^ WithMembers(Microsoft::CodeAnalysis::SyntaxList&lt;Microsoft::CodeAnalysis::VisualBasic::Syntax::StatementSyntax ^&gt; members);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis.VisualBasic</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.VisualBasic.Syntax.InterfaceBlockSyntax</ReturnType>

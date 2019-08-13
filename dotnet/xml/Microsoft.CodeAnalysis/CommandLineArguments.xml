@@ -5,11 +5,10 @@
   <TypeSignature Language="VB.NET" Value="Public MustInherit Class CommandLineArguments" />
   <TypeSignature Language="F#" Value="type CommandLineArguments = class" />
   <TypeSignature Language="C++ CLI" Value="public ref class CommandLineArguments abstract" />
-  <TypeSignature Language="C++ CX" Value="[Windows::Foundation::Metadata::WebHostHidden]&#xA;public ref class CommandLineArguments abstract" />
-  <TypeSignature Language="C++ WINRT" Value="[Windows::Foundation::Metadata::WebHostHidden]&#xA;class CommandLineArguments abstract" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-    <AssemblyVersion>2.6.0.0</AssemblyVersion>
+    <AssemblyVersion>2.9.0.0</AssemblyVersion>
+    <AssemblyVersion>3.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -33,7 +32,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Immutable.ImmutableArray&lt;Microsoft.CodeAnalysis.CommandLineSourceFile&gt;</ReturnType>
@@ -41,6 +41,28 @@
       <Docs>
         <summary>
             A set of additional non-code text files that can be used by analyzers.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AnalyzerConfigPaths">
+      <MemberSignature Language="C#" Value="public System.Collections.Immutable.ImmutableArray&lt;string&gt; AnalyzerConfigPaths { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Collections.Immutable.ImmutableArray`1&lt;string&gt; AnalyzerConfigPaths" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.CodeAnalysis.CommandLineArguments.AnalyzerConfigPaths" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AnalyzerConfigPaths As ImmutableArray(Of String)" />
+      <MemberSignature Language="F#" Value="member this.AnalyzerConfigPaths : System.Collections.Immutable.ImmutableArray&lt;string&gt;" Usage="Microsoft.CodeAnalysis.CommandLineArguments.AnalyzerConfigPaths" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Immutable.ImmutableArray&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            A set of paths to EditorConfig-compatible analyzer config files.
             </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -56,7 +78,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Immutable.ImmutableArray&lt;Microsoft.CodeAnalysis.CommandLineAnalyzerReference&gt;</ReturnType>
@@ -76,11 +99,11 @@
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AppConfigPath As String" />
       <MemberSignature Language="F#" Value="member this.AppConfigPath : string" Usage="Microsoft.CodeAnalysis.CommandLineArguments.AppConfigPath" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ AppConfigPath { System::String ^ get(); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; property Platform::String ^ AppConfigPath { Platform::String ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -100,11 +123,11 @@
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property BaseDirectory As String" />
       <MemberSignature Language="F#" Value="member this.BaseDirectory : string" Usage="Microsoft.CodeAnalysis.CommandLineArguments.BaseDirectory" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ BaseDirectory { System::String ^ get(); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; property Platform::String ^ BaseDirectory { Platform::String ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -129,18 +152,18 @@
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ChecksumAlgorithm As SourceHashAlgorithm" />
       <MemberSignature Language="F#" Value="member this.ChecksumAlgorithm : Microsoft.CodeAnalysis.Text.SourceHashAlgorithm" Usage="Microsoft.CodeAnalysis.CommandLineArguments.ChecksumAlgorithm" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::CodeAnalysis::Text::SourceHashAlgorithm ChecksumAlgorithm { Microsoft::CodeAnalysis::Text::SourceHashAlgorithm get(); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; property Microsoft::CodeAnalysis::Text::SourceHashAlgorithm ChecksumAlgorithm { Microsoft::CodeAnalysis::Text::SourceHashAlgorithm get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.Text.SourceHashAlgorithm</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-            Hash algorithm to use to calculate source file debug checksums.
+            Hash algorithm to use to calculate source file debug checksums and PDB checksum.
             </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -153,11 +176,11 @@
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CompilationName As String" />
       <MemberSignature Language="F#" Value="member this.CompilationName : string" Usage="Microsoft.CodeAnalysis.CommandLineArguments.CompilationName" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ CompilationName { System::String ^ get(); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; property Platform::String ^ CompilationName { Platform::String ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -177,11 +200,11 @@
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CompilationOptions As CompilationOptions" />
       <MemberSignature Language="F#" Value="member this.CompilationOptions : Microsoft.CodeAnalysis.CompilationOptions" Usage="Microsoft.CodeAnalysis.CommandLineArguments.CompilationOptions" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::CodeAnalysis::CompilationOptions ^ CompilationOptions { Microsoft::CodeAnalysis::CompilationOptions ^ get(); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; property Microsoft::CodeAnalysis::CompilationOptions ^ CompilationOptions { Microsoft::CodeAnalysis::CompilationOptions ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.CompilationOptions</ReturnType>
@@ -201,11 +224,11 @@
       <MemberSignature Language="VB.NET" Value="Protected MustOverride ReadOnly Property CompilationOptionsCore As CompilationOptions" />
       <MemberSignature Language="F#" Value="member this.CompilationOptionsCore : Microsoft.CodeAnalysis.CompilationOptions" Usage="Microsoft.CodeAnalysis.CommandLineArguments.CompilationOptionsCore" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; abstract property Microsoft::CodeAnalysis::CompilationOptions ^ CompilationOptionsCore { Microsoft::CodeAnalysis::CompilationOptions ^ get(); };" />
-      <MemberSignature Language="C++ CX" Value="protected:&#xA; abstract property Microsoft::CodeAnalysis::CompilationOptions ^ CompilationOptionsCore { Microsoft::CodeAnalysis::CompilationOptions ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.CompilationOptions</ReturnType>
@@ -223,11 +246,11 @@
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DisplayHelp As Boolean" />
       <MemberSignature Language="F#" Value="member this.DisplayHelp : bool" Usage="Microsoft.CodeAnalysis.CommandLineArguments.DisplayHelp" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool DisplayHelp { bool get(); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; property bool DisplayHelp { bool get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -247,11 +270,11 @@
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DisplayLangVersions As Boolean" />
       <MemberSignature Language="F#" Value="member this.DisplayLangVersions : bool" Usage="Microsoft.CodeAnalysis.CommandLineArguments.DisplayLangVersions" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool DisplayLangVersions { bool get(); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; property bool DisplayLangVersions { bool get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -271,11 +294,11 @@
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DisplayLogo As Boolean" />
       <MemberSignature Language="F#" Value="member this.DisplayLogo : bool" Usage="Microsoft.CodeAnalysis.CommandLineArguments.DisplayLogo" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool DisplayLogo { bool get(); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; property bool DisplayLogo { bool get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -296,11 +319,11 @@
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DisplayVersion As Boolean" />
       <MemberSignature Language="F#" Value="member this.DisplayVersion : bool" Usage="Microsoft.CodeAnalysis.CommandLineArguments.DisplayVersion" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool DisplayVersion { bool get(); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; property bool DisplayVersion { bool get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -320,11 +343,11 @@
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DocumentationPath As String" />
       <MemberSignature Language="F#" Value="member this.DocumentationPath : string" Usage="Microsoft.CodeAnalysis.CommandLineArguments.DocumentationPath" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ DocumentationPath { System::String ^ get(); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; property Platform::String ^ DocumentationPath { Platform::String ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -347,7 +370,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Immutable.ImmutableArray&lt;Microsoft.CodeAnalysis.CommandLineSourceFile&gt;</ReturnType>
@@ -370,7 +394,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.Emit.EmitOptions</ReturnType>
@@ -390,11 +415,11 @@
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property EmitPdb As Boolean" />
       <MemberSignature Language="F#" Value="member this.EmitPdb : bool" Usage="Microsoft.CodeAnalysis.CommandLineArguments.EmitPdb" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool EmitPdb { bool get(); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; property bool EmitPdb { bool get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -417,7 +442,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Text.Encoding</ReturnType>
@@ -437,11 +463,11 @@
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ErrorLogPath As String" />
       <MemberSignature Language="F#" Value="member this.ErrorLogPath : string" Usage="Microsoft.CodeAnalysis.CommandLineArguments.ErrorLogPath" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ErrorLogPath { System::String ^ get(); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; property Platform::String ^ ErrorLogPath { Platform::String ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -464,7 +490,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Immutable.ImmutableArray&lt;Microsoft.CodeAnalysis.Diagnostic&gt;</ReturnType>
@@ -484,11 +511,11 @@
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property InteractiveMode As Boolean" />
       <MemberSignature Language="F#" Value="member this.InteractiveMode : bool" Usage="Microsoft.CodeAnalysis.CommandLineArguments.InteractiveMode" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool InteractiveMode { bool get(); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; property bool InteractiveMode { bool get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -511,7 +538,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Immutable.ImmutableArray&lt;System.String&gt;</ReturnType>
@@ -534,7 +562,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Immutable.ImmutableArray&lt;Microsoft.CodeAnalysis.ResourceDescription&gt;</ReturnType>
@@ -557,7 +586,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Immutable.ImmutableArray&lt;Microsoft.CodeAnalysis.CommandLineReference&gt;</ReturnType>
@@ -578,11 +608,11 @@
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property NoWin32Manifest As Boolean" />
       <MemberSignature Language="F#" Value="member this.NoWin32Manifest : bool" Usage="Microsoft.CodeAnalysis.CommandLineArguments.NoWin32Manifest" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool NoWin32Manifest { bool get(); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; property bool NoWin32Manifest { bool get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -604,11 +634,11 @@
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property OutputDirectory As String" />
       <MemberSignature Language="F#" Value="member this.OutputDirectory : string" Usage="Microsoft.CodeAnalysis.CommandLineArguments.OutputDirectory" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ OutputDirectory { System::String ^ get(); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; property Platform::String ^ OutputDirectory { Platform::String ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -628,11 +658,11 @@
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property OutputFileName As String" />
       <MemberSignature Language="F#" Value="member this.OutputFileName : string" Usage="Microsoft.CodeAnalysis.CommandLineArguments.OutputFileName" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ OutputFileName { System::String ^ get(); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; property Platform::String ^ OutputFileName { Platform::String ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -652,11 +682,11 @@
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property OutputRefFilePath As String" />
       <MemberSignature Language="F#" Value="member this.OutputRefFilePath : string" Usage="Microsoft.CodeAnalysis.CommandLineArguments.OutputRefFilePath" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ OutputRefFilePath { System::String ^ get(); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; property Platform::String ^ OutputRefFilePath { Platform::String ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -676,11 +706,11 @@
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ParseOptions As ParseOptions" />
       <MemberSignature Language="F#" Value="member this.ParseOptions : Microsoft.CodeAnalysis.ParseOptions" Usage="Microsoft.CodeAnalysis.CommandLineArguments.ParseOptions" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::CodeAnalysis::ParseOptions ^ ParseOptions { Microsoft::CodeAnalysis::ParseOptions ^ get(); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; property Microsoft::CodeAnalysis::ParseOptions ^ ParseOptions { Microsoft::CodeAnalysis::ParseOptions ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.ParseOptions</ReturnType>
@@ -700,11 +730,11 @@
       <MemberSignature Language="VB.NET" Value="Protected MustOverride ReadOnly Property ParseOptionsCore As ParseOptions" />
       <MemberSignature Language="F#" Value="member this.ParseOptionsCore : Microsoft.CodeAnalysis.ParseOptions" Usage="Microsoft.CodeAnalysis.CommandLineArguments.ParseOptionsCore" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; abstract property Microsoft::CodeAnalysis::ParseOptions ^ ParseOptionsCore { Microsoft::CodeAnalysis::ParseOptions ^ get(); };" />
-      <MemberSignature Language="C++ CX" Value="protected:&#xA; abstract property Microsoft::CodeAnalysis::ParseOptions ^ ParseOptionsCore { Microsoft::CodeAnalysis::ParseOptions ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.ParseOptions</ReturnType>
@@ -725,7 +755,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Immutable.ImmutableArray&lt;System.Collections.Generic.KeyValuePair&lt;System.String,System.String&gt;&gt;</ReturnType>
@@ -750,11 +781,11 @@
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PdbPath As String" />
       <MemberSignature Language="F#" Value="member this.PdbPath : string" Usage="Microsoft.CodeAnalysis.CommandLineArguments.PdbPath" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ PdbPath { System::String ^ get(); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; property Platform::String ^ PdbPath { Platform::String ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -777,7 +808,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Globalization.CultureInfo</ReturnType>
@@ -797,11 +829,11 @@
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PrintFullPaths As Boolean" />
       <MemberSignature Language="F#" Value="member this.PrintFullPaths : bool" Usage="Microsoft.CodeAnalysis.CommandLineArguments.PrintFullPaths" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool PrintFullPaths { bool get(); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; property bool PrintFullPaths { bool get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -825,7 +857,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Immutable.ImmutableArray&lt;System.String&gt;</ReturnType>
@@ -845,11 +878,11 @@
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ReportAnalyzer As Boolean" />
       <MemberSignature Language="F#" Value="member this.ReportAnalyzer : bool" Usage="Microsoft.CodeAnalysis.CommandLineArguments.ReportAnalyzer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ReportAnalyzer { bool get(); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; property bool ReportAnalyzer { bool get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -872,11 +905,12 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.CompilerServices.IteratorStateMachine(typeof(Microsoft.CodeAnalysis.CommandLineArguments/&lt;ResolveAnalyzerReferences&gt;d__181))</AttributeName>
+          <AttributeName>System.Runtime.CompilerServices.IteratorStateMachine(typeof(Microsoft.CodeAnalysis.CommandLineArguments/&lt;ResolveAnalyzerReferences&gt;d__186))</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -904,7 +938,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IEnumerable&lt;Microsoft.CodeAnalysis.MetadataReference&gt;</ReturnType>
@@ -931,11 +966,11 @@
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property RuleSetPath As String" />
       <MemberSignature Language="F#" Value="member this.RuleSetPath : string" Usage="Microsoft.CodeAnalysis.CommandLineArguments.RuleSetPath" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ RuleSetPath { System::String ^ get(); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; property Platform::String ^ RuleSetPath { Platform::String ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -958,7 +993,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Immutable.ImmutableArray&lt;System.String&gt;</ReturnType>
@@ -981,7 +1017,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Immutable.ImmutableArray&lt;Microsoft.CodeAnalysis.CommandLineSourceFile&gt;</ReturnType>
@@ -1004,11 +1041,11 @@
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SourceLink As String" />
       <MemberSignature Language="F#" Value="member this.SourceLink : string" Usage="Microsoft.CodeAnalysis.CommandLineArguments.SourceLink" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ SourceLink { System::String ^ get(); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; property Platform::String ^ SourceLink { Platform::String ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -1032,7 +1069,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Immutable.ImmutableArray&lt;System.String&gt;</ReturnType>
@@ -1052,11 +1090,11 @@
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TouchedFilesPath As String" />
       <MemberSignature Language="F#" Value="member this.TouchedFilesPath : string" Usage="Microsoft.CodeAnalysis.CommandLineArguments.TouchedFilesPath" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ TouchedFilesPath { System::String ^ get(); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; property Platform::String ^ TouchedFilesPath { Platform::String ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -1080,11 +1118,11 @@
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Utf8Output As Boolean" />
       <MemberSignature Language="F#" Value="member this.Utf8Output : bool" Usage="Microsoft.CodeAnalysis.CommandLineArguments.Utf8Output" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool Utf8Output { bool get(); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; property bool Utf8Output { bool get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -1104,11 +1142,11 @@
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Win32Icon As String" />
       <MemberSignature Language="F#" Value="member this.Win32Icon : string" Usage="Microsoft.CodeAnalysis.CommandLineArguments.Win32Icon" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Win32Icon { System::String ^ get(); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; property Platform::String ^ Win32Icon { Platform::String ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -1128,11 +1166,11 @@
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Win32Manifest As String" />
       <MemberSignature Language="F#" Value="member this.Win32Manifest : string" Usage="Microsoft.CodeAnalysis.CommandLineArguments.Win32Manifest" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Win32Manifest { System::String ^ get(); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; property Platform::String ^ Win32Manifest { Platform::String ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -1153,11 +1191,11 @@
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Win32ResourceFile As String" />
       <MemberSignature Language="F#" Value="member this.Win32ResourceFile : string" Usage="Microsoft.CodeAnalysis.CommandLineArguments.Win32ResourceFile" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Win32ResourceFile { System::String ^ get(); };" />
-      <MemberSignature Language="C++ CX" Value="public:&#xA; property Platform::String ^ Win32ResourceFile { Platform::String ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
-        <AssemblyVersion>2.6.0.0</AssemblyVersion>
+        <AssemblyVersion>2.9.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
