@@ -17,11 +17,11 @@
         "Conceptual": "Content",
         "ManagedReference": "Content",
         "RestApi": "Content",
-        "NetEnum":"Content",
-        "NetDelegate":"Content",
-        "NetNamespace":"Content",
-        "NetMember":"Content",
-        "NetType":"Content"
+        "NetEnum": "Content",
+        "NetDelegate": "Content",
+        "NetNamespace": "Content",
+        "NetMember": "Content",
+        "NetType": "Content"
       },
       "build_entry_point": "docs",
       "template_folder": "_themes",
@@ -85,5 +85,11 @@
   "DiffFolder": [
     "dotnet/api"
   ],
-  "SplitTOC": "dotnet/api/toc.yml"
+  "SplitTOC": "dotnet/api/toc.yml",
+  "docs_build_engine": {
+    "name": "docfx_v3"
+  },
+  "feature_flags": {
+    "use_v2_github_user_cache": true
+  }
 }
