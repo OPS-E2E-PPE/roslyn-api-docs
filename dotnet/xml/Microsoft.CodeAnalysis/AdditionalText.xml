@@ -62,6 +62,12 @@
         <AssemblyVersion>3.3.0.0</AssemblyVersion>
         <AssemblyVersion>3.4.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.Versioning.RequiresPreviewFeatures("Generic Math is in preview.", Url="https://aka.ms/dotnet-warnings/generic-math-preview")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.Versioning.RequiresPreviewFeatures("Generic Math is in preview.", Url="https://aka.ms/dotnet-warnings/generic-math-preview")&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.Text.SourceText</ReturnType>
       </ReturnValue>
