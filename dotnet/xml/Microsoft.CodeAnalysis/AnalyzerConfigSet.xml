@@ -41,11 +41,8 @@
         <ReturnType>Microsoft.CodeAnalysis.AnalyzerConfigSet</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="TList">
-          <Constraints>
-            <InterfaceName>System.Collections.Generic.IReadOnlyCollection&lt;Microsoft.CodeAnalysis.AnalyzerConfig&gt;</InterfaceName>
-          </Constraints>
-        </TypeParameter>
+        <TypeParameter Name="TList" Index="0" FrameworkAlternate="roslyn-dotnet-3.3.0" />
+        <TypeParameter Name="TToList" Index="0" FrameworkAlternate="roslyn-dotnet-3.4.0" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="analyzerConfigs" Type="TList" />
