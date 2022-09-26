@@ -37,6 +37,12 @@
         <AssemblyVersion>3.3.0.0</AssemblyVersion>
         <AssemblyVersion>3.4.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Obsolete("Use CreateQuery("select * from devices", pageSize);")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Obsolete("Use CreateQuery("select * from devices", pageSize);")&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.AnalyzerConfigSet</ReturnType>
       </ReturnValue>
@@ -72,6 +78,12 @@
         <AssemblyVersion>3.3.0.0</AssemblyVersion>
         <AssemblyVersion>3.4.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Obsolete("Code Access Security is not supported or honored by the runtime.", DiagnosticId="SYSLIB0003", UrlFormat="https://aka.ms/dotnet-warnings/{0}")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Obsolete("Code Access Security is not supported or honored by the runtime.", DiagnosticId="SYSLIB0003", UrlFormat="https://aka.ms/dotnet-warnings/{0}")&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
       <ReturnValue>
         <ReturnType>Microsoft.CodeAnalysis.AnalyzerConfigOptionsResult</ReturnType>
       </ReturnValue>
