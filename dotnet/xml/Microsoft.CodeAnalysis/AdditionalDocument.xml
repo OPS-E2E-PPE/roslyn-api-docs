@@ -21,7 +21,6 @@
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
-   <Member>
       <Member MemberName="System.Collections.Generic.IComparer&lt;System.Windows.Forms.ComboBox+ObjectCollection+Entry&gt;.Compare" ExplicitInterfaceMemberName="System.Collections.Generic.IComparer&lt;System.Windows.Forms.ComboBox.ObjectCollection.Entry&gt;.Compare">
       <MemberSignature Language="C#" Value="int IComparer&lt;ComboBox.ObjectCollection.Entry&gt;.Compare (System.Windows.Forms.ComboBox.ObjectCollection.Entry entry1, System.Windows.Forms.ComboBox.ObjectCollection.Entry entry2);" />
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance int32 System.Collections.Generic.IComparer&lt;System.Windows.Forms.ComboBox.ObjectCollection.Entry&gt;.Compare(class System.Windows.Forms.ComboBox/ObjectCollection/Entry entry1, class System.Windows.Forms.ComboBox/ObjectCollection/Entry entry2) cil managed" />
