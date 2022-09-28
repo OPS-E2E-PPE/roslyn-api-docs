@@ -21,7 +21,9 @@
       <Member Id="F:Microsoft.CodeAnalysis.Accessibility.ProtectedOrInternal" />
       <Member Id="F:Microsoft.CodeAnalysis.Accessibility.Public" />
     </Type>
-    <Type Name="Microsoft.CodeAnalysis.AdditionalDocument" Id="T:Microsoft.CodeAnalysis.AdditionalDocument" />
+    <Type Name="Microsoft.CodeAnalysis.AdditionalDocument" Id="T:Microsoft.CodeAnalysis.AdditionalDocument" >
+      <Member Id="M:System.Windows.Forms.ComboBox.ObjectCollection.System#Collections#Generic#IComparer&lt;System#Windows#Forms#ComboBox#ObjectCollection#Entry&gt;#Compare(System.Windows.Forms.ComboBox.ObjectCollection.Entry,System.Windows.Forms.ComboBox.ObjectCollection.Entry)" />
+    </Type>
     <Type Name="Microsoft.CodeAnalysis.AdditionalText" Id="T:Microsoft.CodeAnalysis.AdditionalText">
       <Member Id="M:Microsoft.CodeAnalysis.AdditionalText.#ctor" />
       <Member Id="M:Microsoft.CodeAnalysis.AdditionalText.GetText(System.Threading.CancellationToken)" />
