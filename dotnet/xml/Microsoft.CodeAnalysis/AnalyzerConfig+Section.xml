@@ -20,6 +20,18 @@
             of key-value pairs.
             </summary>
     <remarks>To be added.</remarks>
+    <example>
+        An example on how to configure the serialization option to ignore null values
+        CosmosClientOptions clientOptions = new CosmosClientOptions()
+        {
+            SerializerOptions = new CosmosSerializationOptions(){
+                IgnoreNullValues = true
+            },
+            ConnectionMode = ConnectionMode.Gateway,
+        };
+
+        CosmosClient client = new CosmosClient("endpoint", "key", clientOptions);
+    </example>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -44,6 +56,19 @@
         <param name="properties">To be added.</param>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
+        <example>
+        An example on how to configure the serialization option to ignore null values.
+        <code language="csharp">
+        CosmosClientOptions clientOptions = new CosmosClientOptions()
+        {
+            SerializerOptions = new CosmosSerializationOptions(){
+                IgnoreNullValues = true
+            },
+            ConnectionMode = ConnectionMode.Gateway,
+        };
+
+        CosmosClient client = new CosmosClient("endpoint", "key", clientOptions);
+        </code></example>
       </Docs>
     </Member>
     <Member MemberName="Name">
@@ -68,6 +93,18 @@
             </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
+        <example>
+        An example on how to configure the serialization option to ignore null values.
+                CosmosClientOptions clientOptions = new CosmosClientOptions()
+                {
+                    SerializerOptions = new CosmosSerializationOptions(){
+                        IgnoreNullValues = true
+                    },
+                    ConnectionMode = ConnectionMode.Gateway,
+                };
+
+                CosmosClient client = new CosmosClient("endpoint", "key", clientOptions);
+        </example>
       </Docs>
     </Member>
     <Member MemberName="NameComparer">
@@ -121,6 +158,20 @@
             </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
+        <example>
+        An example on how to configure the serialization option to ignore null values.
+        ```
+            CosmosClientOptions clientOptions = new CosmosClientOptions()
+            {
+                SerializerOptions = new CosmosSerializationOptions(){
+                    IgnoreNullValues = true
+                },
+                ConnectionMode = ConnectionMode.Gateway,
+            };
+
+            CosmosClient client = new CosmosClient("endpoint", "key", clientOptions);
+        ```
+        </example>
       </Docs>
     </Member>
     <Member MemberName="PropertiesKeyComparer">
@@ -146,6 +197,19 @@
             </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
+        <example>
+        An example on how to configure the serialization option to ignore null values.
+        <format type="text/markdown"><![CDATA[
+        CosmosClientOptions clientOptions = new CosmosClientOptions()
+        {
+            SerializerOptions = new CosmosSerializationOptions(){
+                IgnoreNullValues = true
+            },
+            ConnectionMode = ConnectionMode.Gateway,
+        };
+
+        CosmosClient client = new CosmosClient("endpoint", "key", clientOptions);
+        ]]></format></example>
       </Docs>
     </Member>
   </Members>
