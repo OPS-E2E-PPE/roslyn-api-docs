@@ -1,0 +1,309 @@
+<Type Name="InterfaceI&lt;T&gt;" FullName="StaticVirtualMembers.InterfaceI&lt;T&gt;">
+  <TypeSignature Language="C#" Value="public interface InterfaceI&lt;T&gt; where T : InterfaceI&lt;T&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract InterfaceI`1&lt;(class StaticVirtualMembers.InterfaceI`1&lt;!T&gt;) T&gt;" />
+  <TypeSignature Language="DocId" Value="T:StaticVirtualMembers.InterfaceI`1" />
+  <TypeSignature Language="VB.NET" Value="Public Interface InterfaceI(Of T)" />
+  <TypeSignature Language="C++ CLI" Value="generic &lt;typename T&gt;&#xA; where T : InterfaceI&lt;T&gt;public interface class InterfaceI" />
+  <TypeSignature Language="F#" Value="type InterfaceI&lt;'T (requires 'T :&gt; InterfaceI&lt;'T&gt;)&gt; = interface" />
+  <AssemblyInfo>
+    <AssemblyName>StaticVirtualMembers</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <TypeParameters>
+    <TypeParameter Name="T">
+      <Constraints>
+        <InterfaceName>StaticVirtualMembers.InterfaceI&lt;T&gt;</InterfaceName>
+      </Constraints>
+    </TypeParameter>
+  </TypeParameters>
+  <Interfaces />
+  <Docs>
+    <typeparam name="T">To be added.</typeparam>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="E">
+      <MemberSignature Language="C#" Value="static abstract event Action E;" />
+      <MemberSignature Language="ILAsm" Value=".event class System.Action E" />
+      <MemberSignature Language="DocId" Value="E:StaticVirtualMembers.InterfaceI`1.E" />
+      <MemberSignature Language="VB.NET" Value=" Shared Event E As Action " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static event Action ^ E;" />
+      <MemberSignature Language="F#" Value="member this.E : Action " Usage="member this.E : System.Action " />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>StaticVirtualMembers</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Action</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="E1">
+      <MemberSignature Language="C#" Value="static virtual event Action E1;" />
+      <MemberSignature Language="ILAsm" Value=".event class System.Action E1" />
+      <MemberSignature Language="DocId" Value="E:StaticVirtualMembers.InterfaceI`1.E1" />
+      <MemberSignature Language="VB.NET" Value=" Shared Overrides Event E1 As Action " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static override event Action ^ E1;" />
+      <MemberSignature Language="F#" Value="member this.E1 : Action " Usage="member this.E1 : System.Action " />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>StaticVirtualMembers</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Action</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="M">
+      <MemberSignature Language="C#" Value="public static abstract void M ();" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig virtual void M() cil managed" />
+      <MemberSignature Language="DocId" Value="M:StaticVirtualMembers.InterfaceI`1.M" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Sub M ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void M();" />
+      <MemberSignature Language="F#" Value="static member M : unit -&gt; unit" Usage="StaticVirtualMembers.InterfaceI&lt;'T (requires 'T :&gt; StaticVirtualMembers.InterfaceI&lt;'T&gt;)&gt;.M " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>StaticVirtualMembers</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="M1">
+      <MemberSignature Language="C#" Value="public static virtual void M1 ();" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig virtual void M1() cil managed" />
+      <MemberSignature Language="DocId" Value="M:StaticVirtualMembers.InterfaceI`1.M1" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Overrides Sub M1 ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static override void M1();" />
+      <MemberSignature Language="F#" Value="static member M1 : unit -&gt; unit" Usage="StaticVirtualMembers.InterfaceI&lt;'T (requires 'T :&gt; StaticVirtualMembers.InterfaceI&lt;'T&gt;)&gt;.M1 " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>StaticVirtualMembers</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Addition">
+      <MemberSignature Language="C#" Value="public static abstract T operator + (T l, T r);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname virtual !T op_Addition(!T l, !T r) cil managed" />
+      <MemberSignature Language="DocId" Value="M:StaticVirtualMembers.InterfaceI`1.op_Addition(`0,`0)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Operator + (l As T, r As T) As T" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static T operator +(T l, T r);" />
+      <MemberSignature Language="F#" Value="static member ( + ) : 'T * 'T -&gt; 'T" Usage="l + r" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>StaticVirtualMembers</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>T</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="l" Type="T" />
+        <Parameter Name="r" Type="T" />
+      </Parameters>
+      <Docs>
+        <param name="l">To be added.</param>
+        <param name="r">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_CheckedAddition">
+      <MemberSignature Language="C#" Value="public static virtual T op_CheckedAddition (T l, T r);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname virtual !T op_CheckedAddition(!T l, !T r) cil managed" />
+      <MemberSignature Language="DocId" Value="M:StaticVirtualMembers.InterfaceI`1.op_CheckedAddition(`0,`0)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Overrides op_CheckedAddition (l As T, r As T) As T" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static override T op_CheckedAddition(T l, T r);" />
+      <MemberSignature Language="F#" Value="static member op_CheckedAddition : 'T * 'T -&gt; 'T" Usage="StaticVirtualMembers.InterfaceI&lt;'T (requires 'T :&gt; StaticVirtualMembers.InterfaceI&lt;'T&gt;)&gt;.op_CheckedAddition (l, r)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>StaticVirtualMembers</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>T</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="l" Type="T" />
+        <Parameter Name="r" Type="T" />
+      </Parameters>
+      <Docs>
+        <param name="l">To be added.</param>
+        <param name="r">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Equality">
+      <MemberSignature Language="C#" Value="public static abstract bool operator == (T l, T r);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname virtual bool op_Equality(!T l, !T r) cil managed" />
+      <MemberSignature Language="DocId" Value="M:StaticVirtualMembers.InterfaceI`1.op_Equality(`0,`0)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Operator == (l As T, r As T) As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool operator ==(T l, T r);" />
+      <MemberSignature Language="F#" Value="static member ( = ) : 'T * 'T -&gt; bool" Usage="l = r" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>StaticVirtualMembers</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="l" Type="T" />
+        <Parameter Name="r" Type="T" />
+      </Parameters>
+      <Docs>
+        <param name="l">To be added.</param>
+        <param name="r">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Explicit">
+      <MemberSignature Language="C#" Value="public static abstract explicit operator string (T t);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname virtual string op_Explicit(!T t) cil managed" />
+      <MemberSignature Language="DocId" Value="M:StaticVirtualMembers.InterfaceI`1.op_Explicit(`0)~System.String" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Narrowing Operator CType (t As T) As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static explicit operator System::String ^(T t);" />
+      <MemberSignature Language="F#" Value="static member op_Explicit : 'T -&gt; string" Usage="StaticVirtualMembers.InterfaceI&lt;'T (requires 'T :&gt; StaticVirtualMembers.InterfaceI&lt;'T&gt;)&gt;.op_Explicit t" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>StaticVirtualMembers</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="t" Type="T" />
+      </Parameters>
+      <Docs>
+        <param name="t">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Implicit">
+      <MemberSignature Language="C#" Value="public static abstract implicit operator T (string s);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname virtual !T op_Implicit(string s) cil managed" />
+      <MemberSignature Language="DocId" Value="M:StaticVirtualMembers.InterfaceI`1.op_Implicit(System.String)~`0" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Widening Operator CType (s As String) As T" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static operator T(System::String ^ s);" />
+      <MemberSignature Language="F#" Value="static member op_Implicit : string -&gt; 'T" Usage="StaticVirtualMembers.InterfaceI&lt;'T (requires 'T :&gt; StaticVirtualMembers.InterfaceI&lt;'T&gt;)&gt;.op_Implicit s" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>StaticVirtualMembers</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>T</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="s" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="s">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Inequality">
+      <MemberSignature Language="C#" Value="public static abstract bool operator != (T l, T r);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname virtual bool op_Inequality(!T l, !T r) cil managed" />
+      <MemberSignature Language="DocId" Value="M:StaticVirtualMembers.InterfaceI`1.op_Inequality(`0,`0)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Operator != (l As T, r As T) As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool operator !=(T l, T r);" />
+      <MemberSignature Language="F#" Value="static member op_Inequality : 'T * 'T -&gt; bool" Usage="StaticVirtualMembers.InterfaceI&lt;'T (requires 'T :&gt; StaticVirtualMembers.InterfaceI&lt;'T&gt;)&gt;.op_Inequality (l, r)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>StaticVirtualMembers</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="l" Type="T" />
+        <Parameter Name="r" Type="T" />
+      </Parameters>
+      <Docs>
+        <param name="l">To be added.</param>
+        <param name="r">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="P">
+      <MemberSignature Language="C#" Value="public static abstract T P { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property !T P" />
+      <MemberSignature Language="DocId" Value="P:StaticVirtualMembers.InterfaceI`1.P" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Property P As T" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property T P { T get(); void set(T value); };" />
+      <MemberSignature Language="F#" Value="static member P : 'T with get, set" Usage="StaticVirtualMembers.InterfaceI&lt;'T (requires 'T :&gt; StaticVirtualMembers.InterfaceI&lt;'T&gt;)&gt;.P" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>StaticVirtualMembers</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>T</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="P1">
+      <MemberSignature Language="C#" Value="public static virtual T P1 { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property !T P1" />
+      <MemberSignature Language="DocId" Value="P:StaticVirtualMembers.InterfaceI`1.P1" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Overrides Property P1 As T" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static virtual property T P1 { T get(); void set(T value); };" />
+      <MemberSignature Language="F#" Value="static member P1 : 'T with get, set" Usage="StaticVirtualMembers.InterfaceI&lt;'T (requires 'T :&gt; StaticVirtualMembers.InterfaceI&lt;'T&gt;)&gt;.P1" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>StaticVirtualMembers</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>T</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

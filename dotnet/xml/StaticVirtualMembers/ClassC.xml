@@ -1,0 +1,259 @@
+<Type Name="ClassC" FullName="StaticVirtualMembers.ClassC">
+  <TypeSignature Language="C#" Value="public class ClassC : StaticVirtualMembers.InterfaceI&lt;StaticVirtualMembers.ClassC&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ClassC extends System.Object implements class StaticVirtualMembers.InterfaceI`1&lt;class StaticVirtualMembers.ClassC&gt;" />
+  <TypeSignature Language="DocId" Value="T:StaticVirtualMembers.ClassC" />
+  <TypeSignature Language="VB.NET" Value="Public Class ClassC&#xA;Implements InterfaceI(Of ClassC)" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ClassC : StaticVirtualMembers::InterfaceI&lt;StaticVirtualMembers::ClassC ^&gt;" />
+  <TypeSignature Language="F#" Value="type ClassC = class&#xA;    interface InterfaceI&lt;ClassC&gt;" />
+  <AssemblyInfo>
+    <AssemblyName>StaticVirtualMembers</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>StaticVirtualMembers.InterfaceI&lt;StaticVirtualMembers.ClassC&gt;</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ClassC ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:StaticVirtualMembers.ClassC.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ClassC();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>StaticVirtualMembers</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Explicit">
+      <MemberSignature Language="C#" Value="public static explicit operator string (StaticVirtualMembers.ClassC t);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname string op_Explicit(class StaticVirtualMembers.ClassC t) cil managed" />
+      <MemberSignature Language="DocId" Value="M:StaticVirtualMembers.ClassC.op_Explicit(StaticVirtualMembers.ClassC)~System.String" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Narrowing Operator CType (t As ClassC) As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static explicit operator System::String ^(StaticVirtualMembers::ClassC ^ t) = StaticVirtualMembers::InterfaceI&lt;StaticVirtualMembers::ClassC ^&gt;::op_Explicit;" />
+      <MemberSignature Language="F#" Value="static member op_Explicit : StaticVirtualMembers.ClassC -&gt; string" Usage="StaticVirtualMembers.ClassC.op_Explicit t" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:StaticVirtualMembers.InterfaceI`1.op_Explicit(`0)~System.String</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>StaticVirtualMembers</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="t" Type="StaticVirtualMembers.ClassC" />
+      </Parameters>
+      <Docs>
+        <param name="t">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Implicit">
+      <MemberSignature Language="C#" Value="public static implicit operator StaticVirtualMembers.ClassC (string s);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname class StaticVirtualMembers.ClassC op_Implicit(string s) cil managed" />
+      <MemberSignature Language="DocId" Value="M:StaticVirtualMembers.ClassC.op_Implicit(System.String)~StaticVirtualMembers.ClassC" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Widening Operator CType (s As String) As ClassC" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static operator StaticVirtualMembers::ClassC ^(System::String ^ s) = StaticVirtualMembers::InterfaceI&lt;StaticVirtualMembers::ClassC ^&gt;::op_Implicit;" />
+      <MemberSignature Language="F#" Value="static member op_Implicit : string -&gt; StaticVirtualMembers.ClassC" Usage="StaticVirtualMembers.ClassC.op_Implicit s" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:StaticVirtualMembers.InterfaceI`1.op_Implicit(System.String)~`0</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>StaticVirtualMembers</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>StaticVirtualMembers.ClassC</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="s" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="s">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StaticVirtualMembers.InterfaceI&lt;StaticVirtualMembers.ClassC&gt;.E">
+      <MemberSignature Language="C#" Value="static event Action StaticVirtualMembers.InterfaceI&lt;StaticVirtualMembers.ClassC&gt;.E;" />
+      <MemberSignature Language="ILAsm" Value=".event class System.Action StaticVirtualMembers.InterfaceI&lt;StaticVirtualMembers.ClassC&gt;.E" />
+      <MemberSignature Language="DocId" Value="E:StaticVirtualMembers.ClassC.StaticVirtualMembers#InterfaceI&lt;StaticVirtualMembers#ClassC&gt;#E" />
+      <MemberSignature Language="VB.NET" Value=" Shared Custom Event E As Action Implements StaticVirtualMembers.InterfaceI&lt;StaticVirtualMembers.ClassC&gt;" />
+      <MemberSignature Language="F#" Value="member this.StaticVirtualMembers.InterfaceI&lt;StaticVirtualMembers.ClassC&gt;.E : Action " Usage="member this.StaticVirtualMembers.InterfaceI&lt;StaticVirtualMembers.ClassC&gt;.E : System.Action " />
+      <MemberType>Event</MemberType>
+      <Implements>
+        <InterfaceMember>E:StaticVirtualMembers.InterfaceI`1.E</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>StaticVirtualMembers</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Action</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StaticVirtualMembers.InterfaceI&lt;StaticVirtualMembers.ClassC&gt;.M">
+      <MemberSignature Language="C#" Value="static void InterfaceI&lt;ClassC&gt;.M ();" />
+      <MemberSignature Language="ILAsm" Value=".method static hidebysig void StaticVirtualMembers.InterfaceI&lt;StaticVirtualMembers.ClassC&gt;.M() cil managed" />
+      <MemberSignature Language="DocId" Value="M:StaticVirtualMembers.ClassC.StaticVirtualMembers#InterfaceI&lt;StaticVirtualMembers#ClassC&gt;#M" />
+      <MemberSignature Language="VB.NET" Value=" Shared Sub M () Implements InterfaceI(Of ClassC).M" />
+      <MemberSignature Language="C++ CLI" Value=" static void StaticVirtualMembers.InterfaceI&lt;StaticVirtualMembers.ClassC&gt;.M() = StaticVirtualMembers::InterfaceI&lt;StaticVirtualMembers::ClassC ^&gt;::M;" />
+      <MemberSignature Language="F#" Value="static member StaticVirtualMembers.InterfaceI&lt;StaticVirtualMembers.ClassC&gt;.M : unit -&gt; unit" Usage="StaticVirtualMembers.ClassC.StaticVirtualMembers.InterfaceI&lt;StaticVirtualMembers.ClassC&gt;.M " />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:StaticVirtualMembers.InterfaceI`1.M</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>StaticVirtualMembers</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StaticVirtualMembers.InterfaceI&lt;StaticVirtualMembers.ClassC&gt;.op_Addition">
+      <MemberSignature Language="C#" Value="static StaticVirtualMembers.ClassC InterfaceI&lt;ClassC&gt;.operator + (StaticVirtualMembers.ClassC l, StaticVirtualMembers.ClassC r);" />
+      <MemberSignature Language="ILAsm" Value=".method static hidebysig class StaticVirtualMembers.ClassC StaticVirtualMembers.InterfaceI&lt;StaticVirtualMembers.ClassC&gt;.op_Addition(class StaticVirtualMembers.ClassC l, class StaticVirtualMembers.ClassC r) cil managed" />
+      <MemberSignature Language="DocId" Value="M:StaticVirtualMembers.ClassC.StaticVirtualMembers#InterfaceI&lt;StaticVirtualMembers#ClassC&gt;#op_Addition(StaticVirtualMembers.ClassC,StaticVirtualMembers.ClassC)" />
+      <MemberSignature Language="VB.NET" Value=" Shared Operator + (l As ClassC, r As ClassC) As ClassC Implements InterfaceI(Of ClassC).op_Addition" />
+      <MemberSignature Language="C++ CLI" Value=" static StaticVirtualMembers::ClassC ^ StaticVirtualMembers.InterfaceI&lt;StaticVirtualMembers.ClassC&gt;.operator +(StaticVirtualMembers::ClassC ^ l, StaticVirtualMembers::ClassC ^ r) = StaticVirtualMembers::InterfaceI&lt;StaticVirtualMembers::ClassC ^&gt;::op_Addition;" />
+      <MemberSignature Language="F#" Value="static member ( + ) : StaticVirtualMembers.ClassC * StaticVirtualMembers.ClassC -&gt; StaticVirtualMembers.ClassC" Usage="l + r" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:StaticVirtualMembers.InterfaceI`1.op_Addition(`0,`0)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>StaticVirtualMembers</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>StaticVirtualMembers.ClassC</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="l" Type="StaticVirtualMembers.ClassC" />
+        <Parameter Name="r" Type="StaticVirtualMembers.ClassC" />
+      </Parameters>
+      <Docs>
+        <param name="l">To be added.</param>
+        <param name="r">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StaticVirtualMembers.InterfaceI&lt;StaticVirtualMembers.ClassC&gt;.op_Equality">
+      <MemberSignature Language="C#" Value="static bool InterfaceI&lt;ClassC&gt;.operator == (StaticVirtualMembers.ClassC l, StaticVirtualMembers.ClassC r);" />
+      <MemberSignature Language="ILAsm" Value=".method static hidebysig bool StaticVirtualMembers.InterfaceI&lt;StaticVirtualMembers.ClassC&gt;.op_Equality(class StaticVirtualMembers.ClassC l, class StaticVirtualMembers.ClassC r) cil managed" />
+      <MemberSignature Language="DocId" Value="M:StaticVirtualMembers.ClassC.StaticVirtualMembers#InterfaceI&lt;StaticVirtualMembers#ClassC&gt;#op_Equality(StaticVirtualMembers.ClassC,StaticVirtualMembers.ClassC)" />
+      <MemberSignature Language="VB.NET" Value=" Shared Operator == (l As ClassC, r As ClassC) As Boolean Implements InterfaceI(Of ClassC).op_Equality" />
+      <MemberSignature Language="C++ CLI" Value=" static bool StaticVirtualMembers.InterfaceI&lt;StaticVirtualMembers.ClassC&gt;.operator ==(StaticVirtualMembers::ClassC ^ l, StaticVirtualMembers::ClassC ^ r) = StaticVirtualMembers::InterfaceI&lt;StaticVirtualMembers::ClassC ^&gt;::op_Equality;" />
+      <MemberSignature Language="F#" Value="static member ( = ) : StaticVirtualMembers.ClassC * StaticVirtualMembers.ClassC -&gt; bool" Usage="l = r" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:StaticVirtualMembers.InterfaceI`1.op_Equality(`0,`0)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>StaticVirtualMembers</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="l" Type="StaticVirtualMembers.ClassC" />
+        <Parameter Name="r" Type="StaticVirtualMembers.ClassC" />
+      </Parameters>
+      <Docs>
+        <param name="l">To be added.</param>
+        <param name="r">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StaticVirtualMembers.InterfaceI&lt;StaticVirtualMembers.ClassC&gt;.op_Inequality">
+      <MemberSignature Language="C#" Value="static bool InterfaceI&lt;ClassC&gt;.operator != (StaticVirtualMembers.ClassC l, StaticVirtualMembers.ClassC r);" />
+      <MemberSignature Language="ILAsm" Value=".method static hidebysig bool StaticVirtualMembers.InterfaceI&lt;StaticVirtualMembers.ClassC&gt;.op_Inequality(class StaticVirtualMembers.ClassC l, class StaticVirtualMembers.ClassC r) cil managed" />
+      <MemberSignature Language="DocId" Value="M:StaticVirtualMembers.ClassC.StaticVirtualMembers#InterfaceI&lt;StaticVirtualMembers#ClassC&gt;#op_Inequality(StaticVirtualMembers.ClassC,StaticVirtualMembers.ClassC)" />
+      <MemberSignature Language="VB.NET" Value=" Shared Operator != (l As ClassC, r As ClassC) As Boolean Implements InterfaceI(Of ClassC).op_Inequality" />
+      <MemberSignature Language="C++ CLI" Value=" static bool StaticVirtualMembers.InterfaceI&lt;StaticVirtualMembers.ClassC&gt;.operator !=(StaticVirtualMembers::ClassC ^ l, StaticVirtualMembers::ClassC ^ r) = StaticVirtualMembers::InterfaceI&lt;StaticVirtualMembers::ClassC ^&gt;::op_Inequality;" />
+      <MemberSignature Language="F#" Value="static member StaticVirtualMembers.InterfaceI&lt;StaticVirtualMembers.ClassC&gt;.op_Inequality : StaticVirtualMembers.ClassC * StaticVirtualMembers.ClassC -&gt; bool" Usage="StaticVirtualMembers.ClassC.StaticVirtualMembers.InterfaceI&lt;StaticVirtualMembers.ClassC&gt;.op_Inequality (l, r)" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:StaticVirtualMembers.InterfaceI`1.op_Inequality(`0,`0)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>StaticVirtualMembers</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="l" Type="StaticVirtualMembers.ClassC" />
+        <Parameter Name="r" Type="StaticVirtualMembers.ClassC" />
+      </Parameters>
+      <Docs>
+        <param name="l">To be added.</param>
+        <param name="r">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StaticVirtualMembers.InterfaceI&lt;StaticVirtualMembers.ClassC&gt;.P">
+      <MemberSignature Language="C#" Value="static StaticVirtualMembers.ClassC StaticVirtualMembers.InterfaceI&lt;StaticVirtualMembers.ClassC&gt;.P { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property class StaticVirtualMembers.ClassC StaticVirtualMembers.InterfaceI&lt;StaticVirtualMembers.ClassC&gt;.P" />
+      <MemberSignature Language="DocId" Value="P:StaticVirtualMembers.ClassC.StaticVirtualMembers#InterfaceI&lt;StaticVirtualMembers#ClassC&gt;#P" />
+      <MemberSignature Language="VB.NET" Value=" Shared Property P As ClassC Implements InterfaceI(Of ClassC).P" />
+      <MemberSignature Language="C++ CLI" Value="static property StaticVirtualMembers::ClassC ^ StaticVirtualMembers::InterfaceI&lt;StaticVirtualMembers::ClassC&gt;::P { StaticVirtualMembers::ClassC ^ get(); void set(StaticVirtualMembers::ClassC ^ value); };" />
+      <MemberSignature Language="F#" Value="static member StaticVirtualMembers.InterfaceI&lt;StaticVirtualMembers.ClassC&gt;.P : StaticVirtualMembers.ClassC with get, set" Usage="StaticVirtualMembers.InterfaceI&lt;StaticVirtualMembers.ClassC&gt;.P" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:StaticVirtualMembers.InterfaceI`1.P</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>StaticVirtualMembers</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>StaticVirtualMembers.ClassC</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

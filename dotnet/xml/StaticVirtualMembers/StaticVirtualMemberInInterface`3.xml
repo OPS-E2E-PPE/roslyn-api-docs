@@ -1,0 +1,154 @@
+<Type Name="StaticVirtualMemberInInterface&lt;TSelf,TOther,TResult&gt;" FullName="StaticVirtualMembers.StaticVirtualMemberInInterface&lt;TSelf,TOther,TResult&gt;">
+  <TypeSignature Language="C#" Value="public interface StaticVirtualMemberInInterface&lt;TSelf,TOther,TResult&gt; where TSelf : StaticVirtualMemberInInterface&lt;TSelf,TOther,TResult&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract StaticVirtualMemberInInterface`3&lt;(class StaticVirtualMembers.StaticVirtualMemberInInterface`3&lt;!TSelf, !TOther, !TResult&gt;) TSelf, TOther, TResult&gt;" />
+  <TypeSignature Language="DocId" Value="T:StaticVirtualMembers.StaticVirtualMemberInInterface`3" />
+  <TypeSignature Language="VB.NET" Value="Public Interface StaticVirtualMemberInInterface(Of TSelf, TOther, TResult)" />
+  <TypeSignature Language="C++ CLI" Value="generic &lt;typename TSelf, typename TOther, typename TResult&gt;&#xA; where TSelf : StaticVirtualMemberInInterface&lt;TSelf, TOther, TResult&gt;public interface class StaticVirtualMemberInInterface" />
+  <TypeSignature Language="F#" Value="type StaticVirtualMemberInInterface&lt;'Self, 'Other, 'Result (requires 'Self :&gt; StaticVirtualMemberInInterface&lt;'Self, 'Other, 'Result&gt;)&gt; = interface" />
+  <AssemblyInfo>
+    <AssemblyName>StaticVirtualMembers</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <TypeParameters>
+    <TypeParameter Name="TSelf">
+      <Constraints>
+        <InterfaceName>StaticVirtualMembers.StaticVirtualMemberInInterface&lt;TSelf,TOther,TResult&gt;</InterfaceName>
+      </Constraints>
+    </TypeParameter>
+    <TypeParameter Name="TOther" />
+    <TypeParameter Name="TResult" />
+  </TypeParameters>
+  <Interfaces />
+  <Docs>
+    <typeparam name="TSelf">To be added.</typeparam>
+    <typeparam name="TOther">To be added.</typeparam>
+    <typeparam name="TResult">To be added.</typeparam>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="M">
+      <MemberSignature Language="C#" Value="public static abstract void M ();" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig virtual void M() cil managed" />
+      <MemberSignature Language="DocId" Value="M:StaticVirtualMembers.StaticVirtualMemberInInterface`3.M" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Sub M ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void M();" />
+      <MemberSignature Language="F#" Value="static member M : unit -&gt; unit" Usage="StaticVirtualMembers.StaticVirtualMemberInInterface&lt;'Self, 'Other, 'Result (requires 'Self :&gt; StaticVirtualMembers.StaticVirtualMemberInInterface&lt;'Self, 'Other, 'Result&gt;)&gt;.M " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>StaticVirtualMembers</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Addition">
+      <MemberSignature Language="C#" Value="public static abstract TResult operator + (TSelf left, TOther right);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname virtual !TResult op_Addition(!TSelf left, !TOther right) cil managed" />
+      <MemberSignature Language="DocId" Value="M:StaticVirtualMembers.StaticVirtualMemberInInterface`3.op_Addition(`0,`1)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Operator + (left As TSelf, right As TOther) As TResult" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static TResult operator +(TSelf left, TOther right);" />
+      <MemberSignature Language="F#" Value="static member ( + ) : 'Self * 'Other -&gt; 'Result" Usage="left + right" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>StaticVirtualMembers</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="left" Type="TSelf" />
+        <Parameter Name="right" Type="TOther" />
+      </Parameters>
+      <Docs>
+        <param name="left">To be added.</param>
+        <param name="right">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_CheckedAddition">
+      <MemberSignature Language="C#" Value="public static virtual TResult op_CheckedAddition (TSelf left, TOther right);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname virtual !TResult op_CheckedAddition(!TSelf left, !TOther right) cil managed" />
+      <MemberSignature Language="DocId" Value="M:StaticVirtualMembers.StaticVirtualMemberInInterface`3.op_CheckedAddition(`0,`1)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Overrides op_CheckedAddition (left As TSelf, right As TOther) As TResult" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static override TResult op_CheckedAddition(TSelf left, TOther right);" />
+      <MemberSignature Language="F#" Value="static member op_CheckedAddition : 'Self * 'Other -&gt; 'Result" Usage="StaticVirtualMembers.StaticVirtualMemberInInterface&lt;'Self, 'Other, 'Result (requires 'Self :&gt; StaticVirtualMembers.StaticVirtualMemberInInterface&lt;'Self, 'Other, 'Result&gt;)&gt;.op_CheckedAddition (left, right)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>StaticVirtualMembers</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="left" Type="TSelf" />
+        <Parameter Name="right" Type="TOther" />
+      </Parameters>
+      <Docs>
+        <param name="left">To be added.</param>
+        <param name="right">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StaticVirtualMethod">
+      <MemberSignature Language="C#" Value="public static virtual int StaticVirtualMethod (int left, int right);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig virtual int32 StaticVirtualMethod(int32 left, int32 right) cil managed" />
+      <MemberSignature Language="DocId" Value="M:StaticVirtualMembers.StaticVirtualMemberInInterface`3.StaticVirtualMethod(System.Int32,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Overrides Function StaticVirtualMethod (left As Integer, right As Integer) As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static override int StaticVirtualMethod(int left, int right);" />
+      <MemberSignature Language="F#" Value="static member StaticVirtualMethod : int * int -&gt; int" Usage="StaticVirtualMembers.StaticVirtualMemberInInterface&lt;'Self, 'Other, 'Result (requires 'Self :&gt; StaticVirtualMembers.StaticVirtualMemberInInterface&lt;'Self, 'Other, 'Result&gt;)&gt;.StaticVirtualMethod (left, right)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>StaticVirtualMembers</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="left" Type="System.Int32" />
+        <Parameter Name="right" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="left">To be added.</param>
+        <param name="right">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToBeImplemented">
+      <MemberSignature Language="C#" Value="public void ToBeImplemented ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ToBeImplemented() cil managed" />
+      <MemberSignature Language="DocId" Value="M:StaticVirtualMembers.StaticVirtualMemberInInterface`3.ToBeImplemented" />
+      <MemberSignature Language="VB.NET" Value="Public Sub ToBeImplemented ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void ToBeImplemented();" />
+      <MemberSignature Language="F#" Value="abstract member ToBeImplemented : unit -&gt; unit" Usage="staticVirtualMemberInInterface.ToBeImplemented " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>StaticVirtualMembers</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

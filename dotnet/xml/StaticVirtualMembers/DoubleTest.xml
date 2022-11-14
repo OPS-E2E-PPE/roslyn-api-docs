@@ -1,0 +1,62 @@
+<Type Name="DoubleTest" FullName="StaticVirtualMembers.DoubleTest">
+  <TypeSignature Language="C#" Value="public readonly struct DoubleTest : System.Numerics.IAdditionOperators&lt;double,double,double&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public sequential ansi sealed beforefieldinit DoubleTest extends System.ValueType implements class System.Numerics.IAdditionOperators`3&lt;float64, float64, float64&gt;" />
+  <TypeSignature Language="DocId" Value="T:StaticVirtualMembers.DoubleTest" />
+  <TypeSignature Language="VB.NET" Value="Public Structure DoubleTest&#xA;Implements IAdditionOperators(Of Double, Double, Double)" />
+  <TypeSignature Language="C++ CLI" Value="public value class DoubleTest : System::Numerics::IAdditionOperators&lt;double, double, double&gt;" />
+  <TypeSignature Language="F#" Value="type DoubleTest = struct&#xA;    interface IAdditionOperators&lt;double, double, double&gt;" />
+  <AssemblyInfo>
+    <AssemblyName>StaticVirtualMembers</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.ValueType</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>System.Numerics.IAdditionOperators&lt;System.Double,System.Double,System.Double&gt;</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.IsReadOnly]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.IsReadOnly&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="System.Numerics.IAdditionOperators&lt;System.Double,System.Double,System.Double&gt;.op_Addition">
+      <MemberSignature Language="C#" Value="static double IAdditionOperators&lt;double,double,double&gt;.operator + (double left, double right);" />
+      <MemberSignature Language="ILAsm" Value=".method static hidebysig float64 System.Numerics.IAdditionOperators&lt;System.Double,System.Double,System.Double&gt;.op_Addition(float64 left, float64 right) cil managed" />
+      <MemberSignature Language="DocId" Value="M:StaticVirtualMembers.DoubleTest.System#Numerics#IAdditionOperators&lt;System#Double,System#Double,System#Double&gt;#op_Addition(System.Double,System.Double)" />
+      <MemberSignature Language="VB.NET" Value=" Shared Operator + (left As Double, right As Double) As Double Implements IAdditionOperators(Of Double, Double, Double).op_Addition" />
+      <MemberSignature Language="C++ CLI" Value=" static double System.Numerics.IAdditionOperators&lt;System.Double,System.Double,System.Double&gt;.operator +(double left, double right) = System::Numerics::IAdditionOperators&lt;double, double, double&gt;::op_Addition;" />
+      <MemberSignature Language="F#" Value="static member ( + ) : double * double -&gt; double" Usage="left + right" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Numerics.IAdditionOperators`3.op_Addition(`0,`1)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>StaticVirtualMembers</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Double</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="left" Type="System.Double" />
+        <Parameter Name="right" Type="System.Double" />
+      </Parameters>
+      <Docs>
+        <param name="left">To be added.</param>
+        <param name="right">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>
