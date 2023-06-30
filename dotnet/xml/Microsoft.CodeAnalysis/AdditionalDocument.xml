@@ -18,7 +18,13 @@
     <summary>
             Represents an additional file passed down to analyzers.
             </summary>
-    <remarks>To be added.</remarks>
+    <remarks>
+        The injected script will apply to all future top level document and child frame navigations until removed with <see cref="M:Microsoft.Web.WebView2.Core.CoreWebView2.RemoveScriptToExecuteOnDocumentCreated(System.String)" />.
+        This is applied asynchronously and you must wait for the returned <see cref="T:System.Threading.Tasks.Task`1" /> to complete before you can be sure that the script is ready to execute on future navigations.
+        If the method is run in <see cref="E:Microsoft.Web.WebView2.Core.CoreWebView2.NewWindowRequested" /> handler, it should be called before the new window is set. For more details see <see cref="P:Microsoft.Web.WebView2.Core.CoreWebView2NewWindowRequestedEventArgs.NewWindow" />.
+        
+        Note that if an HTML document has sandboxing of some kind via [sandbox](https://developer.mozilla.org/docs/Web/HTML/Element/iframe#attr-sandbox) properties or the [Content-Security-Policy HTTP header](https://developer.mozilla.org/docs/Web/HTTP/Headers/Content-Security-Policy) this will affect the script run here. So, for example, if the <c>allow-modals</c> keyword is not set then calls to the <c>alert</c> function will be ignored.
+    </remarks>
   </Docs>
   <Members />
 </Type>
