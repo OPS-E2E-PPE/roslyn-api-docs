@@ -21,7 +21,11 @@
     <summary>
             Enumeration for common accessibility combinations.
             </summary>
-    <remarks>To be added.</remarks>
+    <remarks>
+        Provides a WebView as the target for a <c>window.open()</c> from inside the requesting WebView. If this is set, the top-level window of this WebView is returned as the opened [WindowProxy](https://developer.mozilla.org/docs/glossary/windowproxy) to the opener script. If this is not set, then <see cref="P:Microsoft.Web.WebView2.Core.CoreWebView2NewWindowRequestedEventArgs.Handled" /> is checked to determine behavior for the <see cref="E:Microsoft.Web.WebView2.Core.CoreWebView2.NewWindowRequested" />.
+        The methods which should affect [WindowProxy1](https://developer.mozilla.org/docs/glossary/windowproxy) the new web contents like <see cref="M:Microsoft.Web.WebView2.Core.CoreWebView2.AddScriptToExecuteOnDocumentCreatedAsync(System.String)" /> has to be called and completed before setting NewWindow. Other methods which should affect the new web contents like <see cref="E:Microsoft.Web.WebView2.Core.CoreWebView2.WebResourceRequested" /> have to be called after setting NewWindow. It is best not to use <see cref="M:Microsoft.Web.WebView2.Core.CoreWebView2.RemoveScriptToExecuteOnDocumentCreated(System.String)" /> before setting NewWindow, otherwise it may not work for later added scripts.
+        WebView provided in the <c>NewWindow</c> property must be [WindowProxy2](https://developer.mozilla.org/docs/glossary/windowproxy) on the same <see cref="T:Microsoft.Web.WebView2.Core.CoreWebView2Environment" /> as the opener WebView and cannot be navigated. Changes to settings should be made before setting NewWindow to ensure that those settings take effect for the newly setup WebView. The new WebView must have the same profile as the opener WebView.
+    </remarks>
   </Docs>
   <Members>
     <Member MemberName="Friend">
@@ -47,6 +51,13 @@
       <MemberValue>4</MemberValue>
       <Docs>
         <summary>To be added.</summary>
+        <remarks>
+            The injected script will apply to all future top level document and child frame navigations until removed with <see cref="M:Microsoft.Web.WebView2.Core.CoreWebView2.RemoveScriptToExecuteOnDocumentCreated(System.String)" />.
+            This is applied asynchronously and you must wait for the returned <see cref="T:System.Threading.Tasks.Task`1" /> to complete before you can be sure that the script is ready to execute on future navigations.
+            If the method is run in <see cref="E:Microsoft.Web.WebView2.Core.CoreWebView2.NewWindowRequested" /> handler, it should be called before the new window is set. For more details see <see cref="P:Microsoft.Web.WebView2.Core.CoreWebView2NewWindowRequestedEventArgs.NewWindow" />.
+            
+            Note that if an HTML document has sandboxing of some kind via [sandbox](https://developer.mozilla.org/docs/Web/HTML/Element/iframe#attr-sandbox) properties or the [Content-Security-Policy HTTP header](https://developer.mozilla.org/docs/Web/HTTP/Headers/Content-Security-Policy) this will affect the script run here. So, for example, if the <c>allow-modals</c> keyword is not set then calls to the <c>alert</c> function will be ignored.
+        </remarks>
       </Docs>
     </Member>
     <Member MemberName="Internal">
