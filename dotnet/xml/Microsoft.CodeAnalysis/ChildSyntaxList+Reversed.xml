@@ -158,7 +158,7 @@
       <MemberSignature Language="VB.NET" Value="Function GetEnumerator () As IEnumerator(Of SyntaxNodeOrToken) Implements IEnumerable(Of SyntaxNodeOrToken).GetEnumerator" />
       <MemberType>Method</MemberType>
       <Implements>
-        <InterfaceMember>M:System.Collections.Generic.IEnumerable`1.GetEnumerator</InterfaceMember>
+        <InterfaceMember>M:Microsoft.CodeAnalysis.ChildSyntaxList.System#Collections#IEnumerable#GetEnumerator</InterfaceMember>
       </Implements>
       <AssemblyInfo>
         <AssemblyName>Microsoft.CodeAnalysis</AssemblyName>
