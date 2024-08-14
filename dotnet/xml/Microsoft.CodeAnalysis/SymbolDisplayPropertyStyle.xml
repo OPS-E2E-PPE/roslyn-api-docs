@@ -22,6 +22,7 @@
             Specifies the options for how properties are displayed in symbol descriptions.
             </summary>
     <remarks>To be added.</remarks>
+    <seealso cref="T:Microsoft.CodeAnalysis.SymbolDisplayMemberOptions" >SymbolDisplayMemberOptions Method</seealso>
   </Docs>
   <Members>
     <Member MemberName="NameOnly">
@@ -46,7 +47,6 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <seealso cref="T:Microsoft.CodeAnalysis.SymbolDisplayMemberOptions" >SymbolDisplayMemberOptions Method</seealso>
         <summary>
             Shows only the names of properties.
           <seealso cref="T:Microsoft.CodeAnalysis.SymbolDisplayMemberOptions" />
