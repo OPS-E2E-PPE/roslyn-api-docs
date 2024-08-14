@@ -49,6 +49,7 @@
         <seealso cref="T:Microsoft.CodeAnalysis.SymbolDisplayMemberOptions" >SymbolDisplayMemberOptions Method</seealso>
         <summary>
             Shows only the names of properties.
+          <seealso cref="T:Microsoft.CodeAnalysis.SymbolDisplayMemberOptions" />
             </summary>
       </Docs>
     </Member>
