@@ -1,0 +1,117 @@
+<Type Name="BaseType" FullName="TestLib.BaseType">
+  <TypeSignature Language="C#" Value="public class BaseType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit BaseType extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:TestLib.BaseType" />
+  <TypeSignature Language="VB.NET" Value="Public Class BaseType" />
+  <TypeSignature Language="F#" Value="type BaseType = class" />
+  <AssemblyInfo>
+    <AssemblyName>TestLib</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public BaseType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:TestLib.BaseType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>TestLib</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BaseTestMethod">
+      <MemberSignature Language="C#" Value="public void BaseTestMethod ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void BaseTestMethod() cil managed" />
+      <MemberSignature Language="DocId" Value="M:TestLib.BaseType.BaseTestMethod" />
+      <MemberSignature Language="VB.NET" Value="Public Sub BaseTestMethod ()" />
+      <MemberSignature Language="F#" Value="member this.BaseTestMethod : unit -&gt; unit" Usage="baseType.BaseTestMethod " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>TestLib</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BaseTestMethod_Net8">
+      <MemberSignature Language="C#" Value="public void BaseTestMethod_Net8 ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void BaseTestMethod_Net8() cil managed" />
+      <MemberSignature Language="DocId" Value="M:TestLib.BaseType.BaseTestMethod_Net8" />
+      <MemberSignature Language="VB.NET" Value="Public Sub BaseTestMethod_Net8 ()" />
+      <MemberSignature Language="F#" Value="member this.BaseTestMethod_Net8 : unit -&gt; unit" Usage="baseType.BaseTestMethod_Net8 " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>TestLib</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BaseTestMethod_Net9">
+      <MemberSignature Language="C#" Value="public void BaseTestMethod_Net9 ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void BaseTestMethod_Net9() cil managed" />
+      <MemberSignature Language="DocId" Value="M:TestLib.BaseType.BaseTestMethod_Net9" />
+      <MemberSignature Language="VB.NET" Value="Public Sub BaseTestMethod_Net9 ()" />
+      <MemberSignature Language="F#" Value="member this.BaseTestMethod_Net9 : unit -&gt; unit" Usage="baseType.BaseTestMethod_Net9 " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>TestLib</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BaseTestMethod_Standard2">
+      <MemberSignature Language="C#" Value="public void BaseTestMethod_Standard2 ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void BaseTestMethod_Standard2() cil managed" />
+      <MemberSignature Language="DocId" Value="M:TestLib.BaseType.BaseTestMethod_Standard2" />
+      <MemberSignature Language="VB.NET" Value="Public Sub BaseTestMethod_Standard2 ()" />
+      <MemberSignature Language="F#" Value="member this.BaseTestMethod_Standard2 : unit -&gt; unit" Usage="baseType.BaseTestMethod_Standard2 " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>TestLib</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

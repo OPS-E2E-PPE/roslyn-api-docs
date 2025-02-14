@@ -1,0 +1,62 @@
+<Type Name="TypeA" FullName="TestLib.TypeA">
+  <TypeSignature Language="C#" Value="public class TypeA" FrameworkAlternate="net4.8" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit TypeA extends System.Object" FrameworkAlternate="net4.8" />
+  <TypeSignature Language="DocId" Value="T:TestLib.TypeA" />
+  <TypeSignature Language="VB.NET" Value="Public Class TypeA" FrameworkAlternate="net4.8" />
+  <TypeSignature Language="F#" Value="type TypeA = class" FrameworkAlternate="net4.8" />
+  <TypeSignature Language="C#" Value="public class TypeA : TestLib.BaseType" FrameworkAlternate="net8.0;netstandard2.0" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit TypeA extends TestLib.BaseType" FrameworkAlternate="net8.0;netstandard2.0" />
+  <TypeSignature Language="VB.NET" Value="Public Class TypeA&#xA;Inherits BaseType" FrameworkAlternate="net8.0;netstandard2.0" />
+  <TypeSignature Language="F#" Value="type TypeA = class&#xA;    inherit BaseType" FrameworkAlternate="net8.0;netstandard2.0" />
+  <AssemblyInfo>
+    <AssemblyName>TestLib</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+    <BaseTypeName FrameworkAlternate="net8.0;netstandard2.0">TestLib.BaseType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public TypeA ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:TestLib.TypeA.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>TestLib</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TypeATestMethod">
+      <MemberSignature Language="C#" Value="public void TypeATestMethod ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void TypeATestMethod() cil managed" />
+      <MemberSignature Language="DocId" Value="M:TestLib.TypeA.TypeATestMethod" />
+      <MemberSignature Language="VB.NET" Value="Public Sub TypeATestMethod ()" />
+      <MemberSignature Language="F#" Value="member this.TypeATestMethod : unit -&gt; unit" Usage="typeA.TypeATestMethod " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>TestLib</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>
