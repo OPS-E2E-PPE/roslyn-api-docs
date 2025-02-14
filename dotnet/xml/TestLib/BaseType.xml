@@ -6,7 +6,10 @@
   <TypeSignature Language="F#" Value="type BaseType = class" />
   <AssemblyInfo>
     <AssemblyName>TestLib</AssemblyName>
-    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <AssemblyVersion>3.0.0.0</AssemblyVersion>
+    <AssemblyVersion>3.1.0.0</AssemblyVersion>
+    <AssemblyVersion>3.2.0.0</AssemblyVersion>
+    <AssemblyVersion>3.3.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -23,10 +26,13 @@
       <MemberSignature Language="DocId" Value="M:TestLib.BaseType.#ctor" />
       <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
       <MemberType>Constructor</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>TestLib</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
+        <AssemblyInfo>
+          <AssemblyName>TestLib</AssemblyName>
+          <AssemblyVersion>3.0.0.0</AssemblyVersion>
+          <AssemblyVersion>3.1.0.0</AssemblyVersion>
+          <AssemblyVersion>3.2.0.0</AssemblyVersion>
+          <AssemblyVersion>3.3.0.0</AssemblyVersion>
+        </AssemblyInfo>
       <Parameters />
       <Docs>
         <summary>To be added.</summary>
@@ -40,9 +46,32 @@
       <MemberSignature Language="VB.NET" Value="Public Sub BaseTestMethod ()" />
       <MemberSignature Language="F#" Value="member this.BaseTestMethod : unit -&gt; unit" Usage="baseType.BaseTestMethod " />
       <MemberType>Method</MemberType>
+        <AssemblyInfo>
+          <AssemblyName>TestLib</AssemblyName>
+          <AssemblyVersion>3.0.0.0</AssemblyVersion>
+          <AssemblyVersion>3.1.0.0</AssemblyVersion>
+          <AssemblyVersion>3.2.0.0</AssemblyVersion>
+          <AssemblyVersion>3.3.0.0</AssemblyVersion>
+        </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BaseTestMethod_Roslyn_Dotnet_32">
+      <MemberSignature Language="C#" Value="public void BaseTestMethod_Roslyn_Dotnet_32 ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void BaseTestMethod_Roslyn_Dotnet_32() cil managed" />
+      <MemberSignature Language="DocId" Value="M:TestLib.BaseType.BaseTestMethod_Roslyn_Dotnet_32" />
+      <MemberSignature Language="VB.NET" Value="Public Sub BaseTestMethod_Roslyn_Dotnet_32 ()" />
+      <MemberSignature Language="F#" Value="member this.BaseTestMethod_Roslyn_Dotnet_32 : unit -&gt; unit" Usage="baseType.BaseTestMethod_Roslyn_Dotnet_32 " />
+      <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyName>TestLib</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+          <AssemblyName>TestLib</AssemblyName>
+          <AssemblyVersion>3.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -53,16 +82,16 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="BaseTestMethod_Net8">
-      <MemberSignature Language="C#" Value="public void BaseTestMethod_Net8 ();" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void BaseTestMethod_Net8() cil managed" />
-      <MemberSignature Language="DocId" Value="M:TestLib.BaseType.BaseTestMethod_Net8" />
-      <MemberSignature Language="VB.NET" Value="Public Sub BaseTestMethod_Net8 ()" />
-      <MemberSignature Language="F#" Value="member this.BaseTestMethod_Net8 : unit -&gt; unit" Usage="baseType.BaseTestMethod_Net8 " />
+    <Member MemberName="BaseTestMethod_Roslyn_Dotnet_33">
+      <MemberSignature Language="C#" Value="public void BaseTestMethod_Roslyn_Dotnet_33 ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void BaseTestMethod_Roslyn_Dotnet_33() cil managed" />
+      <MemberSignature Language="DocId" Value="M:TestLib.BaseType.BaseTestMethod_Roslyn_Dotnet_33" />
+      <MemberSignature Language="VB.NET" Value="Public Sub BaseTestMethod_Roslyn_Dotnet_33 ()" />
+      <MemberSignature Language="F#" Value="member this.BaseTestMethod_Roslyn_Dotnet_33 : unit -&gt; unit" Usage="baseType.BaseTestMethod_Roslyn_Dotnet_33 " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>TestLib</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -73,36 +102,16 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="BaseTestMethod_Net9">
-      <MemberSignature Language="C#" Value="public void BaseTestMethod_Net9 ();" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void BaseTestMethod_Net9() cil managed" />
-      <MemberSignature Language="DocId" Value="M:TestLib.BaseType.BaseTestMethod_Net9" />
-      <MemberSignature Language="VB.NET" Value="Public Sub BaseTestMethod_Net9 ()" />
-      <MemberSignature Language="F#" Value="member this.BaseTestMethod_Net9 : unit -&gt; unit" Usage="baseType.BaseTestMethod_Net9 " />
+    <Member MemberName="BaseTestMethod_Roslyn_Dotnet_31">
+      <MemberSignature Language="C#" Value="public void BaseTestMethod_Roslyn_Dotnet_31 ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void BaseTestMethod_Roslyn_Dotnet_31() cil managed" />
+      <MemberSignature Language="DocId" Value="M:TestLib.BaseType.BaseTestMethod_Roslyn_Dotnet_31" />
+      <MemberSignature Language="VB.NET" Value="Public Sub BaseTestMethod_Roslyn_Dotnet_31 ()" />
+      <MemberSignature Language="F#" Value="member this.BaseTestMethod_Roslyn_Dotnet_31 : unit -&gt; unit" Usage="baseType.BaseTestMethod_Roslyn_Dotnet_31 " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>TestLib</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Void</ReturnType>
-      </ReturnValue>
-      <Parameters />
-      <Docs>
-        <summary>To be added.</summary>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="BaseTestMethod_Standard2">
-      <MemberSignature Language="C#" Value="public void BaseTestMethod_Standard2 ();" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void BaseTestMethod_Standard2() cil managed" />
-      <MemberSignature Language="DocId" Value="M:TestLib.BaseType.BaseTestMethod_Standard2" />
-      <MemberSignature Language="VB.NET" Value="Public Sub BaseTestMethod_Standard2 ()" />
-      <MemberSignature Language="F#" Value="member this.BaseTestMethod_Standard2 : unit -&gt; unit" Usage="baseType.BaseTestMethod_Standard2 " />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>TestLib</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>

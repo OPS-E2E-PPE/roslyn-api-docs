@@ -7,7 +7,19 @@
     <Assembly Name="Microsoft.CodeAnalysis.VisualBasic" Version="3.1.0.0" />
     <Assembly Name="Microsoft.CodeAnalysis.VisualBasic.Workspaces" Version="3.1.0.0" />
     <Assembly Name="Microsoft.CodeAnalysis.Workspaces" Version="3.1.0.0" />
+    <Assembly Name="TestLib" Version="3.1.0.0" />
   </Assemblies>
+  <Namespace Name="TestLib">
+    <Type Name="TestLib.BaseType" Id="T:TestLib.BaseType">
+      <Member Id="M:TestLib.BaseType.#ctor" />
+      <Member Id="M:TestLib.BaseType.BaseTestMethod" />
+      <Member Id="M:TestLib.BaseType.BaseTestMethod_Roslyn_Dotnet_31" />
+    </Type>
+    <Type Name="TestLib.TypeA" Id="T:TestLib.TypeA">
+      <Member Id="M:TestLib.TypeA.#ctor" />
+      <Member Id="M:TestLib.TypeA.TypeATestMethod" />
+    </Type>
+  </Namespace>
   <Namespace Name="Microsoft.CodeAnalysis">
     <Type Name="Microsoft.CodeAnalysis.Accessibility" Id="T:Microsoft.CodeAnalysis.Accessibility">
       <Member Id="F:Microsoft.CodeAnalysis.Accessibility.Friend" />
