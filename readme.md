@@ -82,5 +82,5 @@ One package has multiple XML files, for .NET standard and .NET Framework:
 
 - ***Microsoft.CodeAnalysis.Workspaces.Common***
 The `Microsoft.CodeAnalysis.Workspaces.XML` file for .NET Standard and
-`Microsoft.CodeAnalysis.Workspaces.Desktop.XML` and `Microsoft.CodeAnalysis.Workspaces.XML` for .NET 4.6
+`Microsoft.CodeAnalysis.Workspaces.Desktop.XML` and `Microsoft.CodeAnalysis.Workspaces.XML` for .NET 4.6 
 
