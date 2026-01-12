@@ -320,18 +320,10 @@
         <remarks>
           <para>Features:</para>
           <list type="bullet">
-            <item>
-              <description>Async Main</description>
-            </item>
-            <item>
-              <description>Default literal</description>
-            </item>
-            <item>
-              <description>Inferred tuple element names</description>
-            </item>
-            <item>
-              <description>Pattern-matching with generics</description>
-            </item>
+            <item>Async Main</item>
+            <item>Default literal</item>
+            <item>Inferred tuple element names</item>
+            <item>Pattern-matching with generics</item>
           </list>
         </remarks>
       </Docs>
