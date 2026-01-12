@@ -482,7 +482,7 @@
             
             <para>
             Examples include:
-            <list type="bullet"><item><description>Pointer types in VB</description></item><item><description>ByRef return type</description></item><item><description>Required custom modifiers</description></item></list></para><para>
+            <list type="bullet"><item>Pointer types in VB</item><item>ByRef return type</item><item>Required custom modifiers</item></list></para><para>
             This is distinguished from, for example, references to metadata symbols defined in assemblies that weren't referenced.
             Symbols where this returns true can never be used successfully, and thus should never appear in any IDE feature.
             </para><para>
